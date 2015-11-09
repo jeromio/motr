@@ -1,0 +1,1 @@
+[12-May-2014 03:56:27 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/motr/public_html/motor-co.com/wp-content/plugins/hello.php on line 60

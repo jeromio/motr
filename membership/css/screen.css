@@ -1,0 +1,96 @@
+/* GLOBALS */
+body { font:62.5% helvetica, verdana, sans-serif; background:#fff url(../images/bg-container.jpg) center 150px no-repeat; color:#000; }
+#container { width:659px; margin:0 auto; }
+input { border:1px solid #999; padding:2px; }
+button { cursor:pointer; }
+.content { height:427px; margin:0 34px 0 39px; clear:both; }
+.alt { margin:0 50px 0 65px; }
+h2 { font-size:1.8em; margin:0 0 10px 0; }
+#name-title { font-size:2.2em; }
+p { font-size:1.2em; }
+strong { font-weight:bold; }
+.hidden { display:none !important; }
+
+#install-notice { margin:50px 100px; text-align:center; }
+
+	/* CONFIRM */
+	.confirm { text-align:center; }
+	.confirm h2 { margin:30px 0; }
+	#del-confirm { font-size:1.8em; padding-top:40px; }
+	#del-confirm li { display:inline; padding:0 20px; }
+	#yes a { color:#f00; text-decoration:none; font-size:1.2em; }
+	#no a { color:#000; text-decoration:none; }
+	#yes a:hover, #no a:hover { text-decoration:underline; }
+
+
+/* HEADER */
+#header { height:100px; }
+	h1#logo { float:left; width:197px; height:67px; background:url(../images/logo.jpg) left 12px no-repeat; margin:17px 0 0 0; }
+	h1#logo a { display:block; width:197px; height:67px; overflow:hidden; text-indent:-9999px; }
+	#header form { width:180px; float:right; margin:40px 0 0 0; }
+	#header input { display:block; float:left; width:125px; }
+	#header #reset { display:block; float:left; width:16px; height:16px; overflow:hidden; text-indent:-9999px; background:url(../images/icons/delete.png); border:0; padding:0; margin:3px 0 0 6px; }
+	#header legend, #header label, button#submit { display:none; }
+
+
+/* HOME */
+.group-list { width:280px; height:200px; float:left; margin:0 0 0 12px; }
+.group-list ul { height:400px; font-size:1.3em; overflow:auto; }
+.group-list li { margin:1px 0; padding:3px 0 3px 23px; }
+.group-list a { display:block; color:#000; text-decoration:none; }
+.group-list a:hover { text-decoration:underline; }
+#companies li { background:url(../images/icons/group.png) left center no-repeat; }
+#people li { background:url(../images/icons/vcard.png) left center no-repeat; }
+
+
+/* ADMIN */
+#admin { clear:both; padding:20px 0 0 0; font-size:1.1em; }
+#admin li { padding:0.5em 0 0 23px; width:auto; }
+#admin a { color:#000; text-decoration:none; display:block; height:1.4em; }
+#add-contact { background:url(../images/icons/vcard_add.png) left center no-repeat; float:right; margin-right:50px; }
+#del-contact { background:url(../images/icons/vcard_delete.png) left center no-repeat; float:left; margin-left:50px; }
+#edit-contact { background:url(../images/icons/vcard_edit.png) left center no-repeat; float:right; margin-right:50px; }
+#admin a:hover { text-decoration:underline; }
+
+
+/* ICONS */
+.icon-name { background:url(../images/icons/user.png) left center no-repeat; }
+.icon-company { background:url(../images/icons/group.png) left center no-repeat; }
+.icon-phone { background:url(../images/icons/phone.png) left center no-repeat; }
+.icon-email { background:url(../images/icons/email.png) left center no-repeat; }
+.icon-address { background:url(../images/icons/house.png) left center no-repeat; }
+
+
+/* ADD CONTACT */
+#contact-add legend { font-size:2em; margin:0 0 10px 0; }
+#contact-add div { clear:both; padding:10px 0 0 0; overflow:hidden; }
+#contact-add label { display:block; float:left; width:150px; color:#999; padding:4px 0 0 26px; font-size:1.5em; }
+#contact-add input { display:block; float:left; width:200px; }
+
+	/* PHONE NUMBER */
+	#contact-add div { padding-top:20px; }	
+	#data-phone div, #data-address div { clear:none; float:left; padding-top:0; margin:0 5px 0 0; }
+	#phone-number { width:400px; }
+	#extension { width:130px; }
+	#extension label { width:30px; float:left; padding-left:5px; }
+	#extension input { width:40px; float:left; }
+	
+	/* ADDRESS */
+	#contact-add #data-address { margin:0 0 0 175px; padding-top:10px; }
+	#data-address label { display:none; }
+	#address-city { width:108px; }
+	#address-city input { width:102px; }
+	#address-state { width:34px; }
+	#address-state input { width:28px; }
+	#address-zip { width:59px; }
+	#address-zip input { width:49px; }
+	
+	/* BUTTONS */
+	#contact-add .buttons { clear:both; text-align:right; }
+	#contact-add .buttons button, #contact-add .buttons a { padding:0.3em 0 0.3em 20px; border:0; background:#fff; margin:20px 10px 0 10px; }
+	#contact-add .buttons #add-submit { background:url(../images/icons/accept.png) left center no-repeat; }
+
+
+/* VIEW CONTACT */
+#card dt { display:block; float:left; clear:left; width:150px; color:#999; padding:15px 0 10px 26px; font-size:1.6em; line-height:1.4em; }
+#card dd { display:block; float:left; width:200px; font-size:1.6em; padding:15px 0 0 0; line-height:1.4em; }

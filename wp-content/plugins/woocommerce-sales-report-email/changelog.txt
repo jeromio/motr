@@ -1,0 +1,4 @@
+*** WooCommerce Sales Report Email ***
+
+XXXX.XX.XX - version 1.0
+ * First Release

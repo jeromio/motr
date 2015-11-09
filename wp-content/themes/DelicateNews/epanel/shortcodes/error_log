@@ -1,0 +1,1 @@
+[14-Feb-2015 18:20:19 America/Detroit] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/shortcodes/shortcodes.php on line 6

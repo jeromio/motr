@@ -1,0 +1,1341 @@
+mm
+
+2015-03-26 02:12:49 JER get_all_event_tickets for 16056 
+2015-03-26 02:12:49 JER event is not an object?
+2015-03-26 02:12:49 JER class-wootickets.get_tickets for 16056 
+2015-03-26 02:12:49 JER no ticket_ids 
+2015-03-26 02:12:49  JER get_all_event_tickets got 0
+2015-03-26 02:12:49 JER returning tickets array of 0
+2015-03-26 02:12:49 JER event is not an object?
+2015-03-26 02:12:49 JER class-wootickets.get_tickets for 16056 
+2015-03-26 02:12:49 JER no ticket_ids 
+2015-03-26 02:13:11 JER get_all_event_tickets for 9537 
+2015-03-26 02:13:11 JER event is not an object?
+2015-03-26 02:13:11 JER class-wootickets.get_tickets for 9537 
+2015-03-26 02:13:11 JER no ticket_ids 
+2015-03-26 02:13:11  JER get_all_event_tickets got 0
+2015-03-26 02:13:11 JER returning tickets array of 0
+2015-03-26 02:13:11 JER event is not an object?
+2015-03-26 02:13:11 JER class-wootickets.get_tickets for 9537 
+2015-03-26 02:13:11 JER no ticket_ids 
+2015-03-26 02:14:53 JER get_all_event_tickets for 11214 
+2015-03-26 02:14:53 JER event is not an object and id is 11214
+2015-03-26 02:14:53 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:14:53 0
+2015-03-26 02:14:53 JER class-wootickets.get_tickets for 11214 
+2015-03-26 02:14:53 JER no ticket_ids 
+2015-03-26 02:14:53  JER get_all_event_tickets got 0
+2015-03-26 02:14:53 JER returning tickets array of 0
+2015-03-26 02:14:53 JER event is not an object and id is 11214
+2015-03-26 02:14:53 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:14:53 0
+2015-03-26 02:14:53 JER class-wootickets.get_tickets for 11214 
+2015-03-26 02:14:53 JER no ticket_ids 
+2015-03-26 02:14:56 JER get_all_event_tickets for 15345 
+2015-03-26 02:14:56 JER event is not an object and id is 15345
+2015-03-26 02:14:56 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:14:56 0
+2015-03-26 02:14:56 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:14:56 JER got 4 tix 
+2015-03-26 02:14:56  JER get_all_event_tickets got 0
+2015-03-26 02:14:56 JER returning tickets array of 4
+2015-03-26 02:14:56 JER get_all_event_tickets for 15345 
+2015-03-26 02:14:56 JER event is not an object and id is 15345
+2015-03-26 02:14:56 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:14:56 0
+2015-03-26 02:14:56 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:14:56 JER got 4 tix 
+2015-03-26 02:14:56  JER get_all_event_tickets got 0
+2015-03-26 02:14:56 JER returning tickets array of 4
+2015-03-26 02:14:56 JER event is not an object and id is 15345
+2015-03-26 02:14:56 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:14:56 0
+2015-03-26 02:14:56 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:14:56 JER got 4 tix 
+2015-03-26 02:15:40 JER get_all_event_tickets for 14634 
+2015-03-26 02:15:40 JER event is not an object and id is 14634
+2015-03-26 02:15:40 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:15:40 0
+2015-03-26 02:15:40 JER class-wootickets.get_tickets for 14634 
+2015-03-26 02:15:40 JER got 3 tix 
+2015-03-26 02:15:40  JER get_all_event_tickets got 0
+2015-03-26 02:15:40 JER returning tickets array of 3
+2015-03-26 02:15:40 JER get_all_event_tickets for 14634 
+2015-03-26 02:15:40 JER event is not an object and id is 14634
+2015-03-26 02:15:40 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:15:40 0
+2015-03-26 02:15:40 JER class-wootickets.get_tickets for 14634 
+2015-03-26 02:15:40 JER got 3 tix 
+2015-03-26 02:15:40  JER get_all_event_tickets got 0
+2015-03-26 02:15:40 JER returning tickets array of 3
+2015-03-26 02:15:40 JER event is not an object and id is 14634
+2015-03-26 02:15:40 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:15:40 0
+2015-03-26 02:15:40 JER class-wootickets.get_tickets for 14634 
+2015-03-26 02:15:40 JER got 3 tix 
+2015-03-26 02:16:39 JER get_all_event_tickets for 14899 
+2015-03-26 02:16:39 JER event is not an object and id is 14899
+2015-03-26 02:16:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:16:39 JER get_all_event_tickets for 15345 
+2015-03-26 02:16:39 JER event is not an object and id is 15345
+2015-03-26 02:16:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:16:39 0
+2015-03-26 02:16:39 JER class-wootickets.get_tickets for 14899 
+2015-03-26 02:16:39 JER got 4 tix 
+2015-03-26 02:16:39 0
+2015-03-26 02:16:39 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:16:39 JER got 4 tix 
+2015-03-26 02:16:39  JER get_all_event_tickets got 0
+2015-03-26 02:16:39 JER returning tickets array of 4
+2015-03-26 02:16:39 JER get_all_event_tickets for 15345 
+2015-03-26 02:16:39 JER event is not an object and id is 15345
+2015-03-26 02:16:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:16:39  JER get_all_event_tickets got 0
+2015-03-26 02:16:39 JER returning tickets array of 4
+2015-03-26 02:16:39 JER get_all_event_tickets for 14899 
+2015-03-26 02:16:39 JER event is not an object and id is 14899
+2015-03-26 02:16:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:16:39 0
+2015-03-26 02:16:39 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:16:39 JER got 4 tix 
+2015-03-26 02:16:39 0
+2015-03-26 02:16:39 JER class-wootickets.get_tickets for 14899 
+2015-03-26 02:16:39 JER got 4 tix 
+2015-03-26 02:16:39  JER get_all_event_tickets got 0
+2015-03-26 02:16:39 JER returning tickets array of 4
+2015-03-26 02:16:39  JER get_all_event_tickets got 0
+2015-03-26 02:16:39 JER returning tickets array of 4
+2015-03-26 02:16:39 JER event is not an object and id is 15345
+2015-03-26 02:16:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:16:39 JER event is not an object and id is 14899
+2015-03-26 02:16:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:16:39 0
+2015-03-26 02:16:39 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:16:39 JER got 4 tix 
+2015-03-26 02:16:39 0
+2015-03-26 02:16:39 JER class-wootickets.get_tickets for 14899 
+2015-03-26 02:16:39 JER got 4 tix 
+2015-03-26 02:18:02 JER get_all_event_tickets for 13634 
+2015-03-26 02:18:02 JER event is not an object and id is 13634
+2015-03-26 02:18:02 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:18:02 0
+2015-03-26 02:18:02 JER class-wootickets.get_tickets for 13634 
+2015-03-26 02:18:02 JER no ticket_ids 
+2015-03-26 02:18:02  JER get_all_event_tickets got 0
+2015-03-26 02:18:02 JER returning tickets array of 0
+2015-03-26 02:18:02 JER event is not an object and id is 13634
+2015-03-26 02:18:02 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:18:02 0
+2015-03-26 02:18:02 JER class-wootickets.get_tickets for 13634 
+2015-03-26 02:18:02 JER no ticket_ids 
+2015-03-26 02:18:22 JER get_all_event_tickets for 14393 
+2015-03-26 02:18:22 JER event is not an object and id is 14393
+2015-03-26 02:18:22 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:18:22 0
+2015-03-26 02:18:22 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:18:22 JER got 3 tix 
+2015-03-26 02:18:22  JER get_all_event_tickets got 0
+2015-03-26 02:18:22 JER returning tickets array of 3
+2015-03-26 02:18:22 JER get_all_event_tickets for 14393 
+2015-03-26 02:18:22 JER event is not an object and id is 14393
+2015-03-26 02:18:22 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:18:22 0
+2015-03-26 02:18:22 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:18:22 JER got 3 tix 
+2015-03-26 02:18:22  JER get_all_event_tickets got 0
+2015-03-26 02:18:22 JER returning tickets array of 3
+2015-03-26 02:18:22 JER event is not an object and id is 14393
+2015-03-26 02:18:22 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:18:22 0
+2015-03-26 02:18:22 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:18:22 JER got 3 tix 
+2015-03-26 02:19:20 JER get_all_event_tickets for 2753 
+2015-03-26 02:19:20 JER event is not an object and id is 2753
+2015-03-26 02:19:20 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:19:20 0
+2015-03-26 02:19:20 JER class-wootickets.get_tickets for 2753 
+2015-03-26 02:19:20 JER no ticket_ids 
+2015-03-26 02:19:20  JER get_all_event_tickets got 0
+2015-03-26 02:19:20 JER returning tickets array of 0
+2015-03-26 02:19:20 JER event is not an object and id is 2753
+2015-03-26 02:19:20 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:19:20 0
+2015-03-26 02:19:20 JER class-wootickets.get_tickets for 2753 
+2015-03-26 02:19:20 JER no ticket_ids 
+2015-03-26 02:19:56 JER get_all_event_tickets for 14393 
+2015-03-26 02:19:56 JER event is not an object and id is 14393
+2015-03-26 02:19:56 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:19:56 0
+2015-03-26 02:19:56 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:19:56 JER got 3 tix 
+2015-03-26 02:19:56  JER get_all_event_tickets got 0
+2015-03-26 02:19:56 JER returning tickets array of 3
+2015-03-26 02:19:56 JER get_all_event_tickets for 14393 
+2015-03-26 02:19:56 JER event is not an object and id is 14393
+2015-03-26 02:19:56 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:19:56 0
+2015-03-26 02:19:56 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:19:56 JER got 3 tix 
+2015-03-26 02:19:56  JER get_all_event_tickets got 0
+2015-03-26 02:19:56 JER returning tickets array of 3
+2015-03-26 02:19:56 JER event is not an object and id is 14393
+2015-03-26 02:19:56 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:19:56 0
+2015-03-26 02:19:56 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:19:56 JER got 3 tix 
+2015-03-26 02:19:57 JER get_all_event_tickets for 13210 
+2015-03-26 02:19:57 JER event is not an object and id is 13210
+2015-03-26 02:19:57 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:19:57 0
+2015-03-26 02:19:57 JER class-wootickets.get_tickets for 13210 
+2015-03-26 02:19:57 JER no ticket_ids 
+2015-03-26 02:19:57  JER get_all_event_tickets got 0
+2015-03-26 02:19:57 JER returning tickets array of 0
+2015-03-26 02:19:57 JER event is not an object and id is 13210
+2015-03-26 02:19:57 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:19:57 0
+2015-03-26 02:19:57 JER class-wootickets.get_tickets for 13210 
+2015-03-26 02:19:57 JER no ticket_ids 
+2015-03-26 02:20:27 JER get_all_event_tickets for 5828 
+2015-03-26 02:20:27 JER event is not an object and id is 5828
+2015-03-26 02:20:27 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:20:27 0
+2015-03-26 02:20:27 JER class-wootickets.get_tickets for 5828 
+2015-03-26 02:20:27 JER no ticket_ids 
+2015-03-26 02:20:27  JER get_all_event_tickets got 0
+2015-03-26 02:20:27 JER returning tickets array of 0
+2015-03-26 02:20:27 JER event is not an object and id is 5828
+2015-03-26 02:20:27 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:20:27 0
+2015-03-26 02:20:27 JER class-wootickets.get_tickets for 5828 
+2015-03-26 02:20:27 JER no ticket_ids 
+2015-03-26 02:20:55 JER get_all_event_tickets for 15345 
+2015-03-26 02:20:55 JER event is not an object and id is 15345
+2015-03-26 02:20:55 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:20:55 0
+2015-03-26 02:20:55 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:20:55 JER got 4 tix 
+2015-03-26 02:20:55  JER get_all_event_tickets got 0
+2015-03-26 02:20:55 JER returning tickets array of 4
+2015-03-26 02:20:55 JER get_all_event_tickets for 15345 
+2015-03-26 02:20:55 JER event is not an object and id is 15345
+2015-03-26 02:20:55 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:20:55 0
+2015-03-26 02:20:55 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:20:55 JER got 4 tix 
+2015-03-26 02:20:55  JER get_all_event_tickets got 0
+2015-03-26 02:20:55 JER returning tickets array of 4
+2015-03-26 02:20:55 JER get_all_event_tickets for 15714 
+2015-03-26 02:20:55 JER event is not an object and id is 15714
+2015-03-26 02:20:55 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:20:55 0
+2015-03-26 02:20:55 JER class-wootickets.get_tickets for 15714 
+2015-03-26 02:20:55 JER no ticket_ids 
+2015-03-26 02:20:55  JER get_all_event_tickets got 0
+2015-03-26 02:20:55 JER returning tickets array of 0
+2015-03-26 02:20:55 JER event is not an object and id is 15345
+2015-03-26 02:20:55 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:20:55 0
+2015-03-26 02:20:55 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:20:55 JER got 4 tix 
+2015-03-26 02:20:55 JER event is not an object and id is 15714
+2015-03-26 02:20:55 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:20:55 0
+2015-03-26 02:20:55 JER class-wootickets.get_tickets for 15714 
+2015-03-26 02:20:55 JER no ticket_ids 
+2015-03-26 02:21:22 JER get_all_event_tickets for 13750 
+2015-03-26 02:21:22 JER event is not an object and id is 13750
+2015-03-26 02:21:22 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:21:22 0
+2015-03-26 02:21:22 JER class-wootickets.get_tickets for 13750 
+2015-03-26 02:21:22 JER no ticket_ids 
+2015-03-26 02:21:22  JER get_all_event_tickets got 0
+2015-03-26 02:21:22 JER returning tickets array of 0
+2015-03-26 02:21:22 JER event is not an object and id is 13750
+2015-03-26 02:21:22 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:21:22 0
+2015-03-26 02:21:22 JER class-wootickets.get_tickets for 13750 
+2015-03-26 02:21:22 JER no ticket_ids 
+2015-03-26 02:21:37 JER get_all_event_tickets for 14393 
+2015-03-26 02:21:37 JER event is not an object and id is 14393
+2015-03-26 02:21:37 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:21:37 0
+2015-03-26 02:21:37 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:21:37 JER got 3 tix 
+2015-03-26 02:21:37  JER get_all_event_tickets got 0
+2015-03-26 02:21:37 JER returning tickets array of 3
+2015-03-26 02:21:37 JER get_all_event_tickets for 14393 
+2015-03-26 02:21:37 JER event is not an object and id is 14393
+2015-03-26 02:21:37 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:21:37 0
+2015-03-26 02:21:37 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:21:37 JER got 3 tix 
+2015-03-26 02:21:37  JER get_all_event_tickets got 0
+2015-03-26 02:21:37 JER returning tickets array of 3
+2015-03-26 02:21:37 JER event is not an object and id is 14393
+2015-03-26 02:21:37 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:21:37 0
+2015-03-26 02:21:37 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:21:37 JER got 3 tix 
+2015-03-26 02:25:41 JER get_all_event_tickets for 6962 
+2015-03-26 02:25:41 JER event is not an object and id is 6962
+2015-03-26 02:25:41 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:25:41 0
+2015-03-26 02:25:41 JER class-wootickets.get_tickets for 6962 
+2015-03-26 02:25:41 JER no ticket_ids 
+2015-03-26 02:25:41  JER get_all_event_tickets got 0
+2015-03-26 02:25:41 JER returning tickets array of 0
+2015-03-26 02:25:41 JER event is not an object and id is 6962
+2015-03-26 02:25:41 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:25:41 0
+2015-03-26 02:25:41 JER class-wootickets.get_tickets for 6962 
+2015-03-26 02:25:41 JER no ticket_ids 
+2015-03-26 02:26:06 JER get_all_event_tickets for 13971 
+2015-03-26 02:26:06 JER event is not an object and id is 13971
+2015-03-26 02:26:06 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:26:06 0
+2015-03-26 02:26:06 JER class-wootickets.get_tickets for 13971 
+2015-03-26 02:26:06 JER got 2 tix 
+2015-03-26 02:26:06  JER get_all_event_tickets got 0
+2015-03-26 02:26:06 JER returning tickets array of 2
+2015-03-26 02:26:06 JER get_all_event_tickets for 13971 
+2015-03-26 02:26:06 JER event is not an object and id is 13971
+2015-03-26 02:26:06 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:26:06 0
+2015-03-26 02:26:06 JER class-wootickets.get_tickets for 13971 
+2015-03-26 02:26:06 JER got 2 tix 
+2015-03-26 02:26:06  JER get_all_event_tickets got 0
+2015-03-26 02:26:06 JER returning tickets array of 2
+2015-03-26 02:26:06 JER event is not an object and id is 13971
+2015-03-26 02:26:06 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:26:06 0
+2015-03-26 02:26:06 JER class-wootickets.get_tickets for 13971 
+2015-03-26 02:26:06 JER got 2 tix 
+2015-03-26 02:26:21 JER get_all_event_tickets for 13965 
+2015-03-26 02:26:21 JER event is not an object and id is 13965
+2015-03-26 02:26:21 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:26:21 JER query was Array
+2015-03-26 02:26:21 JER returning posts count 3
+2015-03-26 02:26:21 JER class-wootickets.get_tickets for 13965 
+2015-03-26 02:26:21 JER got 3 tix 
+2015-03-26 02:26:21  JER get_all_event_tickets got 0
+2015-03-26 02:26:21 JER returning tickets array of 3
+2015-03-26 02:26:21 JER get_all_event_tickets for 13965 
+2015-03-26 02:26:21 JER event is not an object and id is 13965
+2015-03-26 02:26:21 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:26:21 JER query was Array
+2015-03-26 02:26:21 JER returning posts count 3
+2015-03-26 02:26:21 JER class-wootickets.get_tickets for 13965 
+2015-03-26 02:26:21 JER got 3 tix 
+2015-03-26 02:26:21  JER get_all_event_tickets got 0
+2015-03-26 02:26:21 JER returning tickets array of 3
+2015-03-26 02:26:21 JER event is not an object and id is 13965
+2015-03-26 02:26:21 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:26:21 JER query was Array
+2015-03-26 02:26:21 JER returning posts count 3
+2015-03-26 02:26:21 JER class-wootickets.get_tickets for 13965 
+2015-03-26 02:26:21 JER got 3 tix 
+2015-03-26 02:27:11 JER get_all_event_tickets for 14711 
+2015-03-26 02:27:11 JER event is not an object and id is 14711
+2015-03-26 02:27:11 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:27:11 JER query was Array
+2015-03-26 02:27:11 JER returning posts count 2
+2015-03-26 02:27:11 JER class-wootickets.get_tickets for 14711 
+2015-03-26 02:27:11 JER got 2 tix 
+2015-03-26 02:27:11  JER get_all_event_tickets got 0
+2015-03-26 02:27:11 JER returning tickets array of 2
+2015-03-26 02:27:11 JER get_all_event_tickets for 14711 
+2015-03-26 02:27:11 JER event is not an object and id is 14711
+2015-03-26 02:27:11 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:27:11 JER query was Array
+2015-03-26 02:27:11 JER returning posts count 2
+2015-03-26 02:27:11 JER class-wootickets.get_tickets for 14711 
+2015-03-26 02:27:11 JER got 2 tix 
+2015-03-26 02:27:11  JER get_all_event_tickets got 0
+2015-03-26 02:27:11 JER returning tickets array of 2
+2015-03-26 02:27:11 JER event is not an object and id is 14711
+2015-03-26 02:27:11 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:27:11 JER query was Array
+2015-03-26 02:27:11 JER returning posts count 2
+2015-03-26 02:27:11 JER class-wootickets.get_tickets for 14711 
+2015-03-26 02:27:11 JER got 2 tix 
+2015-03-26 02:28:17 JER get_all_event_tickets for 15345 
+2015-03-26 02:28:17 JER event is not an object and id is 15345
+2015-03-26 02:28:17 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:17 JER query was Array
+2015-03-26 02:28:17 JER returning posts count 4
+2015-03-26 02:28:17 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:28:17 JER got 4 tix 
+2015-03-26 02:28:17  JER get_all_event_tickets got 0
+2015-03-26 02:28:17 JER returning tickets array of 4
+2015-03-26 02:28:17 JER get_all_event_tickets for 15345 
+2015-03-26 02:28:17 JER event is not an object and id is 15345
+2015-03-26 02:28:17 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:17 JER query was Array
+2015-03-26 02:28:17 JER returning posts count 4
+2015-03-26 02:28:17 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:28:17 JER got 4 tix 
+2015-03-26 02:28:17  JER get_all_event_tickets got 0
+2015-03-26 02:28:17 JER returning tickets array of 4
+2015-03-26 02:28:17 JER event is not an object and id is 15345
+2015-03-26 02:28:17 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:17 JER query was Array
+2015-03-26 02:28:17 JER returning posts count 4
+2015-03-26 02:28:17 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:28:17 JER got 4 tix 
+2015-03-26 02:28:38 JER get_all_event_tickets for 13625 
+2015-03-26 02:28:38 JER event is not an object and id is 13625
+2015-03-26 02:28:38 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:38 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13625
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:38 JER returning posts count 0
+2015-03-26 02:28:38 JER class-wootickets.get_tickets for 13625 
+2015-03-26 02:28:38 JER no ticket_ids 
+2015-03-26 02:28:38  JER get_all_event_tickets got 0
+2015-03-26 02:28:38 JER returning tickets array of 0
+2015-03-26 02:28:38 JER event is not an object and id is 13625
+2015-03-26 02:28:38 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:38 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13625
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:38 JER returning posts count 0
+2015-03-26 02:28:38 JER class-wootickets.get_tickets for 13625 
+2015-03-26 02:28:38 JER no ticket_ids 
+2015-03-26 02:28:39 JER get_all_event_tickets for 14634 
+2015-03-26 02:28:39 JER event is not an object and id is 14634
+2015-03-26 02:28:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:39 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14634
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:39 JER returning posts count 3
+2015-03-26 02:28:39 JER class-wootickets.get_tickets for 14634 
+2015-03-26 02:28:39 JER got 3 tix 
+2015-03-26 02:28:39  JER get_all_event_tickets got 0
+2015-03-26 02:28:39 JER returning tickets array of 3
+2015-03-26 02:28:39 JER get_all_event_tickets for 14634 
+2015-03-26 02:28:39 JER event is not an object and id is 14634
+2015-03-26 02:28:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:39 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14634
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:39 JER returning posts count 3
+2015-03-26 02:28:39 JER class-wootickets.get_tickets for 14634 
+2015-03-26 02:28:39 JER got 3 tix 
+2015-03-26 02:28:39  JER get_all_event_tickets got 0
+2015-03-26 02:28:39 JER returning tickets array of 3
+2015-03-26 02:28:39 JER event is not an object and id is 14634
+2015-03-26 02:28:39 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:39 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14634
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:39 JER returning posts count 3
+2015-03-26 02:28:39 JER class-wootickets.get_tickets for 14634 
+2015-03-26 02:28:39 JER got 3 tix 
+2015-03-26 02:28:43 JER get_all_event_tickets for 13704 
+2015-03-26 02:28:43 JER event is not an object and id is 13704
+2015-03-26 02:28:43 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:43 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13704
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:43 JER returning posts count 3
+2015-03-26 02:28:43 JER class-wootickets.get_tickets for 13704 
+2015-03-26 02:28:43 JER got 3 tix 
+2015-03-26 02:28:44  JER get_all_event_tickets got 0
+2015-03-26 02:28:44 JER returning tickets array of 3
+2015-03-26 02:28:44 JER get_all_event_tickets for 13704 
+2015-03-26 02:28:44 JER event is not an object and id is 13704
+2015-03-26 02:28:44 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:44 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13704
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:44 JER returning posts count 3
+2015-03-26 02:28:44 JER class-wootickets.get_tickets for 13704 
+2015-03-26 02:28:44 JER got 3 tix 
+2015-03-26 02:28:44  JER get_all_event_tickets got 0
+2015-03-26 02:28:44 JER returning tickets array of 3
+2015-03-26 02:28:44 JER event is not an object and id is 13704
+2015-03-26 02:28:44 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:44 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13704
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:44 JER returning posts count 3
+2015-03-26 02:28:44 JER class-wootickets.get_tickets for 13704 
+2015-03-26 02:28:44 JER got 3 tix 
+2015-03-26 02:28:46 JER get_all_event_tickets for 13627 
+2015-03-26 02:28:46 JER event is not an object and id is 13627
+2015-03-26 02:28:46 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:46 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13627
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:46 JER returning posts count 3
+2015-03-26 02:28:46 JER class-wootickets.get_tickets for 13627 
+2015-03-26 02:28:46 JER got 3 tix 
+2015-03-26 02:28:46  JER get_all_event_tickets got 0
+2015-03-26 02:28:46 JER returning tickets array of 3
+2015-03-26 02:28:46 JER get_all_event_tickets for 13627 
+2015-03-26 02:28:46 JER event is not an object and id is 13627
+2015-03-26 02:28:46 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:46 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13627
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:46 JER returning posts count 3
+2015-03-26 02:28:46 JER class-wootickets.get_tickets for 13627 
+2015-03-26 02:28:46 JER got 3 tix 
+2015-03-26 02:28:46  JER get_all_event_tickets got 0
+2015-03-26 02:28:46 JER returning tickets array of 3
+2015-03-26 02:28:46 JER event is not an object and id is 13627
+2015-03-26 02:28:46 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:46 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13627
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:46 JER returning posts count 3
+2015-03-26 02:28:46 JER class-wootickets.get_tickets for 13627 
+2015-03-26 02:28:46 JER got 3 tix 
+2015-03-26 02:28:50 JER get_all_event_tickets for 13544 
+2015-03-26 02:28:50 JER event is not an object and id is 13544
+2015-03-26 02:28:50 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:50 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13544
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:50 JER returning posts count 0
+2015-03-26 02:28:50 JER class-wootickets.get_tickets for 13544 
+2015-03-26 02:28:50 JER no ticket_ids 
+2015-03-26 02:28:50  JER get_all_event_tickets got 0
+2015-03-26 02:28:50 JER returning tickets array of 0
+2015-03-26 02:28:50 JER event is not an object and id is 13544
+2015-03-26 02:28:50 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:50 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13544
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:50 JER returning posts count 0
+2015-03-26 02:28:50 JER class-wootickets.get_tickets for 13544 
+2015-03-26 02:28:50 JER no ticket_ids 
+2015-03-26 02:28:55 JER get_all_event_tickets for 14392 
+2015-03-26 02:28:55 JER event is not an object and id is 14392
+2015-03-26 02:28:55 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:55 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14392
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:55 JER returning posts count 0
+2015-03-26 02:28:55 JER class-wootickets.get_tickets for 14392 
+2015-03-26 02:28:55 JER no ticket_ids 
+2015-03-26 02:28:55  JER get_all_event_tickets got 0
+2015-03-26 02:28:55 JER returning tickets array of 0
+2015-03-26 02:28:55 JER event is not an object and id is 14392
+2015-03-26 02:28:55 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:55 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14392
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:55 JER returning posts count 0
+2015-03-26 02:28:55 JER class-wootickets.get_tickets for 14392 
+2015-03-26 02:28:55 JER no ticket_ids 
+2015-03-26 02:28:59 JER get_all_event_tickets for 6242 
+2015-03-26 02:28:59 JER event is not an object and id is 6242
+2015-03-26 02:28:59 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:28:59 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 6242
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:28:59 JER returning posts count 0
+2015-03-26 02:28:59 JER class-wootickets.get_tickets for 6242 
+2015-03-26 02:28:59 JER no ticket_ids 
+2015-03-26 02:28:59  JER get_all_event_tickets got 0
+2015-03-26 02:28:59 JER returning tickets array of 0
+2015-03-26 02:29:00 JER event is not an object and id is 6242
+2015-03-26 02:29:00 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:00 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 6242
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:00 JER returning posts count 0
+2015-03-26 02:29:00 JER class-wootickets.get_tickets for 6242 
+2015-03-26 02:29:00 JER no ticket_ids 
+2015-03-26 02:29:03 JER get_all_event_tickets for 14397 
+2015-03-26 02:29:03 JER event is not an object and id is 14397
+2015-03-26 02:29:03 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:03 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14397
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:03 JER returning posts count 0
+2015-03-26 02:29:03 JER class-wootickets.get_tickets for 14397 
+2015-03-26 02:29:03 JER no ticket_ids 
+2015-03-26 02:29:03  JER get_all_event_tickets got 0
+2015-03-26 02:29:03 JER returning tickets array of 0
+2015-03-26 02:29:03 JER event is not an object and id is 14397
+2015-03-26 02:29:03 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:03 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14397
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:03 JER returning posts count 0
+2015-03-26 02:29:03 JER class-wootickets.get_tickets for 14397 
+2015-03-26 02:29:03 JER no ticket_ids 
+2015-03-26 02:29:05 JER get_all_event_tickets for 13701 
+2015-03-26 02:29:05 JER event is not an object and id is 13701
+2015-03-26 02:29:05 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:05 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13701
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:05 JER returning posts count 0
+2015-03-26 02:29:05 JER class-wootickets.get_tickets for 13701 
+2015-03-26 02:29:05 JER no ticket_ids 
+2015-03-26 02:29:05  JER get_all_event_tickets got 0
+2015-03-26 02:29:05 JER returning tickets array of 0
+2015-03-26 02:29:05 JER event is not an object and id is 13701
+2015-03-26 02:29:05 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:06 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13701
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:06 JER returning posts count 0
+2015-03-26 02:29:06 JER class-wootickets.get_tickets for 13701 
+2015-03-26 02:29:06 JER no ticket_ids 
+2015-03-26 02:29:08 JER get_all_event_tickets for 13723 
+2015-03-26 02:29:08 JER event is not an object and id is 13723
+2015-03-26 02:29:08 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:08 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13723
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:08 JER returning posts count 0
+2015-03-26 02:29:08 JER class-wootickets.get_tickets for 13723 
+2015-03-26 02:29:08 JER no ticket_ids 
+2015-03-26 02:29:08  JER get_all_event_tickets got 0
+2015-03-26 02:29:08 JER returning tickets array of 0
+2015-03-26 02:29:08 JER event is not an object and id is 13723
+2015-03-26 02:29:08 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:08 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13723
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:08 JER returning posts count 0
+2015-03-26 02:29:08 JER class-wootickets.get_tickets for 13723 
+2015-03-26 02:29:08 JER no ticket_ids 
+2015-03-26 02:29:15 JER get_all_event_tickets for 13781 
+2015-03-26 02:29:15 JER event is not an object and id is 13781
+2015-03-26 02:29:15 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:15 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13781
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:15 JER returning posts count 0
+2015-03-26 02:29:15 JER class-wootickets.get_tickets for 13781 
+2015-03-26 02:29:15 JER no ticket_ids 
+2015-03-26 02:29:15  JER get_all_event_tickets got 0
+2015-03-26 02:29:15 JER returning tickets array of 0
+2015-03-26 02:29:15 JER event is not an object and id is 13781
+2015-03-26 02:29:15 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:15 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 13781
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:15 JER returning posts count 0
+2015-03-26 02:29:15 JER class-wootickets.get_tickets for 13781 
+2015-03-26 02:29:15 JER no ticket_ids 
+2015-03-26 02:29:43 JER get_all_event_tickets for 14393 
+2015-03-26 02:29:43 JER event is not an object and id is 14393
+2015-03-26 02:29:43 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:43 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14393
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:43 JER returning posts count 3
+2015-03-26 02:29:43 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:29:43 JER got 3 tix 
+2015-03-26 02:29:43  JER get_all_event_tickets got 0
+2015-03-26 02:29:43 JER returning tickets array of 3
+2015-03-26 02:29:43 JER get_all_event_tickets for 14393 
+2015-03-26 02:29:43 JER event is not an object and id is 14393
+2015-03-26 02:29:43 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:43 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14393
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:43 JER returning posts count 3
+2015-03-26 02:29:43 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:29:43 JER got 3 tix 
+2015-03-26 02:29:43  JER get_all_event_tickets got 0
+2015-03-26 02:29:43 JER returning tickets array of 3
+2015-03-26 02:29:43 JER event is not an object and id is 14393
+2015-03-26 02:29:43 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:29:43 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14393
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:29:43 JER returning posts count 3
+2015-03-26 02:29:43 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:29:43 JER got 3 tix 
+2015-03-26 02:32:19 JER get_all_event_tickets for 7287 
+2015-03-26 02:32:19 JER event is not an object and id is 7287
+2015-03-26 02:32:19 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:32:19 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 7287
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:32:19 JER returning posts count 0
+2015-03-26 02:32:19 JER class-wootickets.get_tickets for 7287 
+2015-03-26 02:32:19 JER no ticket_ids 
+2015-03-26 02:32:19  JER get_all_event_tickets got 0
+2015-03-26 02:32:19 JER returning tickets array of 0
+2015-03-26 02:32:19 JER event is not an object and id is 7287
+2015-03-26 02:32:19 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:32:19 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 7287
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:32:19 JER returning posts count 0
+2015-03-26 02:32:19 JER class-wootickets.get_tickets for 7287 
+2015-03-26 02:32:19 JER no ticket_ids 
+2015-03-26 02:32:22 JER get_all_event_tickets for 7310 
+2015-03-26 02:32:22 JER event is not an object and id is 7310
+2015-03-26 02:32:22 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:32:22 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 7310
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:32:22 JER returning posts count 0
+2015-03-26 02:32:22 JER class-wootickets.get_tickets for 7310 
+2015-03-26 02:32:22 JER no ticket_ids 
+2015-03-26 02:32:22  JER get_all_event_tickets got 0
+2015-03-26 02:32:22 JER returning tickets array of 0
+2015-03-26 02:32:22 JER event is not an object and id is 7310
+2015-03-26 02:32:22 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:32:22 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 7310
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:32:22 JER returning posts count 0
+2015-03-26 02:32:22 JER class-wootickets.get_tickets for 7310 
+2015-03-26 02:32:22 JER no ticket_ids 
+2015-03-26 02:34:27 JER get_all_event_tickets for 15345 
+2015-03-26 02:34:27 JER event is not an object and id is 15345
+2015-03-26 02:34:27 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:34:27 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 15345
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:34:27 JER returning posts count 4
+2015-03-26 02:34:27 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:34:27 JER got 4 tix 
+2015-03-26 02:34:27  JER get_all_event_tickets got 0
+2015-03-26 02:34:27 JER returning tickets array of 4
+2015-03-26 02:34:27 JER get_all_event_tickets for 15345 
+2015-03-26 02:34:27 JER event is not an object and id is 15345
+2015-03-26 02:34:27 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:34:27 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 15345
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:34:27 JER returning posts count 4
+2015-03-26 02:34:27 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:34:27 JER got 4 tix 
+2015-03-26 02:34:27  JER get_all_event_tickets got 0
+2015-03-26 02:34:27 JER returning tickets array of 4
+2015-03-26 02:34:27 JER event is not an object and id is 15345
+2015-03-26 02:34:27 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:34:27 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 15345
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:34:27 JER returning posts count 4
+2015-03-26 02:34:27 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:34:27 JER got 4 tix 
+2015-03-26 02:36:31 JER get_all_event_tickets for 14711 
+2015-03-26 02:36:31 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:31 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14711
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:31 JER returning posts count 2
+2015-03-26 02:36:31 JER class-wootickets.get_tickets for 14711 
+2015-03-26 02:36:31 JER got 2 tix 
+2015-03-26 02:36:31  JER get_all_event_tickets got 0
+2015-03-26 02:36:31 JER returning tickets array of 2
+2015-03-26 02:36:31 JER get_all_event_tickets for 14711 
+2015-03-26 02:36:31 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:31 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14711
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:31 JER returning posts count 2
+2015-03-26 02:36:31 JER class-wootickets.get_tickets for 14711 
+2015-03-26 02:36:31 JER got 2 tix 
+2015-03-26 02:36:31  JER get_all_event_tickets got 0
+2015-03-26 02:36:31 JER returning tickets array of 2
+2015-03-26 02:36:31 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:31 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14711
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:31 JER returning posts count 2
+2015-03-26 02:36:31 JER class-wootickets.get_tickets for 14711 
+2015-03-26 02:36:31 JER got 2 tix 
+2015-03-26 02:36:36 JER get_all_event_tickets for 14899 
+2015-03-26 02:36:36 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:36 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14899
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:36 JER returning posts count 4
+2015-03-26 02:36:36 JER class-wootickets.get_tickets for 14899 
+2015-03-26 02:36:36 JER got 4 tix 
+2015-03-26 02:36:36  JER get_all_event_tickets got 0
+2015-03-26 02:36:36 JER returning tickets array of 4
+2015-03-26 02:36:36 JER get_all_event_tickets for 14899 
+2015-03-26 02:36:36 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:36 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14899
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:36 JER returning posts count 4
+2015-03-26 02:36:36 JER class-wootickets.get_tickets for 14899 
+2015-03-26 02:36:36 JER got 4 tix 
+2015-03-26 02:36:36  JER get_all_event_tickets got 0
+2015-03-26 02:36:36 JER returning tickets array of 4
+2015-03-26 02:36:36 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:36 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14899
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:36 JER returning posts count 4
+2015-03-26 02:36:36 JER class-wootickets.get_tickets for 14899 
+2015-03-26 02:36:36 JER got 4 tix 
+2015-03-26 02:36:40 JER get_all_event_tickets for 7287 
+2015-03-26 02:36:40 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:40 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 7287
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:40 JER returning posts count 0
+2015-03-26 02:36:40 JER class-wootickets.get_tickets for 7287 
+2015-03-26 02:36:40 JER no ticket_ids 
+2015-03-26 02:36:40  JER get_all_event_tickets got 0
+2015-03-26 02:36:40 JER returning tickets array of 0
+2015-03-26 02:36:40 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:36:40 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 7287
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:36:40 JER returning posts count 0
+2015-03-26 02:36:40 JER class-wootickets.get_tickets for 7287 
+2015-03-26 02:36:40 JER no ticket_ids 
+2015-03-26 02:37:29 JER get_all_event_tickets for 6358 
+2015-03-26 02:37:29 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:37:29 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 6358
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:37:29 JER returning posts count 0
+2015-03-26 02:37:29 JER class-wootickets.get_tickets for 6358 
+2015-03-26 02:37:29 JER no ticket_ids 
+2015-03-26 02:37:29  JER get_all_event_tickets got 0
+2015-03-26 02:37:29 JER returning tickets array of 0
+2015-03-26 02:37:29 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:37:29 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 6358
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:37:29 JER returning posts count 0
+2015-03-26 02:37:29 JER class-wootickets.get_tickets for 6358 
+2015-03-26 02:37:29 JER no ticket_ids 
+2015-03-26 02:40:32 JER get_all_event_tickets for 14393 
+2015-03-26 02:40:32 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:40:32 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14393
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:40:32 JER returning posts count 3
+2015-03-26 02:40:32 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:40:32 JER got 3 tix 
+2015-03-26 02:40:32  JER get_all_event_tickets got 0
+2015-03-26 02:40:32 JER returning tickets array of 3
+2015-03-26 02:40:32 JER get_all_event_tickets for 14393 
+2015-03-26 02:40:32 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:40:32 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14393
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:40:32 JER returning posts count 3
+2015-03-26 02:40:32 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:40:32 JER got 3 tix 
+2015-03-26 02:40:32  JER get_all_event_tickets got 0
+2015-03-26 02:40:32 JER returning tickets array of 3
+2015-03-26 02:40:32 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:40:32 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 14393
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:40:32 JER returning posts count 3
+2015-03-26 02:40:32 JER class-wootickets.get_tickets for 14393 
+2015-03-26 02:40:32 JER got 3 tix 
+2015-03-26 02:42:46 JER get_all_event_tickets for 12120 
+2015-03-26 02:42:46 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:42:46 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 12120
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:42:46 JER returning posts count 0
+2015-03-26 02:42:46 JER class-wootickets.get_tickets for 12120 
+2015-03-26 02:42:46 JER no ticket_ids 
+2015-03-26 02:42:46  JER get_all_event_tickets got 0
+2015-03-26 02:42:46 JER returning tickets array of 0
+2015-03-26 02:42:46 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:42:46 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 12120
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:42:46 JER returning posts count 0
+2015-03-26 02:42:46 JER class-wootickets.get_tickets for 12120 
+2015-03-26 02:42:46 JER no ticket_ids 
+2015-03-26 02:43:48 JER get_all_event_tickets for 15345 
+2015-03-26 02:43:48 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:43:48 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 15345
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:43:48 JER returning posts count 4
+2015-03-26 02:43:48 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:43:48 JER got 4 tix 
+2015-03-26 02:43:49  JER get_all_event_tickets got 0
+2015-03-26 02:43:49 JER returning tickets array of 4
+2015-03-26 02:43:49 JER get_all_event_tickets for 15345 
+2015-03-26 02:43:49 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:43:49 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 15345
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:43:49 JER returning posts count 4
+2015-03-26 02:43:49 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:43:49 JER got 4 tix 
+2015-03-26 02:43:49  JER get_all_event_tickets got 0
+2015-03-26 02:43:49 JER returning tickets array of 4
+2015-03-26 02:43:49 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:43:49 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 15345
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:43:49 JER returning posts count 4
+2015-03-26 02:43:49 JER class-wootickets.get_tickets for 15345 
+2015-03-26 02:43:49 JER got 4 tix 
+2015-03-26 02:45:13 JER get_all_event_tickets for 3804 
+2015-03-26 02:45:13 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:45:13 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 3804
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:45:13 JER returning posts count 0
+2015-03-26 02:45:13 JER class-wootickets.get_tickets for 3804 
+2015-03-26 02:45:13 JER no ticket_ids 
+2015-03-26 02:45:13  JER get_all_event_tickets got 0
+2015-03-26 02:45:13 JER returning tickets array of 0
+2015-03-26 02:45:13 JER event_key is _tribe_wooticket_for_event
+2015-03-26 02:45:13 Array
+(
+    [post_type] => product
+    [meta_key] => _tribe_wooticket_for_event
+    [meta_value] => 3804
+    [meta_compare] => =
+    [posts_per_page] => -1
+    [fields] => ids
+    [post_status] => publish
+)
+
+2015-03-26 02:45:13 JER returning posts count 0
+2015-03-26 02:45:13 JER class-wootickets.get_tickets for 3804 
+2015-03-26 02:45:13 JER no ticket_ids 

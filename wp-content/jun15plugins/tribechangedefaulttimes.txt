@@ -1,0 +1,90 @@
+/**
+ * Helps to change the default start/end times for new event.
+ */
+class Change_Tribe_Default_Event_Times
+{
+        const TWELVEHOUR = 12;
+        const TWENTYFOURHOUR = 24;
+ 
+        protected $start = 9;
+        protected $end = 11;
+        protected $mode = self::TWELVEHOUR;
+ 
+ 
+        /**
+         * Provide the desired default start and end hours in 24hr format (ie 15 = 3pm).
+         *
+         * @param $start_hour
+         * @param $end_hour
+         */
+        public function __construct($start_hour, $end_hour) {
+                $this->settings($start_hour, $end_hour);
+                $this->add_filters();
+        }
+ 
+ 
+        protected function settings($start_hour, $end_hour) {
+                $this->set_mode();
+                $this->start = $this->safe_hour($start_hour);
+                $this->end = $this->safe_hour($end_hour);
+        }
+ 
+ 
+        protected function add_filters() {
+                add_filter('tribe_get_hour_options', array($this, 'change_default_time'), 10, 3);
+                add_filter('tribe_get_meridian_options', array($this, 'change_default_meridian'), 10, 3);
+        }
+ 
+ 
+        protected function set_mode() {
+                if (strstr(get_option('time_format', TribeDateUtils::TIMEFORMAT), 'H'))
+                        $this->mode = self::TWENTYFOURHOUR;
+        }
+ 
+ 
+        protected function safe_hour($hour) {
+                $hour = absint($hour);
+                if ($hour < 0) $hour = 0;
+                if ($hour > 23) $hour = 23;
+                return $hour;
+        }
+ 
+ 
+        public function change_default_time($hour, $date, $isStart) {
+                if ('post-new.php' !== $GLOBALS['pagenow']) return $hour; // Only intervene if it's a new event
+ 
+                if ($isStart) return $this->corrected_time($this->start);
+                else return $this->corrected_time($this->end);
+        }
+ 
+ 
+        /**
+         * If working in the 12hr clock, converts the hour appropriately.
+         *
+         * @param $hour
+         * @return int
+         */
+        protected function corrected_time($hour) {
+                if (self::TWENTYFOURHOUR === $this->mode) return $hour;
+                if ($hour > 12) return $hour - 12;
+                return $hour;
+        }
+ 
+ 
+        public function change_default_meridian($meridian, $date, $isStart) {
+                if ('post-new.php' !== $GLOBALS['pagenow']) return $meridian; // Only intervene if it's a new event
+ 
+                $meridian = 'am';
+                if ($isStart && 12 <= $this->start) $meridian = 'pm';
+                if (! $isStart && 12 <= $this->end) $meridian = 'pm';
+ 
+                if (strstr(get_option('time_format', TribeDateUtils::TIMEFORMAT), 'A'))
+                        $meridian = strtoupper($meridian);
+ 
+                return $meridian;
+        }
+}
+ 
+// If you mostly deal with night time soirees you could set the default start time
+// to 7pm and end time to 11pm - but remember to do so with the 24hr clock
+new Change_Tribe_Default_Event_Times(20, 23);

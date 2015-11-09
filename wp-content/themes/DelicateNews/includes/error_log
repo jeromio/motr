@@ -1,0 +1,8 @@
+[07-Nov-2013 00:34:46 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13
+[12-Nov-2013 01:52:18 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13
+[25-Dec-2013 19:47:18 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13
+[28-Dec-2013 05:37:45 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13
+[02-Feb-2014 03:46:11 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13
+[03-Feb-2014 18:57:26 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13
+[07-May-2014 08:02:52 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13
+[09-May-2014 13:35:41 America/Detroit] PHP Fatal error:  Call to undefined function get_option() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/includes/featured.php on line 13

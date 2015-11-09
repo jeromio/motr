@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+function inqFunction(radio) {
+    document.getElementById("general").style.display = "none";
+    document.getElementById("rental").style.display = "none";
+    document.getElementById("booking").style.display = "none";
+    document.getElementById(radio.value).style.display = "block";
+}
+</script>
+</head>
+<body>
+<input type="radio" name="inq" value="general" onclick="inqFunction(this);" checked>General Inquiry
+<input type="radio" name="inq" value="rental" onclick="inqFunction(this);">Rental or Special Event
+<input type="radio" name="inq" value="booking" onclick="inqFunction(this);">Booking
+
+<p id="general">General</br>
+General question or comment.</p>
+<p style="display:none;" id="rental">Rental</br>
+If you want information for booking other types of events (community, charity, social) or room rentals (corporate, private parties, weddings) please use this form below and include as much detail as you can.
+</p>
+<p style="display:none;"id="booking">Booking</br>
+Fill out this form for booking consideration. The Showroom has a capacity of 450, but can be configured for more intimate setting for smaller events Sunday-Wed. Please let us know which type of show you’re interested in – in the subject line. We only book through this form. Please supply links to music <strong>and</strong> Social media sites. As much as we care about how good the music is, the ability to promote and bring people is <strong>just</strong> as important. Please do not call or drop off press kits at the venue. Once a show is booked, we will need at least 6 posters to hang at Motorco.<br>
+<br><strong>Radius:</strong> Do not Play 15 days before OR after within 30 miles from the venue.
+</p>
+
+
+<p>Subject: <input type="text" id="subject" value="[General] ">
+<input type="hidden" id="ctype" value="general"></p>
+
+</body>
+</html>

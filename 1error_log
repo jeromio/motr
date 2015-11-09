@@ -1,0 +1,354 @@
+[08-Sep-2013 16:09:39 UTC] ===== INITIALIZING DEBUGGER =====
+[08-Sep-2013 16:09:39 UTC] post ID: (woo)	123 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	50
+[08-Sep-2013 16:09:39 UTC] event cost (woo)	123 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	18
+[08-Sep-2013 16:09:39 UTC] post ID: (woo)	123 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	50
+[08-Sep-2013 16:09:39 UTC] event cost (woo)	123 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	18
+[08-Sep-2013 16:09:39 UTC] * * * -->wp_get_attachment_image_src size passed in is : full
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize image passed in is : 52
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize size passed in is : full
+[08-Sep-2013 16:09:39 UTC] * * * -->image_get_intermediate_size : full
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize using the old width : 5184
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize actual images size constrain : 5184
+[08-Sep-2013 16:09:39 UTC] * * * -->wp_get_attachment_image_src just return the image: Array
+(
+    [0] => http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg
+    [1] => 5184
+    [2] => 3456
+    [3] => 
+)
+
+[08-Sep-2013 16:09:39 UTC] tribe_event_featured_image not empty (woo)	132 ms	8 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'tribe_event_featured_image',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	array (
+  0 => 'http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg',
+  1 => 5184,
+  2 => 3456,
+  3 => false,
+)
+[08-Sep-2013 16:09:39 UTC] tribe event featured_image (woo)	133 ms	1 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  1 => 'tribe_get_view',
+  2 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  3 => 'require_once(\'wp-includes/template-loader.php\')',
+  4 => 'require(\'wp-blog-header.php\')',
+)	<div class="tribe-events-event-image"><a href="http://motor-co.com/event/sheb-birthday/" title="Sheb birthday"><img src="http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg" title="Sheb birthday" /></a></div>
+[08-Sep-2013 16:09:39 UTC] delicatenews get_thumbnail - has post thumbnail (woo)	133 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'get_thumbnail',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	array (
+  'thumb' => '',
+  'use_timthumb' => true,
+)
+[08-Sep-2013 16:09:39 UTC] * * * -->wp_get_attachment_image_src size passed in is : full
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize image passed in is : 52
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize size passed in is : full
+[08-Sep-2013 16:09:39 UTC] * * * -->image_get_intermediate_size : full
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize using the old width : 5184
+[08-Sep-2013 16:09:39 UTC] * * * -->image_downsize actual images size constrain : 5184
+[08-Sep-2013 16:09:39 UTC] * * * -->wp_get_attachment_image_src just return the image: Array
+(
+    [0] => http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg
+    [1] => 5184
+    [2] => 3456
+    [3] => 
+)
+
+[08-Sep-2013 16:09:39 UTC] et delicatenews get_thumbnail returned  (woo)	134 ms	1 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'get_thumbnail',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	array (
+  'thumb' => 'http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg',
+  'use_timthumb' => false,
+  'fullpath' => 'http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg',
+)
+[08-Sep-2013 16:09:39 UTC] single-event using DN get_thumbnail (woo)	134 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  1 => 'tribe_get_view',
+  2 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  3 => 'require_once(\'wp-includes/template-loader.php\')',
+  4 => 'require(\'wp-blog-header.php\')',
+)	array (
+  'thumb' => 'http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg',
+  'use_timthumb' => false,
+  'fullpath' => 'http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg',
+)
+[08-Sep-2013 16:09:39 UTC] else no thumbnail (woo)	135 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'print_thumbnail',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	http://motor-co.com/wp-content/uploads/2013/08/IMG_1479.jpg
+[08-Sep-2013 16:09:39 UTC] deep in the land of thumbnail conditionals (woo)	135 ms	1 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'print_thumbnail',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	http://motor-co.com/wp-content/uploads/et_temp/IMG_1479-6689527_500x238.jpg
+[08-Sep-2013 16:09:39 UTC] output of print thumbnail (woo)	136 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'print_thumbnail',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  2 => 'tribe_get_view',
+  3 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  4 => 'require_once(\'wp-includes/template-loader.php\')',
+  5 => 'require(\'wp-blog-header.php\')',
+)	http://motor-co.com/wp-content/uploads/et_temp/IMG_1479-6689527_500x238.jpg
+[08-Sep-2013 16:09:39 UTC] post ID: (woo)	140 ms	5 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'call_user_func_array',
+  2 => 'tribe_get_meta',
+  3 => 'tribe_get_meta_group',
+  4 => 'tribe_events_single_event_meta',
+  5 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  6 => 'tribe_get_view',
+  7 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  8 => 'require_once(\'wp-includes/template-loader.php\')',
+  9 => 'require(\'wp-blog-header.php\')',
+)	50
+[08-Sep-2013 16:09:39 UTC] event cost (woo)	141 ms	0 ms	8,704 kB	0 kB	motor-co.com/event/sheb-birthday/	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'call_user_func_array',
+  2 => 'tribe_get_meta',
+  3 => 'tribe_get_meta_group',
+  4 => 'tribe_events_single_event_meta',
+  5 => 'include(\'/themes/DelicateNews/tribe-events/single-event.php\')',
+  6 => 'tribe_get_view',
+  7 => 'include(\'/plugins/the-events-calendar/views/default-template.php\')',
+  8 => 'require_once(\'wp-includes/template-loader.php\')',
+  9 => 'require(\'wp-blog-header.php\')',
+)	18
+[08-Sep-2013 16:09:40 UTC] ===== INITIALIZING DEBUGGER =====
+[08-Sep-2013 16:09:40 UTC] et delicatenews get_thumbnail returned  (woo)	124 ms	0 ms	8,448 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'get_thumbnail',
+  1 => 'require(\'/themes/DelicateNews/includes/entry.php\')',
+  2 => 'load_template',
+  3 => 'locate_template',
+  4 => 'get_template_part',
+  5 => 'include(\'/themes/DelicateNews/index.php\')',
+  6 => 'require_once(\'wp-includes/template-loader.php\')',
+  7 => 'require(\'wp-blog-header.php\')',
+)	array (
+  'thumb' => '',
+  'use_timthumb' => true,
+)
+[08-Sep-2013 16:09:40 UTC] delicatenews get_thumbnail - has post thumbnail (woo)	126 ms	2 ms	8,448 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'get_thumbnail',
+  1 => 'require(\'/themes/DelicateNews/includes/entry.php\')',
+  2 => 'load_template',
+  3 => 'locate_template',
+  4 => 'get_template_part',
+  5 => 'include(\'/themes/DelicateNews/index.php\')',
+  6 => 'require_once(\'wp-includes/template-loader.php\')',
+  7 => 'require(\'wp-blog-header.php\')',
+)	array (
+  'thumb' => '',
+  'use_timthumb' => true,
+)
+[08-Sep-2013 16:09:40 UTC] * * * -->wp_get_attachment_image_src size passed in is : full
+[08-Sep-2013 16:09:40 UTC] * * * -->image_downsize image passed in is : 9
+[08-Sep-2013 16:09:40 UTC] * * * -->image_downsize size passed in is : full
+[08-Sep-2013 16:09:40 UTC] * * * -->image_get_intermediate_size : full
+[08-Sep-2013 16:09:40 UTC] * * * -->image_downsize using the old width : 250
+[08-Sep-2013 16:09:40 UTC] * * * -->image_downsize actual images size constrain : 250
+[08-Sep-2013 16:09:40 UTC] * * * -->wp_get_attachment_image_src just return the image: Array
+(
+    [0] => http://motor-co.com/wp-content/uploads/2013/08/nattyboh.jpg
+    [1] => 250
+    [2] => 201
+    [3] => 
+)
+
+[08-Sep-2013 16:09:40 UTC] et delicatenews get_thumbnail returned  (woo)	128 ms	2 ms	8,448 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'get_thumbnail',
+  1 => 'require(\'/themes/DelicateNews/includes/entry.php\')',
+  2 => 'load_template',
+  3 => 'locate_template',
+  4 => 'get_template_part',
+  5 => 'include(\'/themes/DelicateNews/index.php\')',
+  6 => 'require_once(\'wp-includes/template-loader.php\')',
+  7 => 'require(\'wp-blog-header.php\')',
+)	array (
+  'thumb' => 'http://motor-co.com/wp-content/uploads/2013/08/nattyboh.jpg',
+  'use_timthumb' => false,
+  'fullpath' => 'http://motor-co.com/wp-content/uploads/2013/08/nattyboh.jpg',
+)
+[08-Sep-2013 16:09:40 UTC] post ID: (woo)	140 ms	13 ms	8,704 kB	256 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	252
+[08-Sep-2013 16:09:40 UTC] event cost (woo)	141 ms	0 ms	8,704 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	12
+[08-Sep-2013 16:09:40 UTC] post ID: (woo)	144 ms	3 ms	8,704 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	50
+[08-Sep-2013 16:09:40 UTC] event cost (woo)	144 ms	0 ms	8,704 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	18
+[08-Sep-2013 16:09:40 UTC] post ID: (woo)	148 ms	3 ms	8,704 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	25
+[08-Sep-2013 16:09:40 UTC] event cost (woo)	148 ms	0 ms	8,704 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	
+[08-Sep-2013 16:09:40 UTC] post ID: (woo)	151 ms	3 ms	8,704 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	255
+[08-Sep-2013 16:09:40 UTC] event cost (woo)	151 ms	0 ms	8,704 kB	0 kB	motor-co.com/wp-includes/js/jquery/jquery-1.10.2.min.map	143.95.92.184	array (
+  0 => 'tribe_get_cost',
+  1 => 'include(\'/themes/DelicateNews/tribe-events/widgets/list-widget.php\')',
+  2 => 'tribe_get_template_part',
+  3 => 'TribeEventsListWidget->widget_output',
+  4 => 'TribeEventsAdvancedListWidget->widget',
+  5 => 'WP_Widget->display_callback',
+  6 => 'call_user_func_array',
+  7 => 'dynamic_sidebar',
+  8 => 'require_once(\'/themes/DelicateNews/sidebar.php\')',
+  9 => 'load_template',
+  10 => 'locate_template',
+  11 => 'get_sidebar',
+  12 => 'include(\'/themes/DelicateNews/index.php\')',
+  13 => 'require_once(\'wp-includes/template-loader.php\')',
+  14 => 'require(\'wp-blog-header.php\')',
+)	28

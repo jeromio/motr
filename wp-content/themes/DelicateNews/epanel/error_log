@@ -1,0 +1,10 @@
+[14-Feb-2015 18:20:03 America/Detroit] PHP Fatal error:  Call to undefined function add_custom_background() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/custom_functions.php on line 4
+[14-Feb-2015 18:20:08 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/core_functions.php on line 8
+[14-Feb-2015 18:20:09 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/import_settings.php on line 2
+[14-Feb-2015 18:20:10 America/Detroit] PHP Fatal error:  Call to undefined function get_categories() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/options_delicatenews.php on line 6
+[14-Feb-2015 18:20:11 America/Detroit] PHP Fatal error:  Call to undefined function add_theme_support() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/post_thumbnails_delicatenews.php on line 2
+[20-Feb-2015 17:39:06 America/Detroit] PHP Fatal error:  Call to undefined function add_custom_background() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/custom_functions.php on line 4
+[20-Feb-2015 17:39:25 America/Detroit] PHP Fatal error:  Call to undefined function get_categories() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/options_delicatenews.php on line 6
+[20-Feb-2015 17:40:02 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/import_settings.php on line 2
+[20-Feb-2015 17:40:20 America/Detroit] PHP Fatal error:  Call to undefined function add_theme_support() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/post_thumbnails_delicatenews.php on line 2
+[20-Feb-2015 17:40:21 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/motr/public_html/motor-co.com/wp-content/themes/DelicateNews/epanel/core_functions.php on line 8

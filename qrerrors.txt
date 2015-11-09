@@ -1,0 +1,2360 @@
+
+2015-10-04 15:52:29: homepath is  /var/www/production/
+2015-10-04 15:52:29: qrfile is /var/www/production/ - /var/www/production/qr/e51bd8c995da.png
+2015-10-04 15:55:45: homepath is  /var/www/production/
+2015-10-04 15:55:45: qrfile is /var/www/production/ - /var/www/production/qr/3b034188d935.png
+2015-10-04 16:57:05: homepath is  /var/www/production/
+2015-10-04 16:57:05: qrfile is /var/www/production/ - /var/www/production/qr/7e707f05ec2c.png
+2015-10-04 16:57:05: qrfile is /var/www/production/ - /var/www/production/qr/6b1cfc9603eb.png
+2015-10-04 17:17:12: homepath is  /var/www/production/
+2015-10-04 17:17:12: qrfile is /var/www/production/ - /var/www/production/qr/7094a3a33d8b.png
+2015-10-04 17:17:12: qrfile is /var/www/production/ - /var/www/production/qr/fdb59a6ddfa8.png
+2015-10-04 17:17:12: qrfile is /var/www/production/ - /var/www/production/qr/79e71c4b6e31.png
+2015-10-04 18:30:10: homepath is  /var/www/production/
+2015-10-04 18:30:10: qrfile is /var/www/production/ - /var/www/production/qr/d404b3f67505.png
+2015-10-04 18:57:20: homepath is  /var/www/production/
+2015-10-04 18:57:20: qrfile is /var/www/production/ - /var/www/production/qr/4d4186cc4dd0.png
+2015-10-04 20:40:33: homepath is  /var/www/production/
+2015-10-04 20:40:33: qrfile is /var/www/production/ - /var/www/production/qr/b25463d17f07.png
+2015-10-04 20:40:33: qrfile is /var/www/production/ - /var/www/production/qr/19c261d1cf08.png
+2015-10-04 20:40:33: qrfile is /var/www/production/ - /var/www/production/qr/4d2f5dafffc5.png
+2015-10-04 20:40:33: qrfile is /var/www/production/ - /var/www/production/qr/3cb070b4fc7e.png
+2015-10-04 21:57:19: homepath is  /var/www/production/
+2015-10-04 21:57:19: qrfile is /var/www/production/ - /var/www/production/qr/7e8dc22c0e5a.png
+2015-10-04 22:00:22: homepath is  /var/www/production/
+2015-10-04 22:00:22: qrfile is /var/www/production/ - /var/www/production/qr/1a681d7e4d00.png
+2015-10-05 00:05:18: homepath is  /var/www/production/
+2015-10-05 00:05:18: qrfile is /var/www/production/ - /var/www/production/qr/13d550913f52.png
+2015-10-05 00:05:18: qrfile is /var/www/production/ - /var/www/production/qr/f9ad72bbb8ec.png
+2015-10-05 00:52:30: homepath is  /var/www/production/
+2015-10-05 00:52:30: qrfile is /var/www/production/ - /var/www/production/qr/356c9b43feb8.png
+2015-10-05 01:30:35: homepath is  /var/www/production/
+2015-10-05 01:30:35: qrfile is /var/www/production/ - /var/www/production/qr/9ee952792871.png
+2015-10-05 01:30:35: qrfile is /var/www/production/ - /var/www/production/qr/4203f7cc1762.png
+2015-10-05 02:36:57: homepath is  /var/www/production/
+2015-10-05 02:36:57: qrfile is /var/www/production/ - /var/www/production/qr/e851f30001cd.png
+2015-10-05 02:36:57: qrfile is /var/www/production/ - /var/www/production/qr/e9fe65ae711c.png
+2015-10-05 02:36:57: qrfile is /var/www/production/ - /var/www/production/qr/aef8f41e669b.png
+2015-10-05 02:36:57: qrfile is /var/www/production/ - /var/www/production/qr/391b8deb82f5.png
+2015-10-05 04:02:22: homepath is  /var/www/production/
+2015-10-05 04:02:22: qrfile is /var/www/production/ - /var/www/production/qr/1ecc45354b2a.png
+2015-10-05 14:50:08: homepath is  /var/www/production/
+2015-10-05 14:50:08: qrfile is /var/www/production/ - /var/www/production/qr/2e3870590d66.png
+2015-10-05 14:50:08: qrfile is /var/www/production/ - /var/www/production/qr/0d7651fdf70d.png
+2015-10-05 16:00:00: homepath is  /var/www/production/
+2015-10-05 16:08:30: homepath is  /var/www/production/
+2015-10-05 16:08:30: qrfile is /var/www/production/ - /var/www/production/qr/a69d4d7daf69.png
+2015-10-05 16:08:30: qrfile is /var/www/production/ - /var/www/production/qr/833fa0711329.png
+2015-10-05 16:31:44: homepath is  /var/www/production/
+2015-10-05 16:31:44: qrfile is /var/www/production/ - /var/www/production/qr/f64c887a03a7.png
+2015-10-05 17:00:29: homepath is  /var/www/production/
+2015-10-05 17:00:29: qrfile is /var/www/production/ - /var/www/production/qr/3292d7375af9.png
+2015-10-05 18:29:11: homepath is  /var/www/production/
+2015-10-05 18:29:11: qrfile is /var/www/production/ - /var/www/production/qr/88f8f519dc04.png
+2015-10-05 18:29:11: qrfile is /var/www/production/ - /var/www/production/qr/be90b26bc9d5.png
+2015-10-05 18:33:58: homepath is  /var/www/production/
+2015-10-05 18:33:58: qrfile is /var/www/production/ - /var/www/production/qr/ffbbe3235052.png
+2015-10-05 18:33:58: qrfile is /var/www/production/ - /var/www/production/qr/9e005c6e59f5.png
+2015-10-05 18:33:58: qrfile is /var/www/production/ - /var/www/production/qr/6459660c3cd4.png
+2015-10-05 18:33:58: qrfile is /var/www/production/ - /var/www/production/qr/db5657c657c5.png
+2015-10-05 18:33:58: qrfile is /var/www/production/ - /var/www/production/qr/fc4ac3de2570.png
+2015-10-05 18:44:38: homepath is  /var/www/production/
+2015-10-05 18:44:38: qrfile is /var/www/production/ - /var/www/production/qr/5e92ee573626.png
+2015-10-05 19:00:41: homepath is  /var/www/production/
+2015-10-05 19:00:41: qrfile is /var/www/production/ - /var/www/production/qr/3d531cb30af2.png
+2015-10-05 19:00:41: qrfile is /var/www/production/ - /var/www/production/qr/fcedb95231a3.png
+2015-10-05 19:00:41: qrfile is /var/www/production/ - /var/www/production/qr/b10a570866e4.png
+2015-10-05 19:00:41: qrfile is /var/www/production/ - /var/www/production/qr/8469a633cf87.png
+2015-10-05 19:17:14: homepath is  /var/www/production/
+2015-10-05 19:17:14: qrfile is /var/www/production/ - /var/www/production/qr/23d5015626e5.png
+2015-10-05 19:17:14: qrfile is /var/www/production/ - /var/www/production/qr/b24116de49f4.png
+2015-10-05 19:43:45: homepath is  /var/www/production/
+2015-10-05 19:43:45: qrfile is /var/www/production/ - /var/www/production/qr/bbda85dc5d91.png
+2015-10-05 19:43:45: qrfile is /var/www/production/ - /var/www/production/qr/ffc6d2140d51.png
+2015-10-05 20:03:02: homepath is  /var/www/production/
+2015-10-05 20:03:02: qrfile is /var/www/production/ - /var/www/production/qr/1fd3185cbcae.png
+2015-10-05 20:17:54: homepath is  /var/www/production/
+2015-10-05 20:17:54: qrfile is /var/www/production/ - /var/www/production/qr/ecc93b882e5c.png
+2015-10-05 20:17:54: qrfile is /var/www/production/ - /var/www/production/qr/c9d37e538bc0.png
+2015-10-05 20:53:22: homepath is  /var/www/production/
+2015-10-05 20:53:22: qrfile is /var/www/production/ - /var/www/production/qr/1f8df373cb6e.png
+2015-10-05 20:53:22: qrfile is /var/www/production/ - /var/www/production/qr/cd98fa0be7e5.png
+2015-10-05 20:53:22: qrfile is /var/www/production/ - /var/www/production/qr/0eef32fb6bbb.png
+2015-10-05 21:02:01: homepath is  /var/www/production/
+2015-10-05 21:02:01: qrfile is /var/www/production/ - /var/www/production/qr/ff63a8bac771.png
+2015-10-05 21:02:01: qrfile is /var/www/production/ - /var/www/production/qr/b31564aab85a.png
+2015-10-05 21:02:01: qrfile is /var/www/production/ - /var/www/production/qr/9f9825efe4b6.png
+2015-10-05 22:45:34: homepath is  /var/www/production/
+2015-10-05 22:45:34: qrfile is /var/www/production/ - /var/www/production/qr/39b13e0dc0a7.png
+2015-10-05 22:45:34: qrfile is /var/www/production/ - /var/www/production/qr/7ac148501526.png
+2015-10-05 22:45:54: homepath is  /var/www/production/
+2015-10-05 22:45:54: qrfile is /var/www/production/ - /var/www/production/qr/eea9e5061231.png
+2015-10-05 22:45:54: qrfile is /var/www/production/ - /var/www/production/qr/4dd3fb5809f4.png
+2015-10-05 22:52:31: homepath is  /var/www/production/
+2015-10-05 22:52:31: qrfile is /var/www/production/ - /var/www/production/qr/c35155200d55.png
+2015-10-05 22:52:31: qrfile is /var/www/production/ - /var/www/production/qr/45b896b9ccf9.png
+2015-10-05 22:52:31: qrfile is /var/www/production/ - /var/www/production/qr/701f1b919a4e.png
+2015-10-05 22:56:33: homepath is  /var/www/production/
+2015-10-05 22:56:33: qrfile is /var/www/production/ - /var/www/production/qr/af06c2b3df11.png
+2015-10-06 00:50:26: homepath is  /var/www/production/
+2015-10-06 00:50:26: qrfile is /var/www/production/ - /var/www/production/qr/e2d348095d29.png
+2015-10-06 01:15:44: homepath is  /var/www/production/
+2015-10-06 01:15:44: qrfile is /var/www/production/ - /var/www/production/qr/7a68c4f0330a.png
+2015-10-06 03:07:59: homepath is  /var/www/production/
+2015-10-06 03:07:59: qrfile is /var/www/production/ - /var/www/production/qr/0bd5e4f0e227.png
+2015-10-06 03:07:59: qrfile is /var/www/production/ - /var/www/production/qr/a7f666e6a4e4.png
+2015-10-06 03:07:59: qrfile is /var/www/production/ - /var/www/production/qr/a1ca7c06bd17.png
+2015-10-06 03:11:53: homepath is  /var/www/production/
+2015-10-06 03:11:53: qrfile is /var/www/production/ - /var/www/production/qr/a87838a47e14.png
+2015-10-06 03:11:53: qrfile is /var/www/production/ - /var/www/production/qr/80ba282e87f8.png
+2015-10-06 11:25:36: homepath is  /var/www/production/
+2015-10-06 11:25:36: qrfile is /var/www/production/ - /var/www/production/qr/c495a3a13445.png
+2015-10-06 11:25:36: qrfile is /var/www/production/ - /var/www/production/qr/b7c5a6832a59.png
+2015-10-06 12:16:33: homepath is  /var/www/production/
+2015-10-06 12:16:33: qrfile is /var/www/production/ - /var/www/production/qr/111f041eb1d4.png
+2015-10-06 12:16:33: qrfile is /var/www/production/ - /var/www/production/qr/12cb54f602a1.png
+2015-10-06 12:16:33: qrfile is /var/www/production/ - /var/www/production/qr/3a3e9a2c5436.png
+2015-10-06 12:16:33: qrfile is /var/www/production/ - /var/www/production/qr/ac58ad5a802e.png
+2015-10-06 12:31:25: homepath is  /var/www/production/
+2015-10-06 12:31:25: qrfile is /var/www/production/ - /var/www/production/qr/a770bea8d019.png
+2015-10-06 12:31:25: qrfile is /var/www/production/ - /var/www/production/qr/b61aa7595a05.png
+2015-10-06 12:52:43: homepath is  /var/www/production/
+2015-10-06 12:52:43: qrfile is /var/www/production/ - /var/www/production/qr/e197f779f570.png
+2015-10-06 12:52:43: qrfile is /var/www/production/ - /var/www/production/qr/79c481e93808.png
+2015-10-06 13:15:35: homepath is  /var/www/production/
+2015-10-06 13:15:35: qrfile is /var/www/production/ - /var/www/production/qr/f89b4d2bcbfc.png
+2015-10-06 13:15:35: qrfile is /var/www/production/ - /var/www/production/qr/395d7aaf4785.png
+2015-10-06 13:15:35: qrfile is /var/www/production/ - /var/www/production/qr/54c9235c8ec1.png
+2015-10-06 13:16:57: homepath is  /var/www/production/
+2015-10-06 13:16:57: qrfile is /var/www/production/ - /var/www/production/qr/51e7a2a8ac32.png
+2015-10-06 13:16:57: qrfile is /var/www/production/ - /var/www/production/qr/448547c7df37.png
+2015-10-06 13:35:42: homepath is  /var/www/production/
+2015-10-06 13:35:42: qrfile is /var/www/production/ - /var/www/production/qr/09970c5adf68.png
+2015-10-06 13:43:55: homepath is  /var/www/production/
+2015-10-06 13:43:55: qrfile is /var/www/production/ - /var/www/production/qr/e4f42f8d7aaa.png
+2015-10-06 13:43:55: qrfile is /var/www/production/ - /var/www/production/qr/d4396cee98ad.png
+2015-10-06 14:02:11: homepath is  /var/www/production/
+2015-10-06 14:02:11: qrfile is /var/www/production/ - /var/www/production/qr/c08224f17b82.png
+2015-10-06 14:02:11: qrfile is /var/www/production/ - /var/www/production/qr/954a50bfd206.png
+2015-10-06 14:02:11: qrfile is /var/www/production/ - /var/www/production/qr/de7a3ce9192c.png
+2015-10-06 14:02:11: qrfile is /var/www/production/ - /var/www/production/qr/c49b605bcc27.png
+2015-10-06 16:00:39: homepath is  /var/www/production/
+2015-10-06 16:00:39: qrfile is /var/www/production/ - /var/www/production/qr/b8f385a06761.png
+2015-10-06 16:05:40: homepath is  /var/www/production/
+2015-10-06 16:05:40: qrfile is /var/www/production/ - /var/www/production/qr/a71305f2f5c4.png
+2015-10-06 18:38:09: homepath is  /var/www/production/
+2015-10-06 18:38:09: qrfile is /var/www/production/ - /var/www/production/qr/c2064f6e8d68.png
+2015-10-06 18:38:09: qrfile is /var/www/production/ - /var/www/production/qr/b484df1e1015.png
+2015-10-06 18:38:09: qrfile is /var/www/production/ - /var/www/production/qr/2dfa819691e3.png
+2015-10-06 19:16:37: homepath is  /var/www/production/
+2015-10-06 19:16:37: qrfile is /var/www/production/ - /var/www/production/qr/5905078020ab.png
+2015-10-06 20:05:18: homepath is  /var/www/production/
+2015-10-06 20:05:18: qrfile is /var/www/production/ - /var/www/production/qr/aa5c4db094b8.png
+2015-10-06 20:05:18: qrfile is /var/www/production/ - /var/www/production/qr/c4b4dc24b208.png
+2015-10-06 20:05:18: qrfile is /var/www/production/ - /var/www/production/qr/02cce976fd71.png
+2015-10-06 20:17:24: homepath is  /var/www/production/
+2015-10-06 20:17:24: qrfile is /var/www/production/ - /var/www/production/qr/44d107bbfff4.png
+2015-10-06 20:17:24: qrfile is /var/www/production/ - /var/www/production/qr/f9b184145cdb.png
+2015-10-06 20:25:45: homepath is  /var/www/production/
+2015-10-06 20:25:45: qrfile is /var/www/production/ - /var/www/production/qr/b4835a6e557a.png
+2015-10-06 20:39:21: homepath is  /var/www/production/
+2015-10-06 20:39:21: qrfile is /var/www/production/ - /var/www/production/qr/e728da822b53.png
+2015-10-06 23:19:12: homepath is  /var/www/production/
+2015-10-06 23:19:12: qrfile is /var/www/production/ - /var/www/production/qr/c9ef6075e341.png
+2015-10-06 23:19:12: qrfile is /var/www/production/ - /var/www/production/qr/1b3582283bd1.png
+2015-10-06 23:32:42: homepath is  /var/www/production/
+2015-10-06 23:32:42: qrfile is /var/www/production/ - /var/www/production/qr/33465635ed15.png
+2015-10-07 00:24:05: homepath is  /var/www/production/
+2015-10-07 00:24:05: qrfile is /var/www/production/ - /var/www/production/qr/51c02f45d91e.png
+2015-10-07 00:24:05: qrfile is /var/www/production/ - /var/www/production/qr/fc8cc3395061.png
+2015-10-07 00:24:05: qrfile is /var/www/production/ - /var/www/production/qr/b3a96dac0c18.png
+2015-10-07 01:07:34: homepath is  /var/www/production/
+2015-10-07 01:07:34: qrfile is /var/www/production/ - /var/www/production/qr/cd4935409b98.png
+2015-10-07 01:07:34: qrfile is /var/www/production/ - /var/www/production/qr/48346993af95.png
+2015-10-07 01:07:34: qrfile is /var/www/production/ - /var/www/production/qr/7aea09a05eda.png
+2015-10-07 01:07:34: qrfile is /var/www/production/ - /var/www/production/qr/ddb0be1f697e.png
+2015-10-07 01:16:58: homepath is  /var/www/production/
+2015-10-07 01:16:58: qrfile is /var/www/production/ - /var/www/production/qr/7f5ad2441547.png
+2015-10-07 01:17:53: homepath is  /var/www/production/
+2015-10-07 01:17:53: qrfile is /var/www/production/ - /var/www/production/qr/9ad918dc89ed.png
+2015-10-07 01:17:53: qrfile is /var/www/production/ - /var/www/production/qr/559cd0bc2418.png
+2015-10-07 02:06:35: homepath is  /var/www/production/
+2015-10-07 02:06:35: qrfile is /var/www/production/ - /var/www/production/qr/cb41d8d89323.png
+2015-10-07 02:06:35: qrfile is /var/www/production/ - /var/www/production/qr/020e23c416d8.png
+2015-10-07 02:06:35: qrfile is /var/www/production/ - /var/www/production/qr/1395d7501933.png
+2015-10-07 02:06:35: qrfile is /var/www/production/ - /var/www/production/qr/4dbe6982cebd.png
+2015-10-07 03:56:26: homepath is  /var/www/production/
+2015-10-07 03:56:26: qrfile is /var/www/production/ - /var/www/production/qr/a8c4a3ed6eeb.png
+2015-10-07 12:54:08: homepath is  /var/www/production/
+2015-10-07 12:54:08: qrfile is /var/www/production/ - /var/www/production/qr/dbfbf009ca34.png
+2015-10-07 13:04:55: homepath is  /var/www/production/
+2015-10-07 13:04:55: qrfile is /var/www/production/ - /var/www/production/qr/388f777493fa.png
+2015-10-07 13:04:55: qrfile is /var/www/production/ - /var/www/production/qr/b7550e4c7fdc.png
+2015-10-07 14:03:07: homepath is  /var/www/production/
+2015-10-07 14:03:07: qrfile is /var/www/production/ - /var/www/production/qr/dee475397498.png
+2015-10-07 14:21:59: homepath is  /var/www/production/
+2015-10-07 14:21:59: qrfile is /var/www/production/ - /var/www/production/qr/74aa42012d04.png
+2015-10-07 17:42:24: homepath is  /var/www/production/
+2015-10-07 17:42:24: qrfile is /var/www/production/ - /var/www/production/qr/bd273877b623.png
+2015-10-07 17:42:24: qrfile is /var/www/production/ - /var/www/production/qr/4786ffa8f25c.png
+2015-10-07 17:42:24: qrfile is /var/www/production/ - /var/www/production/qr/866ca8bb4943.png
+2015-10-07 17:42:24: qrfile is /var/www/production/ - /var/www/production/qr/b4a4d4b11051.png
+2015-10-07 17:42:24: qrfile is /var/www/production/ - /var/www/production/qr/0d697fe91e8d.png
+2015-10-07 18:16:30: homepath is  /var/www/production/
+2015-10-07 18:16:30: qrfile is /var/www/production/ - /var/www/production/qr/e13a0a53a764.png
+2015-10-07 18:31:12: homepath is  /var/www/production/
+2015-10-07 18:31:12: qrfile is /var/www/production/ - /var/www/production/qr/964fa71ff387.png
+2015-10-07 18:31:12: qrfile is /var/www/production/ - /var/www/production/qr/c57faed6704e.png
+2015-10-07 18:31:12: qrfile is /var/www/production/ - /var/www/production/qr/374ff11a615f.png
+2015-10-07 19:28:22: homepath is  /var/www/production/
+2015-10-07 19:28:22: qrfile is /var/www/production/ - /var/www/production/qr/6bd768c394bf.png
+2015-10-07 19:28:22: qrfile is /var/www/production/ - /var/www/production/qr/c89b50c53192.png
+2015-10-07 19:35:01: homepath is  /var/www/production/
+2015-10-07 19:35:01: qrfile is /var/www/production/ - /var/www/production/qr/0019eb4a66cb.png
+2015-10-07 19:35:01: qrfile is /var/www/production/ - /var/www/production/qr/ae8b8262fb4e.png
+2015-10-07 19:54:28: homepath is  /var/www/production/
+2015-10-07 19:54:28: qrfile is /var/www/production/ - /var/www/production/qr/d01ed9255dfd.png
+2015-10-07 19:54:28: qrfile is /var/www/production/ - /var/www/production/qr/45a7025c43e3.png
+2015-10-07 21:14:43: homepath is  /var/www/production/
+2015-10-07 21:14:43: qrfile is /var/www/production/ - /var/www/production/qr/734886829e4e.png
+2015-10-07 22:35:27: homepath is  /var/www/production/
+2015-10-07 22:35:27: qrfile is /var/www/production/ - /var/www/production/qr/9bfa15a1b9a6.png
+2015-10-07 22:35:27: qrfile is /var/www/production/ - /var/www/production/qr/36ee61065acd.png
+2015-10-07 22:41:09: homepath is  /var/www/production/
+2015-10-07 22:41:09: qrfile is /var/www/production/ - /var/www/production/qr/c1c598971e59.png
+2015-10-07 22:41:09: qrfile is /var/www/production/ - /var/www/production/qr/9ea0b7999f1b.png
+2015-10-07 23:52:38: homepath is  /var/www/production/
+2015-10-07 23:52:38: qrfile is /var/www/production/ - /var/www/production/qr/21785172b981.png
+2015-10-08 00:05:18: homepath is  /var/www/production/
+2015-10-08 00:05:18: qrfile is /var/www/production/ - /var/www/production/qr/bb76d9c1b814.png
+2015-10-08 00:27:19: homepath is  /var/www/production/
+2015-10-08 00:27:19: qrfile is /var/www/production/ - /var/www/production/qr/7cbdd3201ba4.png
+2015-10-08 00:27:19: qrfile is /var/www/production/ - /var/www/production/qr/9e0b4624e51c.png
+2015-10-08 00:30:41: homepath is  /var/www/production/
+2015-10-08 00:30:41: qrfile is /var/www/production/ - /var/www/production/qr/7d976c51798a.png
+2015-10-08 00:36:14: homepath is  /var/www/production/
+2015-10-08 00:36:14: qrfile is /var/www/production/ - /var/www/production/qr/63a51a5c09a7.png
+2015-10-08 00:36:14: qrfile is /var/www/production/ - /var/www/production/qr/2c62b037834d.png
+2015-10-08 00:36:14: qrfile is /var/www/production/ - /var/www/production/qr/5165728da27b.png
+2015-10-08 02:28:27: homepath is  /var/www/production/
+2015-10-08 02:28:27: qrfile is /var/www/production/ - /var/www/production/qr/f90b3b61644c.png
+2015-10-08 02:28:27: qrfile is /var/www/production/ - /var/www/production/qr/f27a0fe75db6.png
+2015-10-08 04:35:51: homepath is  /var/www/production/
+2015-10-08 04:35:51: qrfile is /var/www/production/ - /var/www/production/qr/9c6eda38620c.png
+2015-10-08 04:39:16: homepath is  /var/www/production/
+2015-10-08 04:39:16: qrfile is /var/www/production/ - /var/www/production/qr/30b34ee0a65b.png
+2015-10-08 05:54:50: homepath is  /var/www/production/
+2015-10-08 05:54:50: qrfile is /var/www/production/ - /var/www/production/qr/6920e1f1e14a.png
+2015-10-08 05:54:50: qrfile is /var/www/production/ - /var/www/production/qr/a876ed43681b.png
+2015-10-08 07:18:47: homepath is  /var/www/production/
+2015-10-08 07:18:47: qrfile is /var/www/production/ - /var/www/production/qr/06f5ae9e3d88.png
+2015-10-08 12:09:12: homepath is  /var/www/production/
+2015-10-08 12:09:12: qrfile is /var/www/production/ - /var/www/production/qr/e28e7957a3c5.png
+2015-10-08 12:09:12: qrfile is /var/www/production/ - /var/www/production/qr/3fa1d633fe41.png
+2015-10-08 13:41:39: homepath is  /var/www/production/
+2015-10-08 13:41:39: qrfile is /var/www/production/ - /var/www/production/qr/1926a8acbb84.png
+2015-10-08 13:43:23: homepath is  /var/www/production/
+2015-10-08 13:43:23: qrfile is /var/www/production/ - /var/www/production/qr/4ce89c147713.png
+2015-10-08 14:33:10: homepath is  /var/www/production/
+2015-10-08 14:33:10: qrfile is /var/www/production/ - /var/www/production/qr/d7ded3498204.png
+2015-10-08 14:33:10: qrfile is /var/www/production/ - /var/www/production/qr/20f32b860d72.png
+2015-10-08 14:33:10: qrfile is /var/www/production/ - /var/www/production/qr/2de03b748fd3.png
+2015-10-08 14:33:10: qrfile is /var/www/production/ - /var/www/production/qr/ae18749dd44f.png
+2015-10-08 14:42:03: homepath is  /var/www/production/
+2015-10-08 14:42:03: qrfile is /var/www/production/ - /var/www/production/qr/c4b8eff1f6b4.png
+2015-10-08 14:42:03: qrfile is /var/www/production/ - /var/www/production/qr/1eebe0bcfa60.png
+2015-10-08 14:42:41: homepath is  /var/www/production/
+2015-10-08 14:42:41: qrfile is /var/www/production/ - /var/www/production/qr/c2f0398c48f1.png
+2015-10-08 14:43:28: homepath is  /var/www/production/
+2015-10-08 14:43:28: qrfile is /var/www/production/ - /var/www/production/qr/ad60ac335ec2.png
+2015-10-08 14:54:03: homepath is  /var/www/production/
+2015-10-08 14:54:03: qrfile is /var/www/production/ - /var/www/production/qr/64392541b427.png
+2015-10-08 15:21:31: homepath is  /var/www/production/
+2015-10-08 15:21:31: qrfile is /var/www/production/ - /var/www/production/qr/b7ca43ae5d25.png
+2015-10-08 15:21:31: qrfile is /var/www/production/ - /var/www/production/qr/b037a190cb28.png
+2015-10-08 15:39:13: homepath is  /var/www/production/
+2015-10-08 15:39:13: qrfile is /var/www/production/ - /var/www/production/qr/b999daa84ba3.png
+2015-10-08 15:39:13: qrfile is /var/www/production/ - /var/www/production/qr/2e14537b334e.png
+2015-10-08 15:39:13: qrfile is /var/www/production/ - /var/www/production/qr/61fc914b8dc6.png
+2015-10-08 15:55:51: homepath is  /var/www/production/
+2015-10-08 15:55:51: qrfile is /var/www/production/ - /var/www/production/qr/cc2f63b0d80e.png
+2015-10-08 17:49:44: homepath is  /var/www/production/
+2015-10-08 17:49:44: qrfile is /var/www/production/ - /var/www/production/qr/a37796b20e21.png
+2015-10-08 18:44:41: homepath is  /var/www/production/
+2015-10-08 18:44:41: qrfile is /var/www/production/ - /var/www/production/qr/abca03039fcc.png
+2015-10-08 18:44:41: qrfile is /var/www/production/ - /var/www/production/qr/a8b093d4ef41.png
+2015-10-08 19:03:04: homepath is  /var/www/production/
+2015-10-08 19:03:04: qrfile is /var/www/production/ - /var/www/production/qr/b0198881a162.png
+2015-10-08 19:36:33: homepath is  /var/www/production/
+2015-10-08 19:36:33: qrfile is /var/www/production/ - /var/www/production/qr/cded21a86c50.png
+2015-10-08 20:52:00: homepath is  /var/www/production/
+2015-10-08 20:52:00: qrfile is /var/www/production/ - /var/www/production/qr/e28a40195d01.png
+2015-10-08 20:56:21: homepath is  /var/www/production/
+2015-10-08 20:56:21: qrfile is /var/www/production/ - /var/www/production/qr/93a98ca0ad2e.png
+2015-10-08 20:56:21: qrfile is /var/www/production/ - /var/www/production/qr/774ddbaad444.png
+2015-10-08 21:00:52: homepath is  /var/www/production/
+2015-10-08 21:00:52: qrfile is /var/www/production/ - /var/www/production/qr/23afbe71c5d2.png
+2015-10-08 21:00:52: qrfile is /var/www/production/ - /var/www/production/qr/1d6b22e6293e.png
+2015-10-08 21:14:36: homepath is  /var/www/production/
+2015-10-08 21:14:36: qrfile is /var/www/production/ - /var/www/production/qr/dc715d50b97e.png
+2015-10-08 21:17:35: homepath is  /var/www/production/
+2015-10-08 21:17:35: qrfile is /var/www/production/ - /var/www/production/qr/ac6779e64457.png
+2015-10-08 21:24:58: homepath is  /var/www/production/
+2015-10-08 21:24:58: qrfile is /var/www/production/ - /var/www/production/qr/5182acadcc6f.png
+2015-10-08 21:24:58: qrfile is /var/www/production/ - /var/www/production/qr/469e07454bcb.png
+2015-10-08 21:26:16: homepath is  /var/www/production/
+2015-10-08 21:26:27: homepath is  /var/www/production/
+2015-10-08 21:26:54: homepath is  /var/www/production/
+2015-10-08 21:26:54: qrfile is /var/www/production/ - /var/www/production/qr/b578ecbc9802.png
+2015-10-08 21:26:54: qrfile is /var/www/production/ - /var/www/production/qr/c64818e401b1.png
+2015-10-08 21:55:49: homepath is  /var/www/production/
+2015-10-08 21:55:49: qrfile is /var/www/production/ - /var/www/production/qr/9a8245d44928.png
+2015-10-08 22:04:44: homepath is  /var/www/production/
+2015-10-08 22:04:44: qrfile is /var/www/production/ - /var/www/production/qr/d48482d1de80.png
+2015-10-08 22:32:15: homepath is  /var/www/production/
+2015-10-08 22:32:15: qrfile is /var/www/production/ - /var/www/production/qr/7abadab2c273.png
+2015-10-08 22:32:15: qrfile is /var/www/production/ - /var/www/production/qr/d741d044fe2c.png
+2015-10-09 00:44:12: homepath is  /var/www/production/
+2015-10-09 00:44:12: qrfile is /var/www/production/ - /var/www/production/qr/742219cd806b.png
+2015-10-09 01:44:35: homepath is  /var/www/production/
+2015-10-09 01:44:35: qrfile is /var/www/production/ - /var/www/production/qr/8a6c2abb5278.png
+2015-10-09 02:02:54: homepath is  /var/www/production/
+2015-10-09 02:02:54: qrfile is /var/www/production/ - /var/www/production/qr/b996101b3b11.png
+2015-10-09 02:02:54: qrfile is /var/www/production/ - /var/www/production/qr/c029c1ff2fa5.png
+2015-10-09 02:50:55: homepath is  /var/www/production/
+2015-10-09 02:50:55: qrfile is /var/www/production/ - /var/www/production/qr/c6db3d2db2ac.png
+2015-10-09 03:09:55: homepath is  /var/www/production/
+2015-10-09 03:09:55: qrfile is /var/www/production/ - /var/www/production/qr/a8e86b2ee840.png
+2015-10-09 03:10:37: homepath is  /var/www/production/
+2015-10-09 03:10:37: qrfile is /var/www/production/ - /var/www/production/qr/ab9399e474db.png
+2015-10-09 03:10:37: qrfile is /var/www/production/ - /var/www/production/qr/74908235426c.png
+2015-10-09 03:10:37: qrfile is /var/www/production/ - /var/www/production/qr/15e64c046f4e.png
+2015-10-09 03:31:21: homepath is  /var/www/production/
+2015-10-09 03:31:21: qrfile is /var/www/production/ - /var/www/production/qr/8d1ed2213c8d.png
+2015-10-09 03:56:36: homepath is  /var/www/production/
+2015-10-09 03:56:36: qrfile is /var/www/production/ - /var/www/production/qr/30cb39f64dfe.png
+2015-10-09 03:56:36: qrfile is /var/www/production/ - /var/www/production/qr/e1574ed733dc.png
+2015-10-09 04:02:43: homepath is  /var/www/production/
+2015-10-09 04:02:43: qrfile is /var/www/production/ - /var/www/production/qr/eb580ce74f84.png
+2015-10-09 04:02:43: qrfile is /var/www/production/ - /var/www/production/qr/b60317994a2f.png
+2015-10-09 04:02:43: qrfile is /var/www/production/ - /var/www/production/qr/8f41b801ff57.png
+2015-10-09 04:04:32: homepath is  /var/www/production/
+2015-10-09 04:04:32: qrfile is /var/www/production/ - /var/www/production/qr/132fb8596892.png
+2015-10-09 04:04:32: qrfile is /var/www/production/ - /var/www/production/qr/dfcd3db2a045.png
+2015-10-09 04:04:32: qrfile is /var/www/production/ - /var/www/production/qr/6418cd0049b7.png
+2015-10-09 04:05:28: homepath is  /var/www/production/
+2015-10-09 04:05:28: qrfile is /var/www/production/ - /var/www/production/qr/4c1bb108c70c.png
+2015-10-09 04:06:45: homepath is  /var/www/production/
+2015-10-09 04:06:45: qrfile is /var/www/production/ - /var/www/production/qr/37eabc8c37f9.png
+2015-10-09 04:07:44: homepath is  /var/www/production/
+2015-10-09 04:07:44: qrfile is /var/www/production/ - /var/www/production/qr/2f89f5641837.png
+2015-10-09 04:07:44: qrfile is /var/www/production/ - /var/www/production/qr/db881871f269.png
+2015-10-09 04:07:44: qrfile is /var/www/production/ - /var/www/production/qr/7c941ccc57f3.png
+2015-10-09 04:29:28: homepath is  /var/www/production/
+2015-10-09 04:29:28: qrfile is /var/www/production/ - /var/www/production/qr/b1cd943031d1.png
+2015-10-09 04:30:25: homepath is  /var/www/production/
+2015-10-09 04:30:25: qrfile is /var/www/production/ - /var/www/production/qr/694b904cb3f6.png
+2015-10-09 04:30:25: qrfile is /var/www/production/ - /var/www/production/qr/14de3e9c5170.png
+2015-10-09 04:47:01: homepath is  /var/www/production/
+2015-10-09 04:47:01: qrfile is /var/www/production/ - /var/www/production/qr/d6de002ca164.png
+2015-10-09 04:58:33: homepath is  /var/www/production/
+2015-10-09 04:58:33: qrfile is /var/www/production/ - /var/www/production/qr/e93145dcd97e.png
+2015-10-09 05:29:01: homepath is  /var/www/production/
+2015-10-09 05:29:01: qrfile is /var/www/production/ - /var/www/production/qr/f94e593d38fd.png
+2015-10-09 05:29:01: qrfile is /var/www/production/ - /var/www/production/qr/9d2e432b6b4b.png
+2015-10-09 11:07:50: homepath is  /var/www/production/
+2015-10-09 11:07:50: qrfile is /var/www/production/ - /var/www/production/qr/362fdd0a1ab6.png
+2015-10-09 11:07:50: qrfile is /var/www/production/ - /var/www/production/qr/cfea5c46c69a.png
+2015-10-09 11:07:50: qrfile is /var/www/production/ - /var/www/production/qr/708ecefc5ed3.png
+2015-10-09 11:07:50: qrfile is /var/www/production/ - /var/www/production/qr/0d603df1501b.png
+2015-10-09 13:05:25: homepath is  /var/www/production/
+2015-10-09 13:05:25: qrfile is /var/www/production/ - /var/www/production/qr/cbbc44487aae.png
+2015-10-09 13:19:48: homepath is  /var/www/production/
+2015-10-09 13:19:48: qrfile is /var/www/production/ - /var/www/production/qr/0cb1bdf9e122.png
+2015-10-09 13:19:48: qrfile is /var/www/production/ - /var/www/production/qr/8a89bbf78398.png
+2015-10-09 14:22:07: homepath is  /var/www/production/
+2015-10-09 14:22:07: qrfile is /var/www/production/ - /var/www/production/qr/ecfe010d1720.png
+2015-10-09 14:22:38: homepath is  /var/www/production/
+2015-10-09 14:22:38: qrfile is /var/www/production/ - /var/www/production/qr/55e4b5024d2b.png
+2015-10-09 14:23:53: homepath is  /var/www/production/
+2015-10-09 14:23:53: qrfile is /var/www/production/ - /var/www/production/qr/da17596eabb8.png
+2015-10-09 14:23:53: qrfile is /var/www/production/ - /var/www/production/qr/5d41ff85f369.png
+2015-10-09 14:23:53: qrfile is /var/www/production/ - /var/www/production/qr/05ca4a817f17.png
+2015-10-09 14:56:26: homepath is  /var/www/production/
+2015-10-09 14:56:26: qrfile is /var/www/production/ - /var/www/production/qr/b7fdcbbbaba8.png
+2015-10-09 14:56:26: qrfile is /var/www/production/ - /var/www/production/qr/c2d91e263a7e.png
+2015-10-09 15:08:42: homepath is  /var/www/production/
+2015-10-09 15:08:42: qrfile is /var/www/production/ - /var/www/production/qr/87b4581a363c.png
+2015-10-09 17:07:21: homepath is  /var/www/production/
+2015-10-09 17:07:21: qrfile is /var/www/production/ - /var/www/production/qr/2020736a624f.png
+2015-10-09 17:09:47: homepath is  /var/www/production/
+2015-10-09 17:09:47: qrfile is /var/www/production/ - /var/www/production/qr/8cccf3a189f3.png
+2015-10-09 17:09:47: qrfile is /var/www/production/ - /var/www/production/qr/b8c28343a83b.png
+2015-10-09 17:39:21: homepath is  /var/www/production/
+2015-10-09 17:39:21: qrfile is /var/www/production/ - /var/www/production/qr/60d16b4c7123.png
+2015-10-09 17:47:38: homepath is  /var/www/production/
+2015-10-09 17:47:38: qrfile is /var/www/production/ - /var/www/production/qr/142cdc2ab6db.png
+2015-10-09 17:47:38: qrfile is /var/www/production/ - /var/www/production/qr/254c5f223680.png
+2015-10-09 17:47:38: qrfile is /var/www/production/ - /var/www/production/qr/974f5c082734.png
+2015-10-09 18:03:03: homepath is  /var/www/production/
+2015-10-09 18:03:03: qrfile is /var/www/production/ - /var/www/production/qr/7aee2960b13a.png
+2015-10-09 18:36:19: homepath is  /var/www/production/
+2015-10-09 18:36:19: qrfile is /var/www/production/ - /var/www/production/qr/43dc1cec6e9a.png
+2015-10-09 18:39:23: homepath is  /var/www/production/
+2015-10-09 18:52:25: homepath is  /var/www/production/
+2015-10-09 18:52:25: qrfile is /var/www/production/ - /var/www/production/qr/6aa87c0f6e86.png
+2015-10-09 18:52:25: qrfile is /var/www/production/ - /var/www/production/qr/b05d0f7fd1f0.png
+2015-10-09 18:55:08: homepath is  /var/www/production/
+2015-10-09 19:07:17: homepath is  /var/www/production/
+2015-10-09 19:07:17: qrfile is /var/www/production/ - /var/www/production/qr/6fcfb19eb2a2.png
+2015-10-09 19:07:17: qrfile is /var/www/production/ - /var/www/production/qr/fa38f7525163.png
+2015-10-09 19:28:14: homepath is  /var/www/production/
+2015-10-09 19:28:14: qrfile is /var/www/production/ - /var/www/production/qr/e4424bf4110c.png
+2015-10-09 19:28:14: qrfile is /var/www/production/ - /var/www/production/qr/1581e9949797.png
+2015-10-09 19:58:52: homepath is  /var/www/production/
+2015-10-09 19:58:52: qrfile is /var/www/production/ - /var/www/production/qr/6308d3b98f6f.png
+2015-10-09 19:58:52: qrfile is /var/www/production/ - /var/www/production/qr/84c3230e2e46.png
+2015-10-09 19:58:52: qrfile is /var/www/production/ - /var/www/production/qr/6c7de0d682c3.png
+2015-10-09 20:02:59: homepath is  /var/www/production/
+2015-10-09 20:02:59: qrfile is /var/www/production/ - /var/www/production/qr/ea17ad787817.png
+2015-10-09 20:02:59: qrfile is /var/www/production/ - /var/www/production/qr/f0f8593a4b7e.png
+2015-10-09 20:17:26: homepath is  /var/www/production/
+2015-10-09 20:17:26: qrfile is /var/www/production/ - /var/www/production/qr/8c1997306f2f.png
+2015-10-09 20:17:26: qrfile is /var/www/production/ - /var/www/production/qr/4c662c57e706.png
+2015-10-09 21:00:51: homepath is  /var/www/production/
+2015-10-09 21:02:03: homepath is  /var/www/production/
+2015-10-09 21:02:03: qrfile is /var/www/production/ - /var/www/production/qr/906959fd3838.png
+2015-10-09 21:02:03: qrfile is /var/www/production/ - /var/www/production/qr/ad240c2a1d41.png
+2015-10-09 21:02:03: qrfile is /var/www/production/ - /var/www/production/qr/d41c36a97f83.png
+2015-10-09 21:02:03: qrfile is /var/www/production/ - /var/www/production/qr/54c22daa52c7.png
+2015-10-09 21:03:07: homepath is  /var/www/production/
+2015-10-09 21:03:07: qrfile is /var/www/production/ - /var/www/production/qr/6030a5987e53.png
+2015-10-09 21:03:50: homepath is  /var/www/production/
+2015-10-09 21:03:50: qrfile is /var/www/production/ - /var/www/production/qr/1ea23aa19f6e.png
+2015-10-09 22:21:05: homepath is  /var/www/production/
+2015-10-09 22:21:05: qrfile is /var/www/production/ - /var/www/production/qr/e9019686aa30.png
+2015-10-09 22:21:05: qrfile is /var/www/production/ - /var/www/production/qr/d6a80f77e078.png
+2015-10-09 22:26:08: homepath is  /var/www/production/
+2015-10-09 22:26:08: qrfile is /var/www/production/ - /var/www/production/qr/bb95b8e64169.png
+2015-10-09 22:26:08: qrfile is /var/www/production/ - /var/www/production/qr/cf36238c4b61.png
+2015-10-09 22:26:08: qrfile is /var/www/production/ - /var/www/production/qr/1bbec78646f8.png
+2015-10-09 22:37:53: homepath is  /var/www/production/
+2015-10-09 22:37:53: qrfile is /var/www/production/ - /var/www/production/qr/ebb90eb2c17a.png
+2015-10-09 22:37:53: qrfile is /var/www/production/ - /var/www/production/qr/d7a55a000547.png
+2015-10-09 23:35:13: homepath is  /var/www/production/
+2015-10-09 23:35:13: qrfile is /var/www/production/ - /var/www/production/qr/b6f709eca3f1.png
+2015-10-09 23:35:13: qrfile is /var/www/production/ - /var/www/production/qr/8a5464a30fcb.png
+2015-10-09 23:41:14: homepath is  /var/www/production/
+2015-10-09 23:41:14: qrfile is /var/www/production/ - /var/www/production/qr/e3864989a787.png
+2015-10-09 23:41:14: qrfile is /var/www/production/ - /var/www/production/qr/1ec9e53c94fc.png
+2015-10-10 12:24:03: homepath is  /var/www/production/
+2015-10-10 12:24:03: qrfile is /var/www/production/ - /var/www/production/qr/00ffb6327b53.png
+2015-10-10 12:24:03: qrfile is /var/www/production/ - /var/www/production/qr/9a20dce59ff6.png
+2015-10-10 12:24:03: qrfile is /var/www/production/ - /var/www/production/qr/696184859960.png
+2015-10-10 12:24:03: qrfile is /var/www/production/ - /var/www/production/qr/3ca0352a84fe.png
+2015-10-10 12:24:04: qrfile is /var/www/production/ - /var/www/production/qr/ec777a17ce0b.png
+2015-10-10 13:12:13: homepath is  /var/www/production/
+2015-10-10 13:12:13: qrfile is /var/www/production/ - /var/www/production/qr/4052047068b2.png
+2015-10-10 13:12:13: qrfile is /var/www/production/ - /var/www/production/qr/cc0bdc5b8d0b.png
+2015-10-10 13:12:13: qrfile is /var/www/production/ - /var/www/production/qr/cff2b35a58e4.png
+2015-10-10 20:03:21: homepath is  /var/www/production/
+2015-10-10 20:03:21: qrfile is /var/www/production/ - /var/www/production/qr/fafd6f59deff.png
+2015-10-10 20:03:21: qrfile is /var/www/production/ - /var/www/production/qr/30556fde1a27.png
+2015-10-10 20:03:21: qrfile is /var/www/production/ - /var/www/production/qr/8430858170b4.png
+2015-10-10 20:03:21: qrfile is /var/www/production/ - /var/www/production/qr/51031f8276e5.png
+2015-10-10 20:03:21: qrfile is /var/www/production/ - /var/www/production/qr/6ab1e79a0ddb.png
+2015-10-10 21:25:15: homepath is  /var/www/production/
+2015-10-10 21:25:15: qrfile is /var/www/production/ - /var/www/production/qr/dd794482428d.png
+2015-10-10 21:25:15: qrfile is /var/www/production/ - /var/www/production/qr/2a627dd1febb.png
+2015-10-11 00:13:11: homepath is  /var/www/production/
+2015-10-11 00:13:11: qrfile is /var/www/production/ - /var/www/production/qr/69cf3d223ccd.png
+2015-10-11 00:13:11: qrfile is /var/www/production/ - /var/www/production/qr/da871a122f63.png
+2015-10-11 00:13:11: qrfile is /var/www/production/ - /var/www/production/qr/60919f1134b9.png
+2015-10-11 01:02:04: homepath is  /var/www/production/
+2015-10-11 01:02:04: qrfile is /var/www/production/ - /var/www/production/qr/8de9db8159d1.png
+2015-10-11 01:02:04: qrfile is /var/www/production/ - /var/www/production/qr/2b5df68dd69a.png
+2015-10-11 01:02:04: qrfile is /var/www/production/ - /var/www/production/qr/f9ae605dfac4.png
+2015-10-11 01:02:04: qrfile is /var/www/production/ - /var/www/production/qr/82b3cef06849.png
+2015-10-11 02:06:38: homepath is  /var/www/production/
+2015-10-11 02:06:38: qrfile is /var/www/production/ - /var/www/production/qr/c75a2186082a.png
+2015-10-11 02:06:38: qrfile is /var/www/production/ - /var/www/production/qr/6c65de503ee3.png
+2015-10-11 02:06:38: qrfile is /var/www/production/ - /var/www/production/qr/82413502428d.png
+2015-10-11 02:06:38: qrfile is /var/www/production/ - /var/www/production/qr/9a980b0136a0.png
+2015-10-11 02:37:30: homepath is  /var/www/production/
+2015-10-11 02:37:30: qrfile is /var/www/production/ - /var/www/production/qr/223d63d07d4d.png
+2015-10-11 02:37:30: qrfile is /var/www/production/ - /var/www/production/qr/b9a6288790de.png
+2015-10-11 22:11:35: homepath is  /var/www/production/
+2015-10-11 22:11:35: qrfile is /var/www/production/ - /var/www/production/qr/c099e22664c9.png
+2015-10-11 22:11:35: qrfile is /var/www/production/ - /var/www/production/qr/17544d2b19a9.png
+2015-10-11 22:11:35: qrfile is /var/www/production/ - /var/www/production/qr/c31558682286.png
+2015-10-11 22:11:35: qrfile is /var/www/production/ - /var/www/production/qr/c38348420bc0.png
+2015-10-11 22:38:39: homepath is  /var/www/production/
+2015-10-11 22:38:39: qrfile is /var/www/production/ - /var/www/production/qr/f7a17a1d0db5.png
+2015-10-11 22:38:39: qrfile is /var/www/production/ - /var/www/production/qr/ebb31ca71e20.png
+2015-10-12 01:42:52: homepath is  /var/www/production/
+2015-10-12 01:42:52: qrfile is /var/www/production/ - /var/www/production/qr/52a1ca639390.png
+2015-10-12 12:21:09: homepath is  /var/www/production/
+2015-10-12 12:21:09: qrfile is /var/www/production/ - /var/www/production/qr/d04311ec4469.png
+2015-10-12 12:21:09: qrfile is /var/www/production/ - /var/www/production/qr/4ba9674640f2.png
+2015-10-12 12:21:09: qrfile is /var/www/production/ - /var/www/production/qr/9e0589cc0c26.png
+2015-10-12 12:21:09: qrfile is /var/www/production/ - /var/www/production/qr/bc2bda8755cb.png
+2015-10-12 13:40:15: homepath is  /var/www/production/
+2015-10-12 13:40:15: qrfile is /var/www/production/ - /var/www/production/qr/a21a332795f8.png
+2015-10-12 13:40:15: qrfile is /var/www/production/ - /var/www/production/qr/7959e87a229f.png
+2015-10-12 16:09:31: homepath is  /var/www/production/
+2015-10-12 16:09:31: qrfile is /var/www/production/ - /var/www/production/qr/d0fc8dcaff70.png
+2015-10-12 16:09:31: qrfile is /var/www/production/ - /var/www/production/qr/642129dce788.png
+2015-10-12 16:09:31: qrfile is /var/www/production/ - /var/www/production/qr/d4d257293dcd.png
+2015-10-12 16:27:17: homepath is  /var/www/production/
+2015-10-12 16:27:17: qrfile is /var/www/production/ - /var/www/production/qr/f24c53ee6090.png
+2015-10-12 16:27:17: qrfile is /var/www/production/ - /var/www/production/qr/648cccd6fcea.png
+2015-10-12 16:27:17: qrfile is /var/www/production/ - /var/www/production/qr/8b955cc59001.png
+2015-10-12 16:41:54: homepath is  /var/www/production/
+2015-10-12 16:41:54: qrfile is /var/www/production/ - /var/www/production/qr/b3890f02c46c.png
+2015-10-12 16:41:54: qrfile is /var/www/production/ - /var/www/production/qr/645353d11872.png
+2015-10-12 17:30:00: homepath is  /var/www/production/
+2015-10-12 17:30:00: qrfile is /var/www/production/ - /var/www/production/qr/fab65aad5c15.png
+2015-10-12 17:30:00: qrfile is /var/www/production/ - /var/www/production/qr/b9aaa9bf8a8f.png
+2015-10-12 18:01:26: homepath is  /var/www/production/
+2015-10-12 18:01:26: qrfile is /var/www/production/ - /var/www/production/qr/102ec68def71.png
+2015-10-12 18:01:26: qrfile is /var/www/production/ - /var/www/production/qr/aca637107b1b.png
+2015-10-12 18:01:26: qrfile is /var/www/production/ - /var/www/production/qr/c9d344ac934e.png
+2015-10-12 19:52:51: homepath is  /var/www/production/
+2015-10-12 19:52:51: qrfile is /var/www/production/ - /var/www/production/qr/84be2ea5c8b4.png
+2015-10-12 20:20:34: homepath is  /var/www/production/
+2015-10-12 20:20:34: qrfile is /var/www/production/ - /var/www/production/qr/4e59025a5f91.png
+2015-10-12 21:21:26: homepath is  /var/www/production/
+2015-10-12 21:21:26: qrfile is /var/www/production/ - /var/www/production/qr/73167aed18e9.png
+2015-10-12 21:21:26: qrfile is /var/www/production/ - /var/www/production/qr/6789c1d9c6b9.png
+2015-10-13 00:58:10: homepath is  /var/www/production/
+2015-10-13 00:58:10: qrfile is /var/www/production/ - /var/www/production/qr/89b5c702d3c0.png
+2015-10-13 02:26:26: homepath is  /var/www/production/
+2015-10-13 02:26:26: qrfile is /var/www/production/ - /var/www/production/qr/eb836d257422.png
+2015-10-13 02:26:26: qrfile is /var/www/production/ - /var/www/production/qr/37a00d989a7c.png
+2015-10-13 02:26:26: qrfile is /var/www/production/ - /var/www/production/qr/e80824b4cbd6.png
+2015-10-13 05:24:23: homepath is  /var/www/production/
+2015-10-13 05:24:23: qrfile is /var/www/production/ - /var/www/production/qr/306501badb8c.png
+2015-10-13 05:24:23: qrfile is /var/www/production/ - /var/www/production/qr/5cb5935a669b.png
+2015-10-13 14:14:12: homepath is  /var/www/production/
+2015-10-13 14:14:12: qrfile is /var/www/production/ - /var/www/production/qr/7d43339fd62a.png
+2015-10-13 14:14:12: qrfile is /var/www/production/ - /var/www/production/qr/e49b2a03e232.png
+2015-10-13 14:14:12: qrfile is /var/www/production/ - /var/www/production/qr/223d78a3dee9.png
+2015-10-13 14:19:49: homepath is  /var/www/production/
+2015-10-13 14:19:49: qrfile is /var/www/production/ - /var/www/production/qr/297b7153f31a.png
+2015-10-13 14:19:49: qrfile is /var/www/production/ - /var/www/production/qr/766095a99521.png
+2015-10-13 14:19:49: qrfile is /var/www/production/ - /var/www/production/qr/f4dcc06a7b49.png
+2015-10-13 16:01:44: homepath is  /var/www/production/
+2015-10-13 16:01:44: qrfile is /var/www/production/ - /var/www/production/qr/29e088b40238.png
+2015-10-13 16:09:47: homepath is  /var/www/production/
+2015-10-13 16:09:47: qrfile is /var/www/production/ - /var/www/production/qr/51064d8ffa72.png
+2015-10-13 16:09:47: qrfile is /var/www/production/ - /var/www/production/qr/2c2fce10c410.png
+2015-10-13 16:14:48: homepath is  /var/www/production/
+2015-10-13 16:14:48: qrfile is /var/www/production/ - /var/www/production/qr/1a435d031bbe.png
+2015-10-13 16:14:48: qrfile is /var/www/production/ - /var/www/production/qr/65d2da2cd95a.png
+2015-10-13 20:59:16: homepath is  /var/www/production/
+2015-10-13 20:59:16: qrfile is /var/www/production/ - /var/www/production/qr/8c4c66904d84.png
+2015-10-13 20:59:16: qrfile is /var/www/production/ - /var/www/production/qr/6dd75cfde7b2.png
+2015-10-13 20:59:16: qrfile is /var/www/production/ - /var/www/production/qr/5dcb1a110d9b.png
+2015-10-14 01:12:03: homepath is  /var/www/production/
+2015-10-14 01:12:03: qrfile is /var/www/production/ - /var/www/production/qr/c32075f272f7.png
+2015-10-14 01:12:03: qrfile is /var/www/production/ - /var/www/production/qr/64c8d1a671eb.png
+2015-10-14 02:27:22: homepath is  /var/www/production/
+2015-10-14 02:27:22: qrfile is /var/www/production/ - /var/www/production/qr/df542654f560.png
+2015-10-14 12:24:35: homepath is  /var/www/production/
+2015-10-14 12:24:35: qrfile is /var/www/production/ - /var/www/production/qr/c4f70e0aa7e4.png
+2015-10-14 12:24:35: qrfile is /var/www/production/ - /var/www/production/qr/a69ece549afb.png
+2015-10-14 12:46:23: homepath is  /var/www/production/
+2015-10-14 12:46:23: qrfile is /var/www/production/ - /var/www/production/qr/2923699c9d8f.png
+2015-10-14 12:46:23: qrfile is /var/www/production/ - /var/www/production/qr/759c551f2984.png
+2015-10-14 12:46:23: qrfile is /var/www/production/ - /var/www/production/qr/a4d850866e48.png
+2015-10-14 12:46:23: qrfile is /var/www/production/ - /var/www/production/qr/80d8efcd290b.png
+2015-10-14 13:26:25: homepath is  /var/www/production/
+2015-10-14 13:26:25: qrfile is /var/www/production/ - /var/www/production/qr/2bf2e46e6869.png
+2015-10-14 14:15:36: homepath is  /var/www/production/
+2015-10-14 14:15:36: qrfile is /var/www/production/ - /var/www/production/qr/e44100263e5c.png
+2015-10-14 14:55:50: homepath is  /var/www/production/
+2015-10-14 14:55:50: qrfile is /var/www/production/ - /var/www/production/qr/48350e9d396d.png
+2015-10-14 15:08:31: homepath is  /var/www/production/
+2015-10-14 15:08:31: qrfile is /var/www/production/ - /var/www/production/qr/c40cc2888d5e.png
+2015-10-14 15:08:31: qrfile is /var/www/production/ - /var/www/production/qr/43bfec40c053.png
+2015-10-14 15:09:39: homepath is  /var/www/production/
+2015-10-14 15:09:39: qrfile is /var/www/production/ - /var/www/production/qr/817d2552a9bc.png
+2015-10-14 15:09:39: qrfile is /var/www/production/ - /var/www/production/qr/8ed03a612c4e.png
+2015-10-14 15:22:33: homepath is  /var/www/production/
+2015-10-14 15:22:33: qrfile is /var/www/production/ - /var/www/production/qr/ab8452692894.png
+2015-10-14 15:22:33: qrfile is /var/www/production/ - /var/www/production/qr/ccb28d5507dd.png
+2015-10-14 15:22:33: qrfile is /var/www/production/ - /var/www/production/qr/34b947918666.png
+2015-10-14 15:22:33: qrfile is /var/www/production/ - /var/www/production/qr/06ae71ab2774.png
+2015-10-14 15:49:28: homepath is  /var/www/production/
+2015-10-14 15:49:28: qrfile is /var/www/production/ - /var/www/production/qr/f197c2889fb0.png
+2015-10-14 16:12:32: homepath is  /var/www/production/
+2015-10-14 16:12:32: qrfile is /var/www/production/ - /var/www/production/qr/72e3c5b41bc5.png
+2015-10-14 16:12:32: qrfile is /var/www/production/ - /var/www/production/qr/9e2147e7b328.png
+2015-10-14 16:12:32: qrfile is /var/www/production/ - /var/www/production/qr/c193789fe40b.png
+2015-10-14 16:12:32: qrfile is /var/www/production/ - /var/www/production/qr/5c1dd5e84a34.png
+2015-10-14 16:27:18: homepath is  /var/www/production/
+2015-10-14 16:27:18: qrfile is /var/www/production/ - /var/www/production/qr/4d323f9b08c7.png
+2015-10-14 16:27:18: qrfile is /var/www/production/ - /var/www/production/qr/d1b0e1fc2bcd.png
+2015-10-14 16:33:16: homepath is  /var/www/production/
+2015-10-14 16:33:16: qrfile is /var/www/production/ - /var/www/production/qr/3b216817f7d8.png
+2015-10-14 16:33:16: qrfile is /var/www/production/ - /var/www/production/qr/e159e634d191.png
+2015-10-14 17:26:49: homepath is  /var/www/production/
+2015-10-14 17:26:49: qrfile is /var/www/production/ - /var/www/production/qr/6221849d2c58.png
+2015-10-14 17:26:49: qrfile is /var/www/production/ - /var/www/production/qr/e1e25f4fbcf2.png
+2015-10-14 17:40:20: homepath is  /var/www/production/
+2015-10-14 17:40:20: qrfile is /var/www/production/ - /var/www/production/qr/e15cf52b215d.png
+2015-10-14 17:40:20: qrfile is /var/www/production/ - /var/www/production/qr/ba37cd5e5bc7.png
+2015-10-14 17:40:20: qrfile is /var/www/production/ - /var/www/production/qr/3f8b3d2f27b5.png
+2015-10-14 17:54:58: homepath is  /var/www/production/
+2015-10-14 17:54:58: qrfile is /var/www/production/ - /var/www/production/qr/aaec94697112.png
+2015-10-14 17:54:58: qrfile is /var/www/production/ - /var/www/production/qr/87cf2ae6160a.png
+2015-10-14 17:57:53: homepath is  /var/www/production/
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/31018fae00dd.png
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/04d396b766f1.png
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/bc0fcec6aa62.png
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/983106e91a56.png
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/5fd4695fc209.png
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/cd497495bcaf.png
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/999d4d04c8ae.png
+2015-10-14 17:57:53: qrfile is /var/www/production/ - /var/www/production/qr/25d664fe2996.png
+2015-10-14 19:30:34: homepath is  /var/www/production/
+2015-10-14 19:30:34: qrfile is /var/www/production/ - /var/www/production/qr/007f420c0cf8.png
+2015-10-14 19:30:34: qrfile is /var/www/production/ - /var/www/production/qr/a1420068d191.png
+2015-10-14 19:45:41: homepath is  /var/www/production/
+2015-10-14 19:45:41: qrfile is /var/www/production/ - /var/www/production/qr/98b25f58cd2e.png
+2015-10-14 19:45:41: qrfile is /var/www/production/ - /var/www/production/qr/05b74e0a568d.png
+2015-10-14 20:07:36: homepath is  /var/www/production/
+2015-10-14 20:07:36: qrfile is /var/www/production/ - /var/www/production/qr/9e1a49dd2a28.png
+2015-10-14 20:07:36: qrfile is /var/www/production/ - /var/www/production/qr/eda2b5e75cd6.png
+2015-10-14 22:10:55: homepath is  /var/www/production/
+2015-10-14 22:10:55: qrfile is /var/www/production/ - /var/www/production/qr/00c8418eabc4.png
+2015-10-14 22:10:55: qrfile is /var/www/production/ - /var/www/production/qr/9172572a46aa.png
+2015-10-14 22:10:55: qrfile is /var/www/production/ - /var/www/production/qr/5eb1167025fa.png
+2015-10-14 22:10:55: qrfile is /var/www/production/ - /var/www/production/qr/2af9ad0c385b.png
+2015-10-15 00:09:53: homepath is  /var/www/production/
+2015-10-15 00:09:53: qrfile is /var/www/production/ - /var/www/production/qr/cdee3f93655d.png
+2015-10-15 00:09:53: qrfile is /var/www/production/ - /var/www/production/qr/04a1d066e512.png
+2015-10-15 00:21:09: homepath is  /var/www/production/
+2015-10-15 00:21:09: qrfile is /var/www/production/ - /var/www/production/qr/23889ef21e35.png
+2015-10-15 00:21:09: qrfile is /var/www/production/ - /var/www/production/qr/f21ef8c77b9f.png
+2015-10-15 00:21:09: qrfile is /var/www/production/ - /var/www/production/qr/252b6809d0ba.png
+2015-10-15 00:28:29: homepath is  /var/www/production/
+2015-10-15 00:28:29: qrfile is /var/www/production/ - /var/www/production/qr/0ecab65a68c7.png
+2015-10-15 00:28:29: qrfile is /var/www/production/ - /var/www/production/qr/aea67cb014a8.png
+2015-10-15 03:13:57: homepath is  /var/www/production/
+2015-10-15 03:13:57: qrfile is /var/www/production/ - /var/www/production/qr/ca21b4ab0347.png
+2015-10-15 03:13:57: qrfile is /var/www/production/ - /var/www/production/qr/2185e173c4c8.png
+2015-10-15 03:13:57: qrfile is /var/www/production/ - /var/www/production/qr/3dd5b03717f3.png
+2015-10-15 03:13:57: qrfile is /var/www/production/ - /var/www/production/qr/348446df040c.png
+2015-10-15 12:12:33: homepath is  /var/www/production/
+2015-10-15 12:12:33: qrfile is /var/www/production/ - /var/www/production/qr/ed02f30706ca.png
+2015-10-15 15:39:34: homepath is  /var/www/production/
+2015-10-15 15:39:34: qrfile is /var/www/production/ - /var/www/production/qr/fa69db3f90ec.png
+2015-10-15 15:57:39: homepath is  /var/www/production/
+2015-10-15 15:57:39: qrfile is /var/www/production/ - /var/www/production/qr/08f59d0de0ff.png
+2015-10-15 15:57:39: qrfile is /var/www/production/ - /var/www/production/qr/247c40dd5bde.png
+2015-10-15 16:05:26: homepath is  /var/www/production/
+2015-10-15 16:05:26: qrfile is /var/www/production/ - /var/www/production/qr/59b57e10ebcc.png
+2015-10-15 16:05:26: qrfile is /var/www/production/ - /var/www/production/qr/acc0671e1159.png
+2015-10-15 16:52:10: homepath is  /var/www/production/
+2015-10-15 16:52:10: qrfile is /var/www/production/ - /var/www/production/qr/fb324aff6beb.png
+2015-10-15 16:52:11: qrfile is /var/www/production/ - /var/www/production/qr/0fd7ac320087.png
+2015-10-15 16:55:02: homepath is  /var/www/production/
+2015-10-15 16:55:02: qrfile is /var/www/production/ - /var/www/production/qr/d28cc47d3f40.png
+2015-10-15 16:55:02: qrfile is /var/www/production/ - /var/www/production/qr/319798d12ffb.png
+2015-10-15 16:59:53: homepath is  /var/www/production/
+2015-10-15 16:59:53: qrfile is /var/www/production/ - /var/www/production/qr/13447221d0ae.png
+2015-10-15 16:59:53: qrfile is /var/www/production/ - /var/www/production/qr/32145eb4ad0a.png
+2015-10-15 17:10:14: homepath is  /var/www/production/
+2015-10-15 17:10:14: qrfile is /var/www/production/ - /var/www/production/qr/988bfbfa54a4.png
+2015-10-15 17:10:14: qrfile is /var/www/production/ - /var/www/production/qr/9b7a92538e79.png
+2015-10-15 17:10:14: qrfile is /var/www/production/ - /var/www/production/qr/297204dd2faa.png
+2015-10-15 17:25:30: homepath is  /var/www/production/
+2015-10-15 17:25:30: qrfile is /var/www/production/ - /var/www/production/qr/675d2702302f.png
+2015-10-15 17:29:20: homepath is  /var/www/production/
+2015-10-15 17:29:20: qrfile is /var/www/production/ - /var/www/production/qr/12954d1f1efa.png
+2015-10-15 17:29:20: qrfile is /var/www/production/ - /var/www/production/qr/afff74a965a3.png
+2015-10-15 18:08:56: homepath is  /var/www/production/
+2015-10-15 18:08:56: qrfile is /var/www/production/ - /var/www/production/qr/2afa532a66d8.png
+2015-10-15 18:08:56: qrfile is /var/www/production/ - /var/www/production/qr/7f99315eebd8.png
+2015-10-15 18:56:10: homepath is  /var/www/production/
+2015-10-15 18:56:10: qrfile is /var/www/production/ - /var/www/production/qr/48ebe1e35e6e.png
+2015-10-15 18:56:10: qrfile is /var/www/production/ - /var/www/production/qr/80acfbdfd4e4.png
+2015-10-15 19:40:12: homepath is  /var/www/production/
+2015-10-15 19:40:12: qrfile is /var/www/production/ - /var/www/production/qr/8dcfcaa8145a.png
+2015-10-15 19:40:13: qrfile is /var/www/production/ - /var/www/production/qr/55a614ba871f.png
+2015-10-15 19:40:50: homepath is  /var/www/production/
+2015-10-15 19:40:50: qrfile is /var/www/production/ - /var/www/production/qr/0e9e31c30730.png
+2015-10-15 19:47:46: homepath is  /var/www/production/
+2015-10-15 19:47:46: qrfile is /var/www/production/ - /var/www/production/qr/07e71df9efec.png
+2015-10-15 19:47:46: qrfile is /var/www/production/ - /var/www/production/qr/a1306772819a.png
+2015-10-15 19:47:46: qrfile is /var/www/production/ - /var/www/production/qr/bf5e9112b873.png
+2015-10-15 20:20:16: homepath is  /var/www/production/
+2015-10-15 20:20:16: qrfile is /var/www/production/ - /var/www/production/qr/be55ed01c65a.png
+2015-10-15 20:20:16: qrfile is /var/www/production/ - /var/www/production/qr/a0062a9160c7.png
+2015-10-15 20:59:30: homepath is  /var/www/production/
+2015-10-15 20:59:30: qrfile is /var/www/production/ - /var/www/production/qr/f47e0139f52d.png
+2015-10-15 20:59:30: qrfile is /var/www/production/ - /var/www/production/qr/a10c9084861e.png
+2015-10-15 23:07:37: homepath is  /var/www/production/
+2015-10-15 23:07:37: qrfile is /var/www/production/ - /var/www/production/qr/0f34016cf755.png
+2015-10-15 23:07:37: qrfile is /var/www/production/ - /var/www/production/qr/3c6687d3f14e.png
+2015-10-16 00:35:31: homepath is  /var/www/production/
+2015-10-16 00:35:31: qrfile is /var/www/production/ - /var/www/production/qr/4c745df6cdcb.png
+2015-10-16 00:35:31: qrfile is /var/www/production/ - /var/www/production/qr/52cb0caba504.png
+2015-10-16 01:11:34: homepath is  /var/www/production/
+2015-10-16 01:11:34: qrfile is /var/www/production/ - /var/www/production/qr/851c0323a59f.png
+2015-10-16 01:11:34: qrfile is /var/www/production/ - /var/www/production/qr/e20ea9dd2039.png
+2015-10-16 01:23:02: homepath is  /var/www/production/
+2015-10-16 01:23:02: qrfile is /var/www/production/ - /var/www/production/qr/4f574be06a4e.png
+2015-10-16 01:23:02: qrfile is /var/www/production/ - /var/www/production/qr/4832f792ec11.png
+2015-10-16 01:23:02: qrfile is /var/www/production/ - /var/www/production/qr/c386ebc4a179.png
+2015-10-16 01:24:15: homepath is  /var/www/production/
+2015-10-16 01:24:15: qrfile is /var/www/production/ - /var/www/production/qr/d366a5909c17.png
+2015-10-16 01:24:15: qrfile is /var/www/production/ - /var/www/production/qr/9452b5058f19.png
+2015-10-16 01:24:15: qrfile is /var/www/production/ - /var/www/production/qr/e20e6f1d5c05.png
+2015-10-16 01:46:30: homepath is  /var/www/production/
+2015-10-16 01:46:30: qrfile is /var/www/production/ - /var/www/production/qr/d8696055174f.png
+2015-10-16 01:48:26: homepath is  /var/www/production/
+2015-10-16 01:48:26: qrfile is /var/www/production/ - /var/www/production/qr/12dc693166f8.png
+2015-10-16 02:22:18: homepath is  /var/www/production/
+2015-10-16 02:22:18: qrfile is /var/www/production/ - /var/www/production/qr/eadce914090d.png
+2015-10-16 03:52:31: homepath is  /var/www/production/
+2015-10-16 03:52:31: qrfile is /var/www/production/ - /var/www/production/qr/0057bddc78e5.png
+2015-10-16 11:47:28: homepath is  /var/www/production/
+2015-10-16 11:47:28: qrfile is /var/www/production/ - /var/www/production/qr/3775b7fdb7aa.png
+2015-10-16 11:47:28: qrfile is /var/www/production/ - /var/www/production/qr/7778754273a8.png
+2015-10-16 14:12:05: homepath is  /var/www/production/
+2015-10-16 14:12:05: qrfile is /var/www/production/ - /var/www/production/qr/ea0ca84d4417.png
+2015-10-16 14:12:05: qrfile is /var/www/production/ - /var/www/production/qr/095b22dd36e2.png
+2015-10-16 14:30:29: homepath is  /var/www/production/
+2015-10-16 14:30:29: qrfile is /var/www/production/ - /var/www/production/qr/8b2eb7aba7af.png
+2015-10-16 14:30:29: qrfile is /var/www/production/ - /var/www/production/qr/07094838ec5f.png
+2015-10-16 14:56:59: homepath is  /var/www/production/
+2015-10-16 14:56:59: qrfile is /var/www/production/ - /var/www/production/qr/a394fd17bcf5.png
+2015-10-16 14:56:59: qrfile is /var/www/production/ - /var/www/production/qr/ae692cdfeb0e.png
+2015-10-16 14:56:59: qrfile is /var/www/production/ - /var/www/production/qr/8fc1caba2ce1.png
+2015-10-16 15:46:05: homepath is  /var/www/production/
+2015-10-16 15:46:05: qrfile is /var/www/production/ - /var/www/production/qr/89e7b1da2ef2.png
+2015-10-16 15:49:22: homepath is  /var/www/production/
+2015-10-16 15:49:22: qrfile is /var/www/production/ - /var/www/production/qr/0f55446cb641.png
+2015-10-16 16:21:22: homepath is  /var/www/production/
+2015-10-16 16:21:22: qrfile is /var/www/production/ - /var/www/production/qr/1baab19ac1db.png
+2015-10-16 19:18:09: homepath is  /var/www/production/
+2015-10-16 19:18:10: qrfile is /var/www/production/ - /var/www/production/qr/beaa5bd7e83a.png
+2015-10-16 19:18:10: qrfile is /var/www/production/ - /var/www/production/qr/fc506e44b7ab.png
+2015-10-16 20:43:21: homepath is  /var/www/production/
+2015-10-16 20:43:21: qrfile is /var/www/production/ - /var/www/production/qr/dd1323365ebb.png
+2015-10-16 20:43:21: qrfile is /var/www/production/ - /var/www/production/qr/6e6d82f70542.png
+2015-10-16 20:43:21: qrfile is /var/www/production/ - /var/www/production/qr/4f84a1ef8718.png
+2015-10-16 21:22:05: homepath is  /var/www/production/
+2015-10-16 21:22:05: qrfile is /var/www/production/ - /var/www/production/qr/a44c7fb448df.png
+2015-10-16 21:22:05: qrfile is /var/www/production/ - /var/www/production/qr/0bb56db3f948.png
+2015-10-16 21:22:05: qrfile is /var/www/production/ - /var/www/production/qr/5ed86878ead8.png
+2015-10-16 21:28:41: homepath is  /var/www/production/
+2015-10-16 21:28:41: qrfile is /var/www/production/ - /var/www/production/qr/66d8035ff389.png
+2015-10-16 21:28:41: qrfile is /var/www/production/ - /var/www/production/qr/5620fc87c1fc.png
+2015-10-16 21:30:41: homepath is  /var/www/production/
+2015-10-16 21:30:41: qrfile is /var/www/production/ - /var/www/production/qr/2b3c95683497.png
+2015-10-16 21:30:41: qrfile is /var/www/production/ - /var/www/production/qr/60e25fc077b0.png
+2015-10-16 21:32:02: homepath is  /var/www/production/
+2015-10-16 21:32:02: qrfile is /var/www/production/ - /var/www/production/qr/9579f95e17ed.png
+2015-10-16 21:32:02: qrfile is /var/www/production/ - /var/www/production/qr/9da89f1160cc.png
+2015-10-16 21:34:32: homepath is  /var/www/production/
+2015-10-16 21:34:32: qrfile is /var/www/production/ - /var/www/production/qr/7343c450820a.png
+2015-10-16 21:34:32: qrfile is /var/www/production/ - /var/www/production/qr/f2c027422614.png
+2015-10-16 22:05:52: homepath is  /var/www/production/
+2015-10-16 22:05:52: qrfile is /var/www/production/ - /var/www/production/qr/65b0afd25c1c.png
+2015-10-16 22:05:52: qrfile is /var/www/production/ - /var/www/production/qr/832f0935b9a8.png
+2015-10-16 23:58:54: homepath is  /var/www/production/
+2015-10-16 23:58:54: qrfile is /var/www/production/ - /var/www/production/qr/88c83e7d9cd6.png
+2015-10-16 23:58:54: qrfile is /var/www/production/ - /var/www/production/qr/c953974976d4.png
+2015-10-16 23:58:54: qrfile is /var/www/production/ - /var/www/production/qr/a3c85a682d88.png
+2015-10-17 01:07:48: homepath is  /var/www/production/
+2015-10-17 01:07:48: qrfile is /var/www/production/ - /var/www/production/qr/7f6be561c4a2.png
+2015-10-17 01:14:00: homepath is  /var/www/production/
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/8f20ed879775.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/2a97c57c7fd5.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/91f779b55093.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/6ea1623792c0.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/e1ab31f7f185.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/4192fb1a097e.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/91207bbb0f5d.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/3551d903794f.png
+2015-10-17 01:14:00: qrfile is /var/www/production/ - /var/www/production/qr/288717ad9dab.png
+2015-10-17 01:55:48: homepath is  /var/www/production/
+2015-10-17 01:55:48: qrfile is /var/www/production/ - /var/www/production/qr/b7737d306907.png
+2015-10-17 01:55:48: qrfile is /var/www/production/ - /var/www/production/qr/d4ce38920bbe.png
+2015-10-17 01:55:48: qrfile is /var/www/production/ - /var/www/production/qr/502be12b9344.png
+2015-10-17 01:55:48: qrfile is /var/www/production/ - /var/www/production/qr/82ffe9055978.png
+2015-10-17 15:25:55: homepath is  /var/www/production/
+2015-10-17 15:25:55: qrfile is /var/www/production/ - /var/www/production/qr/0fa3bfc4be09.png
+2015-10-17 15:25:55: qrfile is /var/www/production/ - /var/www/production/qr/6dd3c6ce75fc.png
+2015-10-17 15:58:19: homepath is  /var/www/production/
+2015-10-17 15:58:19: qrfile is /var/www/production/ - /var/www/production/qr/7d19650407f1.png
+2015-10-17 15:58:19: qrfile is /var/www/production/ - /var/www/production/qr/cb448982ab9d.png
+2015-10-17 15:58:19: qrfile is /var/www/production/ - /var/www/production/qr/6d9a5a7eb3d5.png
+2015-10-17 18:32:57: homepath is  /var/www/production/
+2015-10-17 18:32:57: qrfile is /var/www/production/ - /var/www/production/qr/e0475e7929eb.png
+2015-10-18 03:03:25: homepath is  /var/www/production/
+2015-10-18 03:03:25: qrfile is /var/www/production/ - /var/www/production/qr/693ee361910d.png
+2015-10-18 03:03:25: qrfile is /var/www/production/ - /var/www/production/qr/371f18d2ddbc.png
+2015-10-18 04:09:39: homepath is  /var/www/production/
+2015-10-18 04:09:39: qrfile is /var/www/production/ - /var/www/production/qr/b05db82ca62a.png
+2015-10-18 06:30:44: homepath is  /var/www/production/
+2015-10-18 06:30:44: qrfile is /var/www/production/ - /var/www/production/qr/e6a9ecc8fe54.png
+2015-10-18 06:30:44: qrfile is /var/www/production/ - /var/www/production/qr/9a1b64a73a51.png
+2015-10-18 06:30:44: qrfile is /var/www/production/ - /var/www/production/qr/74e2ee72af0d.png
+2015-10-18 06:30:44: qrfile is /var/www/production/ - /var/www/production/qr/d72d3e1becb6.png
+2015-10-18 12:16:57: homepath is  /var/www/production/
+2015-10-18 12:16:57: qrfile is /var/www/production/ - /var/www/production/qr/15f17c5c5eb7.png
+2015-10-18 12:16:57: qrfile is /var/www/production/ - /var/www/production/qr/b285f69374c6.png
+2015-10-18 14:08:08: homepath is  /var/www/production/
+2015-10-18 14:08:08: qrfile is /var/www/production/ - /var/www/production/qr/98f3bd6af63f.png
+2015-10-18 14:08:08: qrfile is /var/www/production/ - /var/www/production/qr/33a66769c879.png
+2015-10-18 17:51:40: homepath is  /var/www/stage/
+2015-10-18 17:51:40: qrfile is /var/www/stage/ - /var/www/stage/qr/3d8d31d73fd2.png
+2015-10-18 17:55:10: homepath is  /var/www/production/
+2015-10-18 17:55:10: qrfile is /var/www/production/ - /var/www/production/qr/630b0d0901dc.png
+2015-10-18 19:05:14: homepath is  /var/www/production/
+2015-10-18 19:05:14: qrfile is /var/www/production/ - /var/www/production/qr/47ebd72977a9.png
+2015-10-18 19:05:14: qrfile is /var/www/production/ - /var/www/production/qr/5ced1ea85fee.png
+2015-10-18 19:05:14: qrfile is /var/www/production/ - /var/www/production/qr/6dabf6454d7f.png
+2015-10-18 21:50:14: homepath is  /var/www/production/
+2015-10-18 21:50:14: qrfile is /var/www/production/ - /var/www/production/qr/f5c8beef6e11.png
+2015-10-18 21:50:14: qrfile is /var/www/production/ - /var/www/production/qr/e08cf407a767.png
+2015-10-18 21:50:14: qrfile is /var/www/production/ - /var/www/production/qr/f4dc0449b7bf.png
+2015-10-18 22:27:18: homepath is  /var/www/production/
+2015-10-18 22:27:18: qrfile is /var/www/production/ - /var/www/production/qr/0534ef81db4f.png
+2015-10-19 00:32:24: homepath is  /var/www/production/
+2015-10-19 00:32:24: qrfile is /var/www/production/ - /var/www/production/qr/ff5366f9be54.png
+2015-10-19 00:32:24: qrfile is /var/www/production/ - /var/www/production/qr/4ce9a8afab4e.png
+2015-10-19 00:32:24: qrfile is /var/www/production/ - /var/www/production/qr/11fd759b37bc.png
+2015-10-19 02:34:01: homepath is  /var/www/production/
+2015-10-19 02:34:01: qrfile is /var/www/production/ - /var/www/production/qr/a4f8edadbf74.png
+2015-10-19 02:34:01: qrfile is /var/www/production/ - /var/www/production/qr/884f5ce070e3.png
+2015-10-19 03:11:32: homepath is  /var/www/production/
+2015-10-19 03:11:32: qrfile is /var/www/production/ - /var/www/production/qr/6333f4fcf70e.png
+2015-10-19 03:11:32: qrfile is /var/www/production/ - /var/www/production/qr/fe743579f264.png
+2015-10-19 03:11:32: qrfile is /var/www/production/ - /var/www/production/qr/e2878e4b9b27.png
+2015-10-19 03:44:51: homepath is  /var/www/production/
+2015-10-19 03:44:51: qrfile is /var/www/production/ - /var/www/production/qr/2116dd81015d.png
+2015-10-19 03:44:51: qrfile is /var/www/production/ - /var/www/production/qr/c569f5a42e0c.png
+2015-10-19 14:01:05: homepath is  /var/www/production/
+2015-10-19 14:01:05: qrfile is /var/www/production/ - /var/www/production/qr/2fa7504bb49a.png
+2015-10-19 14:01:05: qrfile is /var/www/production/ - /var/www/production/qr/786f39a29ca4.png
+2015-10-19 14:01:05: qrfile is /var/www/production/ - /var/www/production/qr/fefc1dcb5a40.png
+2015-10-19 16:16:18: homepath is  /var/www/production/
+2015-10-19 16:16:18: qrfile is /var/www/production/ - /var/www/production/qr/7fd0dbcbdaa7.png
+2015-10-19 16:47:03: homepath is  /var/www/production/
+2015-10-19 16:47:03: qrfile is /var/www/production/ - /var/www/production/qr/cfea45186385.png
+2015-10-19 16:47:03: qrfile is /var/www/production/ - /var/www/production/qr/5ee55fe83377.png
+2015-10-19 17:54:59: homepath is  /var/www/production/
+2015-10-19 17:54:59: qrfile is /var/www/production/ - /var/www/production/qr/bb2c1505c737.png
+2015-10-19 20:12:27: homepath is  /var/www/production/
+2015-10-19 20:12:27: qrfile is /var/www/production/ - /var/www/production/qr/f03c08e1121f.png
+2015-10-19 20:12:27: qrfile is /var/www/production/ - /var/www/production/qr/1756bea6acbc.png
+2015-10-19 20:35:40: homepath is  /var/www/production/
+2015-10-19 20:35:40: qrfile is /var/www/production/ - /var/www/production/qr/f7686656e41d.png
+2015-10-19 20:35:40: qrfile is /var/www/production/ - /var/www/production/qr/58bc32878d17.png
+2015-10-19 21:21:01: homepath is  /var/www/production/
+2015-10-19 21:21:01: qrfile is /var/www/production/ - /var/www/production/qr/95a02493eac0.png
+2015-10-19 22:29:41: homepath is  /var/www/production/
+2015-10-19 22:29:41: qrfile is /var/www/production/ - /var/www/production/qr/d59eea97e615.png
+2015-10-19 22:29:41: qrfile is /var/www/production/ - /var/www/production/qr/4894df55931f.png
+2015-10-19 23:20:06: homepath is  /var/www/production/
+2015-10-19 23:20:06: qrfile is /var/www/production/ - /var/www/production/qr/f82630f9e004.png
+2015-10-19 23:20:06: qrfile is /var/www/production/ - /var/www/production/qr/b1c5391db100.png
+2015-10-20 01:39:18: homepath is  /var/www/production/
+2015-10-20 01:39:18: qrfile is /var/www/production/ - /var/www/production/qr/f11587dfc795.png
+2015-10-20 01:39:18: qrfile is /var/www/production/ - /var/www/production/qr/4143c274ab27.png
+2015-10-20 02:26:03: homepath is  /var/www/production/
+2015-10-20 02:26:03: qrfile is /var/www/production/ - /var/www/production/qr/1ab78e8145f9.png
+2015-10-20 02:26:03: qrfile is /var/www/production/ - /var/www/production/qr/7b66c41cea0c.png
+2015-10-20 02:34:47: homepath is  /var/www/production/
+2015-10-20 02:34:47: qrfile is /var/www/production/ - /var/www/production/qr/8e4720d6cd35.png
+2015-10-20 02:34:47: qrfile is /var/www/production/ - /var/www/production/qr/61c55b318a8c.png
+2015-10-20 02:34:47: qrfile is /var/www/production/ - /var/www/production/qr/ff1b8b9d9249.png
+2015-10-20 11:12:54: homepath is  /var/www/production/
+2015-10-20 11:12:54: qrfile is /var/www/production/ - /var/www/production/qr/07e84092616d.png
+2015-10-20 12:39:16: homepath is  /var/www/production/
+2015-10-20 12:39:16: qrfile is /var/www/production/ - /var/www/production/qr/67d8e65cb877.png
+2015-10-20 12:39:16: qrfile is /var/www/production/ - /var/www/production/qr/c9755c8aecf8.png
+2015-10-20 14:14:40: homepath is  /var/www/production/
+2015-10-20 14:14:40: qrfile is /var/www/production/ - /var/www/production/qr/137b350f9289.png
+2015-10-20 14:14:40: qrfile is /var/www/production/ - /var/www/production/qr/b9173890c8b4.png
+2015-10-20 14:36:01: homepath is  /var/www/production/
+2015-10-20 14:36:01: qrfile is /var/www/production/ - /var/www/production/qr/7b070b2e6a15.png
+2015-10-20 14:36:01: qrfile is /var/www/production/ - /var/www/production/qr/8ffa1ca9a04b.png
+2015-10-20 14:45:10: homepath is  /var/www/production/
+2015-10-20 14:45:10: qrfile is /var/www/production/ - /var/www/production/qr/a8b89837b7cb.png
+2015-10-20 15:15:40: homepath is  /var/www/production/
+2015-10-20 15:15:40: qrfile is /var/www/production/ - /var/www/production/qr/9580fe93a63b.png
+2015-10-20 15:15:40: qrfile is /var/www/production/ - /var/www/production/qr/909e7dc30a13.png
+2015-10-20 16:15:18: homepath is  /var/www/production/
+2015-10-20 16:15:18: qrfile is /var/www/production/ - /var/www/production/qr/38c16e17e2e1.png
+2015-10-20 16:15:18: qrfile is /var/www/production/ - /var/www/production/qr/25aa346c6d1b.png
+2015-10-20 16:28:26: homepath is  /var/www/production/
+2015-10-20 16:28:26: qrfile is /var/www/production/ - /var/www/production/qr/fb04a77387cf.png
+2015-10-20 16:28:26: qrfile is /var/www/production/ - /var/www/production/qr/cb8943f66d2f.png
+2015-10-20 16:59:55: homepath is  /var/www/production/
+2015-10-20 16:59:55: qrfile is /var/www/production/ - /var/www/production/qr/dc086e6157e4.png
+2015-10-20 19:06:57: homepath is  /var/www/production/
+2015-10-20 19:06:57: qrfile is /var/www/production/ - /var/www/production/qr/5480933cbb2d.png
+2015-10-20 19:49:09: homepath is  /var/www/production/
+2015-10-20 19:49:09: qrfile is /var/www/production/ - /var/www/production/qr/faad9079f20c.png
+2015-10-20 19:49:09: qrfile is /var/www/production/ - /var/www/production/qr/ffef1ae7b4c2.png
+2015-10-20 22:10:01: homepath is  /var/www/production/
+2015-10-20 22:10:01: qrfile is /var/www/production/ - /var/www/production/qr/f757342659cb.png
+2015-10-20 22:10:01: qrfile is /var/www/production/ - /var/www/production/qr/8f9031e3278a.png
+2015-10-20 23:56:16: homepath is  /var/www/production/
+2015-10-20 23:56:16: qrfile is /var/www/production/ - /var/www/production/qr/613c44e1739f.png
+2015-10-20 23:56:16: qrfile is /var/www/production/ - /var/www/production/qr/cd1af26ec284.png
+2015-10-21 00:20:34: homepath is  /var/www/production/
+2015-10-21 00:20:34: qrfile is /var/www/production/ - /var/www/production/qr/202c361f6b9d.png
+2015-10-21 00:20:34: qrfile is /var/www/production/ - /var/www/production/qr/aa75b3f0757a.png
+2015-10-21 00:20:34: qrfile is /var/www/production/ - /var/www/production/qr/74037866ce16.png
+2015-10-21 00:20:34: qrfile is /var/www/production/ - /var/www/production/qr/913a380c2dc7.png
+2015-10-21 00:45:43: homepath is  /var/www/production/
+2015-10-21 00:45:43: qrfile is /var/www/production/ - /var/www/production/qr/14b55a9df8f8.png
+2015-10-21 00:45:43: qrfile is /var/www/production/ - /var/www/production/qr/4f6028fe0572.png
+2015-10-21 02:20:59: homepath is  /var/www/production/
+2015-10-21 02:20:59: qrfile is /var/www/production/ - /var/www/production/qr/c9477b7c3f23.png
+2015-10-21 02:20:59: qrfile is /var/www/production/ - /var/www/production/qr/aace510a2595.png
+2015-10-21 02:25:20: homepath is  /var/www/production/
+2015-10-21 02:25:20: qrfile is /var/www/production/ - /var/www/production/qr/6c8d829be7e2.png
+2015-10-21 02:25:20: qrfile is /var/www/production/ - /var/www/production/qr/cadd3f96bca3.png
+2015-10-21 13:17:14: homepath is  /var/www/production/
+2015-10-21 13:17:14: qrfile is /var/www/production/ - /var/www/production/qr/77be14f27f9b.png
+2015-10-21 13:17:14: qrfile is /var/www/production/ - /var/www/production/qr/97224bfae6f0.png
+2015-10-21 13:17:14: qrfile is /var/www/production/ - /var/www/production/qr/61da0ade128f.png
+2015-10-21 13:17:14: qrfile is /var/www/production/ - /var/www/production/qr/a01686cd1cf7.png
+2015-10-21 13:25:27: homepath is  /var/www/production/
+2015-10-21 13:25:27: qrfile is /var/www/production/ - /var/www/production/qr/20be0590b256.png
+2015-10-21 13:31:06: homepath is  /var/www/production/
+2015-10-21 13:31:06: qrfile is /var/www/production/ - /var/www/production/qr/5a98a95cee03.png
+2015-10-21 15:17:09: homepath is  /var/www/production/
+2015-10-21 15:17:09: qrfile is /var/www/production/ - /var/www/production/qr/2088fe454f2a.png
+2015-10-21 15:17:09: qrfile is /var/www/production/ - /var/www/production/qr/2a844f17fddc.png
+2015-10-21 15:17:10: qrfile is /var/www/production/ - /var/www/production/qr/79c4318c0a00.png
+2015-10-21 15:17:10: qrfile is /var/www/production/ - /var/www/production/qr/8e88ec12cdc1.png
+2015-10-21 15:21:34: homepath is  /var/www/production/
+2015-10-21 15:21:34: qrfile is /var/www/production/ - /var/www/production/qr/290593d5467e.png
+2015-10-21 15:21:34: qrfile is /var/www/production/ - /var/www/production/qr/321c7dbd9491.png
+2015-10-21 15:21:34: qrfile is /var/www/production/ - /var/www/production/qr/dd79c82306f2.png
+2015-10-21 16:05:42: homepath is  /var/www/production/
+2015-10-21 16:05:42: qrfile is /var/www/production/ - /var/www/production/qr/06940fc2d25a.png
+2015-10-21 19:55:17: homepath is  /var/www/production/
+2015-10-21 19:55:17: qrfile is /var/www/production/ - /var/www/production/qr/c52dae488948.png
+2015-10-21 19:55:17: qrfile is /var/www/production/ - /var/www/production/qr/12bfb8332a8e.png
+2015-10-21 20:02:24: homepath is  /var/www/production/
+2015-10-21 20:02:24: qrfile is /var/www/production/ - /var/www/production/qr/61d1ed1cb54c.png
+2015-10-21 20:02:24: qrfile is /var/www/production/ - /var/www/production/qr/992727006a44.png
+2015-10-21 20:02:24: qrfile is /var/www/production/ - /var/www/production/qr/972f158b624e.png
+2015-10-21 20:18:59: homepath is  /var/www/production/
+2015-10-21 20:18:59: qrfile is /var/www/production/ - /var/www/production/qr/ec8635186b1a.png
+2015-10-21 21:09:44: homepath is  /var/www/production/
+2015-10-21 21:09:44: qrfile is /var/www/production/ - /var/www/production/qr/5362af0bacb6.png
+2015-10-21 22:02:15: homepath is  /var/www/production/
+2015-10-21 22:02:15: qrfile is /var/www/production/ - /var/www/production/qr/2f074a1ee21f.png
+2015-10-22 00:34:59: homepath is  /var/www/production/
+2015-10-22 00:34:59: qrfile is /var/www/production/ - /var/www/production/qr/10eb543c3d17.png
+2015-10-22 00:34:59: qrfile is /var/www/production/ - /var/www/production/qr/fdb10e33ce79.png
+2015-10-22 00:34:59: qrfile is /var/www/production/ - /var/www/production/qr/3b829d8ac06d.png
+2015-10-22 01:15:33: homepath is  /var/www/production/
+2015-10-22 01:15:33: qrfile is /var/www/production/ - /var/www/production/qr/c10d6bcd6d52.png
+2015-10-22 01:35:18: homepath is  /var/www/production/
+2015-10-22 01:35:18: qrfile is /var/www/production/ - /var/www/production/qr/84381382923d.png
+2015-10-22 01:35:18: qrfile is /var/www/production/ - /var/www/production/qr/7b1f4ed59dc9.png
+2015-10-22 02:16:49: homepath is  /var/www/production/
+2015-10-22 02:16:49: qrfile is /var/www/production/ - /var/www/production/qr/dd6ad975304e.png
+2015-10-22 02:16:49: qrfile is /var/www/production/ - /var/www/production/qr/dcd65c86dbd3.png
+2015-10-22 02:16:49: qrfile is /var/www/production/ - /var/www/production/qr/f628af35da48.png
+2015-10-22 02:18:00: homepath is  /var/www/production/
+2015-10-22 02:18:00: qrfile is /var/www/production/ - /var/www/production/qr/0f5148766de7.png
+2015-10-22 02:18:00: qrfile is /var/www/production/ - /var/www/production/qr/1f45693eccd6.png
+2015-10-22 03:06:40: homepath is  /var/www/production/
+2015-10-22 03:06:40: qrfile is /var/www/production/ - /var/www/production/qr/e8ad23490695.png
+2015-10-22 03:06:40: qrfile is /var/www/production/ - /var/www/production/qr/e3d53da1e94f.png
+2015-10-22 03:06:40: qrfile is /var/www/production/ - /var/www/production/qr/eda00a97f26b.png
+2015-10-22 11:04:50: homepath is  /var/www/production/
+2015-10-22 11:04:50: qrfile is /var/www/production/ - /var/www/production/qr/47d12095da1e.png
+2015-10-22 11:39:31: homepath is  /var/www/production/
+2015-10-22 11:39:31: qrfile is /var/www/production/ - /var/www/production/qr/55862e0d15f6.png
+2015-10-22 11:49:34: homepath is  /var/www/production/
+2015-10-22 11:49:34: qrfile is /var/www/production/ - /var/www/production/qr/f6cd063f8177.png
+2015-10-22 12:16:13: homepath is  /var/www/production/
+2015-10-22 12:16:13: qrfile is /var/www/production/ - /var/www/production/qr/a921236ab312.png
+2015-10-22 12:33:04: homepath is  /var/www/production/
+2015-10-22 12:33:04: qrfile is /var/www/production/ - /var/www/production/qr/f5b4c93d63fb.png
+2015-10-22 13:16:51: homepath is  /var/www/production/
+2015-10-22 13:16:51: qrfile is /var/www/production/ - /var/www/production/qr/85480e303671.png
+2015-10-22 13:20:28: homepath is  /var/www/production/
+2015-10-22 13:20:28: qrfile is /var/www/production/ - /var/www/production/qr/e839909f4ec1.png
+2015-10-22 13:20:28: qrfile is /var/www/production/ - /var/www/production/qr/0b91f4357403.png
+2015-10-22 13:48:34: homepath is  /var/www/production/
+2015-10-22 13:48:34: qrfile is /var/www/production/ - /var/www/production/qr/f8bc9f012fcf.png
+2015-10-22 14:21:04: homepath is  /var/www/production/
+2015-10-22 14:21:04: qrfile is /var/www/production/ - /var/www/production/qr/36877fb6fea2.png
+2015-10-22 14:21:04: qrfile is /var/www/production/ - /var/www/production/qr/dd4fb484e600.png
+2015-10-22 15:22:08: homepath is  /var/www/production/
+2015-10-22 15:22:08: qrfile is /var/www/production/ - /var/www/production/qr/fe35e534f937.png
+2015-10-22 15:22:08: qrfile is /var/www/production/ - /var/www/production/qr/34cd87c315fb.png
+2015-10-22 16:45:36: homepath is  /var/www/production/
+2015-10-22 16:45:36: qrfile is /var/www/production/ - /var/www/production/qr/6ad2768d69b8.png
+2015-10-22 16:45:36: qrfile is /var/www/production/ - /var/www/production/qr/1ca49b246e6a.png
+2015-10-22 17:48:42: homepath is  /var/www/production/
+2015-10-22 17:48:42: qrfile is /var/www/production/ - /var/www/production/qr/e52fbfa1cf8d.png
+2015-10-22 17:48:42: qrfile is /var/www/production/ - /var/www/production/qr/94b5feb38729.png
+2015-10-22 18:07:53: homepath is  /var/www/production/
+2015-10-22 18:07:53: qrfile is /var/www/production/ - /var/www/production/qr/31e67aa30761.png
+2015-10-22 18:49:41: homepath is  /var/www/production/
+2015-10-22 18:49:41: qrfile is /var/www/production/ - /var/www/production/qr/b108f8e63da9.png
+2015-10-22 19:40:35: homepath is  /var/www/production/
+2015-10-22 19:40:35: qrfile is /var/www/production/ - /var/www/production/qr/787022be3cfb.png
+2015-10-22 19:40:35: qrfile is /var/www/production/ - /var/www/production/qr/e8135b05d0eb.png
+2015-10-22 20:39:46: homepath is  /var/www/production/
+2015-10-22 20:39:46: qrfile is /var/www/production/ - /var/www/production/qr/4e39e71816d4.png
+2015-10-22 20:39:46: qrfile is /var/www/production/ - /var/www/production/qr/021768b1e6ec.png
+2015-10-22 20:39:46: qrfile is /var/www/production/ - /var/www/production/qr/6cdbccc055ef.png
+2015-10-22 20:39:46: qrfile is /var/www/production/ - /var/www/production/qr/6796e8999481.png
+2015-10-22 22:49:18: homepath is  /var/www/production/
+2015-10-22 22:49:18: qrfile is /var/www/production/ - /var/www/production/qr/71bd0c4279ad.png
+2015-10-22 22:49:18: qrfile is /var/www/production/ - /var/www/production/qr/fcec2ab658b0.png
+2015-10-23 00:48:49: homepath is  /var/www/production/
+2015-10-23 00:48:49: qrfile is /var/www/production/ - /var/www/production/qr/00612fb56e31.png
+2015-10-23 00:48:49: qrfile is /var/www/production/ - /var/www/production/qr/97adff2101e8.png
+2015-10-23 01:02:37: homepath is  /var/www/production/
+2015-10-23 01:02:37: qrfile is /var/www/production/ - /var/www/production/qr/24c0b77e414f.png
+2015-10-23 01:47:38: homepath is  /var/www/production/
+2015-10-23 01:47:38: qrfile is /var/www/production/ - /var/www/production/qr/1f931d9771fd.png
+2015-10-23 01:47:38: qrfile is /var/www/production/ - /var/www/production/qr/e7aa28078018.png
+2015-10-23 03:44:16: homepath is  /var/www/production/
+2015-10-23 03:44:16: qrfile is /var/www/production/ - /var/www/production/qr/d8d7c95d8ae5.png
+2015-10-23 03:44:16: qrfile is /var/www/production/ - /var/www/production/qr/24ad3f4586f7.png
+2015-10-23 04:06:41: homepath is  /var/www/production/
+2015-10-23 04:06:41: qrfile is /var/www/production/ - /var/www/production/qr/8ea1cd8ec86b.png
+2015-10-23 04:10:36: homepath is  /var/www/production/
+2015-10-23 04:10:36: qrfile is /var/www/production/ - /var/www/production/qr/7d27c58a61f5.png
+2015-10-23 04:10:36: qrfile is /var/www/production/ - /var/www/production/qr/2370566a7759.png
+2015-10-23 04:55:30: homepath is  /var/www/production/
+2015-10-23 04:55:30: qrfile is /var/www/production/ - /var/www/production/qr/17b49019d246.png
+2015-10-23 04:55:30: qrfile is /var/www/production/ - /var/www/production/qr/485b7736e6f0.png
+2015-10-23 04:55:30: qrfile is /var/www/production/ - /var/www/production/qr/80f78b544b19.png
+2015-10-23 04:55:30: qrfile is /var/www/production/ - /var/www/production/qr/613518d141f9.png
+2015-10-23 10:47:33: homepath is  /var/www/production/
+2015-10-23 10:47:33: qrfile is /var/www/production/ - /var/www/production/qr/e3fed6a453ed.png
+2015-10-23 10:47:33: qrfile is /var/www/production/ - /var/www/production/qr/49d44d42bea0.png
+2015-10-23 10:47:33: qrfile is /var/www/production/ - /var/www/production/qr/efc1fe23ec38.png
+2015-10-23 13:35:01: homepath is  /var/www/production/
+2015-10-23 13:35:01: qrfile is /var/www/production/ - /var/www/production/qr/2724cabaee2c.png
+2015-10-23 13:45:30: homepath is  /var/www/production/
+2015-10-23 13:45:30: qrfile is /var/www/production/ - /var/www/production/qr/e755b25fe1d6.png
+2015-10-23 13:45:30: qrfile is /var/www/production/ - /var/www/production/qr/1c53176419bf.png
+2015-10-23 13:45:30: qrfile is /var/www/production/ - /var/www/production/qr/c3d46271b641.png
+2015-10-23 14:01:52: homepath is  /var/www/production/
+2015-10-23 14:01:52: qrfile is /var/www/production/ - /var/www/production/qr/c78dc66c219c.png
+2015-10-23 14:01:52: qrfile is /var/www/production/ - /var/www/production/qr/77f2e3ebcb7e.png
+2015-10-23 14:02:07: homepath is  /var/www/production/
+2015-10-23 14:02:07: qrfile is /var/www/production/ - /var/www/production/qr/12319932b44b.png
+2015-10-23 14:02:07: qrfile is /var/www/production/ - /var/www/production/qr/abeb7a590a38.png
+2015-10-23 14:02:07: qrfile is /var/www/production/ - /var/www/production/qr/77e1d155455d.png
+2015-10-23 14:02:07: homepath is  /var/www/production/
+2015-10-23 14:02:07: qrfile is /var/www/production/ - /var/www/production/qr/4303402472a8.png
+2015-10-23 14:02:11: homepath is  /var/www/production/
+2015-10-23 14:02:11: qrfile is /var/www/production/ - /var/www/production/qr/c78cda9e3ed7.png
+2015-10-23 14:02:11: qrfile is /var/www/production/ - /var/www/production/qr/d68f61b42c73.png
+2015-10-23 14:05:33: homepath is  /var/www/production/
+2015-10-23 14:05:33: qrfile is /var/www/production/ - /var/www/production/qr/f4462a29c6c4.png
+2015-10-23 14:06:58: homepath is  /var/www/production/
+2015-10-23 14:06:58: qrfile is /var/www/production/ - /var/www/production/qr/aa033795b627.png
+2015-10-23 14:06:58: qrfile is /var/www/production/ - /var/www/production/qr/363607ae8616.png
+2015-10-23 14:06:58: qrfile is /var/www/production/ - /var/www/production/qr/ca18320e3717.png
+2015-10-23 14:07:32: homepath is  /var/www/production/
+2015-10-23 14:07:32: qrfile is /var/www/production/ - /var/www/production/qr/95a7873b343c.png
+2015-10-23 14:09:23: homepath is  /var/www/production/
+2015-10-23 14:09:23: qrfile is /var/www/production/ - /var/www/production/qr/9032a50df23a.png
+2015-10-23 14:09:23: qrfile is /var/www/production/ - /var/www/production/qr/5fb4894e06fd.png
+2015-10-23 14:09:23: qrfile is /var/www/production/ - /var/www/production/qr/9cfa6bee7b74.png
+2015-10-23 14:09:23: qrfile is /var/www/production/ - /var/www/production/qr/4cf3182c4f05.png
+2015-10-23 14:09:27: homepath is  /var/www/production/
+2015-10-23 14:09:27: qrfile is /var/www/production/ - /var/www/production/qr/6cac3b9b9f3f.png
+2015-10-23 14:09:27: qrfile is /var/www/production/ - /var/www/production/qr/dcb904a5c7f0.png
+2015-10-23 14:09:27: qrfile is /var/www/production/ - /var/www/production/qr/92fac8ceb400.png
+2015-10-23 14:09:32: homepath is  /var/www/production/
+2015-10-23 14:09:32: qrfile is /var/www/production/ - /var/www/production/qr/05722a034bdc.png
+2015-10-23 14:10:49: homepath is  /var/www/production/
+2015-10-23 14:10:49: qrfile is /var/www/production/ - /var/www/production/qr/53d91a2ff2f9.png
+2015-10-23 14:10:49: qrfile is /var/www/production/ - /var/www/production/qr/2fc82b32f3c1.png
+2015-10-23 14:10:49: qrfile is /var/www/production/ - /var/www/production/qr/a280d809c071.png
+2015-10-23 14:10:49: qrfile is /var/www/production/ - /var/www/production/qr/577c1825a691.png
+2015-10-23 14:31:11: homepath is  /var/www/production/
+2015-10-23 14:31:11: qrfile is /var/www/production/ - /var/www/production/qr/133bf12001c0.png
+2015-10-23 14:36:01: homepath is  /var/www/production/
+2015-10-23 14:36:01: qrfile is /var/www/production/ - /var/www/production/qr/339b5e662225.png
+2015-10-23 14:36:01: qrfile is /var/www/production/ - /var/www/production/qr/bff1a2ada49e.png
+2015-10-23 14:43:09: homepath is  /var/www/production/
+2015-10-23 14:43:09: qrfile is /var/www/production/ - /var/www/production/qr/2acd6901b3fd.png
+2015-10-23 14:43:09: qrfile is /var/www/production/ - /var/www/production/qr/b061ed96bd51.png
+2015-10-23 14:43:09: qrfile is /var/www/production/ - /var/www/production/qr/9c9a7c9a78b9.png
+2015-10-23 14:45:41: homepath is  /var/www/production/
+2015-10-23 14:45:41: qrfile is /var/www/production/ - /var/www/production/qr/fe8cbce795cb.png
+2015-10-23 14:49:47: homepath is  /var/www/production/
+2015-10-23 14:49:47: qrfile is /var/www/production/ - /var/www/production/qr/e5cc0914600b.png
+2015-10-23 14:49:47: qrfile is /var/www/production/ - /var/www/production/qr/9ff085c5ec93.png
+2015-10-23 15:09:11: homepath is  /var/www/production/
+2015-10-23 15:09:11: qrfile is /var/www/production/ - /var/www/production/qr/3be382a24767.png
+2015-10-23 15:09:11: qrfile is /var/www/production/ - /var/www/production/qr/d9fab378907e.png
+2015-10-23 15:09:11: qrfile is /var/www/production/ - /var/www/production/qr/0253687faa3c.png
+2015-10-23 15:52:55: homepath is  /var/www/production/
+2015-10-23 15:52:55: qrfile is /var/www/production/ - /var/www/production/qr/685ff5a9b543.png
+2015-10-23 15:52:55: qrfile is /var/www/production/ - /var/www/production/qr/aee05eed7c51.png
+2015-10-23 15:54:11: homepath is  /var/www/production/
+2015-10-23 15:54:11: qrfile is /var/www/production/ - /var/www/production/qr/9a873cfc8cfb.png
+2015-10-23 15:54:47: homepath is  /var/www/production/
+2015-10-23 15:54:47: qrfile is /var/www/production/ - /var/www/production/qr/2e744db21e94.png
+2015-10-23 15:54:47: qrfile is /var/www/production/ - /var/www/production/qr/d31337c99749.png
+2015-10-23 15:54:47: qrfile is /var/www/production/ - /var/www/production/qr/a4d03dc9177e.png
+2015-10-23 15:54:47: qrfile is /var/www/production/ - /var/www/production/qr/5e36e0c38e88.png
+2015-10-23 17:11:36: homepath is  /var/www/production/
+2015-10-23 17:15:06: homepath is  /var/www/production/
+2015-10-23 17:15:06: qrfile is /var/www/production/ - /var/www/production/qr/2dd30d3d47b4.png
+2015-10-23 17:15:06: qrfile is /var/www/production/ - /var/www/production/qr/034eb1dafc8b.png
+2015-10-23 17:32:17: homepath is  /var/www/production/
+2015-10-23 17:32:17: qrfile is /var/www/production/ - /var/www/production/qr/c039639bce68.png
+2015-10-23 17:32:17: qrfile is /var/www/production/ - /var/www/production/qr/9aca3b19beda.png
+2015-10-23 17:40:19: homepath is  /var/www/production/
+2015-10-23 17:40:19: qrfile is /var/www/production/ - /var/www/production/qr/0e0fc54391f8.png
+2015-10-23 17:40:19: qrfile is /var/www/production/ - /var/www/production/qr/70ca74407bcb.png
+2015-10-23 17:42:10: homepath is  /var/www/production/
+2015-10-23 17:42:10: qrfile is /var/www/production/ - /var/www/production/qr/23d6ceda9281.png
+2015-10-23 17:42:11: qrfile is /var/www/production/ - /var/www/production/qr/96bb2e7d4988.png
+2015-10-23 17:42:11: qrfile is /var/www/production/ - /var/www/production/qr/5dc8ba77a23c.png
+2015-10-23 17:42:11: qrfile is /var/www/production/ - /var/www/production/qr/5dccb7825398.png
+2015-10-23 18:57:39: homepath is  /var/www/production/
+2015-10-23 18:57:39: qrfile is /var/www/production/ - /var/www/production/qr/10cd61c2899f.png
+2015-10-23 19:41:00: homepath is  /var/www/production/
+2015-10-23 19:41:00: qrfile is /var/www/production/ - /var/www/production/qr/c46edc64ebd8.png
+2015-10-23 19:41:00: qrfile is /var/www/production/ - /var/www/production/qr/c9ca810be914.png
+2015-10-23 19:41:00: qrfile is /var/www/production/ - /var/www/production/qr/17ec616cf438.png
+2015-10-23 19:41:00: qrfile is /var/www/production/ - /var/www/production/qr/a7785e30d405.png
+2015-10-23 20:10:38: homepath is  /var/www/production/
+2015-10-23 20:10:38: qrfile is /var/www/production/ - /var/www/production/qr/94db255a9aad.png
+2015-10-23 20:10:38: qrfile is /var/www/production/ - /var/www/production/qr/3ab070bd9879.png
+2015-10-23 20:44:10: homepath is  /var/www/production/
+2015-10-23 20:44:10: qrfile is /var/www/production/ - /var/www/production/qr/2d294d9f3c72.png
+2015-10-23 20:48:21: homepath is  /var/www/production/
+2015-10-23 20:48:21: qrfile is /var/www/production/ - /var/www/production/qr/33a61331d385.png
+2015-10-23 21:48:19: homepath is  /var/www/production/
+2015-10-23 21:48:19: qrfile is /var/www/production/ - /var/www/production/qr/6802a0351cd4.png
+2015-10-23 21:48:19: qrfile is /var/www/production/ - /var/www/production/qr/aa116873a1d8.png
+2015-10-23 21:57:17: homepath is  /var/www/production/
+2015-10-23 21:57:17: qrfile is /var/www/production/ - /var/www/production/qr/6b4608b7b4d6.png
+2015-10-23 22:08:05: homepath is  /var/www/production/
+2015-10-23 22:08:05: qrfile is /var/www/production/ - /var/www/production/qr/f9c292107edf.png
+2015-10-23 22:08:05: qrfile is /var/www/production/ - /var/www/production/qr/13946095fa57.png
+2015-10-23 22:26:11: homepath is  /var/www/production/
+2015-10-23 22:26:11: qrfile is /var/www/production/ - /var/www/production/qr/ebd5b7976ae0.png
+2015-10-23 22:26:11: qrfile is /var/www/production/ - /var/www/production/qr/68bb1922a35b.png
+2015-10-23 23:36:46: homepath is  /var/www/production/
+2015-10-23 23:36:46: qrfile is /var/www/production/ - /var/www/production/qr/b294cd6344e8.png
+2015-10-23 23:36:46: qrfile is /var/www/production/ - /var/www/production/qr/17602b4b5a70.png
+2015-10-23 23:36:46: qrfile is /var/www/production/ - /var/www/production/qr/f8383c838e84.png
+2015-10-23 23:36:46: qrfile is /var/www/production/ - /var/www/production/qr/27b6353b7136.png
+2015-10-24 00:15:10: homepath is  /var/www/production/
+2015-10-24 00:15:10: qrfile is /var/www/production/ - /var/www/production/qr/faff8bbeeba7.png
+2015-10-24 00:15:10: qrfile is /var/www/production/ - /var/www/production/qr/fe6b98d82e34.png
+2015-10-24 00:15:10: qrfile is /var/www/production/ - /var/www/production/qr/37a1445c0b06.png
+2015-10-24 00:15:10: qrfile is /var/www/production/ - /var/www/production/qr/1a2b6057a760.png
+2015-10-24 00:15:10: qrfile is /var/www/production/ - /var/www/production/qr/033b2cde157b.png
+2015-10-24 01:32:50: homepath is  /var/www/production/
+2015-10-24 01:32:50: qrfile is /var/www/production/ - /var/www/production/qr/4a09927ca9ad.png
+2015-10-24 01:32:50: qrfile is /var/www/production/ - /var/www/production/qr/d9e54a9369ea.png
+2015-10-24 01:35:41: homepath is  /var/www/production/
+2015-10-24 01:35:41: qrfile is /var/www/production/ - /var/www/production/qr/f0c25853d9fc.png
+2015-10-24 01:35:41: qrfile is /var/www/production/ - /var/www/production/qr/4d176f54b9cc.png
+2015-10-24 01:35:41: qrfile is /var/www/production/ - /var/www/production/qr/911764a8ed7c.png
+2015-10-24 01:35:41: qrfile is /var/www/production/ - /var/www/production/qr/69f77786d060.png
+2015-10-24 04:21:03: homepath is  /var/www/production/
+2015-10-24 04:21:03: qrfile is /var/www/production/ - /var/www/production/qr/005588773c8a.png
+2015-10-24 04:21:03: qrfile is /var/www/production/ - /var/www/production/qr/461e8bc8db48.png
+2015-10-24 04:21:03: qrfile is /var/www/production/ - /var/www/production/qr/e038c14e2f28.png
+2015-10-24 14:27:14: homepath is  /var/www/production/
+2015-10-24 14:27:14: qrfile is /var/www/production/ - /var/www/production/qr/e2c1d7d3c786.png
+2015-10-24 14:27:14: qrfile is /var/www/production/ - /var/www/production/qr/3535de4c020f.png
+2015-10-24 15:51:15: homepath is  /var/www/production/
+2015-10-24 15:51:15: qrfile is /var/www/production/ - /var/www/production/qr/53157657ab35.png
+2015-10-24 16:51:14: homepath is  /var/www/production/
+2015-10-24 16:51:15: qrfile is /var/www/production/ - /var/www/production/qr/955e18e2b955.png
+2015-10-24 16:51:15: qrfile is /var/www/production/ - /var/www/production/qr/7e688a4a4b2a.png
+2015-10-24 18:15:14: homepath is  /var/www/production/
+2015-10-24 18:15:14: qrfile is /var/www/production/ - /var/www/production/qr/677908e4e965.png
+2015-10-24 18:15:14: qrfile is /var/www/production/ - /var/www/production/qr/b876f378f4bf.png
+2015-10-24 18:15:14: qrfile is /var/www/production/ - /var/www/production/qr/c6600c3c1957.png
+2015-10-24 18:15:14: qrfile is /var/www/production/ - /var/www/production/qr/2212860295c6.png
+2015-10-24 18:15:14: qrfile is /var/www/production/ - /var/www/production/qr/a7936f3fbdd3.png
+2015-10-24 21:13:26: homepath is  /var/www/production/
+2015-10-24 21:13:26: qrfile is /var/www/production/ - /var/www/production/qr/8d6fdc61ff7d.png
+2015-10-24 21:13:26: qrfile is /var/www/production/ - /var/www/production/qr/78696aecedeb.png
+2015-10-24 21:13:26: qrfile is /var/www/production/ - /var/www/production/qr/8ea477457747.png
+2015-10-24 21:13:26: qrfile is /var/www/production/ - /var/www/production/qr/290be9b66dfb.png
+2015-10-24 21:13:26: qrfile is /var/www/production/ - /var/www/production/qr/f6e3514d6565.png
+2015-10-24 21:23:29: homepath is  /var/www/production/
+2015-10-24 21:23:29: qrfile is /var/www/production/ - /var/www/production/qr/576abd228b43.png
+2015-10-24 21:53:11: homepath is  /var/www/production/
+2015-10-24 21:53:11: qrfile is /var/www/production/ - /var/www/production/qr/0cd785b8d100.png
+2015-10-24 22:10:48: homepath is  /var/www/production/
+2015-10-24 22:10:48: qrfile is /var/www/production/ - /var/www/production/qr/8336851739c6.png
+2015-10-24 22:10:48: qrfile is /var/www/production/ - /var/www/production/qr/ed919e5261a5.png
+2015-10-24 23:30:01: homepath is  /var/www/production/
+2015-10-24 23:30:01: qrfile is /var/www/production/ - /var/www/production/qr/2d9419f73610.png
+2015-10-25 03:23:26: homepath is  /var/www/production/
+2015-10-25 03:23:26: qrfile is /var/www/production/ - /var/www/production/qr/1f34d7c97e3b.png
+2015-10-25 03:23:26: qrfile is /var/www/production/ - /var/www/production/qr/208c060bef1a.png
+2015-10-25 03:49:27: homepath is  /var/www/production/
+2015-10-25 03:49:27: qrfile is /var/www/production/ - /var/www/production/qr/1da19790bc21.png
+2015-10-25 03:49:27: qrfile is /var/www/production/ - /var/www/production/qr/4c7593a6b0eb.png
+2015-10-25 03:49:27: qrfile is /var/www/production/ - /var/www/production/qr/00c1ee865bd6.png
+2015-10-25 03:49:27: qrfile is /var/www/production/ - /var/www/production/qr/a69d11c49f72.png
+2015-10-25 03:49:27: qrfile is /var/www/production/ - /var/www/production/qr/7394a119fdbf.png
+2015-10-25 14:35:15: homepath is  /var/www/production/
+2015-10-25 14:35:15: qrfile is /var/www/production/ - /var/www/production/qr/6213fb065af0.png
+2015-10-25 14:35:15: qrfile is /var/www/production/ - /var/www/production/qr/5e37ac2eaf97.png
+2015-10-25 14:35:15: qrfile is /var/www/production/ - /var/www/production/qr/542d86e9ca16.png
+2015-10-25 16:29:38: homepath is  /var/www/production/
+2015-10-25 16:29:38: qrfile is /var/www/production/ - /var/www/production/qr/12429024aa9e.png
+2015-10-25 16:29:38: qrfile is /var/www/production/ - /var/www/production/qr/ade458d64d48.png
+2015-10-25 21:19:40: homepath is  /var/www/production/
+2015-10-25 21:19:40: qrfile is /var/www/production/ - /var/www/production/qr/0136e011a778.png
+2015-10-25 21:19:40: qrfile is /var/www/production/ - /var/www/production/qr/c6cd3aab5dcf.png
+2015-10-25 21:30:05: homepath is  /var/www/production/
+2015-10-25 21:30:05: qrfile is /var/www/production/ - /var/www/production/qr/6f722e0793e6.png
+2015-10-25 21:30:05: qrfile is /var/www/production/ - /var/www/production/qr/9b63294f88c1.png
+2015-10-25 21:34:34: homepath is  /var/www/production/
+2015-10-25 21:34:34: qrfile is /var/www/production/ - /var/www/production/qr/c77500ff78b3.png
+2015-10-25 21:34:34: qrfile is /var/www/production/ - /var/www/production/qr/60d769b4022a.png
+2015-10-25 21:34:34: qrfile is /var/www/production/ - /var/www/production/qr/e57b4892dcc1.png
+2015-10-25 21:34:34: qrfile is /var/www/production/ - /var/www/production/qr/0faab49c01e1.png
+2015-10-26 00:29:59: homepath is  /var/www/production/
+2015-10-26 00:29:59: qrfile is /var/www/production/ - /var/www/production/qr/18cf62963092.png
+2015-10-26 00:29:59: qrfile is /var/www/production/ - /var/www/production/qr/f46d694ef347.png
+2015-10-26 00:29:59: qrfile is /var/www/production/ - /var/www/production/qr/42de767af633.png
+2015-10-26 01:11:11: homepath is  /var/www/production/
+2015-10-26 01:11:11: qrfile is /var/www/production/ - /var/www/production/qr/675d0f8b47d5.png
+2015-10-26 01:11:11: qrfile is /var/www/production/ - /var/www/production/qr/a3396287ee80.png
+2015-10-26 01:11:11: qrfile is /var/www/production/ - /var/www/production/qr/98b8aa3cfe03.png
+2015-10-26 01:11:11: qrfile is /var/www/production/ - /var/www/production/qr/e76cfb7c717f.png
+2015-10-26 01:11:11: qrfile is /var/www/production/ - /var/www/production/qr/01e6bdf46fbe.png
+2015-10-26 01:11:11: qrfile is /var/www/production/ - /var/www/production/qr/857a5aca31e1.png
+2015-10-26 01:39:47: homepath is  /var/www/production/
+2015-10-26 01:39:47: qrfile is /var/www/production/ - /var/www/production/qr/670a21a9ba27.png
+2015-10-26 01:39:47: qrfile is /var/www/production/ - /var/www/production/qr/678f801b466a.png
+2015-10-26 01:44:45: homepath is  /var/www/production/
+2015-10-26 01:44:45: qrfile is /var/www/production/ - /var/www/production/qr/b87037d6432f.png
+2015-10-26 01:44:45: qrfile is /var/www/production/ - /var/www/production/qr/2d9c53496794.png
+2015-10-26 04:00:11: homepath is  /var/www/production/
+2015-10-26 04:00:11: qrfile is /var/www/production/ - /var/www/production/qr/30315af1c0b8.png
+2015-10-26 12:05:50: homepath is  /var/www/production/
+2015-10-26 12:05:50: qrfile is /var/www/production/ - /var/www/production/qr/a9b609dc9a4e.png
+2015-10-26 12:05:50: qrfile is /var/www/production/ - /var/www/production/qr/f4749db7f390.png
+2015-10-26 12:05:50: qrfile is /var/www/production/ - /var/www/production/qr/d05460f73953.png
+2015-10-26 12:58:29: homepath is  /var/www/production/
+2015-10-26 12:58:29: qrfile is /var/www/production/ - /var/www/production/qr/95fbc5547abc.png
+2015-10-26 13:23:31: homepath is  /var/www/production/
+2015-10-26 13:23:31: qrfile is /var/www/production/ - /var/www/production/qr/403685a3b4db.png
+2015-10-26 13:23:31: qrfile is /var/www/production/ - /var/www/production/qr/db17e0794f02.png
+2015-10-26 14:27:24: homepath is  /var/www/production/
+2015-10-26 14:27:24: qrfile is /var/www/production/ - /var/www/production/qr/170ea24db2a9.png
+2015-10-26 14:30:51: homepath is  /var/www/production/
+2015-10-26 14:30:51: qrfile is /var/www/production/ - /var/www/production/qr/e23ff45447ff.png
+2015-10-26 14:30:51: qrfile is /var/www/production/ - /var/www/production/qr/dd01b307a1a6.png
+2015-10-26 15:01:54: homepath is  /var/www/production/
+2015-10-26 15:01:54: qrfile is /var/www/production/ - /var/www/production/qr/31c03688233b.png
+2015-10-26 15:01:54: qrfile is /var/www/production/ - /var/www/production/qr/87a02b378336.png
+2015-10-26 15:15:36: homepath is  /var/www/production/
+2015-10-26 15:15:36: qrfile is /var/www/production/ - /var/www/production/qr/d5ad84484e0f.png
+2015-10-26 15:15:36: qrfile is /var/www/production/ - /var/www/production/qr/ce8751713ca2.png
+2015-10-26 15:15:36: qrfile is /var/www/production/ - /var/www/production/qr/8dc598715952.png
+2015-10-26 15:32:24: homepath is  /var/www/production/
+2015-10-26 15:32:24: qrfile is /var/www/production/ - /var/www/production/qr/98669ed77c01.png
+2015-10-26 15:45:50: homepath is  /var/www/production/
+2015-10-26 15:45:50: qrfile is /var/www/production/ - /var/www/production/qr/689d81d6587e.png
+2015-10-26 15:46:10: homepath is  /var/www/production/
+2015-10-26 15:46:10: qrfile is /var/www/production/ - /var/www/production/qr/ed42ae6281b9.png
+2015-10-26 15:46:10: qrfile is /var/www/production/ - /var/www/production/qr/dafbfcf7e645.png
+2015-10-26 15:51:46: homepath is  /var/www/production/
+2015-10-26 15:51:46: qrfile is /var/www/production/ - /var/www/production/qr/e67a4989a057.png
+2015-10-26 15:51:46: qrfile is /var/www/production/ - /var/www/production/qr/863cca013900.png
+2015-10-26 16:04:50: homepath is  /var/www/production/
+2015-10-26 16:04:50: qrfile is /var/www/production/ - /var/www/production/qr/b79574ce73e2.png
+2015-10-26 16:04:50: qrfile is /var/www/production/ - /var/www/production/qr/6f7be52ead6c.png
+2015-10-26 16:54:35: homepath is  /var/www/production/
+2015-10-26 16:54:35: qrfile is /var/www/production/ - /var/www/production/qr/5ea594beb983.png
+2015-10-26 16:54:36: qrfile is /var/www/production/ - /var/www/production/qr/ec75945bef5f.png
+2015-10-26 17:32:13: homepath is  /var/www/production/
+2015-10-26 17:32:13: qrfile is /var/www/production/ - /var/www/production/qr/c2da94e01a14.png
+2015-10-26 17:32:13: qrfile is /var/www/production/ - /var/www/production/qr/968e1f0ee163.png
+2015-10-26 17:32:13: qrfile is /var/www/production/ - /var/www/production/qr/ee1c9413d419.png
+2015-10-26 17:32:13: qrfile is /var/www/production/ - /var/www/production/qr/1b7735e9e744.png
+2015-10-26 17:32:13: qrfile is /var/www/production/ - /var/www/production/qr/291e46573b87.png
+2015-10-26 18:07:57: homepath is  /var/www/production/
+2015-10-26 18:07:57: qrfile is /var/www/production/ - /var/www/production/qr/7bf1fe44ea64.png
+2015-10-26 18:07:57: qrfile is /var/www/production/ - /var/www/production/qr/0a3d25eb7213.png
+2015-10-26 18:07:57: qrfile is /var/www/production/ - /var/www/production/qr/56d050703daf.png
+2015-10-26 18:07:57: qrfile is /var/www/production/ - /var/www/production/qr/f1fd64a0d24c.png
+2015-10-26 18:24:39: homepath is  /var/www/production/
+2015-10-26 18:24:39: qrfile is /var/www/production/ - /var/www/production/qr/118cfdf099df.png
+2015-10-26 18:24:39: qrfile is /var/www/production/ - /var/www/production/qr/b1ad6e93d241.png
+2015-10-26 18:48:07: homepath is  /var/www/production/
+2015-10-26 18:48:07: qrfile is /var/www/production/ - /var/www/production/qr/ef4aa3fe353b.png
+2015-10-26 18:53:43: homepath is  /var/www/production/
+2015-10-26 18:53:43: qrfile is /var/www/production/ - /var/www/production/qr/17c3d52082ca.png
+2015-10-26 18:53:43: qrfile is /var/www/production/ - /var/www/production/qr/2afc079d82a2.png
+2015-10-26 18:53:43: qrfile is /var/www/production/ - /var/www/production/qr/5d36aa20bf6a.png
+2015-10-26 18:54:12: homepath is  /var/www/production/
+2015-10-26 18:54:12: qrfile is /var/www/production/ - /var/www/production/qr/fe3ffce4c2a7.png
+2015-10-26 19:09:52: homepath is  /var/www/production/
+2015-10-26 19:09:52: qrfile is /var/www/production/ - /var/www/production/qr/a306ff2d30b7.png
+2015-10-26 19:09:52: qrfile is /var/www/production/ - /var/www/production/qr/95692f578457.png
+2015-10-26 19:26:10: homepath is  /var/www/production/
+2015-10-26 19:26:10: qrfile is /var/www/production/ - /var/www/production/qr/2dc87968f1a9.png
+2015-10-26 19:34:01: homepath is  /var/www/production/
+2015-10-26 19:34:01: qrfile is /var/www/production/ - /var/www/production/qr/974b8792183f.png
+2015-10-26 19:34:01: qrfile is /var/www/production/ - /var/www/production/qr/9565ecafb558.png
+2015-10-26 19:43:21: homepath is  /var/www/production/
+2015-10-26 19:43:21: qrfile is /var/www/production/ - /var/www/production/qr/b0c35693dc57.png
+2015-10-26 19:43:21: qrfile is /var/www/production/ - /var/www/production/qr/24c810325053.png
+2015-10-26 20:45:49: homepath is  /var/www/production/
+2015-10-26 20:45:49: qrfile is /var/www/production/ - /var/www/production/qr/d79fb36abe48.png
+2015-10-26 20:45:49: qrfile is /var/www/production/ - /var/www/production/qr/649c7f2f2946.png
+2015-10-26 20:45:49: qrfile is /var/www/production/ - /var/www/production/qr/4012480958a4.png
+2015-10-26 20:45:49: qrfile is /var/www/production/ - /var/www/production/qr/fe87ca34556e.png
+2015-10-26 20:51:21: homepath is  /var/www/production/
+2015-10-26 20:51:21: qrfile is /var/www/production/ - /var/www/production/qr/974f522df876.png
+2015-10-26 20:51:21: qrfile is /var/www/production/ - /var/www/production/qr/6d6fa79ad070.png
+2015-10-26 21:07:49: homepath is  /var/www/production/
+2015-10-26 21:07:49: qrfile is /var/www/production/ - /var/www/production/qr/cebf28eecd98.png
+2015-10-26 21:07:49: qrfile is /var/www/production/ - /var/www/production/qr/108c615b20f5.png
+2015-10-26 21:23:07: homepath is  /var/www/production/
+2015-10-26 21:23:07: qrfile is /var/www/production/ - /var/www/production/qr/f09dc5112656.png
+2015-10-26 21:38:10: homepath is  /var/www/production/
+2015-10-26 21:38:10: qrfile is /var/www/production/ - /var/www/production/qr/804716fcb399.png
+2015-10-26 21:38:10: qrfile is /var/www/production/ - /var/www/production/qr/8c95ed9f5b41.png
+2015-10-26 21:38:10: qrfile is /var/www/production/ - /var/www/production/qr/fc7beedac77c.png
+2015-10-26 21:38:10: qrfile is /var/www/production/ - /var/www/production/qr/27b6431f21f9.png
+2015-10-26 22:34:22: homepath is  /var/www/production/
+2015-10-26 22:34:22: qrfile is /var/www/production/ - /var/www/production/qr/e244cc3ca970.png
+2015-10-26 23:29:24: homepath is  /var/www/production/
+2015-10-26 23:29:24: qrfile is /var/www/production/ - /var/www/production/qr/a9358040968d.png
+2015-10-26 23:29:24: qrfile is /var/www/production/ - /var/www/production/qr/fa29d1aacdef.png
+2015-10-26 23:50:38: homepath is  /var/www/production/
+2015-10-26 23:50:38: qrfile is /var/www/production/ - /var/www/production/qr/647f87ab7bb4.png
+2015-10-26 23:55:20: homepath is  /var/www/production/
+2015-10-26 23:55:20: qrfile is /var/www/production/ - /var/www/production/qr/5ad57745b680.png
+2015-10-26 23:55:21: qrfile is /var/www/production/ - /var/www/production/qr/78a6847bad33.png
+2015-10-27 00:38:09: homepath is  /var/www/production/
+2015-10-27 00:38:09: qrfile is /var/www/production/ - /var/www/production/qr/23eb5f7e89ae.png
+2015-10-27 00:38:09: qrfile is /var/www/production/ - /var/www/production/qr/5267127d177e.png
+2015-10-27 00:38:09: qrfile is /var/www/production/ - /var/www/production/qr/916c88c5396a.png
+2015-10-27 01:04:19: homepath is  /var/www/production/
+2015-10-27 01:04:19: qrfile is /var/www/production/ - /var/www/production/qr/853c28c8e374.png
+2015-10-27 01:04:19: qrfile is /var/www/production/ - /var/www/production/qr/c33a95c0b486.png
+2015-10-27 01:30:45: homepath is  /var/www/production/
+2015-10-27 01:30:45: qrfile is /var/www/production/ - /var/www/production/qr/437b696306c4.png
+2015-10-27 01:41:32: homepath is  /var/www/production/
+2015-10-27 01:41:32: qrfile is /var/www/production/ - /var/www/production/qr/46e18e8919e8.png
+2015-10-27 01:41:32: qrfile is /var/www/production/ - /var/www/production/qr/14f84c3ceaef.png
+2015-10-27 01:43:49: homepath is  /var/www/production/
+2015-10-27 01:43:49: qrfile is /var/www/production/ - /var/www/production/qr/529b2a809743.png
+2015-10-27 01:48:14: homepath is  /var/www/production/
+2015-10-27 01:48:14: qrfile is /var/www/production/ - /var/www/production/qr/730d16cb377d.png
+2015-10-27 01:48:14: qrfile is /var/www/production/ - /var/www/production/qr/5775306521a0.png
+2015-10-27 01:48:49: homepath is  /var/www/production/
+2015-10-27 01:48:49: qrfile is /var/www/production/ - /var/www/production/qr/d52f496374ed.png
+2015-10-27 01:55:30: homepath is  /var/www/production/
+2015-10-27 01:55:30: qrfile is /var/www/production/ - /var/www/production/qr/c9cfe41cad47.png
+2015-10-27 01:55:30: qrfile is /var/www/production/ - /var/www/production/qr/5155432aaace.png
+2015-10-27 02:16:08: homepath is  /var/www/production/
+2015-10-27 02:16:08: qrfile is /var/www/production/ - /var/www/production/qr/bb7ad59e5612.png
+2015-10-27 02:16:08: qrfile is /var/www/production/ - /var/www/production/qr/eccace72af49.png
+2015-10-27 03:13:43: homepath is  /var/www/production/
+2015-10-27 03:13:43: qrfile is /var/www/production/ - /var/www/production/qr/b8c51ef49d18.png
+2015-10-27 03:13:43: qrfile is /var/www/production/ - /var/www/production/qr/c8a5133a0088.png
+2015-10-27 03:13:43: qrfile is /var/www/production/ - /var/www/production/qr/f9471dce240a.png
+2015-10-27 03:13:43: qrfile is /var/www/production/ - /var/www/production/qr/bd384a3455cd.png
+2015-10-27 05:03:23: homepath is  /var/www/production/
+2015-10-27 05:03:23: qrfile is /var/www/production/ - /var/www/production/qr/c221b6bcc00a.png
+2015-10-27 10:30:50: homepath is  /var/www/production/
+2015-10-27 10:30:50: qrfile is /var/www/production/ - /var/www/production/qr/43a15ef9ab9c.png
+2015-10-27 10:30:50: qrfile is /var/www/production/ - /var/www/production/qr/408819661c10.png
+2015-10-27 10:30:50: qrfile is /var/www/production/ - /var/www/production/qr/5837213d18d3.png
+2015-10-27 11:54:45: homepath is  /var/www/production/
+2015-10-27 11:54:45: qrfile is /var/www/production/ - /var/www/production/qr/bbd02ffbc306.png
+2015-10-27 13:06:05: homepath is  /var/www/production/
+2015-10-27 13:06:05: qrfile is /var/www/production/ - /var/www/production/qr/e16c40477ec2.png
+2015-10-27 13:09:02: homepath is  /var/www/production/
+2015-10-27 13:09:02: qrfile is /var/www/production/ - /var/www/production/qr/02eaca68297e.png
+2015-10-27 13:09:02: qrfile is /var/www/production/ - /var/www/production/qr/fda530cd119f.png
+2015-10-27 13:09:02: qrfile is /var/www/production/ - /var/www/production/qr/041a3aa0937c.png
+2015-10-27 13:26:32: homepath is  /var/www/production/
+2015-10-27 13:26:32: qrfile is /var/www/production/ - /var/www/production/qr/da101f45f872.png
+2015-10-27 14:14:16: homepath is  /var/www/production/
+2015-10-27 14:14:16: qrfile is /var/www/production/ - /var/www/production/qr/2cf6a42e4b33.png
+2015-10-27 14:14:16: qrfile is /var/www/production/ - /var/www/production/qr/89ed85483170.png
+2015-10-27 14:14:16: qrfile is /var/www/production/ - /var/www/production/qr/026162763dd4.png
+2015-10-27 14:40:04: homepath is  /var/www/production/
+2015-10-27 14:40:04: qrfile is /var/www/production/ - /var/www/production/qr/2af30d5f28cb.png
+2015-10-27 14:40:04: qrfile is /var/www/production/ - /var/www/production/qr/e1422dd49c40.png
+2015-10-27 14:50:13: homepath is  /var/www/production/
+2015-10-27 14:50:13: qrfile is /var/www/production/ - /var/www/production/qr/9cb47a4f06f3.png
+2015-10-27 14:50:13: qrfile is /var/www/production/ - /var/www/production/qr/ab9e85002055.png
+2015-10-27 14:50:13: qrfile is /var/www/production/ - /var/www/production/qr/e01c77149e6a.png
+2015-10-27 14:50:13: qrfile is /var/www/production/ - /var/www/production/qr/0a95804dcf05.png
+2015-10-27 14:50:13: qrfile is /var/www/production/ - /var/www/production/qr/85d0d7f3f69d.png
+2015-10-27 14:50:13: qrfile is /var/www/production/ - /var/www/production/qr/17d72bba0308.png
+2015-10-27 15:16:34: homepath is  /var/www/production/
+2015-10-27 15:16:34: qrfile is /var/www/production/ - /var/www/production/qr/aafc12d2300d.png
+2015-10-27 15:16:34: qrfile is /var/www/production/ - /var/www/production/qr/ec8cfae249ea.png
+2015-10-27 15:30:47: homepath is  /var/www/production/
+2015-10-27 15:30:47: qrfile is /var/www/production/ - /var/www/production/qr/3a42ad5b6ea0.png
+2015-10-27 15:30:47: qrfile is /var/www/production/ - /var/www/production/qr/46f4bc6925f9.png
+2015-10-27 15:47:39: homepath is  /var/www/production/
+2015-10-27 15:47:39: qrfile is /var/www/production/ - /var/www/production/qr/afd65fe8305f.png
+2015-10-27 15:56:05: homepath is  /var/www/production/
+2015-10-27 15:56:05: qrfile is /var/www/production/ - /var/www/production/qr/5e8c012a9680.png
+2015-10-27 15:58:14: homepath is  /var/www/production/
+2015-10-27 15:58:14: qrfile is /var/www/production/ - /var/www/production/qr/c8d902a9ce13.png
+2015-10-27 15:58:14: qrfile is /var/www/production/ - /var/www/production/qr/fad0c6641cb0.png
+2015-10-27 16:06:54: homepath is  /var/www/production/
+2015-10-27 16:06:54: qrfile is /var/www/production/ - /var/www/production/qr/6a0874d1574d.png
+2015-10-27 16:14:16: homepath is  /var/www/production/
+2015-10-27 16:14:16: qrfile is /var/www/production/ - /var/www/production/qr/da50b5f4c6b7.png
+2015-10-27 16:14:16: qrfile is /var/www/production/ - /var/www/production/qr/c48b81c12dad.png
+2015-10-27 16:19:59: homepath is  /var/www/production/
+2015-10-27 16:19:59: qrfile is /var/www/production/ - /var/www/production/qr/7a5eee4fc575.png
+2015-10-27 16:19:59: qrfile is /var/www/production/ - /var/www/production/qr/7ab4b1041424.png
+2015-10-27 16:20:34: homepath is  /var/www/production/
+2015-10-27 16:20:34: qrfile is /var/www/production/ - /var/www/production/qr/ce4c96d96bdb.png
+2015-10-27 16:30:28: homepath is  /var/www/production/
+2015-10-27 16:30:28: qrfile is /var/www/production/ - /var/www/production/qr/2c18f0918cd7.png
+2015-10-27 17:01:57: homepath is  /var/www/production/
+2015-10-27 17:01:57: qrfile is /var/www/production/ - /var/www/production/qr/f865bae8a840.png
+2015-10-27 17:01:57: qrfile is /var/www/production/ - /var/www/production/qr/fb237e40c0b8.png
+2015-10-27 17:01:57: qrfile is /var/www/production/ - /var/www/production/qr/f8fd5ecd480c.png
+2015-10-27 17:01:57: qrfile is /var/www/production/ - /var/www/production/qr/d16d16efe554.png
+2015-10-27 17:30:20: homepath is  /var/www/production/
+2015-10-27 17:30:20: qrfile is /var/www/production/ - /var/www/production/qr/348f3ddb87e5.png
+2015-10-27 17:49:56: homepath is  /var/www/production/
+2015-10-27 17:49:56: qrfile is /var/www/production/ - /var/www/production/qr/d36844621625.png
+2015-10-27 17:49:56: qrfile is /var/www/production/ - /var/www/production/qr/6329c554acdb.png
+2015-10-27 18:33:04: homepath is  /var/www/production/
+2015-10-27 18:33:04: qrfile is /var/www/production/ - /var/www/production/qr/af79c1c1c864.png
+2015-10-27 18:33:04: qrfile is /var/www/production/ - /var/www/production/qr/dce7d0caf82d.png
+2015-10-27 18:44:11: homepath is  /var/www/production/
+2015-10-27 18:44:11: qrfile is /var/www/production/ - /var/www/production/qr/744b5fe97d96.png
+2015-10-27 18:44:11: qrfile is /var/www/production/ - /var/www/production/qr/44c03201fe6a.png
+2015-10-27 18:44:16: homepath is  /var/www/production/
+2015-10-27 18:44:16: qrfile is /var/www/production/ - /var/www/production/qr/a1feb7182361.png
+2015-10-27 18:44:17: qrfile is /var/www/production/ - /var/www/production/qr/5109331762c3.png
+2015-10-27 18:44:17: qrfile is /var/www/production/ - /var/www/production/qr/d7acd93260d3.png
+2015-10-27 19:57:10: homepath is  /var/www/production/
+2015-10-27 19:57:10: qrfile is /var/www/production/ - /var/www/production/qr/589ef38dc859.png
+2015-10-27 20:10:04: homepath is  /var/www/production/
+2015-10-27 20:10:04: qrfile is /var/www/production/ - /var/www/production/qr/fcf169540f4c.png
+2015-10-27 20:10:04: qrfile is /var/www/production/ - /var/www/production/qr/e1559c5bb9a7.png
+2015-10-27 20:23:47: homepath is  /var/www/production/
+2015-10-27 20:23:47: qrfile is /var/www/production/ - /var/www/production/qr/2337afa4ef30.png
+2015-10-27 20:46:45: homepath is  /var/www/production/
+2015-10-27 20:46:45: qrfile is /var/www/production/ - /var/www/production/qr/842c5e5c3e71.png
+2015-10-27 20:46:45: qrfile is /var/www/production/ - /var/www/production/qr/56cb4e4dcf04.png
+2015-10-27 20:54:11: homepath is  /var/www/production/
+2015-10-27 20:54:11: qrfile is /var/www/production/ - /var/www/production/qr/f6745a5d38a3.png
+2015-10-27 20:54:11: qrfile is /var/www/production/ - /var/www/production/qr/3b43479b706a.png
+2015-10-27 21:17:07: homepath is  /var/www/production/
+2015-10-27 21:17:07: qrfile is /var/www/production/ - /var/www/production/qr/25412ebb4cb9.png
+2015-10-27 23:56:55: homepath is  /var/www/production/
+2015-10-27 23:56:55: qrfile is /var/www/production/ - /var/www/production/qr/942e23269af0.png
+2015-10-28 00:36:25: homepath is  /var/www/production/
+2015-10-28 00:36:25: qrfile is /var/www/production/ - /var/www/production/qr/dd8b3973f6bb.png
+2015-10-28 04:10:57: homepath is  /var/www/production/
+2015-10-28 04:10:57: qrfile is /var/www/production/ - /var/www/production/qr/3b8b49426b3a.png
+2015-10-28 04:10:57: qrfile is /var/www/production/ - /var/www/production/qr/edfbb5028952.png
+2015-10-28 04:10:57: qrfile is /var/www/production/ - /var/www/production/qr/0fbf9688de1c.png
+2015-10-28 12:01:58: homepath is  /var/www/production/
+2015-10-28 12:01:58: qrfile is /var/www/production/ - /var/www/production/qr/c67588accab0.png
+2015-10-28 12:01:58: qrfile is /var/www/production/ - /var/www/production/qr/05348bae4a1d.png
+2015-10-28 13:13:49: homepath is  /var/www/production/
+2015-10-28 13:13:49: qrfile is /var/www/production/ - /var/www/production/qr/0c94f1f21bf3.png
+2015-10-28 13:13:49: qrfile is /var/www/production/ - /var/www/production/qr/ceb0712defe7.png
+2015-10-28 13:40:28: homepath is  /var/www/production/
+2015-10-28 13:40:28: qrfile is /var/www/production/ - /var/www/production/qr/1601b7d7e1e6.png
+2015-10-28 13:40:28: qrfile is /var/www/production/ - /var/www/production/qr/fc387d34d835.png
+2015-10-28 13:40:28: qrfile is /var/www/production/ - /var/www/production/qr/505ec3e51440.png
+2015-10-28 15:27:31: homepath is  /var/www/production/
+2015-10-28 15:27:31: qrfile is /var/www/production/ - /var/www/production/qr/b2020892c813.png
+2015-10-28 15:27:31: qrfile is /var/www/production/ - /var/www/production/qr/c7261dc29e03.png
+2015-10-28 15:27:31: qrfile is /var/www/production/ - /var/www/production/qr/2f9c11f7c557.png
+2015-10-28 15:33:56: homepath is  /var/www/production/
+2015-10-28 15:33:56: qrfile is /var/www/production/ - /var/www/production/qr/c4af7d50d6b0.png
+2015-10-28 15:33:56: qrfile is /var/www/production/ - /var/www/production/qr/67acaebba462.png
+2015-10-28 15:35:36: homepath is  /var/www/production/
+2015-10-28 15:35:36: qrfile is /var/www/production/ - /var/www/production/qr/6e175b57d8e8.png
+2015-10-28 15:35:36: qrfile is /var/www/production/ - /var/www/production/qr/dbaf9b4ba115.png
+2015-10-28 15:35:36: qrfile is /var/www/production/ - /var/www/production/qr/a0d95b997a8c.png
+2015-10-28 15:35:36: qrfile is /var/www/production/ - /var/www/production/qr/69c45cf7648e.png
+2015-10-28 15:35:36: qrfile is /var/www/production/ - /var/www/production/qr/680c6c92da36.png
+2015-10-28 15:35:36: qrfile is /var/www/production/ - /var/www/production/qr/6ddf3e5cd808.png
+2015-10-28 15:35:36: qrfile is /var/www/production/ - /var/www/production/qr/aa07b67dba74.png
+2015-10-28 15:35:37: qrfile is /var/www/production/ - /var/www/production/qr/e14f16774d61.png
+2015-10-28 15:41:02: homepath is  /var/www/production/
+2015-10-28 15:41:02: qrfile is /var/www/production/ - /var/www/production/qr/49132954018d.png
+2015-10-28 15:41:02: qrfile is /var/www/production/ - /var/www/production/qr/114d1b80f0a0.png
+2015-10-28 15:41:02: qrfile is /var/www/production/ - /var/www/production/qr/266420262545.png
+2015-10-28 15:48:14: homepath is  /var/www/production/
+2015-10-28 15:48:14: qrfile is /var/www/production/ - /var/www/production/qr/57ae92a99c80.png
+2015-10-28 15:48:14: qrfile is /var/www/production/ - /var/www/production/qr/ae6cf9dce276.png
+2015-10-28 15:51:49: homepath is  /var/www/production/
+2015-10-28 15:51:49: qrfile is /var/www/production/ - /var/www/production/qr/a3b19196f53a.png
+2015-10-28 15:51:49: qrfile is /var/www/production/ - /var/www/production/qr/650ef16a3c57.png
+2015-10-28 16:05:24: homepath is  /var/www/production/
+2015-10-28 16:05:24: qrfile is /var/www/production/ - /var/www/production/qr/26823cc2ef01.png
+2015-10-28 16:05:24: qrfile is /var/www/production/ - /var/www/production/qr/7753c77fe42e.png
+2015-10-28 16:40:32: homepath is  /var/www/production/
+2015-10-28 16:40:32: qrfile is /var/www/production/ - /var/www/production/qr/487d52735e66.png
+2015-10-28 16:40:32: qrfile is /var/www/production/ - /var/www/production/qr/2c7ef925630b.png
+2015-10-28 18:04:47: homepath is  /var/www/production/
+2015-10-28 18:04:47: qrfile is /var/www/production/ - /var/www/production/qr/9f7a97907e98.png
+2015-10-28 19:11:13: homepath is  /var/www/production/
+2015-10-28 19:11:13: qrfile is /var/www/production/ - /var/www/production/qr/84ee4a48ffde.png
+2015-10-28 19:11:13: qrfile is /var/www/production/ - /var/www/production/qr/3d5b33ca6b38.png
+2015-10-28 19:11:13: qrfile is /var/www/production/ - /var/www/production/qr/e02943d1ecb7.png
+2015-10-28 19:28:20: homepath is  /var/www/production/
+2015-10-28 19:28:20: qrfile is /var/www/production/ - /var/www/production/qr/fccbb7ba55ce.png
+2015-10-28 19:28:20: qrfile is /var/www/production/ - /var/www/production/qr/8c9b0f94d3e9.png
+2015-10-28 19:38:43: homepath is  /var/www/production/
+2015-10-28 19:38:43: qrfile is /var/www/production/ - /var/www/production/qr/5e347f6a5a70.png
+2015-10-28 19:38:43: qrfile is /var/www/production/ - /var/www/production/qr/8ff941ad8544.png
+2015-10-28 21:14:43: homepath is  /var/www/production/
+2015-10-28 21:14:43: qrfile is /var/www/production/ - /var/www/production/qr/fb228a2a8fd2.png
+2015-10-28 21:14:43: qrfile is /var/www/production/ - /var/www/production/qr/8f0747cf40ef.png
+2015-10-28 23:52:02: homepath is  /var/www/production/
+2015-10-28 23:52:02: qrfile is /var/www/production/ - /var/www/production/qr/2722e8685fbf.png
+2015-10-28 23:52:03: qrfile is /var/www/production/ - /var/www/production/qr/4f0739de90ae.png
+2015-10-28 23:52:03: qrfile is /var/www/production/ - /var/www/production/qr/f69146458785.png
+2015-10-28 23:52:03: qrfile is /var/www/production/ - /var/www/production/qr/eaeb2da9a9ce.png
+2015-10-29 00:22:57: homepath is  /var/www/production/
+2015-10-29 00:22:57: qrfile is /var/www/production/ - /var/www/production/qr/d80f8e817221.png
+2015-10-29 00:25:24: homepath is  /var/www/production/
+2015-10-29 00:25:24: qrfile is /var/www/production/ - /var/www/production/qr/5d3c5069309e.png
+2015-10-29 00:25:24: qrfile is /var/www/production/ - /var/www/production/qr/66c04b7b2609.png
+2015-10-29 00:25:24: qrfile is /var/www/production/ - /var/www/production/qr/5668b1b8052d.png
+2015-10-29 00:27:49: homepath is  /var/www/production/
+2015-10-29 00:27:49: qrfile is /var/www/production/ - /var/www/production/qr/4c2a5470850d.png
+2015-10-29 00:27:49: qrfile is /var/www/production/ - /var/www/production/qr/80173749c60e.png
+2015-10-29 00:27:49: qrfile is /var/www/production/ - /var/www/production/qr/ea7d180b1d2f.png
+2015-10-29 01:13:38: homepath is  /var/www/production/
+2015-10-29 01:13:38: qrfile is /var/www/production/ - /var/www/production/qr/b892c84de39d.png
+2015-10-29 01:13:38: qrfile is /var/www/production/ - /var/www/production/qr/331f7cc932e8.png
+2015-10-29 01:19:13: homepath is  /var/www/production/
+2015-10-29 01:19:13: qrfile is /var/www/production/ - /var/www/production/qr/8cb852e74b48.png
+2015-10-29 01:24:10: homepath is  /var/www/production/
+2015-10-29 01:24:10: qrfile is /var/www/production/ - /var/www/production/qr/ca1b51ef57ce.png
+2015-10-29 01:24:10: qrfile is /var/www/production/ - /var/www/production/qr/a89ba5f44601.png
+2015-10-29 01:24:10: qrfile is /var/www/production/ - /var/www/production/qr/6a2cfe06c970.png
+2015-10-29 01:27:18: homepath is  /var/www/production/
+2015-10-29 01:27:18: qrfile is /var/www/production/ - /var/www/production/qr/f7c8f764fb9d.png
+2015-10-29 01:27:18: qrfile is /var/www/production/ - /var/www/production/qr/a4f2190819df.png
+2015-10-29 01:27:18: qrfile is /var/www/production/ - /var/www/production/qr/dc489e7f48b4.png
+2015-10-29 01:27:18: qrfile is /var/www/production/ - /var/www/production/qr/10f31cab2f3e.png
+2015-10-29 01:27:43: homepath is  /var/www/production/
+2015-10-29 01:27:43: qrfile is /var/www/production/ - /var/www/production/qr/403acd6967f7.png
+2015-10-29 01:45:47: homepath is  /var/www/production/
+2015-10-29 01:45:47: qrfile is /var/www/production/ - /var/www/production/qr/efb967deaf71.png
+2015-10-29 02:51:19: homepath is  /var/www/production/
+2015-10-29 02:51:19: qrfile is /var/www/production/ - /var/www/production/qr/dc5669ccb8ba.png
+2015-10-29 02:51:19: qrfile is /var/www/production/ - /var/www/production/qr/8cfafce524ab.png
+2015-10-29 12:34:24: homepath is  /var/www/production/
+2015-10-29 12:34:24: qrfile is /var/www/production/ - /var/www/production/qr/617bd8170ae6.png
+2015-10-29 12:34:24: qrfile is /var/www/production/ - /var/www/production/qr/6a2a4a484150.png
+2015-10-29 12:34:25: qrfile is /var/www/production/ - /var/www/production/qr/d5626627a93d.png
+2015-10-29 12:34:25: qrfile is /var/www/production/ - /var/www/production/qr/648466135e3e.png
+2015-10-29 12:34:25: qrfile is /var/www/production/ - /var/www/production/qr/9a3b05d719df.png
+2015-10-29 12:34:25: qrfile is /var/www/production/ - /var/www/production/qr/28ab57ab1aca.png
+2015-10-29 13:24:25: homepath is  /var/www/production/
+2015-10-29 13:24:25: qrfile is /var/www/production/ - /var/www/production/qr/ef3e3bfd500e.png
+2015-10-29 13:24:25: qrfile is /var/www/production/ - /var/www/production/qr/26f1be18452e.png
+2015-10-29 13:34:46: homepath is  /var/www/production/
+2015-10-29 13:34:46: qrfile is /var/www/production/ - /var/www/production/qr/a29910ea63bb.png
+2015-10-29 13:34:46: qrfile is /var/www/production/ - /var/www/production/qr/71a2c3131c67.png
+2015-10-29 13:34:46: qrfile is /var/www/production/ - /var/www/production/qr/1c81e8a31041.png
+2015-10-29 13:34:46: qrfile is /var/www/production/ - /var/www/production/qr/7ad55b16e76e.png
+2015-10-29 13:56:50: homepath is  /var/www/production/
+2015-10-29 13:56:50: qrfile is /var/www/production/ - /var/www/production/qr/90757c75a4f5.png
+2015-10-29 14:26:56: homepath is  /var/www/production/
+2015-10-29 14:26:56: qrfile is /var/www/production/ - /var/www/production/qr/36eb1767d73a.png
+2015-10-29 14:26:56: qrfile is /var/www/production/ - /var/www/production/qr/65d6ba34a407.png
+2015-10-29 15:18:02: homepath is  /var/www/production/
+2015-10-29 15:18:02: qrfile is /var/www/production/ - /var/www/production/qr/1689d51f0c5a.png
+2015-10-29 15:18:02: qrfile is /var/www/production/ - /var/www/production/qr/70d0b04fa6f1.png
+2015-10-29 15:49:28: homepath is  /var/www/production/
+2015-10-29 15:49:28: qrfile is /var/www/production/ - /var/www/production/qr/d2e34fa60804.png
+2015-10-29 15:49:28: qrfile is /var/www/production/ - /var/www/production/qr/1d3250c48052.png
+2015-10-29 15:49:28: qrfile is /var/www/production/ - /var/www/production/qr/d9b313dbd9e0.png
+2015-10-29 15:49:28: qrfile is /var/www/production/ - /var/www/production/qr/0356ccf9d807.png
+2015-10-29 15:49:28: qrfile is /var/www/production/ - /var/www/production/qr/fca254cafc12.png
+2015-10-29 15:49:28: qrfile is /var/www/production/ - /var/www/production/qr/e0b944a1c81e.png
+2015-10-29 17:19:53: homepath is  /var/www/production/
+2015-10-29 17:19:53: qrfile is /var/www/production/ - /var/www/production/qr/75816862d938.png
+2015-10-29 17:19:53: qrfile is /var/www/production/ - /var/www/production/qr/b2b5f13fb97f.png
+2015-10-29 17:48:50: homepath is  /var/www/production/
+2015-10-29 17:48:50: qrfile is /var/www/production/ - /var/www/production/qr/6aae0a8e2a8e.png
+2015-10-29 17:48:50: qrfile is /var/www/production/ - /var/www/production/qr/3a03d4c21205.png
+2015-10-29 18:53:27: homepath is  /var/www/production/
+2015-10-29 18:53:27: qrfile is /var/www/production/ - /var/www/production/qr/8a5830e3f429.png
+2015-10-29 18:53:27: qrfile is /var/www/production/ - /var/www/production/qr/ebeddccc969d.png
+2015-10-29 19:57:42: homepath is  /var/www/production/
+2015-10-29 19:57:42: qrfile is /var/www/production/ - /var/www/production/qr/ea2523ff45b3.png
+2015-10-29 19:57:42: qrfile is /var/www/production/ - /var/www/production/qr/92010afd8dd4.png
+2015-10-29 19:57:42: qrfile is /var/www/production/ - /var/www/production/qr/a42b70d5e9ee.png
+2015-10-29 20:01:21: homepath is  /var/www/production/
+2015-10-29 20:01:21: qrfile is /var/www/production/ - /var/www/production/qr/0bf73ccd4236.png
+2015-10-29 20:01:21: qrfile is /var/www/production/ - /var/www/production/qr/c7f6dc684e58.png
+2015-10-29 20:02:39: homepath is  /var/www/production/
+2015-10-29 20:02:39: qrfile is /var/www/production/ - /var/www/production/qr/39d014ea2666.png
+2015-10-29 20:48:12: homepath is  /var/www/production/
+2015-10-29 20:58:22: homepath is  /var/www/production/
+2015-10-29 20:58:22: qrfile is /var/www/production/ - /var/www/production/qr/62e8fe76218f.png
+2015-10-29 20:58:22: qrfile is /var/www/production/ - /var/www/production/qr/c00fe53713a4.png
+2015-10-29 20:58:22: qrfile is /var/www/production/ - /var/www/production/qr/fc15851db315.png
+2015-10-29 20:58:22: qrfile is /var/www/production/ - /var/www/production/qr/e4ff8f402ca4.png
+2015-10-29 21:00:49: homepath is  /var/www/production/
+2015-10-29 21:00:49: qrfile is /var/www/production/ - /var/www/production/qr/953dd977eceb.png
+2015-10-29 21:00:49: qrfile is /var/www/production/ - /var/www/production/qr/8eb52065d764.png
+2015-10-29 21:00:49: qrfile is /var/www/production/ - /var/www/production/qr/0944052e2948.png
+2015-10-29 21:53:54: homepath is  /var/www/production/
+2015-10-29 21:53:54: qrfile is /var/www/production/ - /var/www/production/qr/22f1f6282009.png
+2015-10-29 21:53:54: qrfile is /var/www/production/ - /var/www/production/qr/974d7a61b15f.png
+2015-10-29 21:53:54: qrfile is /var/www/production/ - /var/www/production/qr/8b554702280c.png
+2015-10-29 22:04:56: homepath is  /var/www/production/
+2015-10-29 22:04:56: qrfile is /var/www/production/ - /var/www/production/qr/049bd84e259d.png
+2015-10-29 22:04:56: qrfile is /var/www/production/ - /var/www/production/qr/61bae60f8a4a.png
+2015-10-30 00:31:21: homepath is  /var/www/production/
+2015-10-30 00:31:21: qrfile is /var/www/production/ - /var/www/production/qr/e9b5667fb3c4.png
+2015-10-30 01:00:33: homepath is  /var/www/production/
+2015-10-30 01:00:33: qrfile is /var/www/production/ - /var/www/production/qr/2252e2425fd5.png
+2015-10-30 01:00:33: qrfile is /var/www/production/ - /var/www/production/qr/88696572bdf4.png
+2015-10-30 01:11:57: homepath is  /var/www/production/
+2015-10-30 01:11:57: qrfile is /var/www/production/ - /var/www/production/qr/12d692131583.png
+2015-10-30 01:11:57: qrfile is /var/www/production/ - /var/www/production/qr/1587139b227a.png
+2015-10-30 02:13:32: homepath is  /var/www/production/
+2015-10-30 02:13:32: qrfile is /var/www/production/ - /var/www/production/qr/875dc2cd52f8.png
+2015-10-30 02:13:32: qrfile is /var/www/production/ - /var/www/production/qr/9cb3467642b8.png
+2015-10-30 02:34:05: homepath is  /var/www/production/
+2015-10-30 02:34:05: qrfile is /var/www/production/ - /var/www/production/qr/65ec94f01031.png
+2015-10-30 02:34:05: qrfile is /var/www/production/ - /var/www/production/qr/900cb9f196a9.png
+2015-10-30 12:25:53: homepath is  /var/www/production/
+2015-10-30 12:25:53: qrfile is /var/www/production/ - /var/www/production/qr/012f3054951c.png
+2015-10-30 12:25:53: qrfile is /var/www/production/ - /var/www/production/qr/f9c6f559671c.png
+2015-10-30 13:18:46: homepath is  /var/www/production/
+2015-10-30 13:18:46: qrfile is /var/www/production/ - /var/www/production/qr/c3eaf5054f00.png
+2015-10-30 14:42:19: homepath is  /var/www/production/
+2015-10-30 14:42:19: qrfile is /var/www/production/ - /var/www/production/qr/af0af9c89197.png
+2015-10-30 14:42:19: qrfile is /var/www/production/ - /var/www/production/qr/5cc070744e99.png
+2015-10-30 14:59:20: homepath is  /var/www/production/
+2015-10-30 14:59:20: qrfile is /var/www/production/ - /var/www/production/qr/8ee238572a31.png
+2015-10-30 15:28:19: homepath is  /var/www/production/
+2015-10-30 15:28:19: qrfile is /var/www/production/ - /var/www/production/qr/67d134a1b16a.png
+2015-10-30 15:50:12: homepath is  /var/www/production/
+2015-10-30 15:50:12: qrfile is /var/www/production/ - /var/www/production/qr/7d0ba4de76fc.png
+2015-10-30 15:50:12: qrfile is /var/www/production/ - /var/www/production/qr/3c4e1564255e.png
+2015-10-30 16:17:10: homepath is  /var/www/production/
+2015-10-30 16:17:10: qrfile is /var/www/production/ - /var/www/production/qr/1c5d09b480d0.png
+2015-10-30 16:17:10: qrfile is /var/www/production/ - /var/www/production/qr/9c0364f82151.png
+2015-10-30 16:48:31: homepath is  /var/www/production/
+2015-10-30 16:48:31: qrfile is /var/www/production/ - /var/www/production/qr/3c3e69b1034a.png
+2015-10-30 17:01:11: homepath is  /var/www/production/
+2015-10-30 17:01:11: qrfile is /var/www/production/ - /var/www/production/qr/317575627731.png
+2015-10-30 17:09:47: homepath is  /var/www/production/
+2015-10-30 17:09:47: qrfile is /var/www/production/ - /var/www/production/qr/0ac80a5cff17.png
+2015-10-30 17:13:06: homepath is  /var/www/production/
+2015-10-30 17:13:06: qrfile is /var/www/production/ - /var/www/production/qr/a8e93cf62ace.png
+2015-10-30 17:51:03: homepath is  /var/www/production/
+2015-10-30 17:51:03: qrfile is /var/www/production/ - /var/www/production/qr/108584943827.png
+2015-10-30 18:42:32: homepath is  /var/www/production/
+2015-10-30 18:42:32: qrfile is /var/www/production/ - /var/www/production/qr/46346c864fda.png
+2015-10-30 19:20:31: homepath is  /var/www/production/
+2015-10-30 19:20:31: qrfile is /var/www/production/ - /var/www/production/qr/5b23977d8159.png
+2015-10-30 20:16:22: homepath is  /var/www/production/
+2015-10-30 20:16:22: qrfile is /var/www/production/ - /var/www/production/qr/bedc1f5ddd68.png
+2015-10-30 20:23:31: homepath is  /var/www/production/
+2015-10-30 20:23:31: qrfile is /var/www/production/ - /var/www/production/qr/51fbebec220d.png
+2015-10-30 20:23:31: qrfile is /var/www/production/ - /var/www/production/qr/0b03f70ecc24.png
+2015-10-30 20:23:31: qrfile is /var/www/production/ - /var/www/production/qr/698150bc2846.png
+2015-10-30 20:23:31: qrfile is /var/www/production/ - /var/www/production/qr/0f8846508c36.png
+2015-10-30 20:23:31: qrfile is /var/www/production/ - /var/www/production/qr/6323f4742236.png
+2015-10-30 20:23:31: qrfile is /var/www/production/ - /var/www/production/qr/e5291feea0d2.png
+2015-10-30 20:42:39: homepath is  /var/www/production/
+2015-10-30 20:42:39: qrfile is /var/www/production/ - /var/www/production/qr/38a99205020a.png
+2015-10-30 20:42:39: qrfile is /var/www/production/ - /var/www/production/qr/68ece330465a.png
+2015-10-30 20:43:24: homepath is  /var/www/production/
+2015-10-30 20:43:24: qrfile is /var/www/production/ - /var/www/production/qr/108e09c814c4.png
+2015-10-30 20:50:21: homepath is  /var/www/production/
+2015-10-30 20:50:21: qrfile is /var/www/production/ - /var/www/production/qr/e0b60f3d213f.png
+2015-10-30 20:55:07: homepath is  /var/www/production/
+2015-10-30 20:55:07: qrfile is /var/www/production/ - /var/www/production/qr/c28710650a86.png
+2015-10-30 20:58:14: homepath is  /var/www/production/
+2015-10-30 20:58:14: qrfile is /var/www/production/ - /var/www/production/qr/9cec4e9de571.png
+2015-10-30 21:22:31: homepath is  /var/www/production/
+2015-10-30 21:22:31: qrfile is /var/www/production/ - /var/www/production/qr/c21aa37fc46d.png
+2015-10-30 21:22:31: qrfile is /var/www/production/ - /var/www/production/qr/35eed72966e3.png
+2015-10-30 21:22:31: qrfile is /var/www/production/ - /var/www/production/qr/ba8ab031bf04.png
+2015-10-30 21:59:52: homepath is  /var/www/production/
+2015-10-30 21:59:52: qrfile is /var/www/production/ - /var/www/production/qr/9cc29746efbe.png
+2015-10-30 22:46:40: homepath is  /var/www/production/
+2015-10-30 22:46:40: qrfile is /var/www/production/ - /var/www/production/qr/eb9591c74075.png
+2015-10-30 22:46:40: qrfile is /var/www/production/ - /var/www/production/qr/bfc5ca395aaf.png
+2015-10-30 23:02:51: homepath is  /var/www/production/
+2015-10-30 23:02:51: qrfile is /var/www/production/ - /var/www/production/qr/7ffc538cb182.png
+2015-10-30 23:02:51: qrfile is /var/www/production/ - /var/www/production/qr/7069ef19cc7b.png
+2015-10-30 23:02:51: qrfile is /var/www/production/ - /var/www/production/qr/ce80ac21a886.png
+2015-10-30 23:02:51: qrfile is /var/www/production/ - /var/www/production/qr/67da55b0bd0c.png
+2015-10-30 23:55:47: homepath is  /var/www/production/
+2015-10-30 23:55:47: qrfile is /var/www/production/ - /var/www/production/qr/44f9cc6753ed.png
+2015-10-31 00:29:35: homepath is  /var/www/production/
+2015-10-31 00:29:35: qrfile is /var/www/production/ - /var/www/production/qr/e4828c31eef1.png
+2015-10-31 00:29:35: qrfile is /var/www/production/ - /var/www/production/qr/cfb55af41c37.png
+2015-10-31 00:33:29: homepath is  /var/www/production/
+2015-10-31 00:33:29: qrfile is /var/www/production/ - /var/www/production/qr/b6ae9532db22.png
+2015-10-31 00:33:29: qrfile is /var/www/production/ - /var/www/production/qr/f72bd498851b.png
+2015-10-31 00:45:14: homepath is  /var/www/production/
+2015-10-31 00:45:14: qrfile is /var/www/production/ - /var/www/production/qr/aca41375d309.png
+2015-10-31 00:45:14: qrfile is /var/www/production/ - /var/www/production/qr/159088b44937.png
+2015-10-31 00:45:14: qrfile is /var/www/production/ - /var/www/production/qr/871324ab4b84.png
+2015-10-31 00:53:13: homepath is  /var/www/production/
+2015-10-31 00:53:13: qrfile is /var/www/production/ - /var/www/production/qr/c26772002d8c.png
+2015-10-31 00:53:13: qrfile is /var/www/production/ - /var/www/production/qr/04f75e364d0c.png
+2015-10-31 01:44:17: homepath is  /var/www/production/
+2015-10-31 01:44:17: qrfile is /var/www/production/ - /var/www/production/qr/e3348cdb9586.png
+2015-10-31 01:44:17: qrfile is /var/www/production/ - /var/www/production/qr/6c7ef987049f.png
+2015-10-31 01:44:17: qrfile is /var/www/production/ - /var/www/production/qr/08fc27d018b3.png
+2015-10-31 01:44:17: qrfile is /var/www/production/ - /var/www/production/qr/dc1353b87fb0.png
+2015-10-31 02:12:20: homepath is  /var/www/production/
+2015-10-31 02:12:20: qrfile is /var/www/production/ - /var/www/production/qr/8bc971d681dc.png
+2015-10-31 02:25:00: homepath is  /var/www/production/
+2015-10-31 02:25:00: qrfile is /var/www/production/ - /var/www/production/qr/4e5a0d9ad897.png
+2015-10-31 02:25:00: qrfile is /var/www/production/ - /var/www/production/qr/1709d1afbfc2.png
+2015-10-31 02:29:34: homepath is  /var/www/production/
+2015-10-31 02:29:34: qrfile is /var/www/production/ - /var/www/production/qr/a639d9238c3e.png
+2015-10-31 02:29:34: qrfile is /var/www/production/ - /var/www/production/qr/07cc24bb325d.png
+2015-10-31 04:05:19: homepath is  /var/www/production/
+2015-10-31 04:05:19: qrfile is /var/www/production/ - /var/www/production/qr/7b40d818e86e.png
+2015-10-31 04:05:19: qrfile is /var/www/production/ - /var/www/production/qr/cd8f58280cb3.png
+2015-10-31 05:00:48: homepath is  /var/www/production/
+2015-10-31 05:00:48: qrfile is /var/www/production/ - /var/www/production/qr/b948f28db091.png
+2015-10-31 05:00:48: qrfile is /var/www/production/ - /var/www/production/qr/787b39f65ce1.png
+2015-10-31 12:12:19: homepath is  /var/www/production/
+2015-10-31 12:12:19: qrfile is /var/www/production/ - /var/www/production/qr/43bccf688aa9.png
+2015-10-31 12:12:19: qrfile is /var/www/production/ - /var/www/production/qr/714b1c39a031.png
+2015-10-31 12:12:19: qrfile is /var/www/production/ - /var/www/production/qr/383f46abf327.png
+2015-10-31 13:42:03: homepath is  /var/www/production/
+2015-10-31 13:42:03: qrfile is /var/www/production/ - /var/www/production/qr/03e692960356.png
+2015-10-31 13:42:03: qrfile is /var/www/production/ - /var/www/production/qr/a949f7d311cd.png
+2015-10-31 13:42:03: qrfile is /var/www/production/ - /var/www/production/qr/e67192421a7b.png
+2015-10-31 13:42:03: qrfile is /var/www/production/ - /var/www/production/qr/24ea689dd31f.png
+2015-10-31 14:21:37: homepath is  /var/www/production/
+2015-10-31 14:21:37: qrfile is /var/www/production/ - /var/www/production/qr/1e02f3a98dcd.png
+2015-10-31 14:21:37: qrfile is /var/www/production/ - /var/www/production/qr/ee9d1f44a402.png
+2015-10-31 14:34:40: homepath is  /var/www/production/
+2015-10-31 14:34:40: qrfile is /var/www/production/ - /var/www/production/qr/dbf7668277a8.png
+2015-10-31 14:34:40: qrfile is /var/www/production/ - /var/www/production/qr/62adf0dbc106.png
+2015-10-31 14:58:57: homepath is  /var/www/production/
+2015-10-31 14:58:57: qrfile is /var/www/production/ - /var/www/production/qr/1f3506d04da1.png
+2015-10-31 15:13:43: homepath is  /var/www/production/
+2015-10-31 15:13:43: qrfile is /var/www/production/ - /var/www/production/qr/8d2e9042dd6c.png
+2015-10-31 16:26:45: homepath is  /var/www/production/
+2015-10-31 16:26:45: qrfile is /var/www/production/ - /var/www/production/qr/a8d6af922276.png
+2015-10-31 16:26:45: qrfile is /var/www/production/ - /var/www/production/qr/59791a3e0eba.png
+2015-10-31 16:26:45: qrfile is /var/www/production/ - /var/www/production/qr/34baac911d1d.png
+2015-10-31 16:26:45: qrfile is /var/www/production/ - /var/www/production/qr/946a9d079186.png
+2015-10-31 16:26:45: qrfile is /var/www/production/ - /var/www/production/qr/efa1ff1b5d6c.png
+2015-10-31 16:26:45: qrfile is /var/www/production/ - /var/www/production/qr/03776db39537.png
+2015-10-31 16:57:32: homepath is  /var/www/production/
+2015-10-31 16:57:32: qrfile is /var/www/production/ - /var/www/production/qr/77905d19d4fe.png
+2015-10-31 16:57:32: qrfile is /var/www/production/ - /var/www/production/qr/31f73ac4e7e4.png
+2015-10-31 16:57:32: qrfile is /var/www/production/ - /var/www/production/qr/c60ad1adcae3.png
+2015-10-31 17:13:22: homepath is  /var/www/production/
+2015-10-31 17:13:22: qrfile is /var/www/production/ - /var/www/production/qr/d238439a87f8.png
+2015-10-31 17:13:22: qrfile is /var/www/production/ - /var/www/production/qr/1ad19d3f0f46.png
+2015-10-31 17:13:50: homepath is  /var/www/production/
+2015-10-31 17:13:50: qrfile is /var/www/production/ - /var/www/production/qr/11152a69d9bf.png
+2015-10-31 17:13:50: qrfile is /var/www/production/ - /var/www/production/qr/084c85c82cbe.png
+2015-10-31 17:13:50: qrfile is /var/www/production/ - /var/www/production/qr/b66792840da6.png
+2015-10-31 17:13:50: qrfile is /var/www/production/ - /var/www/production/qr/1f2e6cba6ec6.png
+2015-10-31 17:14:29: homepath is  /var/www/production/
+2015-10-31 17:14:29: qrfile is /var/www/production/ - /var/www/production/qr/dfb4b80ca6d1.png
+2015-10-31 17:14:29: qrfile is /var/www/production/ - /var/www/production/qr/12b817a58722.png
+2015-10-31 17:32:49: homepath is  /var/www/production/
+2015-10-31 17:32:49: qrfile is /var/www/production/ - /var/www/production/qr/370fddee1707.png
+2015-10-31 17:32:49: qrfile is /var/www/production/ - /var/www/production/qr/92dc87e01259.png
+2015-10-31 17:49:41: homepath is  /var/www/production/
+2015-10-31 17:49:41: qrfile is /var/www/production/ - /var/www/production/qr/f729c77bee68.png
+2015-10-31 17:49:41: qrfile is /var/www/production/ - /var/www/production/qr/62542f920b9c.png
+2015-10-31 17:54:19: homepath is  /var/www/production/
+2015-10-31 17:54:19: qrfile is /var/www/production/ - /var/www/production/qr/2e621ac62e92.png
+2015-10-31 18:08:50: homepath is  /var/www/production/
+2015-10-31 18:08:50: qrfile is /var/www/production/ - /var/www/production/qr/1e05d6167944.png
+2015-10-31 18:08:50: qrfile is /var/www/production/ - /var/www/production/qr/40e2517f6da2.png
+2015-10-31 18:11:51: homepath is  /var/www/production/
+2015-10-31 18:11:51: qrfile is /var/www/production/ - /var/www/production/qr/bea9ada6ac33.png
+2015-10-31 18:21:51: homepath is  /var/www/production/
+2015-10-31 18:21:51: qrfile is /var/www/production/ - /var/www/production/qr/4c91644b7ff8.png
+2015-10-31 18:25:02: homepath is  /var/www/production/
+2015-10-31 18:25:02: qrfile is /var/www/production/ - /var/www/production/qr/3f0c5d8ef522.png
+2015-10-31 18:25:03: qrfile is /var/www/production/ - /var/www/production/qr/fb4edb234667.png
+2015-10-31 18:38:34: homepath is  /var/www/production/
+2015-10-31 18:38:34: qrfile is /var/www/production/ - /var/www/production/qr/56fad3464630.png
+2015-10-31 18:38:34: qrfile is /var/www/production/ - /var/www/production/qr/d637012a92b7.png
+2015-10-31 20:14:16: homepath is  /var/www/production/
+2015-10-31 20:14:16: qrfile is /var/www/production/ - /var/www/production/qr/e40c12c8cd4d.png
+2015-10-31 20:57:24: homepath is  /var/www/production/
+2015-10-31 20:57:24: qrfile is /var/www/production/ - /var/www/production/qr/3b3f29fb3121.png
+2015-10-31 20:57:24: qrfile is /var/www/production/ - /var/www/production/qr/4b1de4ac4106.png
+2015-10-31 21:09:13: homepath is  /var/www/production/
+2015-10-31 21:09:13: qrfile is /var/www/production/ - /var/www/production/qr/bd679e791020.png
+2015-10-31 21:09:13: qrfile is /var/www/production/ - /var/www/production/qr/567914ff4f7a.png
+2015-10-31 21:58:16: homepath is  /var/www/production/
+2015-10-31 21:58:16: qrfile is /var/www/production/ - /var/www/production/qr/88b7785b98c0.png
+2015-10-31 21:58:16: qrfile is /var/www/production/ - /var/www/production/qr/1d5c85c6589d.png
+2015-10-31 21:58:16: qrfile is /var/www/production/ - /var/www/production/qr/57f5011e5540.png
+2015-10-31 21:58:16: qrfile is /var/www/production/ - /var/www/production/qr/9fe01a38d76c.png
+2015-10-31 21:58:16: qrfile is /var/www/production/ - /var/www/production/qr/3afcf0057e51.png
+2015-10-31 21:58:16: qrfile is /var/www/production/ - /var/www/production/qr/cde5c316203f.png
+2015-10-31 22:09:30: homepath is  /var/www/production/
+2015-10-31 22:09:30: qrfile is /var/www/production/ - /var/www/production/qr/c23a1873947a.png
+2015-10-31 22:09:30: qrfile is /var/www/production/ - /var/www/production/qr/ed74b91925a7.png
+2015-10-31 22:45:53: homepath is  /var/www/production/
+2015-10-31 22:45:53: qrfile is /var/www/production/ - /var/www/production/qr/f98751c417e2.png
+2015-10-31 22:45:53: qrfile is /var/www/production/ - /var/www/production/qr/38c13c76a348.png
+2015-10-31 22:46:23: homepath is  /var/www/production/
+2015-10-31 22:46:23: qrfile is /var/www/production/ - /var/www/production/qr/49f17fac0f72.png
+2015-10-31 22:54:48: homepath is  /var/www/production/
+2015-10-31 22:54:48: qrfile is /var/www/production/ - /var/www/production/qr/ba97abbf6f53.png
+2015-10-31 22:55:56: homepath is  /var/www/production/
+2015-10-31 22:55:56: qrfile is /var/www/production/ - /var/www/production/qr/3a168f24881d.png
+2015-10-31 23:16:16: homepath is  /var/www/production/
+2015-10-31 23:16:16: qrfile is /var/www/production/ - /var/www/production/qr/418c8d78a951.png
+2015-10-31 23:43:46: homepath is  /var/www/production/
+2015-10-31 23:43:46: qrfile is /var/www/production/ - /var/www/production/qr/371b3811b96e.png
+2015-10-31 23:43:46: qrfile is /var/www/production/ - /var/www/production/qr/de3197e4261e.png
+2015-10-31 23:53:48: homepath is  /var/www/production/
+2015-10-31 23:53:48: qrfile is /var/www/production/ - /var/www/production/qr/42db3cf9e4e7.png
+2015-10-31 23:53:48: qrfile is /var/www/production/ - /var/www/production/qr/d2a59c4d72f8.png
+2015-11-01 00:14:48: homepath is  /var/www/production/
+2015-11-01 00:14:48: qrfile is /var/www/production/ - /var/www/production/qr/99124e8aea8f.png
+2015-11-01 00:14:48: qrfile is /var/www/production/ - /var/www/production/qr/e0cbaa436fd3.png
+2015-11-01 00:14:48: qrfile is /var/www/production/ - /var/www/production/qr/9b1c98bf8daa.png
+2015-11-01 00:14:48: qrfile is /var/www/production/ - /var/www/production/qr/bb496f77c081.png
+2015-11-01 00:23:09: homepath is  /var/www/production/
+2015-11-01 00:23:09: qrfile is /var/www/production/ - /var/www/production/qr/fbbc01050d6e.png
+2015-11-01 00:23:09: qrfile is /var/www/production/ - /var/www/production/qr/1d437b2b2c80.png
+2015-11-01 00:23:09: qrfile is /var/www/production/ - /var/www/production/qr/c84c2243b43c.png
+2015-11-01 00:31:25: homepath is  /var/www/production/
+2015-11-01 00:31:25: qrfile is /var/www/production/ - /var/www/production/qr/b082f39caf3b.png
+2015-11-01 15:38:07: homepath is  /var/www/production/
+2015-11-01 15:38:07: qrfile is /var/www/production/ - /var/www/production/qr/5c95ebff7b65.png
+2015-11-01 15:38:07: qrfile is /var/www/production/ - /var/www/production/qr/7bd44467b74a.png
+2015-11-01 15:38:07: qrfile is /var/www/production/ - /var/www/production/qr/5122b7917ebd.png
+2015-11-01 15:52:21: homepath is  /var/www/production/
+2015-11-01 15:52:21: qrfile is /var/www/production/ - /var/www/production/qr/9ab6b3f28ac2.png
+2015-11-01 15:52:21: qrfile is /var/www/production/ - /var/www/production/qr/05e8818b3a69.png
+2015-11-01 16:49:31: homepath is  /var/www/production/
+2015-11-01 16:49:31: qrfile is /var/www/production/ - /var/www/production/qr/843297810091.png
+2015-11-01 16:49:31: qrfile is /var/www/production/ - /var/www/production/qr/3adadb8ae452.png
+2015-11-01 16:49:31: qrfile is /var/www/production/ - /var/www/production/qr/aebd39df2da8.png
+2015-11-01 20:33:13: homepath is  /var/www/production/
+2015-11-01 20:33:13: qrfile is /var/www/production/ - /var/www/production/qr/92359ec21ae4.png
+2015-11-01 21:55:37: homepath is  /var/www/production/
+2015-11-01 21:55:37: qrfile is /var/www/production/ - /var/www/production/qr/f17de91954fc.png
+2015-11-01 21:55:37: qrfile is /var/www/production/ - /var/www/production/qr/dd53e2b81e39.png
+2015-11-01 21:55:37: qrfile is /var/www/production/ - /var/www/production/qr/c041860f9ab1.png
+2015-11-01 21:55:37: qrfile is /var/www/production/ - /var/www/production/qr/bb7ccca193e4.png
+2015-11-02 00:21:05: homepath is  /var/www/production/
+2015-11-02 00:21:05: qrfile is /var/www/production/ - /var/www/production/qr/4475c6e0762d.png
+2015-11-02 00:21:05: qrfile is /var/www/production/ - /var/www/production/qr/fbe6faabd57a.png
+2015-11-02 00:21:05: qrfile is /var/www/production/ - /var/www/production/qr/b2af81c929a4.png
+2015-11-02 00:37:08: homepath is  /var/www/production/
+2015-11-02 00:37:08: qrfile is /var/www/production/ - /var/www/production/qr/c2313c56b695.png
+2015-11-02 00:37:08: qrfile is /var/www/production/ - /var/www/production/qr/070f4e5fb5d0.png
+2015-11-02 00:37:08: qrfile is /var/www/production/ - /var/www/production/qr/dd18dd83d441.png
+2015-11-02 00:37:08: qrfile is /var/www/production/ - /var/www/production/qr/78c6cdea5413.png
+2015-11-02 00:37:08: qrfile is /var/www/production/ - /var/www/production/qr/f8534a2e9eea.png
+2015-11-02 03:22:40: homepath is  /var/www/production/
+2015-11-02 03:22:40: qrfile is /var/www/production/ - /var/www/production/qr/ad09f96aa0ab.png
+2015-11-02 04:19:26: homepath is  /var/www/production/
+2015-11-02 04:19:26: qrfile is /var/www/production/ - /var/www/production/qr/13de113f5f29.png
+2015-11-02 04:19:26: qrfile is /var/www/production/ - /var/www/production/qr/f806f54d2800.png
+2015-11-02 15:12:49: homepath is  /var/www/production/
+2015-11-02 15:12:49: qrfile is /var/www/production/ - /var/www/production/qr/ba7fe03b7865.png
+2015-11-02 15:12:49: qrfile is /var/www/production/ - /var/www/production/qr/dac36bbddfc0.png
+2015-11-02 17:47:59: homepath is  /var/www/production/
+2015-11-02 17:47:59: qrfile is /var/www/production/ - /var/www/production/qr/12765553c878.png
+2015-11-02 17:47:59: qrfile is /var/www/production/ - /var/www/production/qr/690310d939cf.png
+2015-11-02 17:47:59: qrfile is /var/www/production/ - /var/www/production/qr/892daff58a99.png
+2015-11-02 20:52:15: homepath is  /var/www/production/
+2015-11-02 20:52:15: qrfile is /var/www/production/ - /var/www/production/qr/3539f8f5ee3d.png
+2015-11-02 20:52:15: qrfile is /var/www/production/ - /var/www/production/qr/df2234f91760.png
+2015-11-02 21:49:35: homepath is  /var/www/production/
+2015-11-02 21:49:35: qrfile is /var/www/production/ - /var/www/production/qr/d2ee4378e7bb.png
+2015-11-02 21:49:35: qrfile is /var/www/production/ - /var/www/production/qr/defc57ed04ce.png
+2015-11-02 21:49:35: qrfile is /var/www/production/ - /var/www/production/qr/f0aa76b7c785.png
+2015-11-02 22:17:35: homepath is  /var/www/production/
+2015-11-02 22:17:35: qrfile is /var/www/production/ - /var/www/production/qr/9b696bae2f46.png
+2015-11-02 22:17:57: homepath is  /var/www/production/
+2015-11-03 00:15:18: homepath is  /var/www/production/
+2015-11-03 00:15:18: qrfile is /var/www/production/ - /var/www/production/qr/8336a0f8fbd0.png
+2015-11-03 00:15:18: qrfile is /var/www/production/ - /var/www/production/qr/b6a531c8cbee.png
+2015-11-03 00:15:18: qrfile is /var/www/production/ - /var/www/production/qr/89b996fcaa5e.png
+2015-11-03 01:59:13: homepath is  /var/www/production/
+2015-11-03 01:59:13: qrfile is /var/www/production/ - /var/www/production/qr/66b677e2e466.png
+2015-11-03 01:59:13: qrfile is /var/www/production/ - /var/www/production/qr/58b50cacbb94.png
+2015-11-03 01:59:13: qrfile is /var/www/production/ - /var/www/production/qr/8580bf3f9962.png
+2015-11-03 01:59:13: qrfile is /var/www/production/ - /var/www/production/qr/f9765cb1d0ea.png
+2015-11-03 01:59:13: qrfile is /var/www/production/ - /var/www/production/qr/a6b382777405.png
+2015-11-03 02:49:02: homepath is  /var/www/production/
+2015-11-03 02:49:02: qrfile is /var/www/production/ - /var/www/production/qr/75030c06b279.png
+2015-11-03 02:49:02: qrfile is /var/www/production/ - /var/www/production/qr/01aac6b5d0c3.png
+2015-11-03 02:49:02: qrfile is /var/www/production/ - /var/www/production/qr/2463715f80bf.png
+2015-11-03 02:49:02: qrfile is /var/www/production/ - /var/www/production/qr/e494de296420.png
+2015-11-03 03:45:34: homepath is  /var/www/production/
+2015-11-03 03:45:34: qrfile is /var/www/production/ - /var/www/production/qr/718410cf7531.png
+2015-11-03 03:45:34: qrfile is /var/www/production/ - /var/www/production/qr/04d4910dbb82.png
+2015-11-03 03:45:34: qrfile is /var/www/production/ - /var/www/production/qr/fe779a74474b.png
+2015-11-03 04:17:36: homepath is  /var/www/production/
+2015-11-03 04:17:36: qrfile is /var/www/production/ - /var/www/production/qr/6484988348a1.png
+2015-11-03 04:17:36: qrfile is /var/www/production/ - /var/www/production/qr/c2fdeda889e2.png
+2015-11-03 04:17:36: qrfile is /var/www/production/ - /var/www/production/qr/4e61024c0874.png
+2015-11-03 04:17:36: qrfile is /var/www/production/ - /var/www/production/qr/d20e36438acc.png
+2015-11-03 04:17:36: qrfile is /var/www/production/ - /var/www/production/qr/42fa8009fdf4.png
+2015-11-03 13:43:04: homepath is  /var/www/production/
+2015-11-03 13:43:04: qrfile is /var/www/production/ - /var/www/production/qr/bd7e4a9a120b.png
+2015-11-03 13:43:04: qrfile is /var/www/production/ - /var/www/production/qr/e9c93556e3d4.png
+2015-11-03 13:43:04: qrfile is /var/www/production/ - /var/www/production/qr/ae6b4ef6d7c6.png
+2015-11-03 14:51:58: homepath is  /var/www/production/
+2015-11-03 14:51:58: qrfile is /var/www/production/ - /var/www/production/qr/ec478b6a8381.png
+2015-11-03 14:51:58: qrfile is /var/www/production/ - /var/www/production/qr/76e3cb265e1b.png
+2015-11-03 14:51:58: qrfile is /var/www/production/ - /var/www/production/qr/4952eacc9f19.png
+2015-11-03 15:20:33: homepath is  /var/www/production/
+2015-11-03 15:20:33: qrfile is /var/www/production/ - /var/www/production/qr/f63694f3447b.png
+2015-11-03 15:20:33: qrfile is /var/www/production/ - /var/www/production/qr/435a7dab8c11.png
+2015-11-03 15:20:33: qrfile is /var/www/production/ - /var/www/production/qr/fecfc64187ec.png
+2015-11-03 15:55:56: homepath is  /var/www/production/
+2015-11-03 15:55:56: qrfile is /var/www/production/ - /var/www/production/qr/20e359d1be3f.png
+2015-11-03 17:55:15: homepath is  /var/www/production/
+2015-11-03 17:55:15: qrfile is /var/www/production/ - /var/www/production/qr/adaf2b1bc615.png
+2015-11-03 17:55:15: qrfile is /var/www/production/ - /var/www/production/qr/b3ce88a84a09.png
+2015-11-03 19:23:39: homepath is  /var/www/production/
+2015-11-03 19:23:39: qrfile is /var/www/production/ - /var/www/production/qr/6181f0be783c.png
+2015-11-03 19:23:39: qrfile is /var/www/production/ - /var/www/production/qr/9664a47e5ab8.png
+2015-11-03 19:49:08: homepath is  /var/www/production/
+2015-11-03 19:49:08: qrfile is /var/www/production/ - /var/www/production/qr/9bf090958489.png
+2015-11-03 19:49:08: qrfile is /var/www/production/ - /var/www/production/qr/f2f6e2dae868.png
+2015-11-03 19:55:56: homepath is  /var/www/production/
+2015-11-03 19:55:56: qrfile is /var/www/production/ - /var/www/production/qr/5193af14cb66.png
+2015-11-03 20:44:43: homepath is  /var/www/production/
+2015-11-03 20:44:43: qrfile is /var/www/production/ - /var/www/production/qr/4f7c5cf36c8d.png
+2015-11-03 20:44:43: qrfile is /var/www/production/ - /var/www/production/qr/a6c875c756a4.png
+2015-11-03 21:09:02: homepath is  /var/www/production/
+2015-11-03 21:09:02: qrfile is /var/www/production/ - /var/www/production/qr/616b1ff9f7e4.png
+2015-11-03 21:09:02: qrfile is /var/www/production/ - /var/www/production/qr/0980685e21c7.png
+2015-11-03 21:09:02: qrfile is /var/www/production/ - /var/www/production/qr/01e0414d88aa.png
+2015-11-03 21:09:02: qrfile is /var/www/production/ - /var/www/production/qr/4556f0db8658.png
+2015-11-03 21:09:02: qrfile is /var/www/production/ - /var/www/production/qr/4de4371ecce9.png
+2015-11-03 23:51:10: homepath is  /var/www/production/
+2015-11-03 23:51:10: qrfile is /var/www/production/ - /var/www/production/qr/ecfc444589f9.png
+2015-11-03 23:51:10: qrfile is /var/www/production/ - /var/www/production/qr/b970a19f13f0.png
+2015-11-03 23:51:10: qrfile is /var/www/production/ - /var/www/production/qr/992b414d078c.png
+2015-11-03 23:51:10: qrfile is /var/www/production/ - /var/www/production/qr/382632b85539.png
+2015-11-03 23:51:10: qrfile is /var/www/production/ - /var/www/production/qr/2cbd695ab6a7.png
+2015-11-03 23:51:10: qrfile is /var/www/production/ - /var/www/production/qr/6cb49bafe982.png
+2015-11-04 01:34:56: homepath is  /var/www/production/
+2015-11-04 01:34:56: qrfile is /var/www/production/ - /var/www/production/qr/da8091c3af1d.png
+2015-11-04 02:47:26: homepath is  /var/www/production/
+2015-11-04 02:47:26: qrfile is /var/www/production/ - /var/www/production/qr/087e10f975dc.png
+2015-11-04 02:47:26: qrfile is /var/www/production/ - /var/www/production/qr/1aecdd05e791.png
+2015-11-04 02:47:26: qrfile is /var/www/production/ - /var/www/production/qr/4a4ae6e420ca.png
+2015-11-04 03:01:32: homepath is  /var/www/production/
+2015-11-04 03:01:32: qrfile is /var/www/production/ - /var/www/production/qr/2337b29c0d0b.png
+2015-11-04 03:01:32: qrfile is /var/www/production/ - /var/www/production/qr/750ed41b4d00.png
+2015-11-04 03:01:32: qrfile is /var/www/production/ - /var/www/production/qr/9192da745a28.png
+2015-11-04 03:23:12: homepath is  /var/www/production/
+2015-11-04 03:23:12: qrfile is /var/www/production/ - /var/www/production/qr/8cc73c821595.png
+2015-11-04 03:23:12: qrfile is /var/www/production/ - /var/www/production/qr/8023b8b84c28.png
+2015-11-04 03:23:12: qrfile is /var/www/production/ - /var/www/production/qr/84729380cbb6.png
+2015-11-04 03:23:12: qrfile is /var/www/production/ - /var/www/production/qr/9c07031a7973.png
+2015-11-04 03:23:12: qrfile is /var/www/production/ - /var/www/production/qr/917c72a55860.png
+2015-11-04 03:40:39: homepath is  /var/www/production/
+2015-11-04 03:40:39: qrfile is /var/www/production/ - /var/www/production/qr/462ed221d7ff.png
+2015-11-04 03:40:39: qrfile is /var/www/production/ - /var/www/production/qr/1fc832c52fc5.png
+2015-11-04 03:40:39: qrfile is /var/www/production/ - /var/www/production/qr/6b2450520097.png
+2015-11-04 05:20:35: homepath is  /var/www/production/
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/7202aa804091.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/9792244ce2ac.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/8a3b801b5ca4.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/935e4a1d32b8.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/1bbb877af525.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/860912305093.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/a533934d0abc.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/ed5a5a817814.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/f6d45b0a31f3.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/693a5d297d78.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/189e9149d5bc.png
+2015-11-04 05:20:35: qrfile is /var/www/production/ - /var/www/production/qr/c20cbac33800.png
+2015-11-04 12:22:15: homepath is  /var/www/production/
+2015-11-04 12:22:15: qrfile is /var/www/production/ - /var/www/production/qr/41baa3de7501.png
+2015-11-04 12:22:15: qrfile is /var/www/production/ - /var/www/production/qr/0ee0a7492d83.png
+2015-11-04 12:22:15: qrfile is /var/www/production/ - /var/www/production/qr/6776f1fcf981.png
+2015-11-04 14:17:28: homepath is  /var/www/production/
+2015-11-04 14:17:28: qrfile is /var/www/production/ - /var/www/production/qr/ff7b0d46836d.png
+2015-11-04 14:17:28: qrfile is /var/www/production/ - /var/www/production/qr/570d9b8f1d08.png
+2015-11-04 14:33:51: homepath is  /var/www/production/
+2015-11-04 14:33:51: qrfile is /var/www/production/ - /var/www/production/qr/571adcaade20.png
+2015-11-04 14:33:51: qrfile is /var/www/production/ - /var/www/production/qr/b9a30da59449.png
+2015-11-04 14:33:51: qrfile is /var/www/production/ - /var/www/production/qr/e094b05b563e.png
+2015-11-04 14:33:51: qrfile is /var/www/production/ - /var/www/production/qr/d74ee4085939.png
+2015-11-04 14:35:57: homepath is  /var/www/production/
+2015-11-04 14:35:57: qrfile is /var/www/production/ - /var/www/production/qr/9dfa2e6af0d6.png
+2015-11-04 14:35:57: qrfile is /var/www/production/ - /var/www/production/qr/6af77afc745d.png
+2015-11-04 14:35:57: qrfile is /var/www/production/ - /var/www/production/qr/deec16401d82.png
+2015-11-04 14:38:48: homepath is  /var/www/production/
+2015-11-04 14:38:48: qrfile is /var/www/production/ - /var/www/production/qr/0694b1cb0b88.png
+2015-11-04 14:38:48: qrfile is /var/www/production/ - /var/www/production/qr/8dbbbf138094.png
+2015-11-04 14:38:48: qrfile is /var/www/production/ - /var/www/production/qr/ac168390cc9a.png
+2015-11-04 14:40:46: homepath is  /var/www/production/
+2015-11-04 14:40:46: qrfile is /var/www/production/ - /var/www/production/qr/2b0d7f1027a2.png
+2015-11-04 14:40:46: qrfile is /var/www/production/ - /var/www/production/qr/8bb26d71af87.png
+2015-11-04 14:40:46: qrfile is /var/www/production/ - /var/www/production/qr/aba840c4ee2a.png
+2015-11-04 14:44:18: homepath is  /var/www/production/
+2015-11-04 14:44:18: qrfile is /var/www/production/ - /var/www/production/qr/90904f337157.png
+2015-11-04 14:44:18: qrfile is /var/www/production/ - /var/www/production/qr/788bb2592c17.png
+2015-11-04 14:44:36: homepath is  /var/www/production/
+2015-11-04 14:44:36: qrfile is /var/www/production/ - /var/www/production/qr/beeebb49d1a0.png
+2015-11-04 14:44:36: qrfile is /var/www/production/ - /var/www/production/qr/d05dea6b62b1.png
+2015-11-04 15:28:56: homepath is  /var/www/production/
+2015-11-04 15:28:56: qrfile is /var/www/production/ - /var/www/production/qr/fcfec79c334d.png
+2015-11-04 15:28:56: qrfile is /var/www/production/ - /var/www/production/qr/6d6788ae55fe.png
+2015-11-04 15:39:04: homepath is  /var/www/production/
+2015-11-04 15:39:04: qrfile is /var/www/production/ - /var/www/production/qr/efb4b426495f.png
+2015-11-04 16:28:52: homepath is  /var/www/production/
+2015-11-04 16:28:52: qrfile is /var/www/production/ - /var/www/production/qr/b0c9696c99de.png
+2015-11-04 16:33:41: homepath is  /var/www/production/
+2015-11-04 16:33:41: qrfile is /var/www/production/ - /var/www/production/qr/39d74600e4d2.png
+2015-11-04 16:33:41: qrfile is /var/www/production/ - /var/www/production/qr/f3a54053a1da.png
+2015-11-04 16:55:03: homepath is  /var/www/production/
+2015-11-04 16:55:03: qrfile is /var/www/production/ - /var/www/production/qr/e5604bacc30d.png
+2015-11-04 16:55:03: qrfile is /var/www/production/ - /var/www/production/qr/f51d62219c82.png
+2015-11-04 18:29:58: homepath is  /var/www/production/
+2015-11-04 18:29:58: qrfile is /var/www/production/ - /var/www/production/qr/f9bf77dbe3e9.png
+2015-11-04 18:36:53: homepath is  /var/www/production/
+2015-11-04 18:36:53: qrfile is /var/www/production/ - /var/www/production/qr/36452509dbdb.png
+2015-11-04 18:36:53: qrfile is /var/www/production/ - /var/www/production/qr/1108a46c1fe0.png
+2015-11-04 18:43:49: homepath is  /var/www/production/
+2015-11-04 18:43:49: qrfile is /var/www/production/ - /var/www/production/qr/8d83a3cbc78f.png
+2015-11-04 18:43:49: qrfile is /var/www/production/ - /var/www/production/qr/e54faeeedf23.png
+2015-11-04 19:01:58: homepath is  /var/www/production/
+2015-11-04 19:01:58: qrfile is /var/www/production/ - /var/www/production/qr/ac7942f91284.png
+2015-11-04 19:01:58: qrfile is /var/www/production/ - /var/www/production/qr/ecce87058784.png
+2015-11-04 19:19:42: homepath is  /var/www/production/
+2015-11-04 19:19:42: qrfile is /var/www/production/ - /var/www/production/qr/5f1e8327978d.png
+2015-11-04 19:19:42: qrfile is /var/www/production/ - /var/www/production/qr/40984f76ea12.png
+2015-11-04 19:41:30: homepath is  /var/www/production/
+2015-11-04 19:41:30: qrfile is /var/www/production/ - /var/www/production/qr/62964c0d761c.png
+2015-11-04 19:42:43: homepath is  /var/www/production/
+2015-11-04 19:42:43: qrfile is /var/www/production/ - /var/www/production/qr/a493e386dd0e.png
+2015-11-04 20:00:35: homepath is  /var/www/production/
+2015-11-04 20:00:35: qrfile is /var/www/production/ - /var/www/production/qr/4e0323957bcd.png
+2015-11-04 20:00:35: qrfile is /var/www/production/ - /var/www/production/qr/9f4f1fa60921.png
+2015-11-04 20:00:35: qrfile is /var/www/production/ - /var/www/production/qr/639e0f113a10.png
+2015-11-04 21:05:19: homepath is  /var/www/production/
+2015-11-04 21:05:19: qrfile is /var/www/production/ - /var/www/production/qr/19bba3a0bb19.png
+2015-11-04 21:05:19: qrfile is /var/www/production/ - /var/www/production/qr/ac4792100d70.png
+2015-11-04 21:15:52: homepath is  /var/www/production/
+2015-11-04 21:15:52: qrfile is /var/www/production/ - /var/www/production/qr/44f2e6c1a958.png
+2015-11-04 21:15:52: qrfile is /var/www/production/ - /var/www/production/qr/74a762674bd3.png
+2015-11-04 23:17:02: homepath is  /var/www/production/
+2015-11-04 23:17:02: qrfile is /var/www/production/ - /var/www/production/qr/ba049d11ff85.png
+2015-11-04 23:17:02: qrfile is /var/www/production/ - /var/www/production/qr/96c1cce5a6ca.png
+2015-11-04 23:17:02: qrfile is /var/www/production/ - /var/www/production/qr/b4b5d7aaaa67.png
+2015-11-04 23:26:17: homepath is  /var/www/production/
+2015-11-04 23:26:17: qrfile is /var/www/production/ - /var/www/production/qr/a56472200c06.png
+2015-11-05 01:11:48: homepath is  /var/www/production/
+2015-11-05 01:11:48: qrfile is /var/www/production/ - /var/www/production/qr/3b24af75bd0d.png
+2015-11-05 01:11:48: qrfile is /var/www/production/ - /var/www/production/qr/2eeb842b9ea5.png
+2015-11-05 02:29:42: homepath is  /var/www/production/
+2015-11-05 02:29:42: qrfile is /var/www/production/ - /var/www/production/qr/400db978bde4.png
+2015-11-05 03:23:46: homepath is  /var/www/production/
+2015-11-05 03:23:46: qrfile is /var/www/production/ - /var/www/production/qr/c8541be03104.png
+2015-11-05 03:52:21: homepath is  /var/www/production/
+2015-11-05 03:52:21: qrfile is /var/www/production/ - /var/www/production/qr/f217be8a65fa.png
+2015-11-05 03:52:21: qrfile is /var/www/production/ - /var/www/production/qr/a839d63d3967.png
+2015-11-05 06:14:24: homepath is  /var/www/production/
+2015-11-05 06:14:24: qrfile is /var/www/production/ - /var/www/production/qr/1a51bc8782fa.png
+2015-11-05 06:14:24: qrfile is /var/www/production/ - /var/www/production/qr/796b0691b5de.png
+2015-11-05 13:55:26: homepath is  /var/www/production/
+2015-11-05 13:55:26: qrfile is /var/www/production/ - /var/www/production/qr/0f624da5b4a9.png
+2015-11-05 13:55:26: qrfile is /var/www/production/ - /var/www/production/qr/6afe6cd1e442.png
+2015-11-05 13:55:26: qrfile is /var/www/production/ - /var/www/production/qr/dd4b1d361f8b.png
+2015-11-05 14:42:41: homepath is  /var/www/production/
+2015-11-05 14:42:41: qrfile is /var/www/production/ - /var/www/production/qr/6b406581bdcb.png
+2015-11-05 15:29:11: homepath is  /var/www/production/
+2015-11-05 15:29:11: qrfile is /var/www/production/ - /var/www/production/qr/5ec87a799ecd.png
+2015-11-05 15:29:11: qrfile is /var/www/production/ - /var/www/production/qr/0f4278fce5eb.png
+2015-11-05 15:43:16: homepath is  /var/www/production/
+2015-11-05 15:43:16: qrfile is /var/www/production/ - /var/www/production/qr/4a930c187237.png
+2015-11-05 16:00:37: homepath is  /var/www/production/
+2015-11-05 16:00:37: qrfile is /var/www/production/ - /var/www/production/qr/3925447a8b2b.png
+2015-11-05 17:00:03: homepath is  /var/www/production/
+2015-11-05 17:00:03: qrfile is /var/www/production/ - /var/www/production/qr/c0f2a24572d9.png
+2015-11-05 17:00:03: qrfile is /var/www/production/ - /var/www/production/qr/7f1ea4d9b6a3.png
+2015-11-05 17:03:45: homepath is  /var/www/production/
+2015-11-05 17:03:45: qrfile is /var/www/production/ - /var/www/production/qr/464f24af3988.png
+2015-11-05 18:31:09: homepath is  /var/www/production/
+2015-11-05 18:31:09: qrfile is /var/www/production/ - /var/www/production/qr/e6858cbfb9fd.png
+2015-11-05 18:31:09: qrfile is /var/www/production/ - /var/www/production/qr/0fca1be955ca.png
+2015-11-05 19:42:04: homepath is  /var/www/production/
+2015-11-05 19:42:04: qrfile is /var/www/production/ - /var/www/production/qr/d918e58c709f.png
+2015-11-05 19:42:04: qrfile is /var/www/production/ - /var/www/production/qr/a388f898e04d.png
+2015-11-05 20:02:26: homepath is  /var/www/production/
+2015-11-05 20:02:26: qrfile is /var/www/production/ - /var/www/production/qr/9bf986f62d5b.png
+2015-11-05 20:02:26: qrfile is /var/www/production/ - /var/www/production/qr/9cb4233e93ee.png
+2015-11-05 20:02:26: qrfile is /var/www/production/ - /var/www/production/qr/23ad2fc8c889.png
+2015-11-05 20:02:26: qrfile is /var/www/production/ - /var/www/production/qr/1016009029c4.png
+2015-11-05 21:00:34: homepath is  /var/www/production/
+2015-11-05 21:00:34: qrfile is /var/www/production/ - /var/www/production/qr/4761c7c3e86f.png
+2015-11-05 21:00:34: qrfile is /var/www/production/ - /var/www/production/qr/1320c9608852.png
+2015-11-05 21:22:28: homepath is  /var/www/production/
+2015-11-05 21:22:28: qrfile is /var/www/production/ - /var/www/production/qr/5221835c8f3c.png
+2015-11-05 21:22:28: qrfile is /var/www/production/ - /var/www/production/qr/0fcf663f2990.png
+2015-11-05 22:43:05: homepath is  /var/www/production/
+2015-11-05 22:43:05: qrfile is /var/www/production/ - /var/www/production/qr/60e08661f86d.png
+2015-11-06 01:27:38: homepath is  /var/www/production/
+2015-11-06 01:27:38: qrfile is /var/www/production/ - /var/www/production/qr/a45a0ebb6c75.png
+2015-11-06 01:54:39: homepath is  /var/www/production/
+2015-11-06 01:54:39: qrfile is /var/www/production/ - /var/www/production/qr/770ec29078ba.png
+2015-11-06 01:54:39: qrfile is /var/www/production/ - /var/www/production/qr/eb803e25f825.png
+2015-11-06 01:54:39: qrfile is /var/www/production/ - /var/www/production/qr/b09f49b0ece6.png
+2015-11-06 02:12:59: homepath is  /var/www/production/
+2015-11-06 02:12:59: qrfile is /var/www/production/ - /var/www/production/qr/887f1bb514f7.png
+2015-11-06 02:12:59: qrfile is /var/www/production/ - /var/www/production/qr/8b732601ec11.png
+2015-11-06 02:27:27: homepath is  /var/www/production/
+2015-11-06 02:27:27: qrfile is /var/www/production/ - /var/www/production/qr/af1881f0c995.png
+2015-11-06 02:27:27: qrfile is /var/www/production/ - /var/www/production/qr/c1b937522da6.png
+2015-11-06 03:07:27: homepath is  /var/www/production/
+2015-11-06 03:07:27: qrfile is /var/www/production/ - /var/www/production/qr/3de054caa9ca.png
+2015-11-06 03:15:11: homepath is  /var/www/production/
+2015-11-06 03:15:11: qrfile is /var/www/production/ - /var/www/production/qr/59b64c3443aa.png
+2015-11-06 03:15:11: qrfile is /var/www/production/ - /var/www/production/qr/eb841b5b26f3.png
+2015-11-06 03:15:11: qrfile is /var/www/production/ - /var/www/production/qr/98b15f0dfdba.png
+2015-11-06 03:15:11: qrfile is /var/www/production/ - /var/www/production/qr/44f3d43fd6f5.png
+2015-11-06 04:08:12: homepath is  /var/www/production/
+2015-11-06 04:08:12: qrfile is /var/www/production/ - /var/www/production/qr/79362be94b07.png
+2015-11-06 04:08:12: qrfile is /var/www/production/ - /var/www/production/qr/3a6be886759e.png
+2015-11-06 04:08:12: qrfile is /var/www/production/ - /var/www/production/qr/df8638db87a8.png
+2015-11-06 04:08:12: qrfile is /var/www/production/ - /var/www/production/qr/08c7ca281f7a.png
+2015-11-06 04:08:12: qrfile is /var/www/production/ - /var/www/production/qr/97da791508ac.png
+2015-11-06 05:00:04: homepath is  /var/www/production/
+2015-11-06 05:00:04: qrfile is /var/www/production/ - /var/www/production/qr/d1bed9d9f72e.png
+2015-11-06 05:00:04: qrfile is /var/www/production/ - /var/www/production/qr/4fd180e75f84.png
+2015-11-06 05:00:04: qrfile is /var/www/production/ - /var/www/production/qr/4c0f289717ad.png
+2015-11-06 12:20:41: homepath is  /var/www/production/
+2015-11-06 12:20:41: qrfile is /var/www/production/ - /var/www/production/qr/064f81232f76.png
+2015-11-06 12:20:41: qrfile is /var/www/production/ - /var/www/production/qr/0e791a5ef3c2.png
+2015-11-06 12:20:41: qrfile is /var/www/production/ - /var/www/production/qr/52f38ba6d711.png
+2015-11-06 13:13:14: homepath is  /var/www/production/
+2015-11-06 13:13:14: qrfile is /var/www/production/ - /var/www/production/qr/4ec02d195f7d.png
+2015-11-06 13:13:14: qrfile is /var/www/production/ - /var/www/production/qr/94832bca3528.png
+2015-11-06 14:37:00: homepath is  /var/www/production/
+2015-11-06 14:37:00: qrfile is /var/www/production/ - /var/www/production/qr/2d8d0425e3ea.png
+2015-11-06 15:02:20: homepath is  /var/www/production/
+2015-11-06 15:02:20: qrfile is /var/www/production/ - /var/www/production/qr/620bf10cfa15.png
+2015-11-06 15:19:33: homepath is  /var/www/production/
+2015-11-06 15:19:33: qrfile is /var/www/production/ - /var/www/production/qr/67b3ecee510e.png
+2015-11-06 15:20:40: homepath is  /var/www/production/
+2015-11-06 15:20:40: qrfile is /var/www/production/ - /var/www/production/qr/e6217c3c6f20.png
+2015-11-06 15:20:40: qrfile is /var/www/production/ - /var/www/production/qr/e18c7afcbeb3.png
+2015-11-06 15:21:05: homepath is  /var/www/production/
+2015-11-06 15:21:05: qrfile is /var/www/production/ - /var/www/production/qr/c88b307ed477.png
+2015-11-06 15:21:05: qrfile is /var/www/production/ - /var/www/production/qr/61c1f9d1d52b.png
+2015-11-06 15:21:05: qrfile is /var/www/production/ - /var/www/production/qr/a4f0be12cbf1.png
+2015-11-06 15:21:05: qrfile is /var/www/production/ - /var/www/production/qr/8591f4fb4956.png
+2015-11-06 15:48:51: homepath is  /var/www/production/
+2015-11-06 15:48:51: qrfile is /var/www/production/ - /var/www/production/qr/0188fa34f806.png
+2015-11-06 16:58:19: homepath is  /var/www/production/
+2015-11-06 16:58:19: qrfile is /var/www/production/ - /var/www/production/qr/db9d56a3f5ca.png
+2015-11-06 16:58:19: qrfile is /var/www/production/ - /var/www/production/qr/a0f4da504d9f.png
+2015-11-06 17:13:21: homepath is  /var/www/production/
+2015-11-06 17:13:21: qrfile is /var/www/production/ - /var/www/production/qr/098886b26ae8.png
+2015-11-06 17:13:21: qrfile is /var/www/production/ - /var/www/production/qr/5f1e5fb749cb.png
+2015-11-06 17:13:21: qrfile is /var/www/production/ - /var/www/production/qr/71d9a25fb1d9.png
+2015-11-06 17:15:08: homepath is  /var/www/production/
+2015-11-06 17:15:08: qrfile is /var/www/production/ - /var/www/production/qr/a04d0eb45d8f.png
+2015-11-06 17:15:08: qrfile is /var/www/production/ - /var/www/production/qr/4f94f6e5aff9.png
+2015-11-06 17:40:12: homepath is  /var/www/production/
+2015-11-06 17:40:12: qrfile is /var/www/production/ - /var/www/production/qr/cbf61d0d1b17.png
+2015-11-06 17:40:12: qrfile is /var/www/production/ - /var/www/production/qr/2f877eb50027.png
+2015-11-06 17:58:25: homepath is  /var/www/production/
+2015-11-06 17:58:25: qrfile is /var/www/production/ - /var/www/production/qr/3284904942bb.png
+2015-11-06 17:58:25: qrfile is /var/www/production/ - /var/www/production/qr/5231e7360a30.png
+2015-11-06 17:58:25: qrfile is /var/www/production/ - /var/www/production/qr/928bc8408115.png
+2015-11-06 17:58:25: qrfile is /var/www/production/ - /var/www/production/qr/cd7134bd639c.png
+2015-11-06 17:58:25: qrfile is /var/www/production/ - /var/www/production/qr/9a332d21ac6d.png
+2015-11-06 18:05:18: homepath is  /var/www/production/
+2015-11-06 18:05:18: qrfile is /var/www/production/ - /var/www/production/qr/48cd1052487b.png
+2015-11-06 18:05:18: qrfile is /var/www/production/ - /var/www/production/qr/f5080e0ae662.png
+2015-11-06 18:07:06: homepath is  /var/www/production/
+2015-11-06 18:07:06: qrfile is /var/www/production/ - /var/www/production/qr/38fb1e74c25c.png
+2015-11-06 18:07:06: qrfile is /var/www/production/ - /var/www/production/qr/2e26ed793b95.png
+2015-11-06 18:39:09: homepath is  /var/www/production/
+2015-11-06 18:39:09: qrfile is /var/www/production/ - /var/www/production/qr/829583afd967.png
+2015-11-06 18:39:09: qrfile is /var/www/production/ - /var/www/production/qr/851379e630ab.png
+2015-11-06 18:51:04: homepath is  /var/www/production/
+2015-11-06 18:51:04: qrfile is /var/www/production/ - /var/www/production/qr/f638dad1e220.png
+2015-11-06 18:51:04: qrfile is /var/www/production/ - /var/www/production/qr/ab617c8cc076.png
+2015-11-06 18:55:56: homepath is  /var/www/production/
+2015-11-06 18:55:56: qrfile is /var/www/production/ - /var/www/production/qr/a1f3362282cc.png
+2015-11-06 20:37:20: homepath is  /var/www/production/
+2015-11-06 21:17:57: homepath is  /var/www/production/
+2015-11-06 21:17:57: qrfile is /var/www/production/ - /var/www/production/qr/537596ff456a.png
+2015-11-06 21:17:57: qrfile is /var/www/production/ - /var/www/production/qr/b0babee3a245.png
+2015-11-06 21:17:57: qrfile is /var/www/production/ - /var/www/production/qr/7f40274bf26b.png
+2015-11-06 21:39:06: homepath is  /var/www/production/
+2015-11-06 21:39:06: qrfile is /var/www/production/ - /var/www/production/qr/7da5f71b5e3e.png
+2015-11-06 21:39:06: qrfile is /var/www/production/ - /var/www/production/qr/e1d120e33051.png
+2015-11-06 22:39:46: homepath is  /var/www/production/
+2015-11-06 22:39:46: qrfile is /var/www/production/ - /var/www/production/qr/6e50461805b0.png
+2015-11-06 22:39:46: qrfile is /var/www/production/ - /var/www/production/qr/2572036d70c9.png
+2015-11-06 23:26:56: homepath is  /var/www/production/
+2015-11-06 23:26:56: qrfile is /var/www/production/ - /var/www/production/qr/d9cff2a5928b.png
+2015-11-06 23:26:56: qrfile is /var/www/production/ - /var/www/production/qr/44b5d77157c8.png
+2015-11-06 23:26:56: qrfile is /var/www/production/ - /var/www/production/qr/49587517e46d.png
+2015-11-06 23:39:01: homepath is  /var/www/production/
+2015-11-06 23:39:01: qrfile is /var/www/production/ - /var/www/production/qr/53edd904b1f0.png
+2015-11-06 23:39:01: qrfile is /var/www/production/ - /var/www/production/qr/0dbc58582f45.png
+2015-11-07 00:02:41: homepath is  /var/www/production/
+2015-11-07 00:02:41: qrfile is /var/www/production/ - /var/www/production/qr/aa5626bd8876.png
+2015-11-07 01:00:37: homepath is  /var/www/production/
+2015-11-07 01:00:37: qrfile is /var/www/production/ - /var/www/production/qr/d423554a7a47.png
+2015-11-07 03:10:19: homepath is  /var/www/production/
+2015-11-07 03:10:19: qrfile is /var/www/production/ - /var/www/production/qr/bd0e8c7dbbf9.png
+2015-11-07 04:16:22: homepath is  /var/www/production/
+2015-11-07 04:16:22: qrfile is /var/www/production/ - /var/www/production/qr/f926eff753a3.png
+2015-11-07 04:16:22: qrfile is /var/www/production/ - /var/www/production/qr/fa48676973fb.png
+2015-11-07 05:06:09: homepath is  /var/www/production/
+2015-11-07 05:06:09: qrfile is /var/www/production/ - /var/www/production/qr/86f9e946ab0f.png
+2015-11-07 05:06:09: qrfile is /var/www/production/ - /var/www/production/qr/4728d8a6d08b.png
+2015-11-07 05:06:09: qrfile is /var/www/production/ - /var/www/production/qr/588de7e840dd.png
+2015-11-07 08:17:33: homepath is  /var/www/production/
+2015-11-07 08:17:33: qrfile is /var/www/production/ - /var/www/production/qr/f30df20579a9.png
+2015-11-07 11:12:07: homepath is  /var/www/production/
+2015-11-07 11:12:07: qrfile is /var/www/production/ - /var/www/production/qr/159ab115e330.png
+2015-11-07 11:12:07: qrfile is /var/www/production/ - /var/www/production/qr/cd50eab5b745.png
+2015-11-07 11:12:07: qrfile is /var/www/production/ - /var/www/production/qr/60aa550340bc.png
+2015-11-07 11:12:07: qrfile is /var/www/production/ - /var/www/production/qr/bda8d7410f54.png
+2015-11-07 11:12:07: qrfile is /var/www/production/ - /var/www/production/qr/01bfbab012d7.png
+2015-11-07 15:20:52: homepath is  /var/www/production/
+2015-11-07 15:20:52: qrfile is /var/www/production/ - /var/www/production/qr/ed98a4084083.png
+2015-11-07 15:20:52: qrfile is /var/www/production/ - /var/www/production/qr/a2d81ba20ef4.png
+2015-11-07 15:38:09: homepath is  /var/www/production/
+2015-11-07 15:38:09: qrfile is /var/www/production/ - /var/www/production/qr/4602b415785c.png
+2015-11-07 15:38:09: qrfile is /var/www/production/ - /var/www/production/qr/4ff70232e852.png
+2015-11-07 15:38:09: qrfile is /var/www/production/ - /var/www/production/qr/0f51921b2b86.png
+2015-11-07 16:30:13: homepath is  /var/www/production/
+2015-11-07 16:30:13: qrfile is /var/www/production/ - /var/www/production/qr/bcd137a93068.png
+2015-11-07 17:32:24: homepath is  /var/www/production/
+2015-11-07 17:32:24: qrfile is /var/www/production/ - /var/www/production/qr/fffb67e84d44.png
+2015-11-07 17:32:24: qrfile is /var/www/production/ - /var/www/production/qr/82be8996e913.png
+2015-11-07 18:07:17: homepath is  /var/www/production/
+2015-11-07 18:07:17: qrfile is /var/www/production/ - /var/www/production/qr/a34ea8cdb462.png
+2015-11-07 18:07:17: qrfile is /var/www/production/ - /var/www/production/qr/d9e1458e82eb.png
+2015-11-07 18:07:17: qrfile is /var/www/production/ - /var/www/production/qr/f5255bc69eb1.png
+2015-11-07 18:15:20: homepath is  /var/www/production/
+2015-11-07 18:15:20: qrfile is /var/www/production/ - /var/www/production/qr/c8ed378932af.png
+2015-11-07 18:52:06: homepath is  /var/www/production/
+2015-11-07 18:52:06: qrfile is /var/www/production/ - /var/www/production/qr/7ff4d2b89eb5.png
+2015-11-07 18:52:06: qrfile is /var/www/production/ - /var/www/production/qr/42584391c391.png
+2015-11-07 21:59:22: homepath is  /var/www/production/
+2015-11-07 21:59:22: qrfile is /var/www/production/ - /var/www/production/qr/93c0e8a50b95.png
+2015-11-07 21:59:22: qrfile is /var/www/production/ - /var/www/production/qr/25f2b126ed6f.png
+2015-11-07 22:27:05: homepath is  /var/www/production/
+2015-11-07 22:27:05: qrfile is /var/www/production/ - /var/www/production/qr/8ea25e45a0f6.png
+2015-11-07 22:47:19: homepath is  /var/www/production/
+2015-11-07 22:47:19: qrfile is /var/www/production/ - /var/www/production/qr/0db11045a389.png
+2015-11-07 23:45:20: homepath is  /var/www/production/
+2015-11-07 23:45:20: qrfile is /var/www/production/ - /var/www/production/qr/9004eff32b3c.png
+2015-11-07 23:45:20: qrfile is /var/www/production/ - /var/www/production/qr/5d5d15575e2c.png
+2015-11-07 23:45:20: qrfile is /var/www/production/ - /var/www/production/qr/ffdcb83db00d.png
+2015-11-08 01:48:53: homepath is  /var/www/production/
+2015-11-08 01:48:53: qrfile is /var/www/production/ - /var/www/production/qr/46bf50e2a1dc.png
+2015-11-08 03:07:55: homepath is  /var/www/production/
+2015-11-08 03:07:55: qrfile is /var/www/production/ - /var/www/production/qr/6e86c4cd26eb.png
+2015-11-08 03:07:55: qrfile is /var/www/production/ - /var/www/production/qr/d35bc8ffe09a.png
+2015-11-08 03:41:13: homepath is  /var/www/production/
+2015-11-08 03:41:13: qrfile is /var/www/production/ - /var/www/production/qr/0c0f15627320.png
+2015-11-08 03:41:13: qrfile is /var/www/production/ - /var/www/production/qr/2881221be1a9.png
+2015-11-08 03:41:13: qrfile is /var/www/production/ - /var/www/production/qr/c7c9a5094934.png
+2015-11-08 03:52:05: homepath is  /var/www/production/
+2015-11-08 03:52:05: qrfile is /var/www/production/ - /var/www/production/qr/53fb1907fda1.png
+2015-11-08 04:52:20: homepath is  /var/www/production/
+2015-11-08 04:52:20: qrfile is /var/www/production/ - /var/www/production/qr/d149bf018f3b.png
+2015-11-08 04:52:20: qrfile is /var/www/production/ - /var/www/production/qr/c5476099ec82.png
+2015-11-08 05:27:02: qrfile is  - qr/abd0ebc2b499.png
+2015-11-08 15:31:14: homepath is  /var/www/production/
+2015-11-08 15:31:14: qrfile is /var/www/production/ - /var/www/production/qr/afdbbceb620f.png
+2015-11-08 17:18:42: homepath is  /var/www/stage/
+2015-11-08 17:18:42: qrfile is /var/www/stage/ - /var/www/stage/qr/53ad6e6b0770.png
+2015-11-08 17:18:42: qrfile is /var/www/stage/ - /var/www/stage/qr/a4df970bfa34.png
+2015-11-08 19:02:05: homepath is  /var/www/production/
+2015-11-08 19:02:05: qrfile is /var/www/production/ - /var/www/production/qr/c3054ce5ac06.png
+2015-11-08 19:02:05: qrfile is /var/www/production/ - /var/www/production/qr/ef57175bf9d1.png
+2015-11-08 21:49:56: homepath is  /var/www/production/
+2015-11-08 21:49:56: qrfile is /var/www/production/ - /var/www/production/qr/0516ba49e4de.png
+2015-11-08 21:49:56: qrfile is /var/www/production/ - /var/www/production/qr/d76e1b09baca.png
+2015-11-08 21:53:39: homepath is  /var/www/production/
+2015-11-08 21:53:39: qrfile is /var/www/production/ - /var/www/production/qr/8674b0888b5c.png
+2015-11-08 21:53:39: qrfile is /var/www/production/ - /var/www/production/qr/697240ed3b33.png
+2015-11-08 22:17:35: homepath is  /var/www/production/
+2015-11-08 22:17:35: qrfile is /var/www/production/ - /var/www/production/qr/1bd850221c2c.png
+2015-11-08 22:17:35: qrfile is /var/www/production/ - /var/www/production/qr/dae268654ac9.png
+2015-11-08 22:17:35: qrfile is /var/www/production/ - /var/www/production/qr/1a9fb4a61606.png
+2015-11-08 22:41:21: homepath is  /var/www/production/
+2015-11-08 22:41:21: qrfile is /var/www/production/ - /var/www/production/qr/6ae29fd21e56.png
+2015-11-08 22:41:21: qrfile is /var/www/production/ - /var/www/production/qr/f871ed5e0d0b.png
+2015-11-08 22:41:21: qrfile is /var/www/production/ - /var/www/production/qr/af20a31c3ae2.png
+2015-11-08 22:41:21: qrfile is /var/www/production/ - /var/www/production/qr/56ffaaf66eba.png
+2015-11-08 23:00:56: homepath is  /var/www/production/
+2015-11-08 23:00:56: qrfile is /var/www/production/ - /var/www/production/qr/7de836880eeb.png
+2015-11-08 23:00:56: qrfile is /var/www/production/ - /var/www/production/qr/2597efaffbe3.png
+2015-11-09 00:57:39: homepath is  /var/www/production/
+2015-11-09 00:57:39: qrfile is /var/www/production/ - /var/www/production/qr/96b46a7fc64a.png
+2015-11-09 00:57:39: qrfile is /var/www/production/ - /var/www/production/qr/7334de22df03.png
+2015-11-09 00:57:39: qrfile is /var/www/production/ - /var/www/production/qr/911303618f54.png
+2015-11-09 00:57:39: qrfile is /var/www/production/ - /var/www/production/qr/efb7cf9b1dd2.png
+2015-11-09 01:11:56: homepath is  /var/www/production/
+2015-11-09 01:11:56: qrfile is /var/www/production/ - /var/www/production/qr/601017269daa.png
+2015-11-09 01:11:56: qrfile is /var/www/production/ - /var/www/production/qr/d9c748ff1ed3.png
+2015-11-09 01:11:56: qrfile is /var/www/production/ - /var/www/production/qr/7e2dc7d87046.png
+2015-11-09 01:56:17: homepath is  /var/www/production/
+2015-11-09 01:56:17: qrfile is /var/www/production/ - /var/www/production/qr/058c21c41b75.png
+2015-11-09 01:56:17: qrfile is /var/www/production/ - /var/www/production/qr/2a34ac352b6e.png
+2015-11-09 03:33:06: homepath is  /var/www/production/
+2015-11-09 03:33:06: qrfile is /var/www/production/ - /var/www/production/qr/c7cb5488eb36.png
+2015-11-09 06:50:30: homepath is  /var/www/production/
+2015-11-09 06:50:30: qrfile is /var/www/production/ - /var/www/production/qr/005634c79c21.png
+2015-11-09 06:50:30: qrfile is /var/www/production/ - /var/www/production/qr/b407252d76bc.png
+2015-11-09 06:50:30: qrfile is /var/www/production/ - /var/www/production/qr/7941be946166.png
+2015-11-09 06:50:30: qrfile is /var/www/production/ - /var/www/production/qr/8cf155639477.png
+2015-11-09 06:50:30: qrfile is /var/www/production/ - /var/www/production/qr/ef895e699b54.png
+2015-11-09 14:40:14: homepath is  /var/www/production/
+2015-11-09 14:40:14: qrfile is /var/www/production/ - /var/www/production/qr/24b41bfba5b7.png
+2015-11-09 14:40:14: qrfile is /var/www/production/ - /var/www/production/qr/3f8da17ac360.png
+2015-11-09 14:40:14: qrfile is /var/www/production/ - /var/www/production/qr/4759c20b8209.png
+2015-11-09 15:58:00: homepath is  /var/www/production/
+2015-11-09 15:58:00: qrfile is /var/www/production/ - /var/www/production/qr/3ddfd7f38009.png

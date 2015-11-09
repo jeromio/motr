@@ -1,0 +1,145 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		997AB19712636A8B00B73CA0 /* bg-container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-container.jpg"; sourceTree = "<group>"; };
+		997AB19912636A8B00B73CA0 /* accept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accept.png; sourceTree = "<group>"; };
+		997AB19A12636A8B00B73CA0 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		997AB19B12636A8B00B73CA0 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		997AB19C12636A8B00B73CA0 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		997AB19D12636A8B00B73CA0 /* group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = group.png; sourceTree = "<group>"; };
+		997AB19E12636A8B00B73CA0 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		997AB19F12636A8B00B73CA0 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		997AB1A012636A8B00B73CA0 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		997AB1A112636A8B00B73CA0 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		997AB1A212636A8B00B73CA0 /* vcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vcard.png; sourceTree = "<group>"; };
+		997AB1A312636A8B00B73CA0 /* vcard_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vcard_add.png; sourceTree = "<group>"; };
+		997AB1A412636A8C00B73CA0 /* vcard_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vcard_delete.png; sourceTree = "<group>"; };
+		997AB1A512636A8C00B73CA0 /* vcard_edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vcard_edit.png; sourceTree = "<group>"; };
+		997AB1A612636A8C00B73CA0 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		997AB1A812636A8C00B73CA0 /* reset.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = reset.css; sourceTree = "<group>"; };
+		997AB1A912636A8C00B73CA0 /* screen.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = screen.css; sourceTree = "<group>"; };
+		997AB1AA12636A8C00B73CA0 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.txt; path = ../readme.txt; sourceTree = SOURCE_ROOT; };
+		997AB1AB12636A8C00B73CA0 /* view-contact.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = "view-contact.php"; path = "../view-contact.php"; sourceTree = SOURCE_ROOT; };
+		997AB1AC12636A8C00B73CA0 /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = index.php; path = ../index.php; sourceTree = SOURCE_ROOT; };
+		997AB1AD12636A8C00B73CA0 /* functions.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = functions.php; path = ../functions.php; sourceTree = SOURCE_ROOT; };
+		997AB1AE12636A8C00B73CA0 /* del-contact.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = "del-contact.php"; path = "../del-contact.php"; sourceTree = SOURCE_ROOT; };
+		997AB1AF12636A8C00B73CA0 /* add-edit-contact.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = "add-edit-contact.php"; path = "../add-edit-contact.php"; sourceTree = SOURCE_ROOT; };
+		997AB1B012636A8C00B73CA0 /* header.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = header.php; path = ../header.php; sourceTree = SOURCE_ROOT; };
+		997AB1B112636A8C00B73CA0 /* config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = config.php; path = ../config.php; sourceTree = SOURCE_ROOT; };
+		997AB1B212636A8C00B73CA0 /* install.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = install.php; path = ../install.php; sourceTree = SOURCE_ROOT; };
+		997AB1B312636A8C00B73CA0 /* footer.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; name = footer.php; path = ../footer.php; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		997AB18B12636A6700B73CA0 = {
+			isa = PBXGroup;
+			children = (
+				997AB19612636A8B00B73CA0 /* images */,
+				997AB1A712636A8C00B73CA0 /* css */,
+				997AB1AA12636A8C00B73CA0 /* readme.txt */,
+				997AB1AB12636A8C00B73CA0 /* view-contact.php */,
+				997AB1AC12636A8C00B73CA0 /* index.php */,
+				997AB1AD12636A8C00B73CA0 /* functions.php */,
+				997AB1AE12636A8C00B73CA0 /* del-contact.php */,
+				997AB1AF12636A8C00B73CA0 /* add-edit-contact.php */,
+				997AB1B012636A8C00B73CA0 /* header.php */,
+				997AB1B112636A8C00B73CA0 /* config.php */,
+				997AB1B212636A8C00B73CA0 /* install.php */,
+				997AB1B312636A8C00B73CA0 /* footer.php */,
+			);
+			sourceTree = "<group>";
+		};
+		997AB19612636A8B00B73CA0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				997AB19712636A8B00B73CA0 /* bg-container.jpg */,
+				997AB19812636A8B00B73CA0 /* icons */,
+				997AB1A612636A8C00B73CA0 /* logo.jpg */,
+			);
+			name = images;
+			path = ../images;
+			sourceTree = SOURCE_ROOT;
+		};
+		997AB19812636A8B00B73CA0 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				997AB19912636A8B00B73CA0 /* accept.png */,
+				997AB19A12636A8B00B73CA0 /* add.png */,
+				997AB19B12636A8B00B73CA0 /* delete.png */,
+				997AB19C12636A8B00B73CA0 /* email.png */,
+				997AB19D12636A8B00B73CA0 /* group.png */,
+				997AB19E12636A8B00B73CA0 /* house.png */,
+				997AB19F12636A8B00B73CA0 /* phone.png */,
+				997AB1A012636A8B00B73CA0 /* stop.png */,
+				997AB1A112636A8B00B73CA0 /* user.png */,
+				997AB1A212636A8B00B73CA0 /* vcard.png */,
+				997AB1A312636A8B00B73CA0 /* vcard_add.png */,
+				997AB1A412636A8C00B73CA0 /* vcard_delete.png */,
+				997AB1A512636A8C00B73CA0 /* vcard_edit.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		997AB1A712636A8C00B73CA0 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				997AB1A812636A8C00B73CA0 /* reset.css */,
+				997AB1A912636A8C00B73CA0 /* screen.css */,
+			);
+			name = css;
+			path = ../css;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		997AB18D12636A6700B73CA0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 997AB19012636A6700B73CA0 /* Build configuration list for PBXProject "contacts" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 997AB18B12636A6700B73CA0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		997AB18E12636A6700B73CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		997AB18F12636A6700B73CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		997AB19012636A6700B73CA0 /* Build configuration list for PBXProject "contacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				997AB18E12636A6700B73CA0 /* Debug */,
+				997AB18F12636A6700B73CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 997AB18D12636A6700B73CA0 /* Project object */;
+}

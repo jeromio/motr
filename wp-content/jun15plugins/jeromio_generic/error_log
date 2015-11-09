@@ -1,0 +1,1 @@
+[20-Mar-2015 15:31:28 America/Detroit] PHP Fatal error:  Call to undefined function plugin_basename() in /home/motr/public_html/motor-co.com/wp-content/plugins/jeromio_generic/jeromio_generic.php on line 16

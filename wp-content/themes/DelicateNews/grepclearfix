@@ -1,0 +1,99 @@
+./bakstyle.css:.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+./bakstyle.css:* html .clearfix             { zoom: 1; } /* IE6 */
+./bakstyle.css:*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+./comments.php:		<div class="comment_navigation_top clearfix">
+./comments.php:		<ol class="commentlist clearfix">
+./comments.php:		<div class="comment_navigation_bottom clearfix">
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/options_delicatenews.php:			array( "type" => "clearfix",),
+./epanel/custom_functions.php:	function show_page_menu($customClass = 'nav clearfix', $addUlContainer = true, $addHomeLink = true){
+./epanel/custom_functions.php:	function show_categories_menu($customClass = 'nav clearfix', $addUlContainer = true){
+./epanel/core_functions.php:										<?php if ( $i%3 == 0 ) echo('<br class="clearfix"/>'); ?>
+./epanel/core_functions.php:								<br class="clearfix"/>
+./epanel/core_functions.php:								<br class="clearfix"/>
+./epanel/core_functions.php:				<?php } elseif ($value['type'] == "clearfix") { ?>
+./epanel/core_functions.php:					<div class="clearfix"></div>
+./epanel/core_functions.php:					<div class="clearfix"></div>
+./epanel/css/panel.css:.clearfix { clear: both; }
+./epanel/shortcodes/shortcodes.php:	$divClass .= ' clearfix';
+./epanel/shortcodes/shortcodes.php:		$class .= ' et_slidertype_left_tabs clearfix';
+./epanel/shortcodes/shortcodes.php:		<div class='et-pricing clearfix'>
+./epanel/shortcodes/shortcodes.php:			<div class='et-testimonial-author-info clearfix'>
+./epanel/shortcodes/shortcodes.php:			<div class='et-testimonial clearfix'>
+./epanel/shortcodes/css/shortcodes.css:.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+./epanel/shortcodes/css/shortcodes.css:* html .clearfix             { zoom: 1; } /* IE6 */
+./epanel/shortcodes/css/shortcodes.css:*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+./footer.php:	<div class="container clearfix">
+./header.php:		<div class="container clearfix">
+./header.php:				<div id="header" class="clearfix">
+./home.bak:	<div id="content" class="clearfix">
+./home.php:	<div id="content" class="clearfix">
+./includes/functions/comments.php:   <div id="comment-<?php comment_ID(); ?>" class="comment-body clearfix">
+./includes/recent_scroller.php:<div id="recent-posts" class="clearfix">
+./includes/entry-home.php:		<div class="post clearfix bbottom">
+./includes/fromblog_post.php:	<a href="<?php the_permalink(); ?>" class="clearfix"><?php if ($thumb <> '') { ?><span class="box"><span class="overlay"></span><?php print_thumbnail($thumb, $thumbnail["use_timthumb"], $titletext , $width, $height, $classtext); ?></span><?php }; ?><span class="title"><?php the_title();?></span>
+./includes/featured.php:<div id="featured" class="clearfix">
+./includes/m_featured.php:<div id="featured" class="clearfix">
+./includes/widgets/widget-adsense.php:			<div class="clearfix"></div>
+./includes/widgets/widget-about.php:		<div class="clearfix">
+./includes/widgets/widget-tabbed.php:<div id="tabbed" class="sidebar-block clearfix">
+./includes/widgets/widget-tabbed.php:	<ul id="tabbed-area" class="clearfix">
+./includes/entry.php:		<div class="post clearfix bbottom">
+./index.php:	<div id="content" class="clearfix">
+./page-blog.php:	<div id="content" class="clearfix<?php if($fullwidth) echo(' fullwidth');?>">
+./page-blog.php:				<div class="post clearfix">
+./page-blog.php:							<div class="et_pt_blogentry clearfix">
+./page-blog.php:							<div class="page-nav clearfix">
+./page-contact.php:	<div id="content" class="clearfix<?php if($fullwidth) echo(' fullwidth');?>">
+./page-contact.php:				<div class="post clearfix">
+./page-contact.php:					<p class="clearfix">
+./page-contact.php:					<p class="clearfix">
+./page-contact.php:					<p class="clearfix">
+./page-contact.php:					<p class="clearfix">
+./page-contact.php:				<p class="clearfix">
+./page-full.php:	<div id="content" class="clearfix fullwidth">
+./page-full.php:				<div class="post clearfix">
+./page-gallery.php:	<div id="content" class="clearfix<?php if($fullwidth) echo(' fullwidth');?>">
+./page-gallery.php:				<div class="post clearfix">
+./page-gallery.php:					<div id="et_pt_gallery" class="clearfix">
+./page-gallery.php:							<div class="page-nav clearfix">
+./page-login.php:	<div id="content" class="clearfix<?php if($fullwidth) echo(' fullwidth');?>">
+./page-login.php:				<div class="post clearfix">
+./page.php:	<div id="content" class="clearfix">
+./page.php:				<div class="post clearfix">
+./page-search.php:	<div id="content" class="clearfix<?php if($fullwidth) echo(' fullwidth');?>">
+./page-search.php:				<div class="post clearfix">
+./page-search.php:						<div id="et-search-inner" class="clearfix">
+./page-sitemap.php:	<div id="content" class="clearfix<?php if($fullwidth) echo(' fullwidth');?>">
+./page-sitemap.php:				<div class="post clearfix">
+./page-template-portfolio.php:	<div id="content" class="clearfix<?php if($fullwidth) echo(' fullwidth');?>">
+./page-template-portfolio.php:				<div class="post clearfix">
+./page-template-portfolio.php:							<div id="et_pt_portfolio_gallery" class="clearfix<?php echo $et_ptemplate_portfolio_class; ?>">
+./page-template-portfolio.php:										<div class="et_pt_portfolio_row clearfix">
+./page-template-portfolio.php:										<div class="et_pt_portfolio_row clearfix">
+./page-template-portfolio.php:									<div class="page-nav clearfix">
+./single.php:	<div id="content" class="clearfix">
+./single.php:					<div class="post clearfix">
+./style.css:.clearfix:after
+./style.css:* html .clearfix { zoom: 1; }
+./style.css:*:first-child+html .clearfix { zoom: 1; }
+./tribe-events/single-event.php:	<div class="tribe-events-schedule updated published tribe-clearfix">

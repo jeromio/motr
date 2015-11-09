@@ -1,0 +1,44 @@
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
+
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
+
+require_once("config.php");
+require_once("functions.php");
+
+db_connect();
+$alias = trim(mysql_real_escape_string($_SERVER['REQUEST_URI']);
+$file = 'debug_phurl';
+
+file_put_contents($file, "\n uri is $_SERVER['REQUEST_URI']\n", FILE_APPEND | LOCK_EX);
+file_put_contents($file, "the Alias is $alias \n", FILE_APPEND | LOCK_EX);
+/**
+if (!preg_match("/^[a-zA-Z0-9_-]+$/", $alias)) {
+  file_put_contents($file, "pregmatch thing happened \n", FILE_APPEND | LOCK_EX);
+  header("Location: ".SITE_URL, true, 301);
+  exit();
+}
+
+if (($url = get_url($alias))) {
+file_put_contents($file, "url is $url and exiting \n", FILE_APPEND | LOCK_EX);
+
+    header("Location: $url", true, 301);
+    exit();
+}
+file_put_contents($file, SITE_URL . " fell thru \n", FILE_APPEND | LOCK_EX);
+// Fall through to WordPress if nothing matched:
+unset($_GET["alias"]);
+*/
+
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );

@@ -1,0 +1,48 @@
+<?php get_header(); ?>
+
+	<?php if (get_option('delicatenews_featured') == 'on') get_template_part('includes/featured'); ?>
+
+	<?php if (get_option('delicatenews_show_recent_boxes') == 'on') get_template_part( 'includes/recent_scroller'); ?>
+
+	<div id="content" class="clearfix">
+
+		<div id="main-area">
+			<h4 id="recent">
+				<?php esc_html_e('Recent Posts','DelicateNews'); ?></h4>
+			<?php $i = 1; ?>
+
+			<?php if (get_option('delicatenews_duplicate') == 'false') {
+				$args=array(
+					   'showposts'=>get_option('delicatenews_homepage_posts'),
+					   'post__not_in' => $ids,
+					   'paged'=>$paged,
+					   'category__not_in' => get_option('delicatenews_exlcats_recent'),
+				);
+			} else {
+				$args=array(
+				   'showposts'=>get_option('delicatenews_homepage_posts'),
+				   'paged'=>$paged,
+				   'category__not_in' => get_option('delicatenews_exlcats_recent'),
+				);
+			};
+			query_posts($args); 
+		    if (have_posts()) : while (have_posts()) : the_post(); 
+				
+				get_template_part('includes/entry','home'); 
+				$i++; 
+			endwhile; ?>
+				<div class="clear"></div>
+				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); }
+				else { ?>
+					 <?php get_template_part('includes/navigation'); ?>
+				<?php } ?>
+				
+			<?php else : ?>
+				<?php get_template_part('/includes/no-results'); ?>
+			<?php endif; wp_reset_query(); ?>
+			
+		</div> <!-- end #main-area -->
+
+		<?php get_sidebar(); ?>
+
+<?php get_footer(); ?>

@@ -1,0 +1,4 @@
+cd /home/motr/production/wp-content/plugins
+mv ../18octplugins/the-events-calendar .
+mv ../18octplugins/events-calendar-pro .
+mv ../18octplugins/wootickets .

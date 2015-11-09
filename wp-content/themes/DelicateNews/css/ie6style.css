@@ -1,0 +1,23 @@
+span.sf-sub-indicator { padding-left: 2px; }
+div#header-top { z-index: 3; position: relative; }
+div#bg, div#header { z-index: 2; position: relative; }
+div#featured { z-index: 1; position: relative; }
+
+#recent-posts a#left-arrow, #recent-posts a#right-arrow { margin-top: 31px; }
+.slide h4.cat-title { padding-bottom: 4px; }
+.slide .thumbnail { height: 106px; }
+.slide h3.title { padding-bottom: 3px !important; }
+
+a.readmore span { cursor: pointer; }
+
+div.thumbnail { width: 238px; }
+
+#all_tabs { margin-top:0px; }
+#search-form #searchsubmit { display: none; }
+
+a.readmore span { display: inline-block; cursor: pointer; }
+a.readmore { padding-right: 7px; }
+
+#featured #controllers .alignright { margin-right: -22px; }
+
+div.entry { padding:24px 17px; }

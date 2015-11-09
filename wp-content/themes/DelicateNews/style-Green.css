@@ -1,0 +1,37 @@
+ul#primary > li.current_page_item > a, ul#primary > li.current-menu-ancestor > a { color: #55ac1e; }
+ul#primary li a:hover { color: #55ac1e; }
+ul#secondary li a:hover { color: #55ac1e; }
+ul#secondary > li.current_page_item > a, ul#primary > li.current-menu-ancestor > a, ul.superfish.nav > li > a:hover { color: #55ac1e; }
+ul#primary ul li a:hover { background: url(images/green/top-menu-active-bullet.png) no-repeat 0px 11px; }
+ul#secondary ul li a:hover { background: url(images/green/second-active-bullet.png) no-repeat 2px 15px; }
+#featured p.meta a { color: #55ac1e; }
+#featured #controllers .alignleft span.date { background: url(images/green/big-date-bg.png) no-repeat; }
+span.date { background: url(images/green/date-small-bg.png) no-repeat; }
+#featured #controllers a.active img { border-color: #63c31f; }
+.slide h4.cat-title { color: #55ac1e; }
+
+h4#recent, div#breadcrumbs
+{
+	color: #55ac1e;
+	text-shadow: 1px 1px 1px #b0d896;
+}
+
+#sidebar h4
+{
+	color: #55ac1e;
+	text-shadow: 1px 1px 1px #b0d896;
+}
+
+.footer-widget h4.widgettitle { color: #55ac1e; }
+div#breadcrumbs a { color: #55ac1e; }
+span.fn, span.fn a { color: #55ac1e; }
+.wp-pagenavi span.current, .wp-pagenavi span.extend, .wp-pagenavi a:active, .wp-pagenavi a:hover { color: #55ac1e !important; }
+span.date { text-shadow: -1px -1px 1px #126d00; }
+#tabbed-area li a span { color: #55ac1e; }
+
+hr
+{
+	border: 0;
+	height: 0;
+	border-top: 1px solid #DDDDDD;
+}

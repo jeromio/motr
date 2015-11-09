@@ -1,0 +1,2808 @@
+Common subdirectories: events-calendar-pro3.4/admin-views and events-calendar-pro3.6/admin-views
+Only in events-calendar-pro3.6: diff_general3.4_3.6
+diff -wyB events-calendar-pro3.4/events-calendar-pro.php events-calendar-pro3.6/events-calendar-pro.php
+<?php								<?php								
+/*								/*								
+Plugin Name: The Events Calendar PRO				Plugin Name: The Events Calendar PRO								
+Description: The Events Calendar PRO, a premium add-on to the	Description: The Events Calendar PRO, a premium add-on to the								
+Version: 3.4						      |	Version: 3.6								
+Author: Modern Tribe, Inc.					Author: Modern Tribe, Inc.								
+Author URI: http://m.tri.be/20					Author URI: http://m.tri.be/20								
+Text Domain: tribe-events-calendar-pro				Text Domain: tribe-events-calendar-pro								
+License: GPLv2 or later						License: GPLv2 or later								
+*/								*/								
+																
+/*								/*								
+Copyright 2010-2012 by Modern Tribe Inc and the contributors	Copyright 2010-2012 by Modern Tribe Inc and the contributors								
+																
+This program is free software; you can redistribute it and/or	This program is free software; you can redistribute it and/or								
+modify it under the terms of the GNU General Public License	modify it under the terms of the GNU General Public License								
+as published by the Free Software Foundation; either version 	as published by the Free Software Foundation; either version 								
+of the License, or (at your option) any later version.		of the License, or (at your option) any later version.								
+																
+This program is distributed in the hope that it will be usefu	This program is distributed in the hope that it will be usefu								
+but WITHOUT ANY WARRANTY; without even the implied warranty o	but WITHOUT ANY WARRANTY; without even the implied warranty o								
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the								
+GNU General Public License for more details.			GNU General Public License for more details.								
+																
+You should have received a copy of the GNU General Public Lic	You should have received a copy of the GNU General Public Lic								
+along with this program; if not, write to the Free Software	along with this program; if not, write to the Free Software								
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA								
+*/								*/								
+																
+																
+if ( !class_exists( 'TribeEventsPro' ) ) {			if ( !class_exists( 'TribeEventsPro' ) ) {								
+	class TribeEventsPro {						class TribeEventsPro {								
+																
+		private static $instance;					private static $instance;								
+																
+		//instance variables			      <
+		public $pluginDir;						public $pluginDir;								
+		public $pluginPath;						public $pluginPath;								
+		public $pluginUrl;						public $pluginUrl;								
+		public $pluginSlug;						public $pluginSlug;								
+		public $licenseKey;						public $licenseKey;								
+		public $weekSlug = 'week';					public $weekSlug = 'week';								
+		public $daySlug = 'day';		      <
+		public $photoSlug = 'photo';					public $photoSlug = 'photo';								
+		public $todaySlug = 'today';		      <
+		public static $updateUrl = 'http://tri.be/';			public static $updateUrl = 'http://tri.be/';								
+		const REQUIRED_TEC_VERSION = '3.4';	      |			/** @var TribeEventsPro_RecurrencePermalinks 								
+		const VERSION = '3.4';			      |			public $permalink_editor = NULL;								
+							      >									
+							      >			/**								
+							      >			 * @var TribeEventsPro_SingleEventMeta								
+							      >			 */								
+							      >			public $single_event_meta;								
+							      >									
+							      >			const REQUIRED_TEC_VERSION = '3.6';								
+							      >			const VERSION = '3.6';								
+																
+        /**							        /**								
+         * Class constructor.					         * Class constructor.								
+         */							         */								
+        private function __construct() {			        private function __construct() {								
+			$this->pluginDir = trailingslashit( b				$this->pluginDir = trailingslashit( b								
+			$this->pluginPath = trailingslashit( 				$this->pluginPath = trailingslashit( 								
+			$this->pluginUrl = WP_PLUGIN_URL.'/'.				$this->pluginUrl = WP_PLUGIN_URL.'/'.								
+			$this->pluginSlug = 'events-calendar-				$this->pluginSlug = 'events-calendar-								
+																
+			$this->loadTextDomain();					$this->loadTextDomain();								
+																
+			$this->weekSlug = sanitize_title(__('				$this->weekSlug = sanitize_title(__('								
+			$this->photoSlug = sanitize_title(__(				$this->photoSlug = sanitize_title(__(								
+			$this->daySlug = sanitize_title(__('d <
+			$this->todaySlug = sanitize_title(__( <
+																
+							      >				require_once( 'lib/tribeeventspro-sch								
+			require_once( 'lib/tribe-pro-template				require_once( 'lib/tribe-pro-template								
+			require_once( 'lib/tribe-date-series-				require_once( 'lib/tribe-date-series-								
+			require_once( 'lib/tribe-ecp-custom-m				require_once( 'lib/tribe-ecp-custom-m								
+			require_once( 'lib/tribe-events-recur				require_once( 'lib/tribe-events-recur								
+							      >				require_once( 'lib/tribeeventspro-rec								
+							      >				require_once( 'lib/tribeeventspro-rec								
+			require_once( 'lib/tribe-recurrence.c				require_once( 'lib/tribe-recurrence.c								
+							      >				require_once( 'lib/tribeeventspro-rec								
+			require_once( 'lib/widget-venue.class				require_once( 'lib/widget-venue.class								
+			require_once( 'lib/tribe-mini-calenda				require_once( 'lib/tribe-mini-calenda								
+			require_once( 'lib/widget-countdown.c				require_once( 'lib/widget-countdown.c								
+			require_once( 'lib/widget-calendar.cl				require_once( 'lib/widget-calendar.cl								
+																
+			require_once( 'lib/template-classes/d <
+			require_once( 'lib/template-classes/m				require_once( 'lib/template-classes/m								
+			require_once( 'lib/template-classes/p				require_once( 'lib/template-classes/p								
+			require_once( 'lib/template-classes/s				require_once( 'lib/template-classes/s								
+			require_once( 'lib/template-classes/s				require_once( 'lib/template-classes/s								
+			require_once( 'lib/template-classes/w				require_once( 'lib/template-classes/w								
+																
+			require_once( 'public/template-tags/g				require_once( 'public/template-tags/g								
+			require_once( 'public/template-tags/w				require_once( 'public/template-tags/w								
+			require_once( 'public/template-tags/v				require_once( 'public/template-tags/v								
+			require_once( 'public/template-tags/w				require_once( 'public/template-tags/w								
+			require_once( 'lib/tribe-geoloc.class				require_once( 'lib/tribe-geoloc.class								
+			require_once( 'lib/meta-pro.php' );   |				require_once( 'lib/SingleEventMeta.ph								
+							      <
+			//iCal				      <
+			require_once ( 'lib/tribe-ical.class. <
+			TribeiCal::init();		      <
+																
+							      >				if ( TribeEventsPro_SchemaUpdater::up								
+							      >					add_action( 'admin_init', arr								
+							      >				}								
+																
+			// Tribe common resources					// Tribe common resources								
+			require_once( 'vendor/tribe-common-li				require_once( 'vendor/tribe-common-li								
+			TribeCommonLibraries::register( 'adva				TribeCommonLibraries::register( 'adva								
+			TribeCommonLibraries::register( 'trib <
+																
+			add_action( 'tribe_helper_activation_				add_action( 'tribe_helper_activation_								
+																
+			add_action( 'init', array( $this, 'in				add_action( 'init', array( $this, 'in								
+			add_action( 'tribe_events_enqueue', a				add_action( 'tribe_events_enqueue', a								
+			add_action( 'tribe_venues_enqueue', a				add_action( 'tribe_venues_enqueue', a								
+			add_action( 'wp_enqueue_scripts', arr				add_action( 'wp_enqueue_scripts', arr								
+			add_action( 'wp_enqueue_scripts', arr				add_action( 'wp_enqueue_scripts', arr								
+																
+			add_action( 'tribe_settings_do_tabs',				add_action( 'tribe_settings_do_tabs',								
+			add_filter( 'tribe_settings_tab_field				add_filter( 'tribe_settings_tab_field								
+			add_filter( 'generate_rewrite_rules',				add_filter( 'generate_rewrite_rules',								
+			add_filter( 'tribe_events_buttons_the <
+			add_action( 'tribe_events_parse_query				add_action( 'tribe_events_parse_query								
+			add_action( 'tribe_events_pre_get_pos				add_action( 'tribe_events_pre_get_pos								
+			add_filter( 'tribe_enable_recurring_e				add_filter( 'tribe_enable_recurring_e								
+			add_filter( 'body_class', array( $thi				add_filter( 'body_class', array( $thi								
+			add_filter( 'tribe_current_events_pag				add_filter( 'tribe_current_events_pag								
+			add_filter( 'tribe_current_events_tem				add_filter( 'tribe_current_events_tem								
+			add_filter( 'tribe_events_template_pa				add_filter( 'tribe_events_template_pa								
+			add_filter( 'tribe_events_template_cl				add_filter( 'tribe_events_template_cl								
+																
+			add_filter( 'tribe_help_tab_getting_s				add_filter( 'tribe_help_tab_getting_s								
+			add_filter( 'tribe_help_tab_introtext				add_filter( 'tribe_help_tab_introtext								
+			add_filter( 'tribe_help_tab_forumtext				add_filter( 'tribe_help_tab_forumtext								
+																
+			add_action( 'widgets_init', array( $t				add_action( 'widgets_init', array( $t								
+			add_action( 'wp_loaded', array( $this				add_action( 'wp_loaded', array( $this								
+			add_action( 'plugin_row_meta', array(				add_action( 'plugin_row_meta', array(								
+			add_filter( 'get_delete_post_link', a <
+			add_action( 'admin_footer', array( $t <
+			add_filter( 'tribe_get_events_title',				add_filter( 'tribe_get_events_title',								
+			add_filter( 'tribe_events_add_title',				add_filter( 'tribe_events_add_title',								
+																
+			add_filter( 'tribe_promo_banner', arr				add_filter( 'tribe_promo_banner', arr								
+			add_filter( 'tribe_help_tab_forums_ur				add_filter( 'tribe_help_tab_forums_ur								
+			add_action( 'plugin_action_links_' . 				add_action( 'plugin_action_links_' . 								
+																
+			add_filter( 'tribe_events_before_html				add_filter( 'tribe_events_before_html								
+																
+			// add custom fields to "the_meta" on				// add custom fields to "the_meta" on								
+			add_filter( 'tribe_events_single_even				add_filter( 'tribe_events_single_even								
+			add_filter( 'tribe_events_single_even				add_filter( 'tribe_events_single_even								
+			add_filter( 'tribe_events_single_even				add_filter( 'tribe_events_single_even								
+			add_filter( 'tribe_event_meta_venue_n |				add_filter( 'tribe_event_meta_venue_n								
+			add_filter( 'tribe_event_meta_organiz |				add_filter( 'tribe_event_meta_organiz								
+			add_filter( 'tribe_events_single_even				add_filter( 'tribe_events_single_even								
+																
+							      >				$this->enable_recurring_info_tooltip(								
+							      >				add_action( 'tribe_events_before_the_								
+							      >				add_action( 'tribe_events_after_the_g								
+			add_action( 'tribe_events_single_even				add_action( 'tribe_events_single_even								
+																
+			// add_action( 'tribe_events_single_e				// add_action( 'tribe_events_single_e								
+																
+			// see function tribe_convert_units( 				// see function tribe_convert_units( 								
+			add_filter( 'tribe_convert_kms_to_mil				add_filter( 'tribe_convert_kms_to_mil								
+			add_filter( 'tribe_convert_miles_to_k				add_filter( 'tribe_convert_miles_to_k								
+																
+			/* Setup Tribe Events Bar */					/* Setup Tribe Events Bar */								
+			add_filter( 'tribe-events-bar-views',				add_filter( 'tribe-events-bar-views',								
+			add_filter( 'tribe-events-bar-views', <
+			add_filter( 'tribe-events-bar-views',				add_filter( 'tribe-events-bar-views',								
+			add_filter( 'tribe_events_ugly_link',				add_filter( 'tribe_events_ugly_link',								
+			add_filter( 'tribe_events_getLink', a				add_filter( 'tribe_events_getLink', a								
+			add_filter( 'tribe-events-bar-date-se <
+			add_filter( 'tribe_bar_datepicker_cap				add_filter( 'tribe_bar_datepicker_cap								
+			add_action( 'tribe_events_after_the_t				add_action( 'tribe_events_after_the_t								
+			add_filter( 'tribe_get_day_link', arr <
+							      <
+			/* AJAX for loading day view */	      <
+			add_action( 'wp_ajax_tribe_event_day' <
+			add_action( 'wp_ajax_nopriv_tribe_eve <
+																
+			/* AJAX for loading photo view */				/* AJAX for loading photo view */								
+																
+			add_action( 'wp_ajax_tribe_photo', ar				add_action( 'wp_ajax_tribe_photo', ar								
+			add_action( 'wp_ajax_nopriv_tribe_pho				add_action( 'wp_ajax_nopriv_tribe_pho								
+																
+			/* AJAX for loading week view */				/* AJAX for loading week view */								
+											add_action( 'wp_ajax_tribe_week', arr								
+			add_action( 'wp_ajax_tribe_week', arr				add_action( 'wp_ajax_nopriv_tribe_wee								
+			add_action( 'wp_ajax_nopriv_tribe_wee									
+											add_action( 'tribe_events_pre_get_pos								
+			add_action( 'tribe_events_pre_get_pos									
+											add_filter( 'wp' , array( $this, 'det								
+			add_filter( 'wp' , array( $this, 'det				add_filter( 'wp', array( $this, 'filt								
+			add_filter( 'wp', array( $this, 'filt									
+							      (
+							      >				$this->permalink_editor = apply_filte								
+							      >				add_filter( 'post_type_link', array($								
+							      >									
+			add_filter( 'tribe_events_register_ve				add_filter( 'tribe_events_register_ve								
+			add_filter( 'tribe_events_register_or				add_filter( 'tribe_events_register_or								
+																
+			// filter the query sql to get the re				// filter the query sql to get the re								
+			add_filter( 'tribe_events_query_posts				add_filter( 'tribe_events_query_posts								
+			add_filter( 'tribe_events_query_posts				add_filter( 'tribe_events_query_posts								
+			add_filter( 'tribe_events_query_end_d <
+							      <
+			// let day view enabled status happen <
+			remove_filter( 'tribe_events_is_view_ <
+																
+		}								}								
+																
+		/**								/**								
+		 * @return bool Whether related events should			 * @return bool Whether related events should								
+		 */								 */								
+		public function show_related_events() {				public function show_related_events() {								
+			if ( tribe_get_option('hideRelatedEve |				if ( tribe_get_option('hideRelatedEve								
+				return FALSE;		      |					return false;								
+			}								}								
+			return TRUE;			      |				return true;								
+		}								}								
+																
+		/**								/**								
+		 * add related events to single event view			 * add related events to single event view								
+		 *								 *								
+		 * @return void							 * @return void								
+		 */								 */								
+		public function register_related_events_view(			public function register_related_events_view(								
+			if ( $this->show_related_events() ) {				if ( $this->show_related_events() ) {								
+				tribe_single_related_events()					tribe_single_related_events()								
+			}								}								
+		}								}								
+																
+		/**								/**								
+							      >			 * Append the recurring info tooltip after an								
+							      >			 * @param string $schedule_details								
+							      >			 * @param int $event_id								
+							      >			 * @return string								
+							      >			 */								
+							      >			public function append_recurring_info_tooltip								
+							      >				$tooltip = tribe_events_recurrence_to								
+							      >				return $schedule_details . $tooltip;								
+							      >			}								
+							      >									
+							      >			public function enable_recurring_info_tooltip								
+							      >				add_filter( 'tribe_events_event_sched								
+							      >			}								
+							      >									
+							      >			public function disable_recurring_info_toolti								
+							      >				remove_filter( 'tribe_events_event_sc								
+							      >			}								
+							      >									
+							      >			public function recurring_info_tooltip_status								
+							      >				if ( has_filter( 'tribe_events_event_								
+							      >					return true;								
+							      >				}								
+							      >				return false;								
+							      >			}								
+							      >									
+							      >			/**								
+		 * Filters in a meta walker group for new ite			 * Filters in a meta walker group for new ite								
+		 *								 *								
+		 * @param string $html The current HTML for t			 * @param string $html The current HTML for t								
+		 * @param int $event_id The post_id of the cu			 * @param int $event_id The post_id of the cu								
+		 * @return string The modified HTML for the e			 * @return string The modified HTML for the e								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function single_event_the_meta_addon( $html, 			function single_event_the_meta_addon( $html, 								
+																
+			// add custom meta if it's available				// add custom meta if it's available								
+			$html .= tribe_get_meta_group('tribe_				$html .= tribe_get_meta_group('tribe_								
+																
+			return $html;							return $html;								
+		}								}								
+																
+		/**								/**								
+		 * Adds for the meta walker a key for custom 			 * Adds for the meta walker a key for custom 								
+		 *								 *								
+		 * @param array $keys The current array of me			 * @param array $keys The current array of me								
+		 * @return array The modified array.				 * @return array The modified array.								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function single_event_meta_template_keys( $ke			function single_event_meta_template_keys( $ke								
+			$keys[] = 'tribe_event_custom_meta';				$keys[] = 'tribe_event_custom_meta';								
+			return $keys;							return $keys;								
+		}								}								
+																
+		/**								/**								
+		 * Adds for the meta walker a key for custom 			 * Adds for the meta walker a key for custom 								
+		 *								 *								
+		 * @param array $keys The current array of me			 * @param array $keys The current array of me								
+		 * @return array The modified array.				 * @return array The modified array.								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function single_event_meta_group_template_key			function single_event_meta_group_template_key								
+			$keys[] = 'tribe_event_group_custom_m				$keys[] = 'tribe_event_group_custom_m								
+			return $keys;							return $keys;								
+		}								}								
+																
+		/**								/**								
+		 * Adds (currently nothing) to the venue sect			 * Adds (currently nothing) to the venue sect								
+		 *								 *								
+		 * @param bool $status Whether currently it i			 * @param bool $status Whether currently it i								
+		 * @param int $event_id The post_id of the cu			 * @param int $event_id The post_id of the cu								
+		 * @return bool The modified boolean.				 * @return bool The modified boolean.								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function single_event_the_meta_group_venue( $			function single_event_the_meta_group_venue( $								
+																
+			return $status;							return $status;								
+		}								}								
+																
+		/**								/**								
+		 * Modifies the page title for week view.			 * Modifies the page title for week view.								
+		 *								 *								
+		 * @param string $new_title The currently fil			 * @param string $new_title The currently fil								
+		 * @param string $title The oldest default ti			 * @param string $title The oldest default ti								
+		 * @param string $sep The separator for title			 * @param string $sep The separator for title								
+		 * @return string The modified title.				 * @return string The modified title.								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @return 3.0							 * @return 3.0								
+		 */								 */								
+		function maybeAddEventTitle( $new_title, $tit			function maybeAddEventTitle( $new_title, $tit								
+			global $wp_query;						global $wp_query;								
+																
+			switch( TribeEvents::instance()->disp				switch( TribeEvents::instance()->disp								
+				case 'week':							case 'week':								
+					$new_title = sprintf(						$new_title = sprintf(								
+						__( 'Events f							__( 'Events f								
+						date( "l, F j |							date_i18n( tr								
+						$sep								$sep								
+					);								);								
+					break;								break;								
+				case 'day':		      <
+					$new_title = __( 'Eve <
+					break;		      <
+				case 'photo':							case 'photo':								
+				case 'map':							case 'map':								
+					if( tribe_is_past() )						if( tribe_is_past() )								
+						$new_title = 							$new_title = 								
+					} else {							} else {								
+						$new_title =  |							$new_title = 								
+					}								}								
+					break;								break;								
+			}								}								
+			if( tribe_is_showing_all() ){					if( tribe_is_showing_all() ){								
+				$new_title = sprintf( '%s %s 					$new_title = sprintf( '%s %s 								
+					__( 'All events for',						__( 'All events for',								
+					get_the_title(),						get_the_title(),								
+					$sep								$sep								
+				);								);								
+			}								}								
+			return apply_filters( 'tribe_events_p				return apply_filters( 'tribe_events_p								
+		}								}								
+																
+		// function single_event_meta_init( $meta_tem			// function single_event_meta_init( $meta_tem								
+		// 	if( !empty($))						// 	if( !empty($))								
+		// }								// }								
+																
+        /**							        /**								
+         * Gets the events_before_html content.			         * Gets the events_before_html content.								
+         *							         *								
+         * @param string $html The events_before_html current	         * @param string $html The events_before_html current								
+         * @return string The modified html.			         * @return string The modified html.								
+         */							         */								
+        function events_before_html( $html ) {			        function events_before_html( $html ) {								
+			global $wp_query;						global $wp_query;								
+			if ( $wp_query->tribe_is_event_venue 				if ( $wp_query->tribe_is_event_venue 								
+				add_filter( 'tribe-events-bar					add_filter( 'tribe-events-bar								
+			}								}								
+			return $html;							return $html;								
+		}								}								
+																
+		/**								/**								
+		 * Sets the page title for the various PRO vi			 * Sets the page title for the various PRO vi								
+		 *								 *								
+		 * @param string $content The current title.			 * @param string $content The current title.								
+		 * @return string The modified title.				 * @return string The modified title.								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function reset_page_title( $content ){				function reset_page_title( $content ){								
+																
+			global $wp_query;						global $wp_query;								
+			$tec = TribeEvents::instance();					$tec = TribeEvents::instance();								
+			$date_format = apply_filters( 'tribe_ |				$date_format = apply_filters( 'tribe_								
+																
+			if( tribe_is_showing_all() ){					if( tribe_is_showing_all() ){								
+				$reset_title = sprintf( '%s %					$reset_title = sprintf( '%s %								
+					__( 'All events for',						__( 'All events for',								
+					get_the_title()							get_the_title()								
+				);								);								
+			}								}								
+																
+			// week view title						// week view title								
+			if( tribe_is_week() ) {						if( tribe_is_week() ) {								
+				$reset_title = sprintf( __('E					$reset_title = sprintf( __('E								
+					date_i18n( $date_form						date_i18n( $date_form								
+					);								);								
+			}								}								
+			// day view title		      |									
+			if( tribe_is_day() ) {		      <
+				$reset_title = __( 'Events fo <
+					date_i18n( $date_form <
+			}				      <
+			// map or photo view titles					// map or photo view titles								
+			if( tribe_is_map() || tribe_is_photo(				if( tribe_is_map() || tribe_is_photo(								
+				if( tribe_is_past() ) {						if( tribe_is_past() ) {								
+					$reset_title = __( 'P						$reset_title = __( 'P								
+				} else {							} else {								
+					$reset_title = __( 'U						$reset_title = __( 'U								
+				}								}								
+			}								}								
+																
+			return isset($reset_title) ? apply_fi				return isset($reset_title) ? apply_fi								
+		}								}								
+																
+		/**								/**								
+		 * AJAX handler for tribe_event_photo (Photo 			 * AJAX handler for tribe_event_photo (Photo 								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Daniel Dvorkin					 * @author Daniel Dvorkin								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function wp_ajax_tribe_photo() {				function wp_ajax_tribe_photo() {								
+																
+			$tec = TribeEvents::instance();					$tec = TribeEvents::instance();								
+																
+			TribeEventsQuery::init();					TribeEventsQuery::init();								
+																
+			$tribe_paged = ( !empty( $_POST['trib				$tribe_paged = ( !empty( $_POST['trib								
+																
+			$args = array( 'eventDisplay'       =				$args = array( 'eventDisplay'       =								
+			               'post_type'          =				               'post_type'          =								
+			               'post_status'        =				               'post_status'        =								
+			               'paged'              =				               'paged'              =								
+																
+			$view_state = 'photo';						$view_state = 'photo';								
+																
+							      >				if ( isset( $_POST['tribe_event_categ								
+							      >					$args[TribeEvents::TAXONOMY] 								
+							      >				}								
+							      >									
+			/* if past view */						/* if past view */								
+			if ( ! empty( $_POST['tribe_event_dis				if ( ! empty( $_POST['tribe_event_dis								
+				$view_state = 'past';						$view_state = 'past';								
+			}								}								
+																
+																
+			$query = TribeEventsQuery::getEvents(				$query = TribeEventsQuery::getEvents(								
+			$hash  = $query->query_vars;					$hash  = $query->query_vars;								
+																
+			$hash['paged']      = null;					$hash['paged']      = null;								
+			$hash['start_date'] = null;					$hash['start_date'] = null;								
+			$hash_str           = md5( maybe_seri				$hash_str           = md5( maybe_seri								
+																
+			if ( !empty( $_POST['hash'] ) && $has				if ( !empty( $_POST['hash'] ) && $has								
+				$tribe_paged   = 1;						$tribe_paged   = 1;								
+				$args['paged'] = 1;						$args['paged'] = 1;								
+				$query         = TribeEventsQ					$query         = TribeEventsQ								
+			}								}								
+																
+																
+			$response = array( 'html'            				$response = array( 'html'            								
+			                   'success'         				                   'success'         								
+			                   'max_pages'       				                   'max_pages'       								
+			                   'hash'            				                   'hash'            								
+			                   'tribe_paged'     				                   'tribe_paged'     								
+			                   'view'            				                   'view'            								
+			);								);								
+																
+			global $wp_query, $post;					global $wp_query, $post;								
+			$wp_query = $query;						$wp_query = $query;								
+			if ( !empty( $query->posts ) ) {				if ( !empty( $query->posts ) ) {								
+				$post = $query->posts[0];					$post = $query->posts[0];								
+			}								}								
+																
+			add_filter( 'tribe_events_list_pagina				add_filter( 'tribe_events_list_pagina								
+																
+			$tec->displaying = 'photo';					$tec->displaying = 'photo';								
+																
+			ob_start();							ob_start();								
+																
+			tribe_get_view( 'pro/photo/content' )				tribe_get_view( 'pro/photo/content' )								
+																
+			$response['html'] .= ob_get_clean();				$response['html'] .= ob_get_clean();								
+																
+			apply_filters( 'tribe_events_ajax_res				apply_filters( 'tribe_events_ajax_res								
+																
+			header( 'Content-type: application/js				header( 'Content-type: application/js								
+			echo json_encode( $response );					echo json_encode( $response );								
+																
+			die();								die();								
+		}								}								
+																
+		/**								/**								
+		 * AJAX handler for tribe_event_week (weekvie			 * AJAX handler for tribe_event_week (weekvie								
+		 * This loads up the week view shard with all			 * This loads up the week view shard with all								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function wp_ajax_tribe_week(){					function wp_ajax_tribe_week(){								
+			if ( isset( $_POST["eventDate"] ) && 				if ( isset( $_POST["eventDate"] ) && 								
+																
+				TribeEventsQuery::init();					TribeEventsQuery::init();								
+																
+				$states[] = 'publish';						$states[] = 'publish';								
+				if ( 0 < get_current_user_id(					if ( 0 < get_current_user_id(								
+																
+				$args = array(							$args = array(								
+					'post_status' => $sta						'post_status' => $sta								
+					'eventDate' => $_POST						'eventDate' => $_POST								
+					'eventDisplay' => 'we						'eventDisplay' => 'we								
+				);								);								
+																
+				if ( isset( $_POST['tribe_eve					if ( isset( $_POST['tribe_eve								
+					$args[TribeEvents::TA						$args[TribeEvents::TA								
+				}								}								
+																
+				$query = TribeEventsQuery::ge					$query = TribeEventsQuery::ge								
+																
+				global $wp_query, $post;					global $wp_query, $post;								
+				$wp_query = $query;						$wp_query = $query;								
+																
+				TribeEvents::instance()->setD					TribeEvents::instance()->setD								
+																
+				$response = array(						$response = array(								
+					'html'            => 						'html'            => 								
+					'success'         => 						'success'         => 								
+					'view'            => 						'view'            => 								
+				);								);								
+																
+				add_filter( 'tribe_is_week', 					add_filter( 'tribe_is_week', 								
+																
+				ob_start();							ob_start();								
+																
+				tribe_get_view( 'pro/week/con					tribe_get_view( 'pro/week/con								
+																
+				$response['html'] .= ob_get_c					$response['html'] .= ob_get_c								
+																
+				apply_filters( 'tribe_events_					apply_filters( 'tribe_events_								
+																
+				header( 'Content-type: applic					header( 'Content-type: applic								
+				echo json_encode( $response )					echo json_encode( $response )								
+				die();								die();								
+			}								}								
+		}								}								
+																
+		/**								/**								
+		 * AJAX handler for tribe_event_day (dayview  <
+		 * This loads up the day view shard with all  <
+		 *					      <
+		 * @return void				      <
+		 * @author Timothy Wood			      <
+		 * @since 3.0				      <
+		 */					      <
+		function wp_ajax_tribe_event_day(){	      <
+			if ( isset( $_POST["eventDate"] ) &&  <
+							      <
+				TribeEventsQuery::init();     <
+							      <
+				$states[] = 'publish';	      <
+				if ( 0 < get_current_user_id( <
+							      <
+				$args = array(		      <
+					'post_status' => $sta <
+					'eventDate' => $_POST <
+					'eventDisplay' => 'da <
+				);			      <
+							      <
+				if ( isset( $_POST['tribe_eve <
+					$args[TribeEvents::TA <
+				}			      <
+							      <
+				$query = TribeEventsQuery::ge <
+							      <
+				global $wp_query, $post;      <
+				$wp_query = $query;	      <
+							      <
+				if ( have_posts() ) {	      <
+					the_post(); // TODO:  <
+					rewind_posts(); // so <
+				}			      <
+							      <
+				add_filter( 'tribe_is_day', ' <
+							      <
+				ob_start();		      <
+				tribe_get_view( 'pro/day/cont <
+							      <
+				$response = array(	      <
+					'html'            =>  <
+					'success'         =>  <
+					'total_count'     =>  <
+					'view'            =>  <
+				);			      <
+				apply_filters( 'tribe_events_ <
+							      <
+				header( 'Content-type: applic <
+				echo json_encode( $response ) <
+				die();			      <
+			}				      <
+							      <
+		}					      <
+							      <
+		/**					      <
+		 * The class init function.					 * The class init function.								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @since 2.0							 * @since 2.0								
+		 */								 */								
+		public function init() {					public function init() {								
+			TribeEventsMiniCalendar::instance();				TribeEventsMiniCalendar::instance();								
+			TribeEventsCustomMeta::init();					TribeEventsCustomMeta::init();								
+			TribeEventsRecurrenceMeta::init();				TribeEventsRecurrenceMeta::init();								
+			TribeEventsGeoLoc::instance();					TribeEventsGeoLoc::instance();								
+			$this->displayMetaboxCustomFields();				$this->displayMetaboxCustomFields();								
+							      >				$this->single_event_meta = new TribeE								
+		}								}								
+																
+		/**								/**								
+		 * At the pre_get_post hook detect if we shou			 * At the pre_get_post hook detect if we shou								
+		 * for an invalid 404 recurrence entries.			 * for an invalid 404 recurrence entries.								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since  3.0							 * @since  3.0								
+		 */								 */								
+		function detect_recurrence_redirect(){				function detect_recurrence_redirect(){								
+			global $wp_query, $wp;						global $wp_query, $wp;								
+			if( ! isset( $wp_query->query_vars['e				if( ! isset( $wp_query->query_vars['e								
+				return false;							return false;								
+																
+			$current_url = null;						$current_url = null;								
+																
+			switch( $wp_query->query_vars['eventD				switch( $wp_query->query_vars['eventD								
+				case 'single-event':						case 'single-event':								
+					// a recurrence event						// a recurrence event								
+					if( is_404() || empty						if( is_404() || empty								
+						$recurrence_c							$recurrence_c								
+						unset( $recur							unset( $recur								
+						unset( $recur							unset( $recur								
+																
+						// retrieve e							// retrieve e								
+						$get_recurren							$get_recurren								
+						// if a reccu							// if a reccu								
+						if( !empty($g							if( !empty($g								
+							      |								$curr								
+							// ge <
+							$next <
+							      <
+							// se <
+							if (  <
+							      <
+							} els <
+							      <
+							}							}								
+							      >							break;								
+						}							}								
+																
+							      >						// A child event shou								
+							      >						if ( tribe_is_recurri								
+							      >							$event = get_								
+							      >							if ( !empty($								
+							      >								if ( 								
+							      >																
+							      >								}								
+							      >							}								
+					}								}								
+					break;								break;								
+																
+			}								}								
+																
+			if( !empty( $current_url )) {					if( !empty( $current_url )) {								
+				// redirect user with 301					// redirect user with 301								
+				$confirm_redirect = apply_fil					$confirm_redirect = apply_fil								
+				do_action('tribe_events_pro_d					do_action('tribe_events_pro_d								
+				if( $confirm_redirect ) {					if( $confirm_redirect ) {								
+					wp_safe_redirect( $cu						wp_safe_redirect( $cu								
+					exit;								exit;								
+				}								}								
+			}								}								
+		}								}								
+																
+		public function filter_canonical_link_on_recu			public function filter_canonical_link_on_recu								
+			if ( is_singular(TribeEvents::POSTTYP				if ( is_singular(TribeEvents::POSTTYP								
+				remove_action( 'wp_head', 're					remove_action( 'wp_head', 're								
+				add_action( 'wp_head', array(					add_action( 'wp_head', array(								
+			}								}								
+		}								}								
+																
+		public function output_recurring_event_canoni			public function output_recurring_event_canoni								
+			// set the EventStartDate so TribeEve				// set the EventStartDate so TribeEve								
+			$post = get_post(get_queried_object_i				$post = get_post(get_queried_object_i								
+			$post->EventStartDate = get_query_var				$post->EventStartDate = get_query_var								
+																
+			// use get_post_permalink instead of 				// use get_post_permalink instead of 								
+			// back to an ID, then to a post agai				// back to an ID, then to a post agai								
+			$link = get_post_permalink( $post );				$link = get_post_permalink( $post );								
+																
+			echo "<link rel='canonical' href='$li				echo "<link rel='canonical' href='$li								
+		}								}								
+																
+		/**								/**								
+		 * Filter the event fields to use the duratio			 * Filter the event fields to use the duratio								
+		 *								 *								
+		 * @return string						 * @return string								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 * @since 3.0.2							 * @since 3.0.2								
+		 **/								 **/								
+		public static function posts_fields($fields){			public static function posts_fields($fields){								
+			global $wpdb;			      |				$fields['event_end_date'] = "tribe_ev								
+			$fields['event_duration']= "tribe_eve <
+			$fields['event_end_date'] = "IF(tribe <
+			return $fields;							return $fields;								
+		}								}								
+																
+		/**								/**								
+		 * Filter the event joins to use the duration			 * Filter the event joins to use the duration								
+		 *								 *								
+		 * @return string						 * @return string								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 * @since 3.0.2							 * @since 3.0.2								
+		 **/								 **/								
+		public static function posts_join($joins){			public static function posts_join($joins){								
+			global $wpdb;							global $wpdb;								
+			$joins['event_duration'] = " LEFT JOI <
+			$joins['event_end_date'] = " LEFT JOI				$joins['event_end_date'] = " LEFT JOI								
+			return $joins;							return $joins;								
+		}								}								
+																
+		/**								/**								
+		 * Filter the event end date column name to u |			 * Loop through recurrence posts array and fi								
+		 *								 *								
+		 * @return string			      |			 * @param  array $event_list								
+		 * @author Jessica Yazbek		      |			 * @return string $next_recurrence (Y-m-d for								
+		 * @since 3.0.2				      |			 *								
+		 **/					      |			 * @deprecated since 3.6 - Use TribeEventsPro								
+		public static function end_date_column($field |			 */								
+			global $wpdb;			      |			public function get_last_recurrence( $event_l								
+			return ("IF(tribe_event_duration.meta |				$id = $this->get_last_recurrence_id( 								
+							      >				if ( empty($id) ) {								
+							      >					return '';								
+							      >				}								
+							      >				$right_now = current_time( 'timestamp								
+							      >				$next_recurrence = date_i18n( 'Y-m-d'								
+							      >									
+							      >				return apply_filters( 'tribe_events_p								
+							      >									
+		}								}								
+																
+		/**								/**								
+		 * Loop through recurrence posts array and fi |			 * Loop through recurrence posts array and fi								
+							      >			 * @param WP_Post[] $event_list								
+		 *								 *								
+		 * @param  array  $event_list		      |			 * @return int								
+		 * @return $next_recurrence (Y-m-d format)    <
+		 * @author Timothy Wood			      <
+		 * @since 3.0				      <
+		 */								 */								
+		public function get_last_recurrence( $event_l |			public function get_last_recurrence_id( $even								
+			global $wp_query;						global $wp_query;								
+																
+			$event_list = empty($event_list) ? $w				$event_list = empty($event_list) ? $w								
+			$right_now = current_time( 'timestamp				$right_now = current_time( 'timestamp								
+			$next_recurrence = null;	      |				$next_recurrence = 0;								
+																
+			// find next recurrence date by loop				// find next recurrence date by loop								
+			foreach( $event_list as $key => $even				foreach( $event_list as $key => $even								
+				if( $right_now < strtotime( $					if( $right_now < strtotime( $								
+					$next_recurrence = da |						$next_recurrence = $e								
+				}								}								
+			}								}								
+			if( empty($next_recurrence) && !empty				if( empty($next_recurrence) && !empty								
+				$first_key = reset(array_keys |					$next_recurrence = reset($eve								
+				$next_recurrence = date_i18n( <
+			}								}								
+																
+			return apply_filters( 'tribe_events_p |				return apply_filters( 'tribe_events_p								
+							      <
+		}								}								
+																
+		/**								/**								
+		 * Common library plugins have been activated			 * Common library plugins have been activated								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Peter Chester					 * @author Peter Chester								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function helpersLoaded() {				public function helpersLoaded() {								
+			remove_action( 'widgets_init', 'tribe				remove_action( 'widgets_init', 'tribe								
+			require_once( 'lib/apm_filters.php' )				require_once( 'lib/apm_filters.php' )								
+			if ( class_exists( 'TribeRelatedPosts				if ( class_exists( 'TribeRelatedPosts								
+				TribeRelatedPosts::instance()					TribeRelatedPosts::instance()								
+				require_once( 'vendor/tribe-r					require_once( 'vendor/tribe-r								
+			}								}								
+		}								}								
+																
+		/**								/**								
+		 * Insert an array after a specified key with			 * Insert an array after a specified key with								
+		 *								 *								
+		 * This function is a duplicate of the one us			 * This function is a duplicate of the one us								
+		 * It exists only for reverse compatibility d			 * It exists only for reverse compatibility d								
+		 *								 *								
+		 * @param $key							 * @param $key								
+		 * @param $source_array						 * @param $source_array								
+		 * @param $insert_array						 * @param $insert_array								
+		 * @return array						 * @return array								
+		 *								 *								
+		 * @author codearachnid						 * @author codearachnid								
+		 * @author Peter Chester					 * @author Peter Chester								
+		 * @since 3.0							 * @since 3.0								
+		 * @deprecated since 3.2, use TribeEvents::ar			 * @deprecated since 3.2, use TribeEvents::ar								
+		 */								 */								
+		public static function array_insert_after_key			public static function array_insert_after_key								
+							      >				// @TODO return value from core TEC f								
+			if ( array_key_exists( $key, $source_				if ( array_key_exists( $key, $source_								
+				$position = array_search( $ke					$position = array_search( $ke								
+				$source_array = array_slice($ |					$source_array = array_slice($								
+			} else {							} else {								
+				// If no key is found, then a					// If no key is found, then a								
+				$source_array += $insert_arra					$source_array += $insert_arra								
+			}								}								
+			return $source_array;						return $source_array;								
+		}								}								
+																
+		/**								/**								
+		 * Sets up the link for deleting recurring ev <
+		 *					      <
+		 * @param string $link The current post delet <
+		 * @param int $postId The current post/event  <
+		 * @return string The modified link.	      <
+		 * @author Joey Kudish			      <
+		 */					      <
+		public function adjust_date_on_recurring_even <
+			global $post;			      <
+			if ( isset($_REQUEST['deleteAll']) )  <
+				$link = remove_query_arg( arr <
+			} elseif ( (isset($post->ID)) && trib <
+				$link = add_query_arg( 'event <
+			}				      <
+			return $link;			      <
+	      }						      <
+							      <
+		/**					      <
+		 * Adds the dialog box for when you try to de <
+		 *					      <
+		 * @return void				      <
+		 */					      <
+		public function addDeleteDialogForRecurringEv <
+			global $current_screen, $post;	      <
+			if ( is_admin() && isset( $current_sc <
+				&& (			      <
+					( isset( $current_scr <
+					|| ( ( isset( $post-> <
+				)			      <
+			)				      <
+			// load the dialog		      <
+			require_once( TribeEvents::instance() <
+	      }						      <
+							      <
+		/**					      <
+		 * Determines whether or not to show the cust			 * Determines whether or not to show the cust								
+		 *								 *								
+		 * @return bool Whether to show or not.				 * @return bool Whether to show or not.								
+		 */								 */								
+	    public function displayMetaboxCustomFields(){		    public function displayMetaboxCustomFields(){								
+	    	// 'disable_metabox_custom_fields'			    	// 'disable_metabox_custom_fields'								
+	    	$show_box = tribe_get_option('disable_metabox		    	$show_box = tribe_get_option('disable_metabox								
+	    	if($show_box == 'show') {				    	if($show_box == 'show') {								
+		    	return true;						    	return true;								
+		    }								    }								
+		    if($show_box == 'hide') {					    if($show_box == 'hide') {								
+		    	remove_post_type_support( TribeEvents			    	remove_post_type_support( TribeEvents								
+		    	return false;						    	return false;								
+		    }								    }								
+		    if(empty($show_box)){					    if(empty($show_box)){								
+		    	global $wpdb;						    	global $wpdb;								
+		    	$meta_keys = $wpdb->get_results("sele			    	$meta_keys = $wpdb->get_results("sele								
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+																							
+		    	if( empty($meta_keys) ) {				    	if( empty($meta_keys) ) {								
+		    		remove_post_type_support( Tri			    		remove_post_type_support( Tri								
+		    		// update_option('disable_met			    		// update_option('disable_met								
+		    		$show_box = 'hide';				    		$show_box = 'hide';								
+		    		$r = false;					    		$r = false;								
+		    	} else {						    	} else {								
+		    		// update_option('disable_met			    		// update_option('disable_met								
+		    		$show_box = 'show';				    		$show_box = 'show';								
+		    		$r = true;					    		$r = true;								
+		    	}							    	}								
+																
+		    	tribe_update_option( 'disable_metabox			    	tribe_update_option( 'disable_metabox								
+		    	return $r;						    	return $r;								
+		    }								    }								
+																
+	    }								    }								
+																
+	    /**								    /**								
+	     * Add the default settings tab				     * Add the default settings tab								
+	     *								     *								
+	     * @since 2.0.5						     * @since 2.0.5								
+	     * @author jkudish						     * @author jkudish								
+	     * @return void						     * @return void								
+	     */								     */								
+	  	public function add_settings_tabs() {			  	public function add_settings_tabs() {								
+			require_once( $this->pluginPath . 'ad				require_once( $this->pluginPath . 'ad								
+			new TribeSettingsTab( 'defaults', __(				new TribeSettingsTab( 'defaults', __(								
+			// The single-entry array at the end 				// The single-entry array at the end 								
+			new TribeSettingsTab( 'additional-fie				new TribeSettingsTab( 'additional-fie								
+	  	}							  	}								
+																
+		public function filter_settings_tab_fields( $			public function filter_settings_tab_fields( $								
+			switch ( $tab ) {						switch ( $tab ) {								
+				case 'display':							case 'display':								
+					$fields = TribeEvents						$fields = TribeEvents								
+						'hideRelatedE								'hide								
+							'type																
+							'labe																
+							'tool																
+							'defa																
+							'vali																
+						),									),								
+					) );									) );								
+							      >						$fields = TribeEvents								
+							      >								'week								
+							      >																
+							      >																
+							      >																
+							      >																
+							      >																
+							      >																
+							      >								),								
+							      >							) );								
+					break;								break;								
+			}								}								
+			return $fields;							return $fields;								
+		}								}								
+																
+		/**								/**								
+		 * Add the "Getting Started" text to the help			 * Add the "Getting Started" text to the help								
+		 *								 *								
+		 * @return string The modified content.				 * @return string The modified content.								
+		 */								 */								
+		public function add_help_tab_getting_started_			public function add_help_tab_getting_started_								
+			$getting_started_text[] = sprintf ( _				$getting_started_text[] = sprintf ( _								
+			$content = implode( $getting_started_				$content = implode( $getting_started_								
+			return $content;						return $content;								
+		}								}								
+																
+		/**								/**								
+		 * Add the intro text that concerns PRO to th			 * Add the intro text that concerns PRO to th								
+		 *								 *								
+		 * @return string The modified content.				 * @return string The modified content.								
+		 */								 */								
+		public function add_help_tab_intro_text(){			public function add_help_tab_intro_text(){								
+			$intro_text[] = '<p>' . __("If this i				$intro_text[] = '<p>' . __("If this i								
+			$intro_text[] = '<ul>';						$intro_text[] = '<ul>';								
+			$intro_text[] = '<li>';						$intro_text[] = '<li>';								
+			$intro_text[] = sprintf( __ ("%sOur N				$intro_text[] = sprintf( __ ("%sOur N								
+			$intro_text[] = '</li><li>';					$intro_text[] = '</li><li>';								
+			$intro_text[] = sprintf( __("%sInstal				$intro_text[] = sprintf( __("%sInstal								
+			$intro_text[] = '</li><li>';					$intro_text[] = '</li><li>';								
+			$intro_text[] = sprintf( __("Are you 				$intro_text[] = sprintf( __("Are you 								
+			$intro_text[] = '</li><li>';					$intro_text[] = '</li><li>';								
+			$intro_text[] = sprintf( __( "Take ca				$intro_text[] = sprintf( __( "Take ca								
+			$intro_text[] = '</li></ul><p>';				$intro_text[] = '</li></ul><p>';								
+			$intro_text[] = __( "Otherwise, if yo				$intro_text[] = __( "Otherwise, if yo								
+			$intro_text[] = '</p>';						$intro_text[] = '</p>';								
+			$intro_text = implode( $intro_text );				$intro_text = implode( $intro_text );								
+			return $intro_text;						return $intro_text;								
+		}								}								
+																
+		/**								/**								
+		 * Add help text regarding the Tribe forums t			 * Add help text regarding the Tribe forums t								
+		 *								 *								
+		 * @return string The content.					 * @return string The content.								
+		 */								 */								
+		public function add_help_tab_forumtext(){			public function add_help_tab_forumtext(){								
+			$forum_text[] = '<p>' . sprintf( __("				$forum_text[] = '<p>' . sprintf( __("								
+			$forum_text[] = '<p>' . sprintf( __("				$forum_text[] = '<p>' . sprintf( __("								
+			$forum_text[] = '<p>' . __("Our numbe				$forum_text[] = '<p>' . __("Our numbe								
+			$forum_text[] = '<p>' . __("Before po				$forum_text[] = '<p>' . __("Before po								
+			$forum_text = implode($forum_text );				$forum_text = implode($forum_text );								
+			return $forum_text;						return $forum_text;								
+		}								}								
+																
+		/**								/**								
+		 * Add rewrite routes for custom PRO stuff an			 * Add rewrite routes for custom PRO stuff an								
+		 *								 *								
+		 * @param array $wp_rewrite The current rewri |			 * @param WP_Rewrite $wp_rewrite The WP_Rewri								
+		 * @return array The modified array of rewrit |			 * @return void								
+		 * @author Timothy Wood			      <
+		 * @since 3.0				      <
+		 */								 */								
+		public function add_routes( $wp_rewrite ) {			public function add_routes( $wp_rewrite ) {								
+			$tec = TribeEvents::instance();	      |				$generator = $this->get_rewrite_gener								
+			// $base = trailingslashit( $tec->get <
+																
+			$base = trailingslashit( $tec->rewrit |				$week_rules = $generator->get_week_ru								
+			$baseSingle = trailingslashit( $tec-> |				$photo_rules = $generator->get_photo_								
+			$baseTax = trailingslashit( $tec->tax |				$tax_rules = $generator->get_taxonomy								
+			$baseTax = "(.*)" . $baseTax . "(?:[^ <
+			$baseTag = trailingslashit( $tec->tag <
+			$baseTag = "(.*)" . $baseTag;	      <
+							      <
+			$photo = $this->photoSlug;	      <
+			$day = $this->daySlug;		      <
+			$today = $this->todaySlug;	      <
+			$week = $this->weekSlug;	      <
+			$newRules = array();		      <
+			// week permalink rules		      <
+			$newRules[$base . $week . '/?$'] = 'i <
+			$newRules[$base . $week . '/(\d{2})/? <
+			$newRules[$base . $week . '/(\d{4}-\d <
+			// photo permalink rules	      <
+			$newRules[$base . $photo . '/?$'] = ' <
+			$newRules[$base . $photo . '/(\d{4}-\ <
+			// day permalink rules		      <
+			$newRules[$base . $today . '/?$'] = ' <
+			$newRules[$base . $day . '/(\d{4}-\d{ <
+			$newRules[$base . '/(\d{4}-\d{2}-\d{2 <
+			$newRules[$base . '(\d{4}-\d{2}-\d{2} <
+							      <
+			$newRules[$baseTax . '([^/]+)/' . $we <
+			$newRules[$baseTax . '([^/]+)/' . $we <
+			$newRules[$baseTax . '([^/]+)/' . $ph <
+			$newRules[$baseTax . '([^/]+)/' . $to <
+			$newRules[$baseTax . '([^/]+)/' . $da <
+			$newRules[$baseTax . '([^/]+)/(\d{4}- <
+							      <
+			$newRules[$baseTag . '([^/]+)/' . $we <
+			$newRules[$baseTag . '([^/]+)/' . $we <
+			$newRules[$baseTag . '([^/]+)/' . $ph <
+			$newRules[$baseTag . '([^/]+)/' . $to <
+			$newRules[$baseTag . '([^/]+)/' . $da <
+			$newRules[$baseTag . '([^/]+)/(\d{4}- <
+																
+			$wp_rewrite->rules = $newRules + $wp_ |				$wp_rewrite->rules = $week_rules + $p								
+		}								}								
+																
+		/**					      |			private function get_rewrite_generator( WP_Re								
+		 * Add the View Selection buttons for the cus |				require_once( 'lib/tribeeventspro-rew								
+		 *					      |				$generator = new TribeEventsPro_Rewri								
+		 * @param string $html The current view selec |				$tec = TribeEvents::instance();								
+		 * @return string The modified view selector  |									
+		 * @author Timothy Wood			      |				$base = trailingslashit( $tec->rewrit								
+		 * @since 3.0				      |				$generator->set_base( $base );								
+		 */					      |									
+		public function add_view_buttons( $html ){    |				$cat_base = trailingslashit( $tec->ta								
+			global $wp_query;		      |				$cat_base = "(.*)" . $cat_base . "(?:								
+			$day_class = ($wp_query->tribe_is_day |				$generator->set_cat_base( $cat_base )								
+			$week_class = ($wp_query->tribe_is_we |									
+			$html .= sprintf('<a class="%s" href= |				$tag_base = trailingslashit( $tec->ta								
+				$day_class,		      |				$tag_base = "(.*)" . $tag_base;								
+				tribe_get_day_link(),	      |				$generator->set_tag_base( $tag_base )								
+				__( 'Day View', 'tribe-events |				return $generator;								
+				$week_class,		      <
+				tribe_get_week_permalink(),   <
+				__( 'Week View', 'tribe-event <
+				);			      <
+			return $html;			      <
+		}								}								
+																
+		/**								/**								
+		 * Adds the proper css class(es) to the body 			 * Adds the proper css class(es) to the body 								
+		 *								 *								
+		 * @param array $classes The current array of			 * @param array $classes The current array of								
+		 * @return array The modified array of body c			 * @return array The modified array of body c								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+							      >			 * @TODO move this to template class								
+		 */								 */								
+		public function body_class( $classes ){				public function body_class( $classes ){								
+			global $wp_query;						global $wp_query;								
+							      >									
+							      >				// @TODO do we really need all these 								
+							      >									
+			if( $wp_query->tribe_is_event_query )				if( $wp_query->tribe_is_event_query )								
+				if( $wp_query->tribe_is_week 					if( $wp_query->tribe_is_week 								
+					$classes[] = ' tribe-						$classes[] = ' tribe-								
+					// remove the default						// remove the default								
+					$classes = array_diff						$classes = array_diff								
+				}								}								
+				if( $wp_query->tribe_is_photo					if( $wp_query->tribe_is_photo								
+					$classes[] = ' tribe-						$classes[] = ' tribe-								
+					// remove the default						// remove the default								
+					$classes = array_diff						$classes = array_diff								
+				}								}								
+				if( $wp_query->tribe_is_day ) <
+					$classes[] = ' tribe- <
+					// remove the default <
+					$classes = array_diff <
+				}			      <
+				if ( $wp_query->tribe_is_map 					if ( $wp_query->tribe_is_map 								
+					$classes[] = ' tribe-						$classes[] = ' tribe-								
+					// remove the default						// remove the default								
+					$classes = array_diff						$classes = array_diff								
+				}								}								
+				if ( tribe_is_map() || !tribe					if ( tribe_is_map() || !tribe								
+					$classes[] = ' tribe-						$classes[] = ' tribe-								
+				}								}								
+			}								}								
+			return $classes;						return $classes;								
+		}								}								
+																
+		/**								/**								
+		 * Set PRO query flags						 * Set PRO query flags								
+		 *								 *								
+		 * @param WP_Query $query The current query o			 * @param WP_Query $query The current query o								
+		 * @return WP_Query The modified query object			 * @return WP_Query The modified query object								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 **/								 **/								
+		public function parse_query( $query ) {				public function parse_query( $query ) {								
+			$query->tribe_is_week = false;					$query->tribe_is_week = false;								
+			$query->tribe_is_day = false;	      <
+			$query->tribe_is_photo = false;					$query->tribe_is_photo = false;								
+			$query->tribe_is_map = false;					$query->tribe_is_map = false;								
+			$query->tribe_is_event_pro_query = fa				$query->tribe_is_event_pro_query = fa								
+			if( ! empty( $query->query_vars['even				if( ! empty( $query->query_vars['even								
+				$query->tribe_is_event_pro_qu					$query->tribe_is_event_pro_qu								
+				switch( $query->query_vars['e					switch( $query->query_vars['e								
+					case 'week':							case 'week':								
+						$query->tribe							$query->tribe								
+					break;								break;								
+					case 'day':	      <
+						// a little h <
+						add_filter( ' <
+						$query->tribe <
+					break;		      <
+					case 'photo':							case 'photo':								
+						$query->tribe							$query->tribe								
+					break;								break;								
+					case 'map':							case 'map':								
+						/*								/*								
+						* Query setup							* Query setup								
+						* TribeEvents							* TribeEvents								
+						*/								*/								
+						$query->tribe							$query->tribe								
+					break;								break;								
+				}								}								
+			}								}								
+		}								}								
+																
+		/**								/**								
+		 * Add custom query modification to the pre_g			 * Add custom query modification to the pre_g								
+		 *								 *								
+		 * @param WP_Query $query The current query o			 * @param WP_Query $query The current query o								
+		 * @return WP_Query The modified query object			 * @return WP_Query The modified query object								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function pre_get_posts( $query ){			public function pre_get_posts( $query ){								
+							      >				if ( $query->is_single() && $query->g								
+							      >					$this->set_post_id_for_recurr								
+							      >				}								
+			if( !empty($query->tribe_is_event_pro				if( !empty($query->tribe_is_event_pro								
+				switch( $query->query_vars['e					switch( $query->query_vars['e								
+					case 'week':							case 'week':								
+						$week = tribe							$week = tribe								
+						$query->set( 							$query->set( 								
+						$query->set( 							$query->set( 								
+						$query->set( 							$query->set( 								
+						$query->set( 							$query->set( 								
+						$query->set( 							$query->set( 								
+						break;								break;								
+					case 'day':	      <
+						$event_date = <
+						$query->set(  <
+						$query->set(  <
+						$query->set(  <
+						$query->set(  <
+						$query->set(  <
+						break;	      <
+					case 'photo':							case 'photo':								
+						$query->set( 							$query->set( 								
+						break;								break;								
+							      >						case 'all':								
+							      >							$slug = $quer								
+							      >							if ( empty($s								
+							      >								break								
+							      >							}								
+							      >							unset( $query								
+							      >							unset( $query								
+							      >									
+							      >							$all_ids = Tr								
+							      >							if ( empty($a								
+							      >								$quer								
+							      >							} else {								
+							      >								$quer								
+							      >								$quer								
+							      >							}								
+							      >							break;								
+				}								}								
+				apply_filters('tribe_events_p					apply_filters('tribe_events_p								
+			}								}								
+		}								}								
+																
+		/**								/**								
+							      >			 * A recurring event will have the base post'								
+							      >			 * 'name' query var. We need to remove that a								
+							      >			 * with the correct post's ID								
+							      >			 *								
+							      >			 * @param WP_Query $query								
+							      >			 * @return void								
+							      >			 */								
+							      >			private function set_post_id_for_recurring_ev								
+							      >				$date = $query->get( 'eventDate' );								
+							      >				$slug = $query->get( 'name' );								
+							      >				if ( empty($date) || empty($slug) ) {								
+							      >					return; // we shouldn't be he								
+							      >				}								
+							      >				$cache = new TribeEventsCache();								
+							      >				$post_id = $cache->get('single_event_								
+							      >				if ( !empty($post_id) ) {								
+							      >					unset( $query->query_vars['na								
+							      >					unset( $query->query_vars['tr								
+							      >					$query->set('p', $post_id);								
+							      >					return;								
+							      >				}								
+							      >				global $wpdb;								
+							      >				$parent_sql = "SELECT ID FROM {$wpdb-								
+							      >				$parent_sql = $wpdb->prepare( $parent								
+							      >				$parent_id = $wpdb->get_var($parent_s								
+							      >									
+							      >				$parent_start = get_post_meta($parent								
+							      >				if ( empty($parent_start) ) {								
+							      >					return; // how does this seri								
+							      >				} else {								
+							      >					$parent_start_date = date('Y-								
+							      >					$parent_start_time = date('H:								
+							      >				}								
+							      >									
+							      >				if ( $parent_start_date == $date ) {								
+							      >					$post_id = $parent_id;								
+							      >				} else {								
+							      >					$child_sql = "SELECT ID FROM 								
+							      >					$child_sql = $wpdb->prepare( 								
+							      >					$post_id = $wpdb->get_var($ch								
+							      >				}								
+							      >									
+							      >				if ( $post_id ) {								
+							      >					unset( $query->query_vars['na								
+							      >					unset( $query->query_vars['tr								
+							      >					$query->set('p', $post_id);								
+							      >					$cache->set('single_event_'.$								
+							      >				}								
+							      >			}								
+							      >									
+							      >			/**								
+		 * Deprecated function for getting the curren			 * Deprecated function for getting the curren								
+		 * Replaced by select_page_template.				 * Replaced by select_page_template.								
+		 *								 *								
+		 * @param string $template The template reque			 * @param string $template The template reque								
+		 * @return string The path of the requested t			 * @return string The path of the requested t								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 */								 */								
+		public function select_venue_template( $templ			public function select_venue_template( $templ								
+			_deprecated_function( __FUNCTION__, '				_deprecated_function( __FUNCTION__, '								
+			return select_page_template( $templat |				return $this->select_page_template( $								
+		}								}								
+																
+		/**								/**								
+		 * Get the path to the current events templat			 * Get the path to the current events templat								
+		 *								 *								
+		 * @param string $template The current templa			 * @param string $template The current templa								
+		 * @return string The modified template path.			 * @return string The modified template path.								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function select_page_template( $templa			public function select_page_template( $templa								
+			// venue view							// venue view								
+			if( is_singular( TribeEvents::VENUE_P				if( is_singular( TribeEvents::VENUE_P								
+				$template = TribeEventsTempla					$template = TribeEventsTempla								
+			}								}								
+			// organizer view						// organizer view								
+			if( is_singular( TribeEvents::ORGANIZ				if( is_singular( TribeEvents::ORGANIZ								
+				$template = TribeEventsTempla					$template = TribeEventsTempla								
+			}								}								
+			// week view							// week view								
+			if( tribe_is_week() ) {						if( tribe_is_week() ) {								
+				$template = TribeEventsTempla					$template = TribeEventsTempla								
+			}								}								
+			// day view			      |									
+			if( tribe_is_day() ) {		      <
+				$template = TribeEventsTempla <
+			}				      <
+			// photo view							// photo view								
+			if( tribe_is_photo() ){						if( tribe_is_photo() ){								
+				$template = TribeEventsTempla					$template = TribeEventsTempla								
+			}								}								
+																
+			// map view							// map view								
+			if ( tribe_is_map() ) {						if ( tribe_is_map() ) {								
+				$template = TribeEventsTempla					$template = TribeEventsTempla								
+			}								}								
+			return $template;						return $template;								
+		}								}								
+																
+		/**								/**								
+		 * Specify the PHP class for the current page			 * Specify the PHP class for the current page								
+		 *								 *								
+		 * @param string $class The current class we 			 * @param string $class The current class we 								
+		 * @return string The class.					 * @return string The class.								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function get_current_template_class( $			public function get_current_template_class( $								
+																
+			// venue view							// venue view								
+			if( is_singular( TribeEvents::VENUE_P				if( is_singular( TribeEvents::VENUE_P								
+				$class = 'Tribe_Events_Pro_Si					$class = 'Tribe_Events_Pro_Si								
+			}								}								
+			// organizer view						// organizer view								
+			if( is_singular( TribeEvents::ORGANIZ				if( is_singular( TribeEvents::ORGANIZ								
+				$class = 'Tribe_Events_Pro_Si					$class = 'Tribe_Events_Pro_Si								
+			}								}								
+			// week view							// week view								
+			if( tribe_is_week() ) {						if( tribe_is_week() ) {								
+				$class = 'Tribe_Events_Pro_We					$class = 'Tribe_Events_Pro_We								
+			}								}								
+			// day view			      <
+			if( tribe_is_day() ) {		      <
+				$class = 'Tribe_Events_Pro_Da <
+			}				      <
+			// photo view							// photo view								
+			if( tribe_is_photo() ){						if( tribe_is_photo() ){								
+				$class = 'Tribe_Events_Pro_Ph					$class = 'Tribe_Events_Pro_Ph								
+			}								}								
+																
+			// map view							// map view								
+			if ( tribe_is_map() ) {						if ( tribe_is_map() ) {								
+				$class = 'Tribe_Events_Pro_Ma					$class = 'Tribe_Events_Pro_Ma								
+			}								}								
+																
+			return $class;							return $class;								
+																
+		}								}								
+																
+		/**								/**								
+		 * Add premium plugin paths for each file in 			 * Add premium plugin paths for each file in 								
+		 *								 *								
+		 * @param $template_paths array					 * @param $template_paths array								
+		 * @return array						 * @return array								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		function template_paths( $template_paths = ar			function template_paths( $template_paths = ar								
+																
+			$template_paths['pro'] =  $this->plug				$template_paths['pro'] =  $this->plug								
+			return $template_paths;						return $template_paths;								
+																
+		}								}								
+																
+		/**								/**								
+		 * Add premium plugin paths for each file in 			 * Add premium plugin paths for each file in 								
+		 *								 *								
+		 * @param $template_class_path string				 * @param $template_class_path string								
+		 * @return array						 * @return array								
+		 * @since 3.0							 * @since 3.0								
+		 **/								 **/								
+		function template_class_path( $template_class			function template_class_path( $template_class								
+																
+			$template_class_paths[] = $this->plug				$template_class_paths[] = $this->plug								
+			return $template_class_paths;					return $template_class_paths;								
+																
+		}								}								
+																
+		/**								/**								
+		 * Enqueues the necessary JS for the admin si			 * Enqueues the necessary JS for the admin si								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+	    public function admin_enqueue_scripts() {			    public function admin_enqueue_scripts() {								
+	    	wp_enqueue_script( TribeEvents::POSTTYPE.'-pr		    	wp_enqueue_script( TribeEvents::POSTTYPE.'-pr								
+							      >			    $data = apply_filters( 'tribe_events_pro_								
+							      >			    wp_localize_script( TribeEvents::POSTTYPE								
+	    }								    }								
+																
+		/**								/**								
+		 * Enqueue the proper styles depending on wha			 * Enqueue the proper styles depending on wha								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function enqueue_styles() {				public function enqueue_styles() {								
+																
+			if ( tribe_is_event_query()					if ( tribe_is_event_query()								
+					|| is_active_widget( 						|| is_active_widget( 								
+					|| is_active_widget( 						|| is_active_widget( 								
+					|| is_active_widget( 						|| is_active_widget( 								
+					|| is_active_widget( 						|| is_active_widget( 								
+					|| is_active_widget( 						|| is_active_widget( 								
+				) {								) {								
+				// Tribe Events CSS filename  <
+				$event_file = 'tribe-events-p <
+				$stylesheet_option = tribe_ge <
+							      <
+				// What Option was selected   <
+				switch( $stylesheet_option )  <
+					case 'skeleton':      <
+					case 'full':	      <
+						$event_file_o <
+						break;	      <
+					default:	      <
+						$event_file_o <
+						break;	      <
+				}			      <
+																
+				$styleUrl = trailingslashit(  |					Tribe_PRO_Template_Factory::a								
+				$styleUrl = apply_filters( 't <
+																
+				// Is there a pro override fi <
+				$styleOverrideUrl = TribeEven <
+							      <
+				// Load up stylesheet from th <
+				if( $styleUrl && $stylesheet_ <
+					wp_enqueue_style( 'fu <
+					wp_enqueue_style( Tri <
+				} else {		      <
+					wp_enqueue_style( Tri <
+				}			      <
+				if( $styleOverrideUrl ) {     <
+					wp_enqueue_style( Tri <
+				}			      <
+			}								}								
+		}								}								
+																
+		/**								/**								
+		 * Enqueue the proper PRO scripts as necessar			 * Enqueue the proper PRO scripts as necessar								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Paul Hughes						 * @author Paul Hughes								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function enqueue_pro_scripts() {				public function enqueue_pro_scripts() {								
+			if ( tribe_is_event_query() ) {					if ( tribe_is_event_query() ) {								
+							      >					// @TODO filter the tribe_eve								
+				$resources_url = trailingslas					$resources_url = trailingslas								
+				$path = Tribe_Template_Factor					$path = Tribe_Template_Factor								
+				wp_enqueue_script( 'tribe-eve					wp_enqueue_script( 'tribe-eve								
+																
+				$geoloc = TribeEventsGeoLoc::					$geoloc = TribeEventsGeoLoc::								
+																
+				$data = array( 'geocenter' =>					$data = array( 'geocenter' =>								
+																
+							      >					$data = apply_filters( 'tribe								
+							      >									
+				wp_localize_script( 'tribe-ev					wp_localize_script( 'tribe-ev								
+																
+			}								}								
+		}								}								
+																
+		/**								/**								
+		 * Sets up to add the query variable for hidi			 * Sets up to add the query variable for hidi								
+		 *								 *								
+		 * @param WP_Query $query The current query o			 * @param WP_Query $query The current query o								
+		 * @return WP_Query The modified query object			 * @return WP_Query The modified query object								
+		 * @author Paul Hughes						 * @author Paul Hughes								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function setup_hide_recurrence_in_quer			public function setup_hide_recurrence_in_quer								
+																
+			// don't hide any recurrences on the 				// don't hide any recurrences on the 								
+			if ( tribe_is_showing_all() )					if ( tribe_is_showing_all() )								
+				return $query;							return $query;								
+																
+			// don't hide any recurrences in the 				// don't hide any recurrences in the 								
+			if ( is_admin() && !( defined('DOING_				if ( is_admin() && !( defined('DOING_								
+				return $query;							return $query;								
+			}								}								
+																
+							      >				// don't override an explicitly passe								
+							      >				if ( isset( $query->query_vars['tribe								
+							      >					return $query;								
+							      >				}								
+							      >									
+			// if the admin option is set to hide				// if the admin option is set to hide								
+			if ( tribe_get_option( 'hideSubsequen				if ( tribe_get_option( 'hideSubsequen								
+				$query->query_vars['tribeHide					$query->query_vars['tribeHide								
+			}								}								
+																
+			return $query;							return $query;								
+		}								}								
+																
+		/**								/**								
+		 * Returns the GCal export link for a given e <
+		 *					      <
+		 * @param int $postId The post id requested.  <
+		 * @return string The URL for the GCal export <
+		 */					      <
+		public function googleCalendarLink( $postId = <
+			global $post;			      <
+			$tribeEvents = TribeEvents::instance( <
+							      <
+			if ( $postId === null || !is_numeric( <
+				$postId = $post->ID;	      <
+			}				      <
+			// protecting for reccuring because t <
+			$start_date = isset($post->EventStart <
+			$end_date = isset($post->EventEndDate <
+				strtotime( $post->EventEndDat <
+				strtotime( get_post_meta( $po <
+							      <
+			$dates = ( get_post_meta( $postId, '_ <
+			$location = trim( $tribeEvents->fullA <
+			$base_url = 'http://www.google.com/ca <
+			$event_details = substr( get_the_cont <
+							      <
+			$params = array(		      <
+				'action' => 'TEMPLATE',	      <
+				'text' => urlencode( strip_ta <
+				'dates' => $dates,	      <
+				'details' => urlencode( strip <
+				'location' => urlencode( $loc <
+				'sprop' => get_option( 'blogn <
+				'trp' => 'false',	      <
+				'sprop' => 'website:' . home_ <
+			);				      <
+			$params = apply_filters( 'tribe_googl <
+			$url = add_query_arg( $params, $base_ <
+			return esc_url( $url );		      <
+		}					      <
+							      <
+		/**					      <
+		 * Return the forums link as it should appear			 * Return the forums link as it should appear								
+		 *								 *								
+		 * @return string						 * @return string								
+		 * @since 2.0.8							 * @since 2.0.8								
+		 */								 */								
+		public function helpTabForumsLink( $content )			public function helpTabForumsLink( $content )								
+			if ( get_option( 'pue_install_key_eve				if ( get_option( 'pue_install_key_eve								
+				return 'http://m.tri.be/4x';					return 'http://m.tri.be/4x';								
+			else								else								
+				return 'http://m.tri.be/4w';					return 'http://m.tri.be/4w';								
+		}								}								
+																
+		/**								/**								
+		 * Return additional action for the plugin on			 * Return additional action for the plugin on								
+		 *								 *								
+		 * @return array						 * @return array								
+		 * @since 2.0.8							 * @since 2.0.8								
+		 */								 */								
+		public function addLinksToPluginActions( $act			public function addLinksToPluginActions( $act								
+			if( class_exists( 'TribeEvents' ) ) {				if( class_exists( 'TribeEvents' ) ) {								
+				$actions['settings'] = '<a hr					$actions['settings'] = '<a hr								
+			}								}								
+			return $actions;						return $actions;								
+		}								}								
+																
+		/**								/**								
+		 * Adds thumbnail/featured image support to O			 * Adds thumbnail/featured image support to O								
+		 *								 *								
+		 * @param array $post_type_args The current r			 * @param array $post_type_args The current r								
+		 * @return array The new register_post_type a			 * @return array The new register_post_type a								
+		 * @author Paul Hughes						 * @author Paul Hughes								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function addSupportsThumbnail( $post_t			public function addSupportsThumbnail( $post_t								
+			$post_type_args['supports'][] = 'thum				$post_type_args['supports'][] = 'thum								
+			return $post_type_args;						return $post_type_args;								
+		}								}								
+																
+		/**								/**								
+							      >			 * Enable "view post" links on metaposts								
+							      >			 *								
+							      >			 * @param $messages array								
+							      >			 * return array								
+							      >			 */								
+							      >			public function updatePostMessages ($messages								
+							      >				global $post, $post_ID;								
+							      >									
+							      >				$messages[TribeEvents::VENUE_POST_TYP								
+							      >					/* translators: %s: date and 								
+							      >				$messages[TribeEvents::VENUE_POST_TYP								
+							      >				$messages[TribeEvents::VENUE_POST_TYP								
+							      >				$messages[TribeEvents::VENUE_POST_TYP								
+							      >						// translators: Publi								
+							      >						date_i18n( __( 'M j, 								
+							      >				$messages[TribeEvents::VENUE_POST_TYP								
+							      >									
+							      >				$messages[TribeEvents::ORGANIZER_POST								
+							      >				$messages[TribeEvents::ORGANIZER_POST								
+							      >				$messages[TribeEvents::ORGANIZER_POST								
+							      >				$messages[TribeEvents::ORGANIZER_POST								
+							      >						// translators: Publi								
+							      >						date_i18n( __( 'M j, 								
+							      >				$messages[TribeEvents::ORGANIZER_POST								
+							      >									
+							      >				return $messages;								
+							      >									
+							      >			}								
+							      >									
+							      >			/**								
+		 * Includes and handles registration/de-regis			 * Includes and handles registration/de-regis								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Elliot Wiltshire					 * @author Elliot Wiltshire								
+		 */								 */								
+		public function pro_widgets_init() {				public function pro_widgets_init() {								
+			require_once( 'lib/widget-advanced-li |				require_once 'lib/Widgets.php';								
+							      >				require_once 'lib/widget-advanced-lis								
+			unregister_widget( 'TribeEventsListWi				unregister_widget( 'TribeEventsListWi								
+			register_widget( 'TribeEventsAdvanced				register_widget( 'TribeEventsAdvanced								
+			register_widget( 'TribeEventsMiniCale				register_widget( 'TribeEventsMiniCale								
+		}								}								
+																
+		/**								/**								
+		 * Load textdomain for localization				 * Load textdomain for localization								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Peter Chester					 * @author Peter Chester								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function loadTextDomain() {				public function loadTextDomain() {								
+			load_plugin_textdomain( 'tribe-events				load_plugin_textdomain( 'tribe-events								
+		}								}								
+																
+		/**								/**								
+		* Re-registers the custom post types for venu			* Re-registers the custom post types for venu								
+		*								*								
+		* @return void							* @return void								
+		* @author Elliot Wiltshire					* @author Elliot Wiltshire								
+		*/								*/								
+		public function allow_cpt_search() {				public function allow_cpt_search() {								
+			$tec = TribeEvents::instance();					$tec = TribeEvents::instance();								
+			$venue_args = $tec->getVenuePostTypeA				$venue_args = $tec->getVenuePostTypeA								
+			$venue_args['exclude_from_search'] = 				$venue_args['exclude_from_search'] = 								
+			register_post_type( TribeEvents::VENU				register_post_type( TribeEvents::VENU								
+		}								}								
+																
+		/**								/**								
+		* Adds the "PRO" to the promo banner and chan			* Adds the "PRO" to the promo banner and chan								
+		*								*								
+		* @return string The new banner.				* @return string The new banner.								
+		* @author Paul Hughes						* @author Paul Hughes								
+		* @since 2.0.5							* @since 2.0.5								
+		*/								*/								
+		public function tribePromoBannerPro() {				public function tribePromoBannerPro() {								
+			return sprintf( __( 'Calendar powered				return sprintf( __( 'Calendar powered								
+		}								}								
+																
+																
+		/**								/**								
+		* Add meta links on the plugins page.				* Add meta links on the plugins page.								
+		*								*								
+		* @param array $links The current array of li			* @param array $links The current array of li								
+		* @param string $file The plugin to add meta 			* @param string $file The plugin to add meta 								
+		* @return array The modified array of links t			* @return array The modified array of links t								
+		*/								*/								
+		public function addMetaLinks( $links, $file )			public function addMetaLinks( $links, $file )								
+			if ( $file == $this->pluginDir . 'eve				if ( $file == $this->pluginDir . 'eve								
+				$anchor = __( 'Support', 'tri					$anchor = __( 'Support', 'tri								
+				$links [] = '<a href="http://					$links [] = '<a href="http://								
+				$anchor = __( 'View All Add-O					$anchor = __( 'View All Add-O								
+				$links [] = '<a href="http://					$links [] = '<a href="http://								
+			}								}								
+			return $links;							return $links;								
+		}								}								
+																
+		/**								/**								
+		 * Add support for ugly links for ugly links 			 * Add support for ugly links for ugly links 								
+		 *								 *								
+		 * @param string $eventUrl The current URL.			 * @param string $eventUrl The current URL.								
+		 * @param string $type The type of endpoint/v			 * @param string $type The type of endpoint/v								
+		 * @param string $secondary More data that is			 * @param string $secondary More data that is								
+		 * @return string The ugly-linked URL.				 * @return string The ugly-linked URL.								
+		 * @author Timothy Wood						 * @author Timothy Wood								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function ugly_link( $eventUrl, $type, 			public function ugly_link( $eventUrl, $type, 								
+			switch( $type ) {						switch( $type ) {								
+				case 'day':		      <
+				case 'week':							case 'week':								
+					$eventUrl = add_query						$eventUrl = add_query								
+					// if we're on an Eve						// if we're on an Eve								
+					if ( $type !== 'home'						if ( $type !== 'home'								
+						$eventUrl = a							$eventUrl = a								
+					}								}								
+					$eventUrl = add_query						$eventUrl = add_query								
+					if ( $secondary )						if ( $secondary )								
+						$eventUrl = a							$eventUrl = a								
+					break;								break;								
+				case 'photo':							case 'photo':								
+				case 'map':							case 'map':								
+					$eventUrl = add_query						$eventUrl = add_query								
+					break;								break;								
+							      >					case 'all':								
+							      >						remove_filter( 'post_								
+							      >						$post_id = $secondary								
+							      >						$parent_id = wp_get_p								
+							      >						if ( !empty($parent_i								
+							      >							$post_id = $p								
+							      >						}								
+							      >						$eventUrl = add_query								
+							      >						add_filter( 'post_typ								
+							      >						break;								
+				default:							default:								
+					break;								break;								
+			}								}								
+																
+			return apply_filters( 'tribe_events_p				return apply_filters( 'tribe_events_p								
+		}								}								
+																
+		/**								/**								
+		 * filter TribeEvents::getLink for pro views			 * filter TribeEvents::getLink for pro views								
+		 * @param  string $eventUrl					 * @param  string $eventUrl								
+		 * @param  string $type						 * @param  string $type								
+		 * @param  string $secondary					 * @param  string $secondary								
+		 * @param  string $term						 * @param  string $term								
+		 * @return string						 * @return string								
+		 * @author tim@imaginesimplicity.com				 * @author tim@imaginesimplicity.com								
+		 * @since 3.0.2							 * @since 3.0.2								
+		 */								 */								
+		public function get_link( $eventUrl, $type, $			public function get_link( $eventUrl, $type, $								
+			switch( $type ) {						switch( $type ) {								
+				case 'week':							case 'week':								
+					$eventUrl = trailings |						$eventUrl = trailings								
+					if ( !empty( $seconda						if ( !empty( $seconda								
+						$eventUrl = e |							$eventUrl = e								
+					}								}								
+					break;								break;								
+				case 'photo':							case 'photo':								
+					$eventUrl = trailings |						$eventUrl = trailings								
+					if ( !empty( $seconda						if ( !empty( $seconda								
+						$eventUrl = e |							$eventUrl = e								
+					}								}								
+					break;								break;								
+				case 'map':							case 'map':								
+					$eventUrl = trailings |						$eventUrl = trailings								
+					if ( !empty( $seconda						if ( !empty( $seconda								
+						$eventUrl = e |							$eventUrl = e								
+					}								}								
+					break;								break;								
+							      >					case 'all':								
+							      >						remove_filter( 'post_								
+							      >						$post_id = $secondary								
+							      >						$post_id = wp_get_pos								
+							      >						$eventUrl = trailings								
+							      >						$eventUrl = trailings								
+							      >						add_filter( 'post_typ								
+							      >						break;								
+				default:							default:								
+					break;								break;								
+			}								}								
+			return apply_filters( 'tribe_events_p				return apply_filters( 'tribe_events_p								
+		}								}								
+																
+		/**								/**								
+		 * Add week view to the views selector in the			 * Add week view to the views selector in the								
+		 *								 *								
+		 * @param array $views The current array of v			 * @param array $views The current array of v								
+		 * @return array The views registered with we			 * @return array The views registered with we								
+		 * @author Daniel Dvorkin					 * @author Daniel Dvorkin								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function setup_weekview_in_bar( $views			public function setup_weekview_in_bar( $views								
+			$views[] = array( 'displaying' => 'we				$views[] = array( 'displaying' => 'we								
+			                  'anchor'     => __(				                  'anchor'     => __(								
+			                  'event_bar_hook'   				                  'event_bar_hook'   								
+			                  'url'        => tri				                  'url'        => tri								
+			return $views;							return $views;								
+		}								}								
+																
+		/**								/**								
+		 * Add day view to the views selector in the  <
+		 *					      <
+		 * @param array $views The current array of v <
+		 * @return array The views registered with da <
+		 * @author Daniel Dvorkin		      <
+		 * @since 3.0				      <
+		 */					      <
+		public function setup_dayview_in_bar( $views  <
+			$views[] = array( 'displaying' => 'da <
+			                  'anchor'     => __( <
+			                  'event_bar_hook'    <
+			                  'url'        => tri <
+			return $views;			      <
+		}					      <
+							      <
+		/**					      <
+		 * Add photo view to the views selector in th			 * Add photo view to the views selector in th								
+		 *								 *								
+		 * @param array $views The current array of v			 * @param array $views The current array of v								
+		 * @return array The views registered with ph			 * @return array The views registered with ph								
+		 * @author Daniel Dvorkin					 * @author Daniel Dvorkin								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function setup_photoview_in_bar( $view			public function setup_photoview_in_bar( $view								
+			$views[] = array( 'displaying' => 'ph				$views[] = array( 'displaying' => 'ph								
+			                  'anchor'     => __(				                  'anchor'     => __(								
+			                  'event_bar_hook'   				                  'event_bar_hook'   								
+			                  'url'        => tri				                  'url'        => tri								
+			return $views;							return $views;								
+		}								}								
+																
+		/**								/**								
+		 * Change the datepicker label, depending on 			 * Change the datepicker label, depending on 								
+		 *								 *								
+		 * @param string $caption The current caption			 * @param string $caption The current caption								
+		 * @return string The new caption.				 * @return string The new caption.								
+		 * @author Daniel Dvorkin					 * @author Daniel Dvorkin								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function setup_datepicker_label ( $cap			public function setup_datepicker_label ( $cap								
+			if ( tribe_is_day() ) {		      |				if ( tribe_is_week() ) {								
+				$caption = __('Day Of', 'trib <
+			} elseif ( tribe_is_week() ) {	      <
+				$caption = __('Week Of', 'tri					$caption = __('Week Of', 'tri								
+			}								}								
+			return $caption;						return $caption;								
+		}								}								
+																
+		/**								/**								
+		 * Echo the setting for hiding subsequent occ			 * Echo the setting for hiding subsequent occ								
+		 *								 *								
+		 * @return void							 * @return void								
+		 * @author Kyle Unzicker					 * @author Kyle Unzicker								
+		 * @since 3.0							 * @since 3.0								
+		 */								 */								
+		public function add_recurring_occurance_setti			public function add_recurring_occurance_setti								
+			if ( tribe_get_option( 'userToggleSub				if ( tribe_get_option( 'userToggleSub								
+				echo tribe_recurring_instance					echo tribe_recurring_instance								
+		}								}								
+																
+		/**								/**								
+		 * If we are on day view and a date has been  <
+		 *					      <
+		 * @param string $value The current default d <
+		 * @return string The new date.		      <
+		 * @since 3.0				      <
+		 */					      <
+		function maybe_setup_date_in_bar( $value ) {  <
+			global $wp_query;		      <
+			if ( !empty( $wp_query->query_vars['e <
+				$value = date( TribeDateUtils <
+			}				      <
+			return $value;			      <
+		}					      <
+							      <
+		/**					      <
+		 * Returns he ratio of kilometers to miles.			 * Returns he ratio of kilometers to miles.								
+		 *								 *								
+		 * @return float The ratio.					 * @return float The ratio.								
+		 * @since 3.0.							 * @since 3.0.								
+		 */								 */								
+		function kms_to_miles_ratio() {					function kms_to_miles_ratio() {								
+			return 0.621371;						return 0.621371;								
+		}								}								
+																
+		/**								/**								
+		 * Returns he ratio of miles to kilometers.			 * Returns he ratio of miles to kilometers.								
+		 *								 *								
+		 * @return float The ratio.					 * @return float The ratio.								
+		 * @since 3.0.							 * @since 3.0.								
+		 */								 */								
+		function miles_to_kms_ratio() {					function miles_to_kms_ratio() {								
+			return 1.60934;							return 1.60934;								
+		}								}								
+																
+		/**								/**								
+		 * Adds /today to the day view link if no day <
+		 *					      <
+		 * @param string $link The current link.      <
+		 * @param string|null $date The date passed.  <
+		 * @return string The modified link.	      <
+		 * @author Paul Hughes			      <
+		 * @since 3.0				      <
+		 */					      <
+		public function add_empty_date_dayview_link(  <
+			if ( is_null( $date ) ) {	      <
+				$tribe_ecp = TribeEvents::ins <
+				$link = trailingslashit( trai <
+			}				      <
+			return $link;			      <
+		}					      <
+							      <
+							      <
+		/**					      <
+		 * The singleton function.					 * The singleton function.								
+		 *								 *								
+		 * @return TribeEventsPro The instance.				 * @return TribeEventsPro The instance.								
+		 */								 */								
+		public static function instance() {				public static function instance() {								
+			if ( !isset( self::$instance ) ) {				if ( !isset( self::$instance ) ) {								
+				$className = __CLASS__;						$className = __CLASS__;								
+				self::$instance = new $classN					self::$instance = new $classN								
+			}								}								
+			return self::$instance;						return self::$instance;								
+		}								}								
+																
+																
+																
+	} // end Class							} // end Class								
+																
+	// Instantiate class and set up WordPress actions.		// Instantiate class and set up WordPress actions.								
+	function Tribe_ECP_Load() {					function Tribe_ECP_Load() {								
+		add_filter( 'tribe_tec_addons', 'tribe_init_e			add_filter( 'tribe_tec_addons', 'tribe_init_e								
+		add_filter( 'tribe_tec_addons_comparison_oper			add_filter( 'tribe_tec_addons_comparison_oper								
+		$to_run_or_not_to_run = ( class_exists( 'Trib			$to_run_or_not_to_run = ( class_exists( 'Trib								
+		if ( apply_filters( 'tribe_ecp_to_run_or_not_			if ( apply_filters( 'tribe_ecp_to_run_or_not_								
+			TribeEventsPro::instance();					TribeEventsPro::instance();								
+		} else {							} else {								
+			/**								/**								
+			 * Dummy function to avoid fatal erro				 * Dummy function to avoid fatal erro								
+			 *								 *								
+			 * @todo remove in 3.1						 * @todo remove in 3.1								
+			 * @return void			      |				 * @return bool								
+			 * @author Jessica Yazbek					 * @author Jessica Yazbek								
+			 **/								 **/								
+			function tribe_is_recurring_event() {				function tribe_is_recurring_event() {								
+							      |					return false;								
+			}								}								
+		}								}								
+		if ( !class_exists( 'TribeEvents' ) ) {				if ( !class_exists( 'TribeEvents' ) ) {								
+			add_action( 'admin_notices', 'tribe_s				add_action( 'admin_notices', 'tribe_s								
+		}								}								
+	}								}								
+																
+	add_action( 'plugins_loaded', 'Tribe_ECP_Load', 1); /		add_action( 'plugins_loaded', 'Tribe_ECP_Load', 1); /								
+																
+	/**								/**								
+	 * Shows message if the plugin can't load due to TEC 		 * Shows message if the plugin can't load due to TEC 								
+	 */								 */								
+	function tribe_show_fail_message() {				function tribe_show_fail_message() {								
+		if ( current_user_can( 'activate_plugins' ) )			if ( current_user_can( 'activate_plugins' ) )								
+			$langpath = trailingslashit( basename				$langpath = trailingslashit( basename								
+			load_plugin_textdomain( 'tribe-events				load_plugin_textdomain( 'tribe-events								
+			$url = 'plugin-install.php?tab=plugin				$url = 'plugin-install.php?tab=plugin								
+			$title = __( 'The Events Calendar', '				$title = __( 'The Events Calendar', '								
+			echo '<div class="error"><p>'.sprintf				echo '<div class="error"><p>'.sprintf								
+		}								}								
+	}								}								
+																
+    /**								    /**								
+	 * Add Events PRO to the list of add-ons to check req		 * Add Events PRO to the list of add-ons to check req								
+	 *								 *								
+	 * @author Paul Hughes, jkudish					 * @author Paul Hughes, jkudish								
+	 * @since 2.0.5							 * @since 2.0.5								
+	 * @return array $plugins the required info			 * @return array $plugins the required info								
+	 */								 */								
+	function tribe_init_ecp_addon( $plugins ) {			function tribe_init_ecp_addon( $plugins ) {								
+		$plugins['TribeEventsPro'] = array( 'plugin_n			$plugins['TribeEventsPro'] = array( 'plugin_n								
+		return $plugins;						return $plugins;								
+	}								}								
+																
+	/**								/**								
+	 * What operator should be used to compare PRO's requ		 * What operator should be used to compare PRO's requ								
+	 * Note that a result of TRUE with the version_compar		 * Note that a result of TRUE with the version_compar								
+	 * As is the case here, if they are NOT equal (!=), a		 * As is the case here, if they are NOT equal (!=), a								
+	 *								 *								
+	 * @author Paul Hughes						 * @author Paul Hughes								
+	 * @since 2.0.5							 * @since 2.0.5								
+	 * @return string $operator the operator to use.		 * @return string $operator the operator to use.								
+	 */								 */								
+	function tribe_version_compare_operator () {			function tribe_version_compare_operator () {								
+		$operator = '!=';						$operator = '!=';								
+		return $operator;						return $operator;								
+	}								}								
+																
+	register_activation_hook( __FILE__, 'tribe_ecp_activa		register_activation_hook( __FILE__, 'tribe_ecp_activa								
+	register_deactivation_hook( __FILE__, 'tribe_ecp_deac		register_deactivation_hook( __FILE__, 'tribe_ecp_deac								
+	register_uninstall_hook( __FILE__, 'tribe_ecp_uninsta		register_uninstall_hook( __FILE__, 'tribe_ecp_uninsta								
+																
+	function tribe_ecp_activate() {					function tribe_ecp_activate() {								
+		flush_rewrite_rules();						flush_rewrite_rules();								
+		if ( function_exists( 'tribe_update_option' )			if ( function_exists( 'tribe_update_option' )								
+			tribe_update_option( 'defaultValueRep				tribe_update_option( 'defaultValueRep								
+			delete_option('ecp_defaultValueReplac				delete_option('ecp_defaultValueReplac								
+		} else {							} else {								
+			if (is_array(get_option('tribe_events				if (is_array(get_option('tribe_events								
+				$tec_options = get_option('tr					$tec_options = get_option('tr								
+				$tec_options['defaultValueRep					$tec_options['defaultValueRep								
+				update_option('tribe_events_c					update_option('tribe_events_c								
+				delete_option('ecp_defaultVal					delete_option('ecp_defaultVal								
+			}								}								
+		}								}								
+	}								}								
+																
+	// when we deactivate pro, we should reset some optio		// when we deactivate pro, we should reset some optio								
+	function tribe_ecp_deactivate() {				function tribe_ecp_deactivate() {								
+		if ( function_exists( 'tribe_update_option' )			if ( function_exists( 'tribe_update_option' )								
+			update_option('ecp_defaultValueReplac				update_option('ecp_defaultValueReplac								
+			tribe_update_option( 'defaultValueRep				tribe_update_option( 'defaultValueRep								
+		} else {							} else {								
+			if (is_array(get_option('tribe_events				if (is_array(get_option('tribe_events								
+				$tec_options = get_option('tr					$tec_options = get_option('tr								
+				if ( array_key_exists('defaul					if ( array_key_exists('defaul								
+					update_option('ecp_de						update_option('ecp_de								
+					$tec_options['default						$tec_options['default								
+					update_option('tribe_						update_option('tribe_								
+		}								}								
+	}								}								
+		}								}								
+	}								}								
+																
+	function tribe_ecp_uninstall() {}				function tribe_ecp_uninstall() {}								
+																
+	require_once( 'lib/tribe-events-pro-pue.class.php' );		require_once( 'lib/tribe-events-pro-pue.class.php' );								
+	new TribeEventsProPUE( __FILE__ );				new TribeEventsProPUE( __FILE__ );								
+} // end if Class exists					} // end if Class exists								
+Common subdirectories: events-calendar-pro3.4/lang and events-calendar-pro3.6/lang
+Common subdirectories: events-calendar-pro3.4/lib and events-calendar-pro3.6/lib
+diff -wyB events-calendar-pro3.4/license.txt events-calendar-pro3.6/license.txt
+The Events Calendar Pro								The Events Calendar Pro								
+																
+Copyright 2010-2012 by Modern Tribe Inc and the contributors								Copyright 2010-2012 by Modern Tribe Inc and the contributors								
+																
+This program is free software; you can redistribute it and/or								This program is free software; you can redistribute it and/or								
+it under the terms of the GNU General Public License as publi								it under the terms of the GNU General Public License as publi								
+the Free Software Foundation; either version 2 of the License								the Free Software Foundation; either version 2 of the License								
+(at your option) any later version.								(at your option) any later version.								
+																
+This program is distributed in the hope that it will be usefu								This program is distributed in the hope that it will be usefu								
+but WITHOUT ANY WARRANTY; without even the implied warranty o								but WITHOUT ANY WARRANTY; without even the implied warranty o								
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the								MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the								
+GNU General Public License for more details.								GNU General Public License for more details.								
+																
+You should have received a copy of the GNU General Public Lic								You should have received a copy of the GNU General Public Lic								
+along with this program; if not, write to the Free Software								along with this program; if not, write to the Free Software								
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02								Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02								
+																
+This program incorporates work covered by the following copyr								This program incorporates work covered by the following copyr								
+permission notices:								permission notices:								
+																
+  WordPress - Web publishing software								  WordPress - Web publishing software								
+																
+  Copyright 2003-2010 by the contributors								  Copyright 2003-2010 by the contributors								
+																
+  WordPress is released under the GPL								  WordPress is released under the GPL								
+																
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=								=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=								
+																
+		    GNU GENERAL PUBLIC LICENSE										    GNU GENERAL PUBLIC LICENSE								
+		       Version 2, June 1991										       Version 2, June 1991								
+																
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.								 Copyright (C) 1989, 1991 Free Software Foundation, Inc.								
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA								 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA								
+																
+ Everyone is permitted to copy and distribute verbatim copies								 Everyone is permitted to copy and distribute verbatim copies								
+ of this license document, but changing it is not allowed.								 of this license document, but changing it is not allowed.								
+																
+			    Preamble											    Preamble								
+																
+  The licenses for most software are designed to take away yo								  The licenses for most software are designed to take away yo								
+freedom to share and change it.  By contrast, the GNU General								freedom to share and change it.  By contrast, the GNU General								
+License is intended to guarantee your freedom to share and ch								License is intended to guarantee your freedom to share and ch								
+software--to make sure the software is free for all its users								software--to make sure the software is free for all its users								
+General Public License applies to most of the Free Software								General Public License applies to most of the Free Software								
+Foundation's software and to any other program whose authors 								Foundation's software and to any other program whose authors 								
+using it.  (Some other Free Software Foundation software is c								using it.  (Some other Free Software Foundation software is c								
+the GNU Library General Public License instead.)  You can app								the GNU Library General Public License instead.)  You can app								
+your programs, too.								your programs, too.								
+																
+  When we speak of free software, we are referring to freedom								  When we speak of free software, we are referring to freedom								
+price.  Our General Public Licenses are designed to make sure								price.  Our General Public Licenses are designed to make sure								
+have the freedom to distribute copies of free software (and c								have the freedom to distribute copies of free software (and c								
+this service if you wish), that you receive source code or ca								this service if you wish), that you receive source code or ca								
+if you want it, that you can change the software or use piece								if you want it, that you can change the software or use piece								
+in new free programs; and that you know you can do these thin								in new free programs; and that you know you can do these thin								
+																
+  To protect your rights, we need to make restrictions that f								  To protect your rights, we need to make restrictions that f								
+anyone to deny you these rights or to ask you to surrender th								anyone to deny you these rights or to ask you to surrender th								
+These restrictions translate to certain responsibilities for 								These restrictions translate to certain responsibilities for 								
+distribute copies of the software, or if you modify it.								distribute copies of the software, or if you modify it.								
+																
+  For example, if you distribute copies of such a program, wh								  For example, if you distribute copies of such a program, wh								
+gratis or for a fee, you must give the recipients all the rig								gratis or for a fee, you must give the recipients all the rig								
+you have.  You must make sure that they, too, receive or can 								you have.  You must make sure that they, too, receive or can 								
+source code.  And you must show them these terms so they know								source code.  And you must show them these terms so they know								
+rights.								rights.								
+																
+  We protect your rights with two steps: (1) copyright the so								  We protect your rights with two steps: (1) copyright the so								
+(2) offer you this license which gives you legal permission t								(2) offer you this license which gives you legal permission t								
+distribute and/or modify the software.								distribute and/or modify the software.								
+																
+  Also, for each author's protection and ours, we want to mak								  Also, for each author's protection and ours, we want to mak								
+that everyone understands that there is no warranty for this 								that everyone understands that there is no warranty for this 								
+software.  If the software is modified by someone else and pa								software.  If the software is modified by someone else and pa								
+want its recipients to know that what they have is not the or								want its recipients to know that what they have is not the or								
+that any problems introduced by others will not reflect on th								that any problems introduced by others will not reflect on th								
+authors' reputations.								authors' reputations.								
+																
+  Finally, any free program is threatened constantly by softw								  Finally, any free program is threatened constantly by softw								
+patents.  We wish to avoid the danger that redistributors of 								patents.  We wish to avoid the danger that redistributors of 								
+program will individually obtain patent licenses, in effect m								program will individually obtain patent licenses, in effect m								
+program proprietary.  To prevent this, we have made it clear 								program proprietary.  To prevent this, we have made it clear 								
+patent must be licensed for everyone's free use or not licens								patent must be licensed for everyone's free use or not licens								
+																
+  The precise terms and conditions for copying, distribution 								  The precise terms and conditions for copying, distribution 								
+modification follow.								modification follow.								
+																
+		    GNU GENERAL PUBLIC LICENSE										    GNU GENERAL PUBLIC LICENSE								
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFIC								   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFIC								
+																
+  0. This License applies to any program or other work which 								  0. This License applies to any program or other work which 								
+a notice placed by the copyright holder saying it may be dist								a notice placed by the copyright holder saying it may be dist								
+under the terms of this General Public License.  The "Program								under the terms of this General Public License.  The "Program								
+refers to any such program or work, and a "work based on the 								refers to any such program or work, and a "work based on the 								
+means either the Program or any derivative work under copyrig								means either the Program or any derivative work under copyrig								
+that is to say, a work containing the Program or a portion of								that is to say, a work containing the Program or a portion of								
+either verbatim or with modifications and/or translated into 								either verbatim or with modifications and/or translated into 								
+language.  (Hereinafter, translation is included without limi								language.  (Hereinafter, translation is included without limi								
+the term "modification".)  Each licensee is addressed as "you								the term "modification".)  Each licensee is addressed as "you								
+																
+Activities other than copying, distribution and modification 								Activities other than copying, distribution and modification 								
+covered by this License; they are outside its scope.  The act								covered by this License; they are outside its scope.  The act								
+running the Program is not restricted, and the output from th								running the Program is not restricted, and the output from th								
+is covered only if its contents constitute a work based on th								is covered only if its contents constitute a work based on th								
+Program (independent of having been made by running the Progr								Program (independent of having been made by running the Progr								
+Whether that is true depends on what the Program does.								Whether that is true depends on what the Program does.								
+																
+  1. You may copy and distribute verbatim copies of the Progr								  1. You may copy and distribute verbatim copies of the Progr								
+source code as you receive it, in any medium, provided that y								source code as you receive it, in any medium, provided that y								
+conspicuously and appropriately publish on each copy an appro								conspicuously and appropriately publish on each copy an appro								
+copyright notice and disclaimer of warranty; keep intact all 								copyright notice and disclaimer of warranty; keep intact all 								
+notices that refer to this License and to the absence of any 								notices that refer to this License and to the absence of any 								
+and give any other recipients of the Program a copy of this L								and give any other recipients of the Program a copy of this L								
+along with the Program.								along with the Program.								
+																
+You may charge a fee for the physical act of transferring a c								You may charge a fee for the physical act of transferring a c								
+you may at your option offer warranty protection in exchange 								you may at your option offer warranty protection in exchange 								
+																
+  2. You may modify your copy or copies of the Program or any								  2. You may modify your copy or copies of the Program or any								
+of it, thus forming a work based on the Program, and copy and								of it, thus forming a work based on the Program, and copy and								
+distribute such modifications or work under the terms of Sect								distribute such modifications or work under the terms of Sect								
+above, provided that you also meet all of these conditions:								above, provided that you also meet all of these conditions:								
+																
+    a) You must cause the modified files to carry prominent n								    a) You must cause the modified files to carry prominent n								
+    stating that you changed the files and the date of any ch								    stating that you changed the files and the date of any ch								
+																
+    b) You must cause any work that you distribute or publish								    b) You must cause any work that you distribute or publish								
+    whole or in part contains or is derived from the Program 								    whole or in part contains or is derived from the Program 								
+    part thereof, to be licensed as a whole at no charge to a								    part thereof, to be licensed as a whole at no charge to a								
+    parties under the terms of this License.								    parties under the terms of this License.								
+																
+    c) If the modified program normally reads commands intera								    c) If the modified program normally reads commands intera								
+    when run, you must cause it, when started running for suc								    when run, you must cause it, when started running for suc								
+    interactive use in the most ordinary way, to print or dis								    interactive use in the most ordinary way, to print or dis								
+    announcement including an appropriate copyright notice an								    announcement including an appropriate copyright notice an								
+    notice that there is no warranty (or else, saying that yo								    notice that there is no warranty (or else, saying that yo								
+    a warranty) and that users may redistribute the program u								    a warranty) and that users may redistribute the program u								
+    these conditions, and telling the user how to view a copy								    these conditions, and telling the user how to view a copy								
+    License.  (Exception: if the Program itself is interactiv								    License.  (Exception: if the Program itself is interactiv								
+    does not normally print such an announcement, your work b								    does not normally print such an announcement, your work b								
+    the Program is not required to print an announcement.)								    the Program is not required to print an announcement.)								
+																
+These requirements apply to the modified work as a whole.  If								These requirements apply to the modified work as a whole.  If								
+identifiable sections of that work are not derived from the P								identifiable sections of that work are not derived from the P								
+and can be reasonably considered independent and separate wor								and can be reasonably considered independent and separate wor								
+themselves, then this License, and its terms, do not apply to								themselves, then this License, and its terms, do not apply to								
+sections when you distribute them as separate works.  But whe								sections when you distribute them as separate works.  But whe								
+distribute the same sections as part of a whole which is a wo								distribute the same sections as part of a whole which is a wo								
+on the Program, the distribution of the whole must be on the 								on the Program, the distribution of the whole must be on the 								
+this License, whose permissions for other licensees extend to								this License, whose permissions for other licensees extend to								
+entire whole, and thus to each and every part regardless of w								entire whole, and thus to each and every part regardless of w								
+Thus, it is not the intent of this section to claim rights or								Thus, it is not the intent of this section to claim rights or								
+your rights to work written entirely by you; rather, the inte								your rights to work written entirely by you; rather, the inte								
+exercise the right to control the distribution of derivative 								exercise the right to control the distribution of derivative 								
+collective works based on the Program.								collective works based on the Program.								
+																
+In addition, mere aggregation of another work not based on th								In addition, mere aggregation of another work not based on th								
+with the Program (or with a work based on the Program) on a v								with the Program (or with a work based on the Program) on a v								
+a storage or distribution medium does not bring the other wor								a storage or distribution medium does not bring the other wor								
+the scope of this License.								the scope of this License.								
+																
+  3. You may copy and distribute the Program (or a work based								  3. You may copy and distribute the Program (or a work based								
+under Section 2) in object code or executable form under the 								under Section 2) in object code or executable form under the 								
+Sections 1 and 2 above provided that you also do one of the f								Sections 1 and 2 above provided that you also do one of the f								
+																
+    a) Accompany it with the complete corresponding machine-r								    a) Accompany it with the complete corresponding machine-r								
+    source code, which must be distributed under the terms of								    source code, which must be distributed under the terms of								
+    1 and 2 above on a medium customarily used for software i								    1 and 2 above on a medium customarily used for software i								
+																
+    b) Accompany it with a written offer, valid for at least 								    b) Accompany it with a written offer, valid for at least 								
+    years, to give any third party, for a charge no more than								    years, to give any third party, for a charge no more than								
+    cost of physically performing source distribution, a comp								    cost of physically performing source distribution, a comp								
+    machine-readable copy of the corresponding source code, t								    machine-readable copy of the corresponding source code, t								
+    distributed under the terms of Sections 1 and 2 above on 								    distributed under the terms of Sections 1 and 2 above on 								
+    customarily used for software interchange; or,								    customarily used for software interchange; or,								
+																
+    c) Accompany it with the information you received as to t								    c) Accompany it with the information you received as to t								
+    to distribute corresponding source code.  (This alternati								    to distribute corresponding source code.  (This alternati								
+    allowed only for noncommercial distribution and only if y								    allowed only for noncommercial distribution and only if y								
+    received the program in object code or executable form wi								    received the program in object code or executable form wi								
+    an offer, in accord with Subsection b above.)								    an offer, in accord with Subsection b above.)								
+																
+The source code for a work means the preferred form of the wo								The source code for a work means the preferred form of the wo								
+making modifications to it.  For an executable work, complete								making modifications to it.  For an executable work, complete								
+code means all the source code for all modules it contains, p								code means all the source code for all modules it contains, p								
+associated interface definition files, plus the scripts used 								associated interface definition files, plus the scripts used 								
+control compilation and installation of the executable.  Howe								control compilation and installation of the executable.  Howe								
+special exception, the source code distributed need not inclu								special exception, the source code distributed need not inclu								
+anything that is normally distributed (in either source or bi								anything that is normally distributed (in either source or bi								
+form) with the major components (compiler, kernel, and so on)								form) with the major components (compiler, kernel, and so on)								
+operating system on which the executable runs, unless that co								operating system on which the executable runs, unless that co								
+itself accompanies the executable.								itself accompanies the executable.								
+																
+If distribution of executable or object code is made by offer								If distribution of executable or object code is made by offer								
+access to copy from a designated place, then offering equival								access to copy from a designated place, then offering equival								
+access to copy the source code from the same place counts as								access to copy the source code from the same place counts as								
+distribution of the source code, even though third parties ar								distribution of the source code, even though third parties ar								
+compelled to copy the source along with the object code.								compelled to copy the source along with the object code.								
+																
+  4. You may not copy, modify, sublicense, or distribute the 								  4. You may not copy, modify, sublicense, or distribute the 								
+except as expressly provided under this License.  Any attempt								except as expressly provided under this License.  Any attempt								
+otherwise to copy, modify, sublicense or distribute the Progr								otherwise to copy, modify, sublicense or distribute the Progr								
+void, and will automatically terminate your rights under this								void, and will automatically terminate your rights under this								
+However, parties who have received copies, or rights, from yo								However, parties who have received copies, or rights, from yo								
+this License will not have their licenses terminated so long 								this License will not have their licenses terminated so long 								
+parties remain in full compliance.								parties remain in full compliance.								
+																
+  5. You are not required to accept this License, since you h								  5. You are not required to accept this License, since you h								
+signed it.  However, nothing else grants you permission to mo								signed it.  However, nothing else grants you permission to mo								
+distribute the Program or its derivative works.  These action								distribute the Program or its derivative works.  These action								
+prohibited by law if you do not accept this License.  Therefo								prohibited by law if you do not accept this License.  Therefo								
+modifying or distributing the Program (or any work based on t								modifying or distributing the Program (or any work based on t								
+Program), you indicate your acceptance of this License to do 								Program), you indicate your acceptance of this License to do 								
+all its terms and conditions for copying, distributing or mod								all its terms and conditions for copying, distributing or mod								
+the Program or works based on it.								the Program or works based on it.								
+																
+  6. Each time you redistribute the Program (or any work base								  6. Each time you redistribute the Program (or any work base								
+Program), the recipient automatically receives a license from								Program), the recipient automatically receives a license from								
+original licensor to copy, distribute or modify the Program s								original licensor to copy, distribute or modify the Program s								
+these terms and conditions.  You may not impose any further								these terms and conditions.  You may not impose any further								
+restrictions on the recipients' exercise of the rights grante								restrictions on the recipients' exercise of the rights grante								
+You are not responsible for enforcing compliance by third par								You are not responsible for enforcing compliance by third par								
+this License.								this License.								
+																
+  7. If, as a consequence of a court judgment or allegation o								  7. If, as a consequence of a court judgment or allegation o								
+infringement or for any other reason (not limited to patent i								infringement or for any other reason (not limited to patent i								
+conditions are imposed on you (whether by court order, agreem								conditions are imposed on you (whether by court order, agreem								
+otherwise) that contradict the conditions of this License, th								otherwise) that contradict the conditions of this License, th								
+excuse you from the conditions of this License.  If you canno								excuse you from the conditions of this License.  If you canno								
+distribute so as to satisfy simultaneously your obligations u								distribute so as to satisfy simultaneously your obligations u								
+License and any other pertinent obligations, then as a conseq								License and any other pertinent obligations, then as a conseq								
+may not distribute the Program at all.  For example, if a pat								may not distribute the Program at all.  For example, if a pat								
+license would not permit royalty-free redistribution of the P								license would not permit royalty-free redistribution of the P								
+all those who receive copies directly or indirectly through y								all those who receive copies directly or indirectly through y								
+the only way you could satisfy both it and this License would								the only way you could satisfy both it and this License would								
+refrain entirely from distribution of the Program.								refrain entirely from distribution of the Program.								
+																
+If any portion of this section is held invalid or unenforceab								If any portion of this section is held invalid or unenforceab								
+any particular circumstance, the balance of the section is in								any particular circumstance, the balance of the section is in								
+apply and the section as a whole is intended to apply in othe								apply and the section as a whole is intended to apply in othe								
+circumstances.								circumstances.								
+																
+It is not the purpose of this section to induce you to infrin								It is not the purpose of this section to induce you to infrin								
+patents or other property right claims or to contest validity								patents or other property right claims or to contest validity								
+such claims; this section has the sole purpose of protecting 								such claims; this section has the sole purpose of protecting 								
+integrity of the free software distribution system, which is								integrity of the free software distribution system, which is								
+implemented by public license practices.  Many people have ma								implemented by public license practices.  Many people have ma								
+generous contributions to the wide range of software distribu								generous contributions to the wide range of software distribu								
+through that system in reliance on consistent application of 								through that system in reliance on consistent application of 								
+system; it is up to the author/donor to decide if he or she i								system; it is up to the author/donor to decide if he or she i								
+to distribute software through any other system and a license								to distribute software through any other system and a license								
+impose that choice.								impose that choice.								
+																
+This section is intended to make thoroughly clear what is bel								This section is intended to make thoroughly clear what is bel								
+be a consequence of the rest of this License.								be a consequence of the rest of this License.								
+																
+  8. If the distribution and/or use of the Program is restric								  8. If the distribution and/or use of the Program is restric								
+certain countries either by patents or by copyrighted interfa								certain countries either by patents or by copyrighted interfa								
+original copyright holder who places the Program under this L								original copyright holder who places the Program under this L								
+may add an explicit geographical distribution limitation excl								may add an explicit geographical distribution limitation excl								
+those countries, so that distribution is permitted only in or								those countries, so that distribution is permitted only in or								
+countries not thus excluded.  In such case, this License inco								countries not thus excluded.  In such case, this License inco								
+the limitation as if written in the body of this License.								the limitation as if written in the body of this License.								
+																
+  9. The Free Software Foundation may publish revised and/or 								  9. The Free Software Foundation may publish revised and/or 								
+of the General Public License from time to time.  Such new ve								of the General Public License from time to time.  Such new ve								
+be similar in spirit to the present version, but may differ i								be similar in spirit to the present version, but may differ i								
+address new problems or concerns.								address new problems or concerns.								
+																
+Each version is given a distinguishing version number.  If th								Each version is given a distinguishing version number.  If th								
+specifies a version number of this License which applies to i								specifies a version number of this License which applies to i								
+later version", you have the option of following the terms an								later version", you have the option of following the terms an								
+either of that version or of any later version published by t								either of that version or of any later version published by t								
+Software Foundation.  If the Program does not specify a versi								Software Foundation.  If the Program does not specify a versi								
+this License, you may choose any version ever published by th								this License, you may choose any version ever published by th								
+Foundation.								Foundation.								
+																
+  10. If you wish to incorporate parts of the Program into ot								  10. If you wish to incorporate parts of the Program into ot								
+programs whose distribution conditions are different, write t								programs whose distribution conditions are different, write t								
+to ask for permission.  For software which is copyrighted by 								to ask for permission.  For software which is copyrighted by 								
+Software Foundation, write to the Free Software Foundation; w								Software Foundation, write to the Free Software Foundation; w								
+make exceptions for this.  Our decision will be guided by the								make exceptions for this.  Our decision will be guided by the								
+of preserving the free status of all derivatives of our free 								of preserving the free status of all derivatives of our free 								
+of promoting the sharing and reuse of software generally.								of promoting the sharing and reuse of software generally.								
+																
+			    NO WARRANTY											    NO WARRANTY								
+																
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE I								  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE I								
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  								FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  								
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHE								OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHE								
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EIT								PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EIT								
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRAN								OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRAN								
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE EN								MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE EN								
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  S								TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  S								
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY								PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY								
+REPAIR OR CORRECTION.								REPAIR OR CORRECTION.								
+																
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED								  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED								
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY 								WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY 								
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU								REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU								
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL D								INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL D								
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT								OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT								
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES S								TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES S								
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE W								YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE W								
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISE								PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISE								
+POSSIBILITY OF SUCH DAMAGES.								POSSIBILITY OF SUCH DAMAGES.								
+																
+		     END OF TERMS AND CONDITIONS				     END OF TERMS AND CONDITIONS
+Common subdirectories: events-calendar-pro3.4/public and events-calendar-pro3.6/public
+diff -wyB events-calendar-pro3.4/readme.txt events-calendar-pro3.6/readme.txt
+=== The Events Calendar PRO ===					=== The Events Calendar PRO ===
+
+Contributors:  ModernTribe, roblagatta, MZAWeb, ryancurban, f |	Contributors:  ModernTribe, roblagatta, faction23, jazbek, jb
+Tags: events, calendar, event, venue, organizer, dates, date,	Tags: events, calendar, event, venue, organizer, dates, date,
+Donate link: http://m.tri.be/29					Donate link: http://m.tri.be/29
+Requires at least: 3.6					      |	Requires at least: 3.7
+Tested up to: 3.8					      |	Tested up to: 3.9.1
+Stable tag: 3.4						      |	Stable tag: 3.6
+License: GPLv2 or later						License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html		License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+A premium add-on to The Events Calendar plugin (required), en	A premium add-on to The Events Calendar plugin (required), en
+
+== Description ==						== Description ==
+
+<a href="http://m.tri.be/3r">Events Calendar PRO</a> is a awe	<a href="http://m.tri.be/3r">Events Calendar PRO</a> is a awe
+
+The Events Calendar allows you to create and manage events wi	The Events Calendar allows you to create and manage events wi
+
+Plus, Events Calendar PRO users get access to our premium sup	Plus, Events Calendar PRO users get access to our premium sup
+
+= Features =							= Features =
+
+The following lists the PRO-only features. For a list of The 	The following lists the PRO-only features. For a list of The 
+
+Just getting started? You'll want to watch and read through t	Just getting started? You'll want to watch and read through t
+
+* Advanced Views: Day, Week, Map, Photo				* Advanced Views: Day, Week, Map, Photo
+* Venue and Organizer Pages					* Venue and Organizer Pages
+* Recurring Events						* Recurring Events
+* Location Search						* Location Search
+* Advanced Widgets: Advanced Upcoming Event List, Countdown, 	* Advanced Widgets: Advanced Upcoming Event List, Countdown, 
+* Related Events listing					* Related Events listing
+* Custom Fields							* Custom Fields
+* iCal and Google Calendar download				* iCal and Google Calendar download
+* Default Content						* Default Content
+* Advanced Post Manager in admin				* Advanced Post Manager in admin
+* Premium Forum access & support				* Premium Forum access & support
+
+== Installation ==						== Installation ==
+
+Remember, to use Events Calendar PRO you need to also be runn	Remember, to use Events Calendar PRO you need to also be runn
+
+1. From the dashboard of your site, navigate to Plugins --> A	1. From the dashboard of your site, navigate to Plugins --> A
+1. Select the Upload option and hit "Choose File."		1. Select the Upload option and hit "Choose File."
+1. When the popup appears select the the-events-calendar-x.x.	1. When the popup appears select the the-events-calendar-x.x.
+1. Follow the on-screen instructions and wait as the upload c	1. Follow the on-screen instructions and wait as the upload c
+1. When it's finished, activate the plugin via the prompt. A 	1. When it's finished, activate the plugin via the prompt. A 
+1. For access to new updates, make sure you have added your v	1. For access to new updates, make sure you have added your v
+
+That's it! Just configure your settings as you see fit, and y	That's it! Just configure your settings as you see fit, and y
+
+= Where to Begin =						= Where to Begin =
+
+If this is your first time using The Events Calendar and Even	If this is your first time using The Events Calendar and Even
+
+* Our <a href="http://m.tri.be/3t">New User Primer</a> was de	* Our <a href="http://m.tri.be/3t">New User Primer</a> was de
+* <a href="http://m.tri.be/3v">Installation/Setup FAQs</a> fr	* <a href="http://m.tri.be/3v">Installation/Setup FAQs</a> fr
+* <a href="http://m.tri.be/9u">Tutorials</a>, based on common	* <a href="http://m.tri.be/9u">Tutorials</a>, based on common
+* Are you developer looking to build a custom frontend view? 	* Are you developer looking to build a custom frontend view? 
+* Take care of your license key. Though not required to creat	* Take care of your license key. Though not required to creat
+
+Otherwise, if you're feeling adventurous, you can get started	Otherwise, if you're feeling adventurous, you can get started
+
+== Frequently Asked Questions ==				== Frequently Asked Questions ==
+
+= Is there a shortcode available for Events Calendar PRO? +	= Is there a shortcode available for Events Calendar PRO? +
+
+No, this plugin does not use a shortcode nor is one available	No, this plugin does not use a shortcode nor is one available
+
+
+= Are there any troubleshooting steps you'd suggest I try tha	= Are there any troubleshooting steps you'd suggest I try tha
+
+First, make sure that you're running the latest version of Th	First, make sure that you're running the latest version of Th
+
+The most common issues we see are either plugin or theme conf	The most common issues we see are either plugin or theme conf
+
+Note that we aren't going to say "tough luck" if you identify	Note that we aren't going to say "tough luck" if you identify
+
+= I'm still stuck. Where do I go to file a bug or ask a quest	= I'm still stuck. Where do I go to file a bug or ask a quest
+
+If you're already a PRO user, you're entitled access to our m	If you're already a PRO user, you're entitled access to our m
+
+= What add-ons are available for The Events Calendar and Even	= What add-ons are available for The Events Calendar and Even
+
+Currently, the following add-ons are available for The Events	Currently, the following add-ons are available for The Events
+
+* <a href="http://m.tri.be/2e">Eventbrite Tickets</a>, for se	* <a href="http://m.tri.be/2e">Eventbrite Tickets</a>, for se
+* <a href="http://m.tri.be/2g">Community Events</a>, for allo	* <a href="http://m.tri.be/2g">Community Events</a>, for allo
+* <a href="http://m.tri.be/2h">Facebook Events</a>, for impor	* <a href="http://m.tri.be/2h">Facebook Events</a>, for impor
+* <a href="http://m.tri.be/2f">WooCommerce Tickets</a>, for h	* <a href="http://m.tri.be/2f">WooCommerce Tickets</a>, for h
+* <a href="http://m.tri.be/ci">EDD Tickets</a>, for using our	* <a href="http://m.tri.be/ci">EDD Tickets</a>, for using our
+* <a href="http://m.tri.be/cu">WPEC Tickets</a>, for using WP	* <a href="http://m.tri.be/cu">WPEC Tickets</a>, for using WP
+* <a href="http://m.tri.be/dp">Shopp Tickets</a>, for harness	* <a href="http://m.tri.be/dp">Shopp Tickets</a>, for harness
+* <a href="http://m.tri.be/fa">Filter Bar</a>, for adding adv	* <a href="http://m.tri.be/fa">Filter Bar</a>, for adding adv
+
+= I have a feature idea. What's the best way to tell you abou	= I have a feature idea. What's the best way to tell you abou
+
+We've got a <a href="https://tribe.uservoice.com/forums/19572	We've got a <a href="https://tribe.uservoice.com/forums/19572
+
+= I've still got questions. Do you have a bigger FAQ somewher	= I've still got questions. Do you have a bigger FAQ somewher
+
+We do. If you check out our a href="http://m.tri.be/41">Frequ	We do. If you check out our a href="http://m.tri.be/41">Frequ
+
+== Documentation ==						== Documentation ==
+
+All of our online documentation can be found at http://m.tri.	All of our online documentation can be found at http://m.tri.
+
+Some docs you may find particularly useful are:			Some docs you may find particularly useful are:
+
+* <a href="http://m.tri.be/3t">The Events Calendar New User P	* <a href="http://m.tri.be/3t">The Events Calendar New User P
+* <a href="http://m.tri.be/43">The Themer's Guide to The Even	* <a href="http://m.tri.be/43">The Themer's Guide to The Even
+* <a href="http://m.tri.be/41">The Events Calendar FAQ</a>	* <a href="http://m.tri.be/41">The Events Calendar FAQ</a>
+
+Tutorials are available at http://m.tri.be/44			Tutorials are available at http://m.tri.be/44
+
+For template tags, head over to our documentation page: http:	For template tags, head over to our documentation page: http:
+
+== Contributors ==						== Contributors ==
+
+The plugin is produced by <a href="http://m.tri.be/45">Modern	The plugin is produced by <a href="http://m.tri.be/45">Modern
+
+= Current Contributors =					= Current Contributors =
+
+* <a href="http://profiles.wordpress.org/users/jazbek">Jessic	* <a href="http://profiles.wordpress.org/users/jazbek">Jessic
+* <a href="http://profiles.wordpress.org/users/roblagatta">Ro	* <a href="http://profiles.wordpress.org/users/roblagatta">Ro
+* <a href="http://profiles.wordpress.org/users/MZAWeb">Daniel <
+* <a href="http://profiles.wordpress.org/users/barryhughes">B	* <a href="http://profiles.wordpress.org/users/barryhughes">B
+* <a href="http://profiles.wordpress.org/users/ryancurban">Ry <
+* <a href="http://profiles.wordpress.org/users/kyleunzicker"> <
+* <a href="http://profiles.wordpress.org/users/jbrinley">Jona	* <a href="http://profiles.wordpress.org/users/jbrinley">Jona
+							      >	* <a href="http://profiles.wordpress.org/users/caseypatrickdr
+* <a href="http://profiles.wordpress.org/users/faction23">Sam	* <a href="http://profiles.wordpress.org/users/faction23">Sam
+* <a href="http://profiles.wordpress.org/users/neillmcshea">N	* <a href="http://profiles.wordpress.org/users/neillmcshea">N
+* <a href="http://profiles.wordpress.org/users/kellykathryn"> |	* <a href="http://profiles.wordpress.org/users/ckpicker”>Case
+* <a href="http://profiles.wordpress.org/users/leahkoerper">L	* <a href="http://profiles.wordpress.org/users/leahkoerper">L
+* <a href="http://profiles.wordpress.org/users/peterchester">	* <a href="http://profiles.wordpress.org/users/peterchester">
+* <a href="http://profiles.wordpress.org/users/reid.peifer">R	* <a href="http://profiles.wordpress.org/users/reid.peifer">R
+* <a href="http://profiles.wordpress.org/users/shane.pearlman	* <a href="http://profiles.wordpress.org/users/shane.pearlman
+
+= Past Contributors =						= Past Contributors =
+
+* <a href="http://profiles.wordpress.org/users/paulhughes01">	* <a href="http://profiles.wordpress.org/users/paulhughes01">
+* <a href="http://profiles.wordpress.org/users/codearachnid">	* <a href="http://profiles.wordpress.org/users/codearachnid">
+							      >	* <a href="http://profiles.wordpress.org/users/MZAWeb">Daniel
+							      >	* <a href="http://profiles.wordpress.org/users/kyleunzicker">
+							      >	* <a href="http://profiles.wordpress.org/users/kellykathryn">
+							      >	* <a href="http://profiles.wordpress.org/users/ryancurban">Ry
+* <a href="http://profiles.wordpress.org/users/jonahcoyote">J	* <a href="http://profiles.wordpress.org/users/jonahcoyote">J
+* <a href="http://profiles.wordpress.org/users/jkudish">Joach	* <a href="http://profiles.wordpress.org/users/jkudish">Joach
+* <a href="http://profiles.wordpress.org/users/nickciske">Nic	* <a href="http://profiles.wordpress.org/users/nickciske">Nic
+* <a href="http://profiles.wordpress.org/users/kelseydamas">K	* <a href="http://profiles.wordpress.org/users/kelseydamas">K
+* <a href="http://profiles.wordpress.org/users/mattwiebe">Mat	* <a href="http://profiles.wordpress.org/users/mattwiebe">Mat
+* <a href="http://profiles.wordpress.org/users/dancameron">Da	* <a href="http://profiles.wordpress.org/users/dancameron">Da
+* <a href="http://profiles.wordpress.org/users/jgadbois">John	* <a href="http://profiles.wordpress.org/users/jgadbois">John
+* Justin Endler							* Justin Endler
+
+= Translators =							= Translators =
+
+							      >	* Afrikaans from Liza Welsh
+* Arabic from Mamdouh Samy					* Arabic from Mamdouh Samy
+* Bosnian from Marko Manojlovic					* Bosnian from Marko Manojlovic
+* Brazilian Portuguese from Dionizio Bonfim Bach	      |	* Brazilian Portuguese from Emerson Marques
+* Catalan from Barbara Partegos Rof				* Catalan from Barbara Partegos Rof
+* Croatian from Marko Manojlovic				* Croatian from Marko Manojlovic
+* Czech from Martin Kristan and Petr Bastan		      |	* Czech from Petr Bastan
+* Danish from Anonymous						* Danish from Anonymous
+* Dutch from Erik Massop				      |	* Dutch from J.F.M. Cornelissen and Frans Pronk
+							      >	* Estonian from Andra Saimre
+* Finnish by Ari-Pekka Koponen					* Finnish by Ari-Pekka Koponen
+* French from Bastien BC				      |	* French from Laurent Proulx
+* German from Dieter Dannecker				      |	* German from Dennis Gruebner
+* Greek from Maria Tsilimidou				      |	* Greek from Yannis Troullinos
+* Icelandic by Baldvin √ñrn Berndsen				* Icelandic by Baldvin √ñrn Berndsen
+* Italian from Roberto Scano					* Italian from Roberto Scano
+* Norwegian from Andreas Lorentsen			      |	* Latvian from Raivis Dejus
+							      >	* Montenegrin from Sasa Vukovic
+							      >	* Norwegian Bokmål by Morten Ruud
+							      >	* Norwegian Nynorsk by Torbjørn Lauen
+* Polish from Marek Kosina					* Polish from Marek Kosina
+* Portuguese from Antonio Pratas				* Portuguese from Antonio Pratas
+* Romanian from Mihai Burcea				      |	* Romanian from Cosmin Vaman
+* Serbian from Marko Manojlovic					* Serbian from Marko Manojlovic
+* Spanish from Hector Gil Rizo				      |	* Spanish from Juan Jose Reparaz Sarasola
+* Swedish from Ben Andersen				      |	* Swedish from Jonas Reinicke
+* Turkish by Derin Korman					* Turkish by Derin Korman
+							      >	* Ukranian by Vasily Vishnyakov
+
+* Previous translators include Mikhail Michouris, Ed Boon, Ri |	* Previous translators include Maria Tsilimidou, Martin Krist
+
+== Add-Ons ==							== Add-Ons ==
+
+But wait: there's more! We've got a whole stable of plugins a	But wait: there's more! We've got a whole stable of plugins a
+
+Our Free Plugins:						Our Free Plugins:
+
+* <a href="http://wordpress.org/extend/plugins/advanced-post-	* <a href="http://wordpress.org/extend/plugins/advanced-post-
+* <a href="http://wordpress.org/plugins/blog-copier/?ref=tec-	* <a href="http://wordpress.org/plugins/blog-copier/?ref=tec-
+* <a href="http://wordpress.org/plugins/image-rotation-repair	* <a href="http://wordpress.org/plugins/image-rotation-repair
+* <a href="http://wordpress.org/plugins/widget-builder/?ref=t	* <a href="http://wordpress.org/plugins/widget-builder/?ref=t
+
+Our Premium Plugins:						Our Premium Plugins:
+
+* <a href="http://m.tri.be/2c" target="_blank">The Events Cal	* <a href="http://m.tri.be/2c" target="_blank">The Events Cal
+* <a href="http://m.tri.be/2e" target="_blank">The Events Cal	* <a href="http://m.tri.be/2e" target="_blank">The Events Cal
+* <a href="http://m.tri.be/2g" target="_blank">The Events Cal	* <a href="http://m.tri.be/2g" target="_blank">The Events Cal
+* <a href="http://m.tri.be/2h" target="_blank">The Events Cal	* <a href="http://m.tri.be/2h" target="_blank">The Events Cal
+* <a href="http://m.tri.be/2i" target="_blank">The Events Cal	* <a href="http://m.tri.be/2i" target="_blank">The Events Cal
+* <a href="http://m.tri.be/ci" target="_blank">The Events Cal	* <a href="http://m.tri.be/ci" target="_blank">The Events Cal
+* <a href="http://m.tri.be/cu" target="_blank">The Events Cal	* <a href="http://m.tri.be/cu" target="_blank">The Events Cal
+* <a href="http://m.tri.be/dp" target="_blank">The Events Cal	* <a href="http://m.tri.be/dp" target="_blank">The Events Cal
+* <a href="http://m.tri.be/fa" target="_blank">The Events Cal	* <a href="http://m.tri.be/fa" target="_blank">The Events Cal
+
+== Changelog ==							== Changelog ==
+
+= IMPORTANT NOTICE =						= IMPORTANT NOTICE =
+
+3.x is a complete overhaul of the plugin, and as a result we'	3.x is a complete overhaul of the plugin, and as a result we'
+
+							      >	= 3.6 =
+							      >
+							      >	* Incorporated taxonomy filters to the advanced events list w
+							      >	* Incorporated a feature to make the end date follow the star
+							      >	* Deprecated the meta walker and added new templates for cust
+							      >	* Fixed recurring event URLs when using default permalinks
+							      >	* Fixed the query for days with events in the mini calendar w
+							      >	* Added code to prevent the re-creation of deleted instances 
+							      >	* Fixed switching a recurring event to a non-recurring event
+							      >	* Incorporated code to better handle recurring events when im
+							      >	* tribe_get_events() now provides a default value for the eve
+							      >	* Added the iCalendar feed that was formerly only available w
+							      >	* Moved all HTML Markup (and the loop) to the List Widgettemp
+							      >	* Fixed an issue where Category CSS classes were being remove
+							      >	* Fixed an issue where duplicate Prev/Next Nav elements would
+							      >	* Incorporated code to hide the 'All Day' bar in Week View wh
+							      >	* Added a 'View All Events at this Venue' link to the Feature
+							      >	* Split out the Related Events code to it's own template file
+							      >	* Fixed an issue where the selected category wasn't being res
+							      >	* Fixed an issue where using the Mini Calendar widget could b
+							      >	* Incorporated code so that the mini calendar widget will no 
+							      >	* Incorporated new Estonian translation files, courtesy of An
+							      >	* Incorporated updated German translation files, courtesy of 
+							      >	* Incorporated updated Swedish translation files, courtesy of
+							      >	* Incorporated new Latvian translation files, courtesy of Rai
+							      >	* Incorporated new Afrikaans translation files, courtesy of L
+							      >	* Incorporated updated Czech translation files, courtesy of P
+							      >	* Incorporated updated Greek translation files, courtesy of Y
+							      >
+							      >	= 3.5.2 =
+							      >
+							      >	* Fixed a bug that creates duplicate instances of events sche
+							      >
+							      >	= 3.5.1 =
+							      >
+							      >	* Patched a bug where the “Recurring event instances” setting
+							      >	* Addressed an issue caused by our recurrence refactor where 
+							      >	* Fixed an uncaught exception/fatal error that appeared durin
+							      >	* Patched a SQL error that appeared on sites without any even
+							      >
+							      >	= 3.5 =
+							      >
+							      >	* Incorporated fully responsive styles and functionality for 
+							      >	* Changed how recurring events are stored, to give a unique p
+							      >	* Fixed an issue where the Category class wasn't properly bei
+							      >	* Fixed issue with popstate and bug in webkit when coming bac
+							      >	* Fixed issue were week view title would be cut off on short 
+							      >	* Changed the workflow for breaking instances of a recurring 
+							      >	* Fixed recurring event permalinks in tag archives
+							      >	* Changed Week view to use the "End of day cutoff" setting (t
+							      >	* Updated the recurrence UI to prevent setting a recurrence e
+							      >	* Fixed an issue where deleting an instance of a recurring ev
+							      >	* Fixed an issue where the Mini Calendar Widget could skip Fe
+							      >	* Optimized some queries related to map view (thanks to crack
+							      >	* Fixed an issue where the "Hide if no events" checkbox was n
+							      >	* Fixed an issue where the iCal button would always download 
+							      >	* Fixed a variety of untranslatable strings
+							      >	* Incorporated new Ukranian translation files, courtesy of Va
+							      >	* Incorporated updated Spanish translation files, courtesy of
+							      >	* Incorporated new Montenegrin translation files, courtesy of
+							      >	* Incorporated updated Norwegian Bokmål translation files, co
+							      >	* Incorporated new Norwegian Nynorsk translation files, court
+							      >	* Incorporated updated Romanian translation files, courtesy o
+							      >	* Incorporated updated German translation files by Oliver Hei
+							      >	* Incorporated updated Brazilian Portuguese translation files
+							      >	* Incorporated updated Dutch translation files from J.F.M. Co
+							      >	* Incorporated updated French translation files from Laurent 
+							      >
+= 3.4 = 							= 3.4 = 
+
+* Added extra reassurance that All Day events will show first	* Added extra reassurance that All Day events will show first
+* Fixed the automated recurrence description for events with 	* Fixed the automated recurrence description for events with 
+* Added hooks for use in widgets (thanks to Daniel Maier on t	* Added hooks for use in widgets (thanks to Daniel Maier on t
+* HTML tags are now properly stripped from Google Calendar de	* HTML tags are now properly stripped from Google Calendar de
+* Fixed a bug where the wrapper div was incorrectly being rep	* Fixed a bug where the wrapper div was incorrectly being rep
+* Fixed a bug where the calendar widget redirected improperly	* Fixed a bug where the calendar widget redirected improperly
+* Fixed a bug where the "Show only the first instance of each	* Fixed a bug where the "Show only the first instance of each
+* Addressed an issue where the “View All Events” link accesse	* Addressed an issue where the “View All Events” link accesse
+* Scheduled events are no longer exposed before being publish	* Scheduled events are no longer exposed before being publish
+
+= 3.3 =								= 3.3 =
+
+* Fixed an issue with featured venue widget not returning exp	* Fixed an issue with featured venue widget not returning exp
+* Calendar widget improvements: query clean up and end-of-day	* Calendar widget improvements: query clean up and end-of-day
+* Map view pagination improved					* Map view pagination improved
+* Fixed a bug that caused events to disappear when changing t	* Fixed a bug that caused events to disappear when changing t
+* Patched a bug that caused multiple instances of recurring e	* Patched a bug that caused multiple instances of recurring e
+* Fixed an issue with the display of multi-day events in week	* Fixed an issue with the display of multi-day events in week
+* Map view now respects the selected category (thanks to mind	* Map view now respects the selected category (thanks to mind
+* Fixed bug that caused the "Show only the first instance of 	* Fixed bug that caused the "Show only the first instance of 
+* The TribeField class no longer uses the extract() function	* The TribeField class no longer uses the extract() function
+* Deactivating ECP will now also deactivate the default conte	* Deactivating ECP will now also deactivate the default conte
+* Fixed a JavaScript issue on APM that was breaking some user	* Fixed a JavaScript issue on APM that was breaking some user
+* Added CSS classes to the list widget events (thanks to Andy	* Added CSS classes to the list widget events (thanks to Andy
+* Incorporated updated German translation files, courtesy of 	* Incorporated updated German translation files, courtesy of 
+* Incorporated updated French translation files, courtesy of 	* Incorporated updated French translation files, courtesy of 
+
+= 3.2 =								= 3.2 =
+
+* Incorporated code to allow for recurring events with no end	* Incorporated code to allow for recurring events with no end
+* Added settings to limit the number of recurring event insta	* Added settings to limit the number of recurring event insta
+* Fixed a bug where instances of recurring events would somet	* Fixed a bug where instances of recurring events would somet
+* Tackled a bug where making an event sticky while breaking i	* Tackled a bug where making an event sticky while breaking i
+* Fixed the canonical URL on recurring events when object cac	* Fixed the canonical URL on recurring events when object cac
+* Patched a bug where events with a small time span were not 	* Patched a bug where events with a small time span were not 
+* Addressed a number of compatibility/aesthetic issues with t	* Addressed a number of compatibility/aesthetic issues with t
+* Fixed a translation issue relating to day view (thanks to d	* Fixed a translation issue relating to day view (thanks to d
+* Fixed an issue with day view not respecting the timezone se	* Fixed an issue with day view not respecting the timezone se
+* Updated the mini calendar widget to not break event views, 	* Updated the mini calendar widget to not break event views, 
+* Fixed an issue where the iCal button rendered on views that	* Fixed an issue where the iCal button rendered on views that
+* Addressed an issue where events section on single event pag	* Addressed an issue where events section on single event pag
+* Incorporated text to make explanation for "Recurring event 	* Incorporated text to make explanation for "Recurring event 
+* Fixed an issue with venue descriptions sometimes not displa	* Fixed an issue with venue descriptions sometimes not displa
+* Patched a bug where the Additional Fields link ceases to fu	* Patched a bug where the Additional Fields link ceases to fu
+* Fixed a bug where the pin marker in map view sometimes show	* Fixed a bug where the pin marker in map view sometimes show
+* Incorporated code so day view now uses its own template par	* Incorporated code so day view now uses its own template par
+* Fixed an iCal export issue where sometimes incorrect event 	* Fixed an iCal export issue where sometimes incorrect event 
+* Fixed an error that was making the location search fail in 	* Fixed an error that was making the location search fail in 
+* Addressed an issue related to i18n for the mini calendar wi	* Addressed an issue related to i18n for the mini calendar wi
+* Patched a notice for PHP 5.3.20				* Patched a notice for PHP 5.3.20
+
+= 3.1 =								= 3.1 =
+
+* Recurring events can now display more than once in the sear	* Recurring events can now display more than once in the sear
+* Added a setting for hiding related events (thanks to those 	* Added a setting for hiding related events (thanks to those 
+* Fixed error that occurred when ordering the admin listing b	* Fixed error that occurred when ordering the admin listing b
+* Fixed bug where the Events Calendar title would take over a	* Fixed bug where the Events Calendar title would take over a
+* Month view and the mini calendar widget will no longer link	* Month view and the mini calendar widget will no longer link
+* GEO, CATEGORY, and ATTACH fields added to the iCal feed	* GEO, CATEGORY, and ATTACH fields added to the iCal feed
+* Fixed z-index bug with the recurrence dialog box in the Wor	* Fixed z-index bug with the recurrence dialog box in the Wor
+* Fixed bug where the option to filter the admin Events list 	* Fixed bug where the option to filter the admin Events list 
+* Fixed bug where sometimes an event entered at the end of th	* Fixed bug where sometimes an event entered at the end of th
+* Fixed intermittent display errors with Photo view		* Fixed intermittent display errors with Photo view
+* Fixed two PHP errors on the admin events list			* Fixed two PHP errors on the admin events list
+* Fixed incorrect "No results" message after a keyword search	* Fixed incorrect "No results" message after a keyword search
+* Updated translations: Brazilian Portuguese (new), Turkish (	* Updated translations: Brazilian Portuguese (new), Turkish (
+* Various minor bug and security fixes				* Various minor bug and security fixes
+
+= 3.0.5 =							= 3.0.5 =
+
+* Fixed issue with the ECP stylesheet being enqueued twice	* Fixed issue with the ECP stylesheet being enqueued twice
+* Fixed recurring events links in the calendar widget (Thanks	* Fixed recurring events links in the calendar widget (Thanks
+
+= 3.0.4 =							= 3.0.4 =
+
+* CSS files in the tribe-events directory of your theme are n	* CSS files in the tribe-events directory of your theme are n
+* Performance improvements to the plugin update engine		* Performance improvements to the plugin update engine
+* Improved handling of international characters in iCal expor	* Improved handling of international characters in iCal expor
+* Various bug fixes to the Events List and Events Calendar wi	* Various bug fixes to the Events List and Events Calendar wi
+* Improved location search results (thanks to BISDIGITAL for 	* Improved location search results (thanks to BISDIGITAL for 
+* Addressed some previously non-translatable strings in the T	* Addressed some previously non-translatable strings in the T
+
+= 3.0.3 =							= 3.0.3 =
+
+* Fixed bug with hard-coded table prefixes			* Fixed bug with hard-coded table prefixes
+* Made some strings in tribe bar translatable			* Made some strings in tribe bar translatable
+
+= 3.0.2 =							= 3.0.2 =
+
+* Fixed bug with events not showing up on past view (thanks t	* Fixed bug with events not showing up on past view (thanks t
+* Miscellaneous bug fixes					* Miscellaneous bug fixes
+
+= 3.0.1 =							= 3.0.1 =
+
+* Fix a bug in the plugin upgrade system to work on MU sites.	* Fix a bug in the plugin upgrade system to work on MU sites.
+
+= 3.0 =								= 3.0 =
+
+3.0 is a complete overhaul of the plugin.			3.0 is a complete overhaul of the plugin.
+
+== Help ==							== Help ==
+
+Welcome to The Events Calendar and Events Calendar PRO, a ful	Welcome to The Events Calendar and Events Calendar PRO, a ful
+
+If you aren't familiar with The Events Calendar and Events Ca	If you aren't familiar with The Events Calendar and Events Ca
+
+Additional resources available include:				Additional resources available include:
+
+* <a href="http://m.tri.be/42">Documentation</a>		* <a href="http://m.tri.be/42">Documentation</a>
+* <a href="http://m.tri.be/3v">FAQ</a>				* <a href="http://m.tri.be/3v">FAQ</a>
+* <a href="http://m.tri.be/4c">Help Videos</a>			* <a href="http://m.tri.be/4c">Help Videos</a>
+* <a href="http://m.tri.be/44">Tutorials</a>			* <a href="http://m.tri.be/44">Tutorials</a>
+* <a href="http://m.tri.be/4b">Release Notes</a>		* <a href="http://m.tri.be/4b">Release Notes</a>
+* <a href="http://m.tri.be/3x">Forums</a>			* <a href="http://m.tri.be/3x">Forums</a>
+
+We hit the <a href="http://m.tri.be/3x">premium forums</a> da	We hit the <a href="http://m.tri.be/3x">premium forums</a> da
+
+Some things to consider before posting on the forum:		Some things to consider before posting on the forum:
+
+* Look through existing threads before posting a new one and 	* Look through existing threads before posting a new one and 
+* Your issue will be solved more quickly if you run a few che	* Your issue will be solved more quickly if you run a few che
+* Sometimes, just resetting your permalinks can fix the issue	* Sometimes, just resetting your permalinks can fix the issue
+
+Still not happy? Shoot us an email to pro@tri.be or tweet to 	Still not happy? Shoot us an email to pro@tri.be or tweet to 
+
+== Upgrade Notice ==						== Upgrade Notice ==
+
+IMPORTANT NOTICE: 3.x upgrade is a HUGE upgrade from 2.x vers	IMPORTANT NOTICE: 3.x upgrade is a HUGE upgrade from 2.x vers
+
+							      >	= 3.6 =
+							      >
+							      >	Please see the changelog for the complete list of changes in 
+							      >
+							      >	= 3.5.2 =
+							      >
+							      >	Please see the changelog for the complete list of changes in 
+							      >
+							      >	= 3.5.1 =
+							      >
+							      >	Please see the changelog for the complete list of changes in 
+							      >
+							      >	= 3.5 =
+							      >
+							      >	Please see the changelog for the complete list of changes in 
+							      >
+= 3.4 =								= 3.4 =
+
+Please see the changelog for the complete list of changes in 	Please see the changelog for the complete list of changes in 
+
+= 3.3 =								= 3.3 =
+
+Please see the changelog for the complete list of changes in 	Please see the changelog for the complete list of changes in 
+
+= 3.2 =								= 3.2 =
+
+When upgrading to 3.2, please ensure template overrides for E	When upgrading to 3.2, please ensure template overrides for E
+
+= 3.1 =								= 3.1 =
+
+Please see the changelog for the complete list of changes in 	Please see the changelog for the complete list of changes in 
+
+= 3.0 =								= 3.0 =
+
+3.x is a HUGE upgrade from Events Calendar PRO 2.x. If you're	3.x is a HUGE upgrade from Events Calendar PRO 2.x. If you'reCommon subdirectories: events-calendar-pro3.4/resources and events-calendar-pro3.6/resources
+Common subdirectories: events-calendar-pro3.4/test and events-calendar-pro3.6/test
+Common subdirectories: events-calendar-pro3.4/vendor and events-calendar-pro3.6/vendor
+Common subdirectories: events-calendar-pro3.4/views and events-calendar-pro3.6/views

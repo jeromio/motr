@@ -1,0 +1,82 @@
+6c6
+< $tickets = TribeEventsTickets::get_event_tickets( $event_id );
+---
+> $tickets = Tribe__Events__Tickets__Tickets::get_event_tickets( $event_id );
+11c11
+< 	<h2><?php _e( 'Attendees', 'tribe-events-calendar' ); ?></h2>
+---
+> 	<h2><?php esc_html_e( 'Attendees', 'tribe-events-calendar' ); ?></h2>
+17c17
+< 			<h3 title="Click to toggle"><?php _e( 'Event Summary', 'tribe-events-calendar' ); ?></h3>
+---
+> 			<h3 title="Click to toggle"><?php esc_html_e( 'Event Summary', 'tribe-events-calendar' ); ?></h3>
+23c23
+< 						<h4><?php _e( 'Event Details', 'tribe-events-calendar' ); ?></h4>
+---
+> 						<h4><?php esc_html_e( 'Event Details', 'tribe-events-calendar' ); ?></h4>
+25c25
+< 						<strong><?php _e( 'Start Date / Time:', 'tribe-events-calendar' ) ?></strong>
+---
+> 						<strong><?php esc_html_e( 'Start Date / Time:', 'tribe-events-calendar' ) ?></strong>
+29c29
+< 						<strong><?php _e( 'End Date / Time:', 'tribe-events-calendar' ) ?></strong>
+---
+> 						<strong><?php esc_html_e( 'End Date / Time:', 'tribe-events-calendar' ) ?></strong>
+52c52
+< 								<strong><?php _e( 'Phone:', 'tribe-events-calendar' ); ?></strong>
+---
+> 								<strong><?php esc_html_e( 'Phone:', 'tribe-events-calendar' ); ?></strong>
+61c61
+< 								<strong><?php _e( 'Website:', 'tribe-events-calendar' ) ?></strong>
+---
+> 								<strong><?php esc_html_e( 'Website:', 'tribe-events-calendar' ) ?></strong>
+69c69
+< 						<h4><?php _e( 'Ticket Sales', 'tribe-events-calendar' ); ?></h4>
+---
+> 						<h4><?php esc_html_e( 'Ticket Sales', 'tribe-events-calendar' ); ?></h4>
+108c108
+< 							$checkedin = TribeEventsTickets::get_event_checkedin_attendees_count( $event_id ); ?>
+---
+> 							$checkedin = Tribe__Events__Tickets__Tickets::get_event_checkedin_attendees_count( $event_id ); ?>
+111c111
+< 								<?php _e( 'Tickets sold:', 'tribe-events-calendar' ) ?>
+---
+> 								<?php esc_html_e( 'Tickets sold:', 'tribe-events-calendar' ) ?>
+118c118
+< 									<?php _e( 'Finalized:', 'tribe-events-calendar' ); ?>
+---
+> 									<?php esc_html_e( 'Finalized:', 'tribe-events-calendar' ); ?>
+121c121
+< 									<?php _e( 'Awaiting review:', 'tribe-events-calendar' ); ?>
+---
+> 									<?php esc_html_e( 'Awaiting review:', 'tribe-events-calendar' ); ?>
+128c128
+< 								<?php _e( 'Checked in:', 'tribe-events-calendar' ); ?>
+---
+> 								<?php esc_html_e( 'Checked in:', 'tribe-events-calendar' ); ?>
+139c139
+< 	<form id="topics-filter" method="get">
+---
+> 	<form id="topics-filter" method="post">
+141,142c141,142
+< 		<input type="hidden" name="event_id" id="event_id" value="<?php echo $event_id; ?>" />
+< 		<input type="hidden" name="post_type" value="<?php echo TribeEvents::POSTTYPE; ?>" />
+---
+> 		<input type="hidden" name="event_id" id="event_id" value="<?php echo esc_attr( $event_id ); ?>" />
+> 		<input type="hidden" name="post_type" value="<?php echo esc_attr( Tribe__Events__Main::POSTTYPE ); ?>" />
+149c149
+< 	<div id="attendees_email_wrapper" title="<?php _e( 'Send the attendee list by email', 'tribe-events-calendar' ); ?>">
+---
+> 	<div id="attendees_email_wrapper" title="<?php esc_html_e( 'Send the attendee list by email', 'tribe-events-calendar' ); ?>">
+153c153
+< 				<span><?php _e( 'Select a User:', 'tribe-events-calendar' ); ?></span>
+---
+> 				<span><?php esc_html_e( 'Select a User:', 'tribe-events-calendar' ); ?></span>
+163c163
+< 			<span class="attendees_or"><?php _e( 'or', 'tribe-events-calendar' ); ?></span>
+---
+> 			<span class="attendees_or"><?php esc_html_e( 'or', 'tribe-events-calendar' ); ?></span>
+165c165
+< 				<span><?php _e( 'Email Address:', 'tribe-events-calendar' ); ?></span>
+---
+> 				<span><?php esc_html_e( 'Email Address:', 'tribe-events-calendar' ); ?></span>

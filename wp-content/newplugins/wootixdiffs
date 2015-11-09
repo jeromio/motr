@@ -1,0 +1,311 @@
+diff -r wootickets/classes/class-wootickets.php ../plugins/wootickets/classes/class-wootickets.php
+76c76
+< 	const VERSION = '3.9.3';
+---
+> 	const VERSION = '3.9';
+81c81
+< 	const REQUIRED_TEC_VERSION = '3.9.2';
+---
+> 	const REQUIRED_TEC_VERSION = '3.9';
+134c134
+< 		add_action( 'wp_loaded',                            array( $this, 'process_front_end_tickets_form'  ), 50     );
+---
+> 		add_action( 'init',                                 array( $this, 'process_front_end_tickets_form'  )         );
+264a265
+> 	 * Modified by JER to create longer, more random number
+274c275,276
+< 		return substr( md5( $order_id . '_' . $attendee_id ), 0, 10 );
+---
+> 		$LENGTH = 12;
+> 		return substr( md5( $order_id . mt_rand(0,999) . $attendee_id ), 0, $LENGTH );
+276d277
+< 
+320a322
+> 		$status = false;
+323,349c325,328
+< 			$args = array( 'post_status'  => 'publish',
+< 			               'post_type'    => 'product',
+< 			               'post_author'  => get_current_user_id(),
+< 			               'post_excerpt' => $ticket->description,
+< 			               'post_title'   => $ticket->name );
+< 
+< 			$ticket->ID = wp_insert_post( $args );
+< 
+< 			update_post_meta( $ticket->ID, '_visibility', 'hidden' );
+< 			update_post_meta( $ticket->ID, '_tax_status', 'taxable' );
+< 			update_post_meta( $ticket->ID, '_tax_class', '' );
+< 			update_post_meta( $ticket->ID, '_purchase_note', '' );
+< 			update_post_meta( $ticket->ID, '_weight', '' );
+< 			update_post_meta( $ticket->ID, '_length', '' );
+< 			update_post_meta( $ticket->ID, '_width', '' );
+< 			update_post_meta( $ticket->ID, '_height', '' );
+< 			update_post_meta( $ticket->ID, '_downloadable', 'no' );
+< 			update_post_meta( $ticket->ID, '_virtual', 'yes' );
+< 			update_post_meta( $ticket->ID, '_sale_price_dates_from', '' );
+< 			update_post_meta( $ticket->ID, '_sale_price_dates_to', '' );
+< 			update_post_meta( $ticket->ID, '_product_attributes', array() );
+< 			update_post_meta( $ticket->ID, '_sale_price', '' );
+< 			update_post_meta( $ticket->ID, 'total_sales', 0 );
+< 
+< 			// Relate event <---> ticket
+< 			add_post_meta( $ticket->ID, $this->event_key, $event_id );
+< 
+---
+> 			$ticket->description = 'General Admission for Members or Guests of Members.';
+> 			$ticket->ID = $this->create_ticket($ticket, $event_id);
+> 			//spit("created $ticket->ID");
+> 			$edit_tix = false;
+355a335,336
+> 			//spit("editing ticket $ticket->ID");
+> 			$edit_tix = true;
+358c339,340
+< 		if ( ! $ticket->ID )
+---
+> 		if ( ! $ticket->ID ){
+> 			//spit("leaving");
+360c342
+< 
+---
+> 		}
+367,372d348
+< 
+< 			update_post_meta( $ticket->ID, '_stock', $stock );
+< 			update_post_meta( $ticket->ID, '_stock_status', $status );
+< 			update_post_meta( $ticket->ID, '_backorders', 'no' );
+< 			update_post_meta( $ticket->ID, '_manage_stock', 'yes' );
+< 			delete_transient( 'wc_product_total_stock_' . $ticket->ID );
+374a351
+> 			$stock = 350; //JER set default
+376c353,357
+< 
+---
+> 		update_post_meta( $ticket->ID, '_stock', $stock );
+> 		update_post_meta( $ticket->ID, '_stock_status', $status );
+> 		update_post_meta( $ticket->ID, '_backorders', 'no' );
+> 		update_post_meta( $ticket->ID, '_manage_stock', 'yes' );
+> 		delete_transient( 'wc_product_total_stock_' . $ticket->ID );
+384a366,413
+> 		/* Jeremy adding DayOf ticket */
+> 		if (  $raw_data['dayof_price']  >0 ){
+> 			if ( empty( $dayof->ID ) && $edit_tix == false) {
+> 				
+> 				$dayof = new TribeEventsTicketObject();
+> 				$dayof->description = 'Day-Of ' . $ticket->description;
+> 				$dayof->name = 'Day-Of ' . $ticket->name;
+> 				$dayof->ID = $this->create_ticket($dayof, $event_id);//not 'virtual' - note that we're using virtual for non-tickets
+> 				//spit("making a dayof $dayof->ID");
+> 				/* can't get this info yet! $start_dayof = get_post_meta($event_id, "_Event_StartDate", true);
+> 							//spit("start day of is $start_dayof");
+> 				$start_dayof = new DateTime($start_dayof);
+> 				$start_dayof->modify("-2 hour");//can buy tix up to 1 hr before door time */
+> 				if ( isset( $ticket->end_date ) ) {
+> 					//spit("ticket end date: $ticket->end_date");
+> 					$tmpdate_dayof = new DateTime($ticket->end_date);
+> 					$tmpdate_dayof->modify("-2 hour");
+> 								//$("#ticket_end_hour").val('0');
+> 			//$('#ticket_end_meridian select option[value="am"]').prop('selected',true);
+> 					$dayof->end_date = date_format($tmpdate_dayof, 'Y-m-d H:i:s');
+> 					//spit("new end_date = $dayof->end_date");
+> 					update_post_meta( $dayof->ID, '_ticket_end_date', $dayof->end_date );//set the ticket to end
+> 					$tmpdate_dayof->SetTime(0,0,0);//set to midnite
+> 					$tmp = date_format($tmpdate_dayof, 'Y-m-d H:i:s');
+> 					//spit("this should be midnite: $tmp");
+> 					$dayof->start_date = $tmp;//dunno if this is necessary
+> 					$ticket->end_date = $tmp;
+> 					update_post_meta( $dayof->ID, '_ticket_start_date', $tmp );
+> 					// set normal adv ticket end to be midnite day of show
+> 					update_post_meta( $ticket->ID, '_ticket_end_date', $tmp );
+> 				} else { // Nope, can't get this data here
+> 					//if these are not defined in the moment, then we are SOL
+> 					//Luckily we have bastardized the js of the page to fill in this data, so this "else" will never be
+> 				}
+> 				//$dayof->start_date=$ticket->end_date;
+> 				wp_set_object_terms( $dayof->ID, 'Ticket', 'product_cat', true );
+> 			} else { 
+> 				//spit("editing dayof ticket");
+> 				$args = array( 'ID'           => $ticket->ID,
+> 			               'post_excerpt' => $ticket->description,
+> 			               'post_title'   => $ticket->name );
+> 
+> 				$ticket->ID = wp_update_post( $args );
+> 			}
+> 			update_post_meta( $dayof->ID, '_stock', $stock );
+> 			update_post_meta( $dayof->ID, '_manage_stock', 'no' );
+> 			update_post_meta( $dayof->ID, '_regular_price',  $raw_data['dayof_price'] );
+> 			update_post_meta( $dayof->ID, '_price', $raw_data['dayof_price']  );
+385a415
+> 		}	
+391d420
+< 
+393c422,455
+< 
+---
+> /* Jeremy adding Parking Pass and Membership as 'stock' tickets */
+> 		if ( isset( $raw_data['parking_pass'] ) ){
+> 			//spit('making a parking pass');
+> 			$parking_pass = new TribeEventsTicketObject();
+> 			$parking_pass->description = 'Guarantee a spot in our Parking Lot. NOTE! Only valid up to ONE hour after showtime!';
+> 			$parking_pass->name = 'Parking Pass';
+> 			$parking_pass->ID = $this->create_ticket($parking_pass, $event_id, 'yes');
+> 			update_post_meta( $parking_pass->ID, '_stock', 30 );
+> 			update_post_meta( $parking_pass->ID, '_manage_stock', 'yes' );
+> 			update_post_meta( $parking_pass->ID, '_regular_price', 5 );
+> 			update_post_meta( $parking_pass->ID, '_price', 5 );
+> 			if ( isset( $ticket->start_date ) ) {
+> 				update_post_meta( $parking_pass->ID, '_ticket_start_date', $ticket->start_date );
+> 			} else {
+> 				delete_post_meta( $parking_pass->ID, '_ticket_start_date' );
+> 			}
+> 		}
+> 		if ( isset( $raw_data['membership'] ) ){
+> 			//spit('making a membership');
+> 			$membership = new TribeEventsTicketObject();
+> 			$membership->description = 'A Lifetime Membership to Motorco allows you to sign in up to 3 guests.';
+> 			$membership->name = 'Motorco Membership';
+> 			$membership->ID = $this->create_ticket($membership, $event_id, 'yes');
+> 			update_post_meta( $membership->ID, '_stock', $stock );
+> 			update_post_meta( $membership->ID, '_manage_stock', 'yes' );
+> 			update_post_meta( $membership->ID, '_regular_price', 3 );
+> 			update_post_meta( $membership->ID, '_price', 3 );
+> 			if ( isset( $ticket->start_date ) ) {
+> 				update_post_meta( $membership->ID, '_ticket_start_date', $ticket->start_date );
+> 			} else {
+> 				delete_post_meta( $membership->ID, '_ticket_start_date' );
+> 			}
+> 		}	
+> 		//spit('all done saving tickets');
+396c458,494
+< 
+---
+> 	/**
+> 	 * JER new function
+> 	   creates a ticket
+> 	 *
+> 	 * @param TribeEventsTicketObject $ticket
+> 	 *
+> 	 * @return $ticket_id
+> 	 */
+> 	private function create_ticket( $ticket, $event_id, $virtual = 'no' ) {
+> 		/* Create main product post */
+> 		$args = array( 'post_status'  => 'publish',
+> 		'post_type'    => 'product',
+> 		'post_author'  => get_current_user_id(),
+> 		'post_excerpt' => $ticket->description,
+> 		'post_title'   => $ticket->name );
+> 
+> 		$ticket->ID = wp_insert_post( $args );
+> 		update_post_meta( $ticket->ID, '_visibility', 'hidden' );
+> 		update_post_meta( $ticket->ID, '_tax_status', 'taxable' );
+> 		update_post_meta( $ticket->ID, '_tax_class', '' );
+> 		update_post_meta( $ticket->ID, '_purchase_note', '' );
+> 		update_post_meta( $ticket->ID, '_weight', '' );
+> 		update_post_meta( $ticket->ID, '_length', '' );
+> 		update_post_meta( $ticket->ID, '_width', '' );
+> 		update_post_meta( $ticket->ID, '_height', '' );
+> 		update_post_meta( $ticket->ID, '_downloadable', 'no' );
+> 		update_post_meta( $ticket->ID, '_virtual', $virtual );
+> 		update_post_meta( $ticket->ID, '_sale_price_dates_from', '' );
+> 		update_post_meta( $ticket->ID, '_sale_price_dates_to', '' );
+> 		update_post_meta( $ticket->ID, '_product_attributes', array() );
+> 		update_post_meta( $ticket->ID, '_sale_price', '' );
+> 		update_post_meta( $ticket->ID, 'total_sales', 0 );
+> 
+> 		// Relate event <---> ticket
+> 		add_post_meta( $ticket->ID, $this->event_key, $event_id );
+> 		return $ticket->ID;
+> 	}
+431,432c529,531
+< 
+< 		if ( ! $ticket_ids )
+---
+> //spit ("JER class-wootickets.get_tickets for $event_id ");
+> 		if ( ! $ticket_ids ) {
+> 			//spit ("JER no ticket_ids ");
+433a533,536
+> 		} else {
+> 			$i = count($ticket_ids);
+> 			//spit ("JER got $i tix ");
+> 		}
+812c915,917
+< 	 * Marks an attendee as checked in for an event
+---
+> 	 * Modified by JER
+> 	 * Checks whether an attendee has checked in for an event
+> 	 * Returns false if already checked in. Marks as checked in if not.
+819,821c924,933
+< 		update_post_meta( $attendee_id, $this->checkin_key, 1 );
+< 		do_action( 'wootickets_checkin', $attendee_id );
+< 		return true;
+---
+> 		//JER actually CHECK to see if the attendee is already checked in first
+> 		$checkedin = get_post_meta( $attendee_id, $this->checkin_key, 1);
+> 		if ( $checkedin ){
+> 			//Oops, this is not what we expect, right?
+> 			return false;
+> 		} else {
+> 			update_post_meta( $attendee_id, $this->checkin_key, 1 );
+> 			do_action( 'wootickets_checkin', $attendee_id );
+> 			return true;
+> 		}
+823d934
+< 
+876c987
+< 		return '<small> <a href="' . esc_url( $report_url ) . '">' . __( 'Event sales report', 'tribe-wootickets' ) . '</a> </small>';
+---
+> 		return '<small> <a href="' . $report_url . '">' . __( 'Event sales report', 'tribe-wootickets' ) . '</a> </small>';
+898c1009
+< 		return '<span><a href="' . esc_url( $report_url ) . '">' . __( 'Report', 'tribe-wootickets' ) . '</a></span>';
+---
+> 		return '<span><a href="' . $report_url . '">' . __( 'Report', 'tribe-wootickets' ) . '</a></span>';
+947c1058
+< 		if ( is_object( $event_id ) )
+---
+> 		if ( is_object( $event_id ) ) {
+949c1060,1061
+< 
+---
+> 		}
+> //spit ("JER event_id is $event_id and event_key is " . $this->event_key);
+952c1064
+< 		                              'meta_value'     => $event_id,
+---
+> 		                              'meta_value'     => (int) $event_id,
+957c1069,1070
+< 
+---
+> //spit ($query->query);
+> //spit ("JER returning posts count " . $query->post_count);
+diff -r wootickets/readme.txt ../plugins/wootickets/readme.txt
+8c8
+< Stable tag: 3.9.3
+---
+> Stable tag: 3.9
+158,169d157
+< 
+< = 3.9.3 =
+< 
+< * Hardened URL output to protect against XSS attacks.
+< 
+< = 3.9.2 =
+< 
+< * Fixed a bug preventing multiple tickets from being added to the cart (our thanks to Raymond for highlighting this)
+< 
+< = 3.9.1 =
+< 
+< * Resolved a compatibility issue with WooCommerce 2.3.x
+diff -r wootickets/views/wootickets/tickets.php ../plugins/wootickets/views/wootickets/tickets.php
+10c10
+< 	<h2 class="tribe-events-tickets-title"><?php _e( 'Tickets', 'tribe-wootickets' ) ?></h2>
+---
+> 	<h2 class="tribe-events-tickets-title"><!-- JER added anchor--><a name="tickets"><?php _e( 'Tickets', 'tribe-wootickets' ) ?></a></h2>
+55,56c55,56
+< 				} else {
+< 					echo "<span class='tickets_nostock'>" . esc_html__( 'Out of stock!', 'tribe-wootickets' ) . "</span>";
+---
+> 				} else { //JER changed, but should be filter instead
+> 					echo "<span class='tickets_nostock'>" . esc_html__( 'SOLD OUT!', 'tribe-wootickets' ) . "</span>";
+diff -r wootickets/wootickets.php ../plugins/wootickets/wootickets.php
+5c5
+< Version: 3.9.3
+---
+> Version: 3.9

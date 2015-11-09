@@ -1,0 +1,42 @@
+<?php
+/**
+ * Events List Widget for Motorco
+ *
+ * This view contains the filters required to create an effective events list widget view.
+ *
+ * /views/widgets/list-widget.php.
+ *
+ * You can use any or all filters included in this file or create your own filters in 
+ * your functions.php. In order to modify or extend a single filter, please see our
+ * readme on templates hooks and filters (TO-DO)
+ *
+ * @return string
+ *
+ * @package TribeEventsCalendar
+ * @since  2.1
+ * @author Motorco
+ *
+ */
+?>
+
+<li class="tribe-events-list-widget-events">
+	<!-- Event Time -->
+	<div class="duration">
+		<?php echo tribe_events_event_schedule_details(); ?>
+	</div>
+	<!-- Event Title -->
+	<h3 class="entry-title summary">
+			<a href="<?php echo tribe_get_event_link(); ?>" rel="bookmark"><?php the_title(); ?></a>
+	</h3>	
+	<!-- Event cost -->
+	<h3 class="entry-cost summary">
+		<?php $eventcost = tribe_get_cost(null, true); 
+			//if ( $eventcost == '' ) $eventcost = "Free ";
+			echo $eventcost;
+			echo " in the ";
+			echo tribe_get_venue(); ?>
+	</h3>
+
+</li>
+
+

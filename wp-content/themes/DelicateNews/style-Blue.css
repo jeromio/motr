@@ -1,0 +1,19 @@
+				ul#primary > li.current_page_item > a, ul#primary > li.current-menu-ancestor > a {color:#3178c0;}
+					ul#primary li a:hover { color: #3178c0;}
+				ul#secondary li a:hover {color:#3178c0;}
+					ul#secondary > li.current_page_item > a, ul#primary > li.current-menu-ancestor > a, ul.superfish.nav > li > a:hover {color:#3178c0; }
+						ul#primary ul li a:hover { background: url(images/blue/top-menu-active-bullet.png) no-repeat 0px 11px; }
+							ul#secondary ul li a:hover { background: url(images/blue/second-active-bullet.png) no-repeat 2px 15px;}
+				#featured p.meta a { color: #3178c0;}
+			#featured #controllers .alignleft span.date { background: url(images/blue/big-date-bg.png) no-repeat;}
+			span.date { background: url(images/blue/date-small-bg.png) no-repeat;}
+			#featured #controllers a.active img { border-color: #3178c0; }
+				.slide h4.cat-title {color: #3178c0; }
+				h4#recent, div#breadcrumbs {color: #3178c0; text-shadow: 1px 1px 1px #9fc0e2; }
+						#sidebar h4 {color: #3178c0; text-shadow: 1px 1px 1px #9fc0e2;}
+	.footer-widget h4.widgettitle { color: #3178c0;}
+					div#breadcrumbs a { color:#3178c0; }
+		span.fn, span.fn a { color: #3178c0;}
+	.wp-pagenavi span.current, .wp-pagenavi span.extend, .wp-pagenavi a:active, .wp-pagenavi a:hover { color:#3178c0 !important; }
+			span.date {text-shadow: -1px -1px 1px #012685;}
+			#tabbed-area li a span { color: #3178c0;}
