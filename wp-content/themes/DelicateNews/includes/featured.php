@@ -60,7 +60,7 @@
 		$arr[$i]["title"] = wp_trim_words( $event->post_title, 40, "..." ); //truncate_title(50,false);
 		$arr[$i]["fulltitle"] = wp_trim_words ($event->post_title, 250, "..."); //truncate_title(250,false);
 
-		$arr[$i]["excerpt"] = wp_trim_words ($event->post_content, 60 ); //truncate_post(330,false);
+		$arr[$i]["excerpt"] = wp_trim_words ($event->post_content, 260 ); //truncate_post(330,false);
 		$arr[$i]["permalink"] = get_permalink($event);
 do_action( 'log', 'featured events loop event permalink', 'woo', $event->permalink );
 		$arr[$i]["postinfo"] = esc_html__("Posted by", "DelicateNews")." ". get_the_author_meta('display_name') . esc_html__(' on ','DelicateNews') . get_the_time(get_option('delicatenews_date_format')) . ' | ' . '<a href="'. esc_attr( $arr[$i]["permalink"] ) . '#comments' . '">' . esc_html($post->comment_count) . ' ' . esc_html__('comments','DelicateNews') . '</a>';
