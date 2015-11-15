@@ -191,7 +191,7 @@ img#about-image { float: left; margin: 3px 8px 8px 0px; }
 #featured { background: url(images/featured-bg.png) no-repeat; height: 310px; margin-bottom: 15px; }
 	/* Jeremy added min-height and changed widths. */
 	#featured #description { float: left; width: 555px; min-height: 265px;}
-	#featured .slide { padding: 40px 0 0 35px; width:525px; }
+	#featured .slide { padding: 40px 0 0 35px;} /*JER removed  width:525px; */
 		#featured h2.title { font-size:32px; margin-bottom: 6px; }
 			#featured h2.title a { color: #a29f9f; }
 			#featured h2.title a:hover { text-decoration: none; }
