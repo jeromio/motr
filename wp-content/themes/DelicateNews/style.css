@@ -444,6 +444,6 @@ h3#reply-title small { display: block; font-size: 14px; letter-spacing: 0; }
 .commentlist #respond input[type=text] { width: 40%; display: block; padding: 5px; }
 .comment_navigation_bottom, .comment_navigation_top { padding-right: 35px; }
 .comment #respond { width: 93%; }
-.et_embedded_videos { display: none !important; }
+/*.et_embedded_videos { display: none !important; }*/
 
 .js #featured .slide { display: none; }

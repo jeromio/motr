@@ -40,7 +40,7 @@
 
 			<?php if (get_option('delicatenews_blog_style') == 'on') the_content("");
 			else { ?>
-				<p><?php truncate_post(80); //JER ?></p>
+				<p><?php truncate_post(280); //JER ?></p>
 			<?php }; ?>
 
 			<a href="<?php the_permalink(); ?>" class="readmore"><span><?php esc_html_e('read more','DelicateNews'); ?></span></a>
