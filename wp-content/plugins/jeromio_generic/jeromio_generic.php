@@ -13,12 +13,7 @@ Tested up to: 3.6
         License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-require_once ( WP_PLUGIN_DIR  . '/the-events-calendar/lib/' . 'tribe-date-utils.class.php');
-//require_once ( plugin_basename()  . '/the-events-calendar/lib/tickets/' . 'tribe-tickets.php');
 
-// this is some code snagged to remove end times for events
-function rbm_remove_event_date($post_id) {
-	$post_type = get_post_type( $post_id );
 	
 	if ($post_type != 'tribe_events') {
 		return;
@@ -26,7 +21,7 @@ function rbm_remove_event_date($post_id) {
 		$start_date = get_post_meta($post_id, '_EventStartDate', true);
 		update_post_meta($post_id, '_EventEndDate', $start_date);
 	}
-}
+
 add_action('pre_post_update', 'rbm_remove_event_date', 99);
 
 /**
@@ -40,7 +35,7 @@ class Change_Tribe_Default_Event_Times
         protected $start = 9;
         protected $end = 11;
         protected $mode = self::TWELVEHOUR;
- 
+        protected $mode_set = false;
  
         /**
          * Provide the desired default start and end hours in 24hr format (ie 15 = 3pm).
@@ -55,7 +50,6 @@ class Change_Tribe_Default_Event_Times
  
  
         protected function settings($start_hour, $end_hour) {
-                $this->set_mode();
                 $this->start = $this->safe_hour($start_hour);
                 $this->end = $this->safe_hour($end_hour);
         }
@@ -68,11 +62,15 @@ class Change_Tribe_Default_Event_Times
  
  
         protected function set_mode() {
-                if (strstr(get_option('time_format', TribeDateUtils::TIMEFORMAT), 'H'))
+                if ( $this->mode_set ) return;
+
+                if ( strstr( get_option('time_format', $this->time_format() ), 'H' ) ){
                         $this->mode = self::TWENTYFOURHOUR;
+                }
+ 
+                $this->mode_set = true;
         }
- 
- 
+
         protected function safe_hour($hour) {
                 $hour = absint($hour);
                 if ($hour < 0) $hour = 0;
@@ -82,6 +80,7 @@ class Change_Tribe_Default_Event_Times
  
  
         public function change_default_time($hour, $date, $isStart) {
+                $this->set_mode();
                 if ('post-new.php' !== $GLOBALS['pagenow']) return $hour; // Only intervene if it's a new event
  
                 if ($isStart) return $this->corrected_time($this->start);
@@ -96,6 +95,7 @@ class Change_Tribe_Default_Event_Times
          * @return int
          */
         protected function corrected_time($hour) {
+                $this->set_mode();
                 if (self::TWENTYFOURHOUR === $this->mode) return $hour;
                 if ($hour > 12) return $hour - 12;
                 return $hour;
@@ -109,16 +109,21 @@ class Change_Tribe_Default_Event_Times
                 if ($isStart && 12 <= $this->start) $meridian = 'pm';
                 if (! $isStart && 12 <= $this->end) $meridian = 'pm';
  
-                if (strstr(get_option('time_format', TribeDateUtils::TIMEFORMAT), 'A'))
+                if ( strstr( get_option('time_format', $this->time_format() ), 'A' ) )
                         $meridian = strtoupper($meridian);
  
                 return $meridian;
+        }
+        protected function time_format() {
+                if ( class_exists( 'Tribe__Events__Date_Utils' ) ) return Tribe__Events__Date_Utils::TIMEFORMAT;
+                if ( class_exists( 'TribeDateUtils') ) return TribeDateUtils::TIMEFORMAT;
+                return 'g:i A';
         }
 }
  
 // If you mostly deal with night time soirees you could set the default start time
 // to 7pm and end time to 11pm - but remember to do so with the 24hr clock
-new Change_Tribe_Default_Event_Times(20, 23);
+new Change_Tribe_Default_Event_Times(20, 20);
 
 /**
  * WooCommerce Extra Feature

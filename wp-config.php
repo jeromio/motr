@@ -26,7 +26,7 @@ define('DB_USER', 'motr_wp1');
 define('DB_PASSWORD', 'wgovYW3Mne');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -53,12 +53,13 @@ define('SECURE_AUTH_SALT', '4L|[gw7lg`-J+%Se{#^W)a>yHLV;?dQpDjxDVB[3o6[$Z?He#DN]
 define('LOGGED_IN_SALT',   'x;^Xp.}.M?]HPQtFL~&bg2naG+E=ICN {3u^^Tm1Q u/YN(Lu_j(qgFk*N}|v<!)');
 define('NONCE_SALT',       'jZ48)G7P-R^JA3~(F.#KS]S&4dHw3$~H|VWl;M5iR6Aqm8J`j-&kR_:8KF<qt1ZM');
 
-/**#@-*/
+/**#@-
 define('FTP_PUBKEY','/var/www/id_rsa.pub');
 define('FTP_PRIKEY','/var/www/id_rsa');
 define('FTP_USER','motr');
 define('FTP_PASS','');
 define('FTP_HOST','motr.co:1122');
+*/
 /**
  * WordPress Database Table prefix.
  *

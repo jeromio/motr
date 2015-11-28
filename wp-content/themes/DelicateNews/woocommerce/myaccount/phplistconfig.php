@@ -1,1 +1,0 @@
-/home/motr/www/motor-co.com/list/config/config.php

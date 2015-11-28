@@ -139,6 +139,9 @@ if(! isset($ALLOWED_SITES)){
 		'imgur.com',
 		'imageshack.us',
 		'tinypic.com',
+		'motorcomusic.com',
+		'motor-co.com',
+		'motr.co'
 	);
 }
 // -------------------------------------------------------------

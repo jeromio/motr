@@ -139,9 +139,9 @@ function spit($sometext){
 	$today = date("Y-m-d H:i:s"); 
 	if ( is_array( $sometext ) || is_object( $sometext ) ) {
 		file_put_contents($file, $today . " " . print_r($sometext,true) . "\n", FILE_APPEND | LOCK_EX);
-		echo ( print_r( $sometext, true ) );
+		//echo ( print_r( $sometext, true ) );
 	} else {
-		echo "SPIT $sometext <br>\n";
+		//echo "SPIT $sometext <br>\n";
 		file_put_contents($file, $today . " " . $sometext . "\n", FILE_APPEND | LOCK_EX);
 		//error_log( "SPIT $sometext" );
 	}

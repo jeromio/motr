@@ -32,3 +32,6 @@ deny from 217.69.133.16/28
 deny from 217.69.133.32/27
 deny from 217.69.133.64/26
 deny from 217.69.133.128/25
+
+Redirect /giftcert https://motorcomusic.com/wp-admin/edit.php?post_type=tribe_events&page=tickets-attendees&event_id=26581
+RedirectMatch 301 ^/uploads/(.*)$ http://motorcomusic.com/wp-content/uploads/
